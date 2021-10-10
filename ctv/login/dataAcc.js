@@ -12,7 +12,7 @@ var mk = document.getElementById('matkhau');
 function dangnhap(){
   if(dataLogAcc[parseInt(tk.value)].mk == mk.value){
     document.getElementById('thbao').innerHTML = 'Đăng nhập thành công!'
-    window.location.replace(`https://magiamgia.glitch.me/dashboard/${parseInt(tk.value)}?pub=true`)
+    window.location.replace(loginAction);
   }else{
     document.getElementById('thbao').innerHTML = 'Sai thông tin đăng nhập, vui lòng nhập lại!'
   }

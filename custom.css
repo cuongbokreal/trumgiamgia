@@ -1,6 +1,6 @@
 /* custom css for trumgiamgia.tk */
 
-#header{position:fixed;z-index:10; height:3.5rem;width:100%;border-bottom:1px solid #EBEBEB;background:#FFF5FD;}
+#header{position:fixed;z-index:10; height:3.5rem;width:100%;border-bottom:1px solid #EBEBEB;background: #D8F5D7;}
 #menuToggle{display: block;position: fixed;top: 1rem;left: 1rem;z-index: 10;-webkit-user-select: none;user-select: none;}
 #menuToggle a{text-decoration: none;color: #232323;transition: color 0.3s ease;}
 #menuToggle a:hover{color: tomato;}
@@ -12,7 +12,7 @@
 #menuToggle input:checked ~ span:nth-last-child(3){opacity: 0;transform: rotate(0deg) scale(0.2, 0.2);}
 #menuToggle input:checked ~ span:nth-last-child(2)
 {transform: rotate(-45deg) translate(0, -1px);}
-#menu{position: absolute;width: 15rem;max-width:20rem;height:9999rem;max-height:fit-content;border:1px solid #EBEBEB;margin: -100px 0 0 -50px;padding: 50px;padding-top: 125px;background: #D8F5D7;list-style-type: none;
+#menu{position: absolute;width: 15rem;max-width:20rem;height:9999rem;max-height:fit-content;border:1px solid #EBEBEB;margin: -100px 0 0 -50px;padding: 50px;padding-top: 125px;background: #FFF5FD;list-style-type: none;
   -webkit-font-smoothing: antialiased;transform-origin: 0% 0%;transform: translate(-100%, 0);transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);}
 #menu li{padding: 10px 0;font-size: 22px;}
 #menuToggle input:checked ~ ul{transform: none;}

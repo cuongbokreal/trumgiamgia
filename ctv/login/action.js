@@ -13,8 +13,8 @@ var getUrlParameter = function getUrlParameter(sParam) {
     }
 };
 var a = getUrlParameter('a');
-loginAction;
-if(a == 'report'){loginAction += `https://trumgiamgia.tk/ctv/report/${parseInt(tk.value)}?ctv=true`;}else
-if(a == 'payment'){loginAction += `https://trumgiamgia.tk/ctv/payment/${parseInt(tk.value)}?ctv=true`;}
+const loginAction;
+if(a == 'report'){loginAction = `https://trumgiamgia.tk/ctv/report/${parseInt(tk.value)}?ctv=true`;}else
+if(a == 'payment'){loginAction = `https://trumgiamgia.tk/ctv/payment/${parseInt(tk.value)}?ctv=true`;}
 console.log(a)
 console.log(loginAction)

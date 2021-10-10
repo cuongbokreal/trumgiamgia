@@ -51,6 +51,7 @@ function dangnhap(){
   //look action
   if(a == 'report'){loginAction = `https://trumgiamgia.tk/ctv/report/${parseInt(tk.value)}?ctv=true`;}else
   if(a == 'payment'){loginAction = `https://trumgiamgia.tk/ctv/payment/${parseInt(tk.value)}?ctv=true`;}
+  else{document.body.innerHTML = `<h2>Lỗi xác thực, vui lòng truy cập trang báo cáo và thử lại!</h2>`}
   //look tk
   if(dataLogAcc[parseInt(tk.value)].mk == mk.value){
     document.getElementById('thbao').innerHTML = 'Đăng nhập thành công!'
@@ -59,3 +60,4 @@ function dangnhap(){
     document.getElementById('thbao').innerHTML = 'Sai thông tin đăng nhập, vui lòng nhập lại!'
   }
 }
+

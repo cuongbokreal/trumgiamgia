@@ -49,10 +49,11 @@ var mk = document.getElementById('matkhau');
 var loginAction;
 console.log(loginAction);
 console.log(dataLogAcc[parseInt(tk.value)].mk)
-//look action
+
+function dangnhap(){
+  //look action
   if(a == 'report'){loginAction = `https://trumgiamgia.tk/ctv/report/${parseInt(tk.value)}?ctv=true`;}else
   if(a == 'payment'){loginAction = `https://trumgiamgia.tk/ctv/payment/${parseInt(tk.value)}?ctv=true`;}
-function dangnhap(){
   //look tk
   if(dataLogAcc[parseInt(tk.value)].mk == mk.value){
     document.getElementById('thbao').innerHTML = 'Đăng nhập thành công!'

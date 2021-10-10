@@ -19,8 +19,7 @@ function login(){
                                                   <button onclick="dangnhap(tk,mk)" class="btn-login"class="fadeIn fourth" value="Đăng nhập">Đăng nhập</button>
                                                   <div id="formFooter">
                                                   <a class="underlineHover" href="//m.me/cuongbok">Forgot Password?</a>
-                                                  </div>`;
-}
+                                                  </div>`;}
 function sigup(){
   document.getElementById('thbao').innerHTML = '';
   sigupTab.classList.add('active');

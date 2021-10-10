@@ -120,5 +120,5 @@ var getUrlParameter = function getUrlParameter(sParam) {
 };
 
   var ctv = getUrlParameter('ctv');
-if(ctv != 'true'){window.location.replace('/ctv/login')}else{}
+if(ctv != 'true'){window.location.replace('/ctv/login?a=report')}else{}
 if(ctv == 'true'){console.log('Login thành công!')}

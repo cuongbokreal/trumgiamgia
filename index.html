@@ -110,7 +110,22 @@
     <noscript>
       <h2 style="text-align:center">Trình duyệt bạn đang dùng hiện không hỗ trợ Script, vui lòng cho phép hoặc sử dụng trình duyệt có hỗ trợ Script để trải nghiệm trang web!<br/>Chi tiết tại <a href="https://support.google.com/adsense/answer/12654?hl=vi" target="_blank">ĐÂY</a></h2>
     </noscript>
-    <div id="title">Trang tổng hợp Mã Giảm Giá của Cuongbokreal</div>
+    <header id="header">
+          <nav role="navigation">
+            <div id="menuToggle">
+              <input type="checkbox"/>
+              <span></span>
+              <span></span>
+              <span></span>
+              <ul id="menu">
+                <img src="https://thosanvoucher.com/wp-content/uploads/2021/10/cropped-cropped-Logo-thosanvoucher.com_-e1633403068448-42x36.png"/><br/>
+                <a href="#"><li>Trang chủ</li></a>
+                <a href="#"><li>Tham gia Group</li></a>
+                <a href="#"><li>CTV</li></a>
+              </ul>
+            </div>
+          </nav>
+      </div>
     <div id="updateTime"/>
     <script>
         const thgian = new Date();
@@ -124,6 +139,21 @@
         document.getElementById('updateTime').innerHTML = `Cập nhật liên tục: ${d}/${m+1} ${h}:${Math.abs(getRandomPhut)}`;
      </script>
      <style>#updateTime{text-align:center;}</style>
+    </header>
+    <!--div id="title">Trang tổng hợp Mã Giảm Giá của Cuongbokreal</div>
+    <div id="updateTime"/>
+    <script>
+        const thgian = new Date();
+        const d = thgian.getDate();
+        const m = thgian.getMonth();
+        const h = thgian.getHours();
+        const mi = thgian.getMinutes()
+        var phut = [1,1,1,2,2,3,4];
+        var randomPhut = phut[Math.floor(Math.random() * phut.length)];
+        var getRandomPhut = mi - randomPhut;
+        document.getElementById('updateTime').innerHTML = `Cập nhật liên tục: ${d}/${m+1} ${h}:${Math.abs(getRandomPhut)}`;
+     </script>
+     <style>#updateTime{text-align:center;}</style-->
     <!--end update time-->
     </div>
     <div id="layout-wrapper"> 

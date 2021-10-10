@@ -47,6 +47,7 @@ var a = getUrlParameter('a');
 var tk = document.getElementById('taikhoan');
 var mk = document.getElementById('matkhau');
 var loginAction;
+
 function dangnhap(){
   //look action
   if(a == 'report'){loginAction = `https://trumgiamgia.tk/ctv/report/${parseInt(tk.value)}?ctv=true`;}else

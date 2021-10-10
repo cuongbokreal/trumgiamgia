@@ -44,9 +44,6 @@ var getUrlParameter = function getUrlParameter(sParam) {
     }
 };
 var a = getUrlParameter('a');
-if(a != ('report'||='payment')){
-console.log('lỗi trang')
-};
 var tk = document.getElementById('taikhoan');
 var mk = document.getElementById('matkhau');
 var loginAction;

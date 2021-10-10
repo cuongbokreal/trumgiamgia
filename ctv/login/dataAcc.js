@@ -47,12 +47,10 @@ var a = getUrlParameter('a');
 var tk = document.getElementById('taikhoan');
 var mk = document.getElementById('matkhau');
 var loginAction;
-
-function dangnhap(){
-  //look action
+//look action
   if(a == 'report'){loginAction = `https://trumgiamgia.tk/ctv/report/${parseInt(tk.value)}?ctv=true`;}else
   if(a == 'payment'){loginAction = `https://trumgiamgia.tk/ctv/payment/${parseInt(tk.value)}?ctv=true`;}
-  
+function dangnhap(){
   //look tk
   if(dataLogAcc[parseInt(tk.value)].mk == mk.value){
     document.getElementById('thbao').innerHTML = 'Đăng nhập thành công!'

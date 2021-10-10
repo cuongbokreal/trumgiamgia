@@ -105,7 +105,7 @@ for(let i=0;i<dataChinhSachHoaHong[2].lazada.length;i++){
     innerChinhSachHoaHongLazada +=`<tr><td>${dataChinhSachHoaHong[2].lazada[i].cate}</td><td>${(dataChinhSachHoaHong[2].lazada[i].nc * tiLe).toFixed(1)}</td><td>${(dataChinhSachHoaHong[2].lazada[i].ec * tiLe).toFixed(1)}</td></tr>`;
   }
 
-  document.getElementById('innerChinhSachHoaHong').innerHTML = `Shopee: <br/> <table>${innerChinhSachHoaHongShopee}</table><br/>
+  document.getElementById('innerChinhSachHoaHong').innerHTML = `Shopee: <br/> <table>${innerChinhSachHoaHongShopee}</table>Hoa hồng tối đa trên 1 đơn hàng: 202.000 VND<br/>
                                                                 Tiki: <br/> <table>${innerChinhSachHoaHongTiki}</table><br/>
                                                                 Lazada: <br/> <table>${innerChinhSachHoaHongLazada}</table>
                                                                 Hoa hồng tối đa trên 1 đơn hàng: 80.000 VND

@@ -47,9 +47,6 @@ var a = getUrlParameter('a');
 var tk = document.getElementById('taikhoan');
 var mk = document.getElementById('matkhau');
 var loginAction;
-console.log(loginAction);
-console.log(dataLogAcc[parseInt(tk.value)].mk)
-
 function dangnhap(){
   //look action
   if(a == 'report'){loginAction = `https://trumgiamgia.tk/ctv/report/${parseInt(tk.value)}?ctv=true`;}else

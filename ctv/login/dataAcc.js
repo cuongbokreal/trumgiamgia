@@ -59,5 +59,3 @@ function dangnhap(){
     document.getElementById('thbao').innerHTML = 'Sai thông tin đăng nhập, vui lòng nhập lại!'
   }
 }
-console.log(a)
-console.log(loginAction)

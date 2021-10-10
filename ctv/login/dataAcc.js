@@ -44,6 +44,7 @@ var getUrlParameter = function getUrlParameter(sParam) {
     }
 };
 var a = getUrlParameter('a');
+if(a != ('report'||'payment')){console.log('Lỗi trang')};
 var tk = document.getElementById('taikhoan');
 var mk = document.getElementById('matkhau');
 var loginAction;
@@ -60,4 +61,4 @@ function dangnhap(){
     document.getElementById('thbao').innerHTML = 'Sai thông tin đăng nhập, vui lòng nhập lại!'
   }
 }
-if(a != ('report'||'payment')){console.log('Lỗi trang')}
+

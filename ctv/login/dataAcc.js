@@ -16,7 +16,7 @@ function login(){
   document.getElementById('mainLog').innerHTML = `<h1>Đăng nhập để sử dụng dịch vụ</h1>
                                                   <input id="taikhoan" class="fadeIn second" name="login" type="number" placeholder="id của bạn">
                                                   <input id="matkhau" class="fadeIn third" name="login" type="password" placeholder="mật khẩu"><br/><br/>
-                                                  <button onclick="dangnhap()" class="btn-login"class="fadeIn fourth" value="Đăng nhập">Đăng nhập</button>
+                                                  <button onclick="dangnhap(tk,mk)" class="btn-login"class="fadeIn fourth" value="Đăng nhập">Đăng nhập</button>
                                                   <div id="formFooter">
                                                   <a class="underlineHover" href="//m.me/cuongbok">Forgot Password?</a>
                                                   </div>`;

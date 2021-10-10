@@ -1,19 +1,16 @@
-var dataAcc=[
+var dataLogAcc=[
   {"id":"00",
    "mk":"00",
-   "name":"Cuongbokdeptrai",
-   "ref":"01"
   },
   {"id":"01",
    "mk":"02" 
   },
-]
+];
 
-  
 var tk = document.getElementById('taikhoan');
 var mk = document.getElementById('matkhau');
 function dangnhap(){
-  if(dataAcc[parseInt(tk.value)].mk == mk.value){
+  if(dataLogAcc[parseInt(tk.value)].mk == mk.value){
     document.getElementById('thbao').innerHTML = 'Đăng nhập thành công!'
     window.location.replace(`https://magiamgia.glitch.me/dashboard/${parseInt(tk.value)}?pub=true`)
   }else{

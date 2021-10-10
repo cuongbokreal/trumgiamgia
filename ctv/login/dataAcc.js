@@ -44,7 +44,9 @@ var getUrlParameter = function getUrlParameter(sParam) {
     }
 };
 var a = getUrlParameter('a');
-if(a != ('report'||'payment')){console.log('Lỗi trang')};
+if(a != ('report'||'payment')){
+document.body.innerHTML = `<h2>Bạn muốn truy cập vào: <a href="?a=report">Báo cáo đơn hàng, doanh thu</a>, <a href="?a=payment">Thanh toán</a></h2>`
+};
 var tk = document.getElementById('taikhoan');
 var mk = document.getElementById('matkhau');
 var loginAction;

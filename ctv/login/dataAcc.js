@@ -6,22 +6,8 @@ var dataLogAcc=[
    "mk":"02" 
   },
 ];
-
-var tk = document.getElementById('taikhoan');
-var mk = document.getElementById('matkhau');
-function dangnhap(){
-  if(dataLogAcc[parseInt(tk.value)].mk == mk.value){
-    document.getElementById('thbao').innerHTML = 'Đăng nhập thành công!'
-    window.location.replace(loginAction);
-  }else{
-    document.getElementById('thbao').innerHTML = 'Sai thông tin đăng nhập, vui lòng nhập lại!'
-  }
-}
-
-
 const loginTab = document.getElementById('login');
 const sigupTab = document.getElementById('sigup');
-
 function login(){
   document.getElementById('thbao').innerHTML = '';
   loginTab.classList.add('active');
@@ -49,7 +35,6 @@ var getUrlParameter = function getUrlParameter(sParam) {
         sURLVariables = sPageURL.split('&'),
         sParameterName,
         i;
- 
     for (i = 0; i < sURLVariables.length; i++) {
         sParameterName = sURLVariables[i].split('=');
  
@@ -59,8 +44,20 @@ var getUrlParameter = function getUrlParameter(sParam) {
     }
 };
 var a = getUrlParameter('a');
+var tk = document.getElementById('taikhoan');
+var mk = document.getElementById('matkhau');
 var loginAction;
-if(a == 'report'){loginAction = `https://trumgiamgia.tk/ctv/report/${parseInt(tk.value)}?ctv=true`;}else
-if(a == 'payment'){loginAction = `https://trumgiamgia.tk/ctv/payment/${parseInt(tk.value)}?ctv=true`;}
+function dangnhap(){
+  //look action
+  if(a == 'report'){loginAction = `https://trumgiamgia.tk/ctv/report/${parseInt(tk.value)}?ctv=true`;}else
+  if(a == 'payment'){loginAction = `https://trumgiamgia.tk/ctv/payment/${parseInt(tk.value)}?ctv=true`;}
+  //look tk
+  if(dataLogAcc[parseInt(tk.value)].mk == mk.value){
+    document.getElementById('thbao').innerHTML = 'Đăng nhập thành công!'
+    window.location.replace(loginAction);
+  }else{
+    document.getElementById('thbao').innerHTML = 'Sai thông tin đăng nhập, vui lòng nhập lại!'
+  }
+}
 console.log(a)
 console.log(loginAction)

@@ -119,6 +119,6 @@ var getUrlParameter = function getUrlParameter(sParam) {
     }
 };
 
-  var pub = getUrlParameter('pub');
-if(pub != 'true'){window.location.replace('/login')}else{}
-if(pub == 'true'){console.log('Login thành công!')}
+  var ctv = getUrlParameter('ctv');
+if(ctv != 'true'){window.location.replace('/ctv/login')}else{}
+if(ctv == 'true'){console.log('Login thành công!')}

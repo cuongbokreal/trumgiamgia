@@ -36,5 +36,3 @@ function dangnhap(tk,mk){
     document.getElementById('thbao').innerHTML = 'Sai thông tin đăng nhập, vui lòng nhập lại!'
   }
 }
-function sigup(){window.open('/ctv')};
-

@@ -100,7 +100,7 @@ footer {
 .jumbotron h2 {font-size: 16px;}
 .form-container {margin-top: 20px;width:32rem;overflow:hidden;padding:0;}
 #sigupForm{height:1650px;}
-#logoHeader{width:70rem; height:65rem;}	
+#logoHeader{width:8rem; height:7rem;}	
 } 
 @media (min-width: 540px) and (max-width: 768px) {
 .form-container {margin-top: 20px;width:47rem;overflow:hidden;padding:0;}	

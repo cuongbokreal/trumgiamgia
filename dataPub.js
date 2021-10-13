@@ -17,7 +17,8 @@ var ctv = getUrlParameter('ctv');
 var jsMain = document.createElement("SCRIPT");
 jsMain.src = 'https://static.accesstrade.vn/coupon/v2/js/main.js';
 jsMain.id = 'atScript6626';
-jsMain.setAttribute("data-accesskey", "5353514789844343379"); 
+jsMain.setAttribute("data-accesskey", "5353514789844343379");
+jsMain.setAttribute("data-filters", '{"merchant":"","category":""}'); 
 if(ctv){
   jsMain.setAttribute("data-utm-source", "ctvTrumGiamGia");
   jsMain.setAttribute("data-utm-medium", `${ctv}`);  

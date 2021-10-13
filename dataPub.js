@@ -15,11 +15,13 @@ var getUrlParameter = function getUrlParameter(sParam) {
 
 var ctv = getUrlParameter('ctv');
 var jsMain = document.createElement("SCRIPT");
-if(ctv != 'undefined'){
-  jsMain.src = 'https://static.accesstrade.vn/coupon/v2/js/main.js';  
-  jsMain.setAttribute("data-accesskey", "5353514789844343379");  
+jsMain.src = 'https://static.accesstrade.vn/coupon/v2/js/main.js';  
+jsMain.setAttribute("data-accesskey", "5353514789844343379"); 
+if(ctv){
   jsMain.setAttribute("data-utm-source", "ctvTrumGiamGia");
-  jsMain.setAttribute("data-utm-medium", `${ctv}`);
-  document.body.appendChild(jsMain);  
+  jsMain.setAttribute("data-utm-medium", `${ctv}`);  
+}else{
+  jsMain.setAttribute("data-utm-source", "trumGiamGia");
+  jsMain.setAttribute("data-utm-medium", "home");
 }
-
+document.body.appendChild(jsMain); 

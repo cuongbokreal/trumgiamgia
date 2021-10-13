@@ -15,10 +15,11 @@ var getUrlParameter = function getUrlParameter(sParam) {
 
 var ctv = getUrlParameter('ctv');
 var jsMain = document.createElement("SCRIPT");
-if(ctv != undefined){
+if(ctv != 'undefined'){
   jsMain.src = 'https://static.accesstrade.vn/coupon/v2/js/main.js';  
   jsMain.setAttribute("data-accesskey", "5353514789844343379");  
   jsMain.setAttribute("data-utm-source", "ctvTrumGiamGia");
-  jsMain.setAttribute("data-utm-medium", `${ctv}`);  
+  jsMain.setAttribute("data-utm-medium", `${ctv}`);
+  document.body.appendChild(jsMain);  
 }
-console.log(jsMain);
+

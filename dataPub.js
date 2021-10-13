@@ -19,7 +19,7 @@ jsMain.src = 'https://static.accesstrade.vn/coupon/v2/js/main.js';
 jsMain.id = 'atScript6626';
 jsMain.setAttribute("data-accesskey", "5353514789844343379");
 jsMain.setAttribute("data-filters", '{"merchant":"","category":""}'); 
-jsMain.setAttribute("data-utm-content", `click:${updateTime.toLocaleTimeString()}ngày${updateTime.toLocaleDateString()}`);
+jsMain.setAttribute("data-utm-content", `clickTime:${updateTime.toLocaleTimeString()} ngày ${updateTime.toLocaleDateString()}`);
 if(ctv){
   jsMain.setAttribute("data-utm-source", "ctvTrumGiamGia");
   jsMain.setAttribute("data-utm-medium", `ctvId:${ctv}`);  

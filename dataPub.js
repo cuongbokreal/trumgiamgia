@@ -14,6 +14,8 @@ var getUrlParameter = function getUrlParameter(sParam) {
 };
 
 var ctv = getUrlParameter('ctv');
+var jsMain = document.getElementById('atScript6626');
 if(ctv != undefined){
-  console.log('có id ctv')
+  jsMain.setAttribute("data-utm-source", "ctvTrumGiamGia");
+  jsMain.setAttribute("data-utm-medium", `${ctv}`);  
 }

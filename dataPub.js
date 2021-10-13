@@ -15,7 +15,8 @@ var getUrlParameter = function getUrlParameter(sParam) {
 
 var ctv = getUrlParameter('ctv');
 var jsMain = document.createElement("SCRIPT");
-jsMain.src = 'https://static.accesstrade.vn/coupon/v2/js/main.js';  
+jsMain.src = 'https://static.accesstrade.vn/coupon/v2/js/main.js';
+jsMain.id = 'atScript6626';
 jsMain.setAttribute("data-accesskey", "5353514789844343379"); 
 if(ctv){
   jsMain.setAttribute("data-utm-source", "ctvTrumGiamGia");

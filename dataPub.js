@@ -21,7 +21,7 @@ jsMain.setAttribute("data-accesskey", "5353514789844343379");
 jsMain.setAttribute("data-filters", '{"merchant":"","category":""}'); 
 if(ctv){
   jsMain.setAttribute("data-utm-source", "ctvTrumGiamGia");
-  jsMain.setAttribute("data-utm-medium", `${ctv}`);  
+  jsMain.setAttribute("data-utm-medium", `ctvId:${ctv}`);  
 }else{
   jsMain.setAttribute("data-utm-source", "trumGiamGia");
   jsMain.setAttribute("data-utm-medium", "home");

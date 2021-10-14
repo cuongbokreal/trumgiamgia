@@ -144,15 +144,9 @@
       </div>
     <div id="updateTime"/>
     <script>
-        const thgian = new Date();
-        const d = thgian.getDate();
-        const m = thgian.getMonth();
-        const h = thgian.getHours();
-        const mi = thgian.getMinutes()
-        var phut = [1,1,1,2,2,3,4];
+        var phut = [1,1,1,2,2,3];
         var randomPhut = phut[Math.floor(Math.random() * phut.length)];
-        var getRandomPhut = mi - randomPhut;
-        document.getElementById('updateTime').innerHTML = `Thời gian cập nhật: ${d}/${m+1} ${h}:${Math.abs(getRandomPhut)}`;
+        document.getElementById('updateTime').innerHTML = `Cập nhật: ${randomPhut} phút trước`;
      </script>
      <style>#updateTime{text-align:center;}</style>
     </header>

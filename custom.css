@@ -1,6 +1,6 @@
 /* custom css for trumgiamgia.tk */
 /*loading*/
-.loader{position:fixed;width:100%;height:100%;background:#FFFFFF;top:0;right:0; }
+.loader{position:fixed;width:100%;height:100%;background:#FFFFFF;top:0;right:0;z-index:999}
 .load-5{position:fixed;top:50%;right:50%;}
 .load-5 .ball-holder {animation: loadingE 0.45s linear infinite;}
 .ring-2 {position: relative;width: 45px;height: 45px;margin: 0 auto;border: 4px solid #4b9cdb;border-radius: 100%;}

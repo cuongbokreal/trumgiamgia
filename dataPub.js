@@ -28,3 +28,9 @@ if(ctv){
   jsMain.setAttribute("data-utm-medium", "home");
 }
 document.body.appendChild(jsMain); 
+
+$(window).on('load', function(event) {
+   $('body').removeClass('preloading');
+      // $('.load').delay(1000).fadeOut('fast');
+   $('.loader').delay(1000).fadeOut('fast');
+});

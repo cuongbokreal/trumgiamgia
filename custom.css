@@ -1,5 +1,16 @@
 /* custom css for trumgiamgia.tk */
+/*loading*/
+.loader{position:fixed;width:100%;height:100%;background:#FFFFFF;top:0;right:0; }
+.load-5{position:fixed;top:50%;right:50%;}
+.load-5 .ball-holder {animation: loadingE 0.45s linear infinite;}
+.ring-2 {position: relative;width: 45px;height: 45px;margin: 0 auto;border: 4px solid #4b9cdb;border-radius: 100%;}
+.ball-holder {position: absolute;width: 12px;height: 45px;left: 17px;top: 0px;}
+.ball {position: absolute;top: -11px;left: 0;width: 16px;height: 16px;border-radius: 100%;background: #4282b3;}
+@keyframes loadingE {
+  0 {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}}
 
+/*header*/
 #header{position:fixed;z-index:10; height:3.5rem;width:100%;border-bottom:1px solid #EBEBEB;background: #D8F5D7;}
 #menuToggle{display: block;position: fixed;top: 1rem;left: 1rem;z-index: 10;-webkit-user-select: none;user-select: none;}
 #menuToggle a{text-decoration: none;color: #232323;transition: color 0.3s ease;}

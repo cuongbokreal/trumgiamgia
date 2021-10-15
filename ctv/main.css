@@ -7,7 +7,7 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 	border-color: #bd9b60;
 	box-shadow: none;
 	outline: 0 none !important;}
-.right-header{position: absolute;color: white;right: 1rem;top: 2.5rem;}
+.right-header{position: absolute;color: white;right: 2.5rem;top: 3.5rem;}
 p {font-size: 16px;font-family: 'Open Sans', sans-serif; font-weight:300;letter-spacing: 1px}
 header {background: #1a1d25;padding: 10px 0;}
 header .logo {max-width: 120px;}

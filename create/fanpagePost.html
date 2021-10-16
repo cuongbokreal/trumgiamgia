@@ -11,7 +11,7 @@
       <option id="sendoHref" value="https://sendo.vn">Sendo</option>
      </select>
     <button onclick="create()" class="button">Tạo Text</button>
-    <input id="ketqua" />
+    <textarea id="ketqua" >Kết quả</textarea>
     <script>
         var linkApDung ="";
         function change(){
@@ -47,8 +47,8 @@ ${des}
  - Group giao lưu, chia sẻ mã giảm giá: https://www.facebook.com/groups/584602429633228
       `;
       function create(){
-        document.getElementById('ketqua').value = ketquaText;
-        console.log(linkApDung + title + des);
+        document.getElementById('ketqua').innerHTML = ketquaText;
+        console.log(linkApDung + title + des + ketquaText);
       }
     </script>
     <style>

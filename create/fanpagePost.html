@@ -31,6 +31,7 @@
           }
       </script>
     <script>
+     function create(){ 
       var title = document.getElementById('title').value;
       var des = document.getElementById('des').value;
       var ketquaText =`${title}
@@ -43,7 +44,7 @@ ${des}
  - Xem thêm mã tại: https://trumgiamgia.tk/?ctv=fanpagePost
  - CTV: https://trumgiamgia.tk/ctv
  - Group giao lưu, chia sẻ mã giảm giá: https://www.facebook.com/groups/584602429633228`;
-      function create(){
+      
         document.getElementById('ketqua').innerHTML = ketquaText;
         console.log(linkApDung + title + des + ketquaText);
       }

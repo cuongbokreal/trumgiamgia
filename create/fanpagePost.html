@@ -2,13 +2,50 @@
   <head>
   </head>
   <body>
-    <input id="title"/>
-    <input id="des"/>
-    <select>
-      <option>Shopee</option>
-      <option>Lazada</option>
-      <option>Tiki</option>
-      <option>Sendo</option>
+    <input id="title" onblur="create()"/>
+    <input id="des" onblur="create()"/>
+    <select id="href" style="height: auto;" onchange="change(this)">
+      <option id="shopeeHref" value="https://shopee.vn">SHOPEE</option>
+      <option id="lazadaHref" value="https://lazada.vn">LAZADA</option>
+      <option id="tikiHref" value="https://tiki.vn">TIKI</option>
+      <option id="sendoHref" value="https://sendo.vn">Sendo</option>
      </select>
+    <button onclick="create()">Tạo Text</button>
+    <input id="ketqua" />
+    <script>
+        var linkApDung ="";
+      function change(){
+        var option = document.getElementById('href');
+        if (option.value === 'https://shopee.vn'){
+              linkApDung ="https://shorten.asia/bp2tWYRP";
+          }
+          else if (option.value === 'https://lazada.vn'){
+              linkApDung ="https://shorten.asia/YKhthjs1";
+          }
+          else if (option.value === 'https://tiki.vn'){
+              linkApDung ="https://shorten.asia/y4yWtUHc";
+          }
+        else if (option.value === 'https://sendo.vn'){
+              linkApDung ="https://shorten.asia/yvmWMkvv";
+          }
+        }
+      var title = document.getElementById('title').value;
+      var des = document.getElementById('des').value;
+      var ketqua = `
+      ${title}
+      
+      ${des}
+      
+      👉 Link áp dụng: ${linkApDung}
+      
+      ----------------------
+     - Xem thêm mã tại: https://trumgiamgia.tk/?ctv=fanpagePost
+     - CTV: https://trumgiamgia.tk/ctv
+     - Group giao lưu, chia sẻ mã giảm giá: https://www.facebook.com/groups/584602429633228
+      `;
+      function create(){
+        document.getElementById('ketqua').value = ketqua;
+      }
+    </script>
   </body>
 </html>

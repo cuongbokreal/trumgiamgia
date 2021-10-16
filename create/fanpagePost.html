@@ -95,6 +95,12 @@ ${des}
  `;
       
         document.getElementById('ketqua').innerHTML = ketquaText;
+       
+        var copyText = document.getElementById("ketqua");
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        navigator.clipboard.writeText(copyText.value);
+        console.log("Copied the text: " + copyText.value);
       }
     </script>
   </body>

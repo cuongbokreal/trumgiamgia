@@ -14,21 +14,23 @@
     <input id="ketqua" />
     <script>
         var linkApDung ="";
-      function change(){
-        var option = document.getElementById('href');
-        if (option.value === 'https://shopee.vn'){
-              linkApDung ="https://shorten.asia/bp2tWYRP";
+        function change(){
+          var option = document.getElementById('href');
+          if (option.value === 'https://shopee.vn'){
+                linkApDung ="https://shorten.asia/bp2tWYRP";
+            }
+            else if (option.value === 'https://lazada.vn'){
+                linkApDung ="https://shorten.asia/YKhthjs1";
+            }
+            else if (option.value === 'https://tiki.vn'){
+                linkApDung ="https://shorten.asia/y4yWtUHc";
+            }
+          else if (option.value === 'https://sendo.vn'){
+                linkApDung ="https://shorten.asia/yvmWMkvv";
+            }
           }
-          else if (option.value === 'https://lazada.vn'){
-              linkApDung ="https://shorten.asia/YKhthjs1";
-          }
-          else if (option.value === 'https://tiki.vn'){
-              linkApDung ="https://shorten.asia/y4yWtUHc";
-          }
-        else if (option.value === 'https://sendo.vn'){
-              linkApDung ="https://shorten.asia/yvmWMkvv";
-          }
-        }
+      </script>
+    <script>
       var title = document.getElementById('title').value;
       var des = document.getElementById('des').value;
       var ketquaText =

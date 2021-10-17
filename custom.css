@@ -28,7 +28,7 @@
 #menu li{padding: 5px 0;width: 125%;max-width: max-content;font-size: 19px;}
 #menuToggle input:checked ~ ul{transform: none;}
 @media screen and (max-width:640px){
-  #menu{width: 15rem;max-width:15rem;}
+  #menu{width: 15rem;max-width:15rem;font-size: 16px;}
   #menu li {width: 140%;padding: 5px 0;
 }
 @media screen and (max-width:375px){

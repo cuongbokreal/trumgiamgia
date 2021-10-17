@@ -29,8 +29,8 @@
 #menuToggle input:checked ~ ul{transform: none;}
 @media screen and (max-width:640px){
   #menu{width: 15rem;max-width:15rem;font-size: 16px;}
-  #menu li {width: 140%;padding: 5px 0;
-}
+  #menu li {width: 140%;padding: 5px 0;font-size: 16px;}
+  }
 @media screen and (max-width:375px){
   #menu{max-width:13rem;height:999px;}
 }

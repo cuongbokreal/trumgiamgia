@@ -23,12 +23,12 @@
 #menuToggle input:checked ~ span:nth-last-child(3){opacity: 0;transform: rotate(0deg) scale(0.2, 0.2);}
 #menuToggle input:checked ~ span:nth-last-child(2)
 {transform: rotate(-45deg) translate(0, -1px);}
-#menu{position: absolute;width: 15rem;max-width:20rem;height:9999rem;max-height:fit-content;border:1px solid #EBEBEB;margin: -100px 0 0 -50px;padding: 50px;padding-top: 125px;background: #FFF5FD;list-style-type: none;
+#menu{position: absolute;width: 18rem;max-width:20rem;height:9999rem;max-height:fit-content;border:1px solid #EBEBEB;margin: -100px 0 0 -50px;padding: 50px;padding-top: 125px;background: #FFF5FD;list-style-type: none;
   -webkit-font-smoothing: antialiased;transform-origin: 0% 0%;transform: translate(-100%, 0);transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);}
 #menu li{padding: 5px 0;width: 120%;max-width: max-content;font-size: 16px;}
 #menuToggle input:checked ~ ul{transform: none;}
 @media screen and (max-width:640px){
-  #menu{max-width:15rem;height:9999px;}
+  #menu{width: 15rem;max-width:15rem;height:9999px;}
   #menu li {width: 140%;padding: 5px 0;
 }
 @media screen and (max-width:375px){

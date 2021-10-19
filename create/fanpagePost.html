@@ -1,3 +1,4 @@
+
 <html>
   <head>
     <title>Tạo Coupon Post fanpage</title>
@@ -63,9 +64,9 @@
       <option id="lazadaHref" value="https://lazada.vn">LAZADA</option>
       <option id="tikiHref" value="https://tiki.vn">TIKI</option>
       <option id="sendoHref" value="https://sendo.vn">Sendo</option>
-     </select>
+     </select><br/>
     <label>Link Aff:</label>
-    <input placeholder="Nhập link Aff (Chọn sàn rồi thì tự động điềnđiền)" onclick="this.select()" id="link"/>
+    <input value="https://shorten.asia/bp2tWYRP" placeholder="Nhập link Aff (Chọn sàn rồi thì tự động điềnđiền)" onclick="this.select()" id="link"/>
     <button onclick="create()" class="button">Tạo Text</button>
     <textarea id="ketqua" >Kết quả hiển thị ở đây, tự động sao chép khi bấm tạo link</textarea><br/>
     <img src="https://i.imgur.com/W85AZWv.jpg"/>
@@ -74,20 +75,20 @@
     <img src="https://i.imgur.com/6EzuOl8.jpg"/>
     <script>
         var linkApDung ="https://shorten.asia/bp2tWYRP";
-        
+        var link = document.getElementById('link');
         function change(){
           var option = document.getElementById('href');
           if (option.value === 'https://shopee.vn'){
-                linkApDung ="https://shorten.asia/bp2tWYRP";
+                link.value ="https://shorten.asia/bp2tWYRP";
             }
             else if (option.value === 'https://lazada.vn'){
-                linkApDung ="https://shorten.asia/YKhthjs1";
+                link.value ="https://shorten.asia/YKhthjs1";
             }
             else if (option.value === 'https://tiki.vn'){
-                linkApDung ="https://shorten.asia/y4yWtUHc";
+                link.value ="https://shorten.asia/y4yWtUHc";
             }
           else if (option.value === 'https://sendo.vn'){
-                linkApDung ="https://shorten.asia/yvmWMkvv";
+                link.value ="https://shorten.asia/yvmWMkvv";
             }
           }
       </script>
@@ -95,9 +96,7 @@
      function create(){ 
       var title = document.getElementById('title').value;
       var code = document.getElementById('code').value;
-      var des = document.getElementById('des').value;
-      var link = document.getElementBy('link').value;  
-      linkApDung = link; 
+      var des = document.getElementById('des').value; 
       var ketquaText =`🎫 ${title}
 
 Mã: ${code}
@@ -105,7 +104,7 @@ Mã: ${code}
 Mô tả chi tiết:
 ${des}
       
-👉 Link áp dụng: ${linkApDung}
+👉 Link áp dụng: ${link.value}
 
 
 --------------------------

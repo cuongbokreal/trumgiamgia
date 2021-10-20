@@ -157,11 +157,15 @@
             </div>
           </nav>
       </div>
-    <div id="updateTime"/>
+    <div id="updateZone"/>
     <script>
+        const updateTime = new Date();
+        var totalMa = document.querySelector("#history-tabs > em");
         var phut = [1,1,1,2,2,3];
         var randomPhut = phut[Math.floor(Math.random() * phut.length)];
-        document.getElementById('updateTime').innerHTML = `Admin vừa cập nhật · ${randomPhut} phút trước.`;
+        document.getElementById('updateZone').innerHTML = `Admin vừa cập nhật · ${randomPhut} phút trước.
+        Hiện có ${totalMa.innerText.match(/[^(][0-9]*[^)]/g)} mã (${updateTime.toLocaleTimeString()})
+        `;
      </script>
      <style>#updateTime{text-align:center;}</style>
     </header>

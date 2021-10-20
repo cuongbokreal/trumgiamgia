@@ -158,13 +158,10 @@
           </nav>
       </div>
     <div id="updateZone"/>
-      <script defer="true">
-        var totalMa = document.querySelector("#history-tabs > em");
+      <script>
         var phut = [1,1,1,2,2,3];
         var randomPhut = phut[Math.floor(Math.random() * phut.length)];
-        document.getElementById('updateZone').innerHTML = `Admin vừa cập nhật · ${randomPhut} phút trước.
-        Hiện có ${totalMa.innerText.match(/[^(][0-9]*[^)]/g)} mã
-        `;
+        document.getElementById('updateZone').innerHTML = `Admin vừa cập nhật · ${randomPhut} phút trước.`;
      </script>
      <style>#updateZone{text-align:center;}</style>
     </header>

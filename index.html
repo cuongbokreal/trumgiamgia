@@ -158,7 +158,15 @@
           </nav>
       </div>
     <div id="updateZone"/>
-     <style>#updateTime{text-align:center;}</style>
+      <script defer="true">
+        var totalMa = document.querySelector("#history-tabs > em");
+        var phut = [1,1,1,2,2,3];
+        var randomPhut = phut[Math.floor(Math.random() * phut.length)];
+        document.getElementById('updateZone').innerHTML = `Admin vừa cập nhật · ${randomPhut} phút trước.
+        Hiện có ${totalMa.innerText.match(/[^(][0-9]*[^)]/g)} mã
+        `;
+     </script>
+     <style>#updateZone{text-align:center;}</style>
     </header>
     <!--end update time-->
     </div>
@@ -289,13 +297,5 @@
     <script type="text/javascript" src="https://static.accesstrade.vn/coupon/js/bootstrap.min.js"></script> 
     <script type="text/javascript" src="https://static.accesstrade.vn/coupon/js/slick/slick.min.js"></script> 
     <script type="text/javascript" id="atScript6626" data-accesskey="5353514789844343379" src="https://static.accesstrade.vn/coupon/js/main.js"></script-->
-      <script>
-        var totalMa = document.querySelector("#history-tabs > em");
-        var phut = [1,1,1,2,2,3];
-        var randomPhut = phut[Math.floor(Math.random() * phut.length)];
-        document.getElementById('updateZone').innerHTML = `Admin vừa cập nhật · ${randomPhut} phút trước.
-        Hiện có ${totalMa.innerText.match(/[^(][0-9]*[^)]/g)} mã
-        `;
-     </script>
   </body>
 </html>

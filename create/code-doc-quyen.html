@@ -76,27 +76,32 @@
     <img src="https://i.imgur.com/BcadJ5n.jpg" />
     <img src="https://i.imgur.com/6EzuOl8.jpg"/>
     <script>
+        var title = "";
         var linkApDung ="https://shorten.asia/bp2tWYRP";
         var link = document.getElementById('link');
         function change(){
           var option = document.getElementById('href');
           if (option.value === 'https://shopee.vn'){
                 link.value ="https://shorten.asia/bp2tWYRP";
+                title += "[Shopee]";
             }
             else if (option.value === 'https://lazada.vn'){
                 link.value ="https://shorten.asia/YKhthjs1";
+                title += "[Lazada]";
             }
             else if (option.value === 'https://tiki.vn'){
                 link.value ="https://shorten.asia/y4yWtUHc";
+                title += "[Tiki]";
             }
           else if (option.value === 'https://sendo.vn'){
                 link.value ="https://shorten.asia/yvmWMkvv";
+                title SendoSendo]";
             }
           }
       </script>
     <script>
      function create(){ 
-      var title = document.getElementById('title').value;
+      var title += document.getElementById('title').value;
       var code = document.getElementById('code').value;
       var des = document.getElementById('des').value; 
       var ketquaText =`🎫 ${title}

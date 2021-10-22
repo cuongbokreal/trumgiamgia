@@ -1,5 +1,3 @@
-
-
 <html>
   <head>
     <title>Tạo Code độc quyền</title>
@@ -8,21 +6,20 @@
         <link rel="icon" href="https://i.imgur.com/bZacc3E.jpg"/>
         <style>
           img{max-width:200px;max-height:200px;margin-right:15px;border:1px solid black}
-          *{margin-top:10px;}
           #href{height: 1.75rem;padding: 5px;margin-left: 10px;}
           #ketqua{height:250px;width:100%;margin-top:10px;line-height: normal;}   
             #4CAF50
-            div{padding:1px}
+            #app{padding:1px}
           input {
             font-family: "Roboto", sans-serif;
             outline: 0;
-            background: #f2f2f2;
+            background: #f6f6f6;
             width: 100%;
             border: 0;
-            margin: 0 0 15px;
-            padding: 15px;
+            margin: 0 0 10px;
+            padding: 10px;
             box-sizing: border-box;
-            font-size: 14px;
+            font-size: 13px;
           }
 
           .button {
@@ -32,9 +29,9 @@
             background: #4CAF50;
             border: 1px solid #f44296;
             width: 100%;
-            padding: 15px;
+            padding: 12px;
             color: #FFFFFF;
-            font-size: 14px;
+            font-size: 13px;
             -webkit-transition: all 0.3 ease;
             transition: all 0.3 ease;
             cursor: pointer;
@@ -54,62 +51,76 @@
         </style>
   </head>
   <body>
-    <label>Title mã:</label>
-    <input placeholder="Nhập tiêu đề Voucher" onclick="this.select()" id="title"/>
-    <label>Mã voucher:</label>
-    <input placeholder="Nhập mã Voucher" onclick="this.select()" id="code"/>
-    <label>Mô tả mã:</label>
-    <input placeholder="Nhập mô tả Voucher" onclick="this.select()" id="des"/>
-    <label>Chọn sàn TMDT:</label>
-    <select id="href" style="height: auto;" onchange="change(this)">
-      <option id="shopeeHref" value="https://shopee.vn">SHOPEE</option>
-      <option id="lazadaHref" value="https://lazada.vn">LAZADA</option>
-      <option id="tikiHref" value="https://tiki.vn">TIKI</option>
-      <option id="sendoHref" value="https://sendo.vn">Sendo</option>
-     </select><br/><br/>
-    <label>Link Aff:</label>
-    <input value="https://shorten.asia/bp2tWYRP" placeholder="Nhập link Aff (Chọn sàn rồi thì tự động điền)" onclick="this.select()" id="link"/>
-    <button onclick="create()" class="button">Tạo Text</button>
-    <textarea id="ketqua" >Kết quả hiển thị ở đây, tự động sao chép khi bấm tạo link</textarea><br/>
-    <img src="https://i.imgur.com/W85AZWv.jpg"/>
-    <img src="https://i.imgur.com/Oa4MUJJ.jpg"/>
-    <img src="https://i.imgur.com/BcadJ5n.jpg" />
-    <img src="https://i.imgur.com/6EzuOl8.jpg"/>
+    <div id="app">
+      <label>Title mã:</label>
+      <input placeholder="Nhập tiêu đề Voucher" onclick="this.select()" id="title"/>
+      <label>Mã voucher:</label>
+      <input placeholder="Nhập mã Voucher" onclick="this.select()" id="code"/>
+      <label>Mô tả mã:</label>
+      <input placeholder="Nhập mô tả Voucher" onclick="this.select()" id="des"/>
+      <label>Ngày bắt đầu:</label>
+      <input placeholder="Nhập ngày bắt đầu:Voucher" onclick="this.select()" id="start"/>
+      <label>Ngày kết thúc:</label>
+      <input placeholder="Nhập ngày kết thúc Voucher" onclick="this.select()" id="end"/>
+      <label>Số lượng mã:</label>
+      <input placeholder="Nhập số lượng Voucher" onclick="this.select()" id="total"/>  
+      <label>Chọn sàn TMDT:</label>
+      <select id="href" style="height: auto;" onchange="change(this)">
+        <option id="shopeeHref" value="https://shopee.vn">SHOPEE</option>
+        <option id="lazadaHref" value="https://lazada.vn">LAZADA</option>
+        <option id="tikiHref" value="https://tiki.vn">TIKI</option>
+        <option id="sendoHref" value="https://sendo.vn">Sendo</option>
+       </select><br/><br/>
+      <label>Link Aff:</label>
+      <input value="https://shorten.asia/bp2tWYRP" placeholder="Nhập link Aff (Chọn sàn rồi thì tự động điền)" onclick="this.select()" id="link"/>
+      <button onclick="create()" class="button">Tạo Text (Tự động sao chép khi click)</button>
+      <textarea id="ketqua" >Kết quả hiển thị ở đây, tự động sao chép khi bấm tạo link</textarea><br/>
+      <img src="https://i.imgur.com/W85AZWv.jpg"/>
+      <img src="https://i.imgur.com/Oa4MUJJ.jpg"/>
+      <img src="https://i.imgur.com/BcadJ5n.jpg" />
+      <img src="https://i.imgur.com/6EzuOl8.jpg"/>
+    </div>
     <script>
-        var title = "";
+        var title = "[Shopee]";
         var linkApDung ="https://shorten.asia/bp2tWYRP";
         var link = document.getElementById('link');
         function change(){
           var option = document.getElementById('href');
           if (option.value === 'https://shopee.vn'){
                 link.value ="https://shorten.asia/bp2tWYRP";
-                title += "[Shopee]";
+                title = "[Shopee]";
             }
             else if (option.value === 'https://lazada.vn'){
                 link.value ="https://shorten.asia/YKhthjs1";
-                title += "[Lazada]";
+                title = "[Lazada]";
             }
             else if (option.value === 'https://tiki.vn'){
                 link.value ="https://shorten.asia/y4yWtUHc";
-                title += "[Tiki]";
+                title = "[Tiki]";
             }
           else if (option.value === 'https://sendo.vn'){
                 link.value ="https://shorten.asia/yvmWMkvv";
-                title SendoSendo]";
+                title = "[Sendo]";
             }
           }
       </script>
     <script>
      function create(){ 
-      var title += document.getElementById('title').value;
+      title += ` ${document.getElementById('title').value}`;
       var code = document.getElementById('code').value;
       var des = document.getElementById('des').value; 
-      var ketquaText =`🎫 ${title}
+      var start = document.getElementById('start').value;  
+      var end = document.getElementById('end').value;
+      var total = document.getElementById('total').value; 
+      var ketquaText =`CODE ĐỘC QUYỀN CHỈ CÓ TẠI TRUMGIAMGIA
+🎫 ${title}
 
 Mã: ${code}
 
 Mô tả chi tiết:
-${des}
+- ${des}
+- Hạn sử dụng từ ${start} đến ${end}
+- Số lượng ${total} mã
       
 👉 Link áp dụng: ${link.value}
 
@@ -121,12 +132,13 @@ ${des}
  #trumgiamgia #shopee #lazada #tiki #sendo #voucher #coupon`;
       
         document.getElementById('ketqua').innerHTML = ketquaText;
-       
+        console.log('Những Text đã tạo hiển thị ở đây:');
         var copyText = document.getElementById("ketqua");
         copyText.select();
         copyText.setSelectionRange(0, 99999);
         navigator.clipboard.writeText(copyText.value);
-        console.log("Copied the text: " + copyText.value);
+        console.log(copyText.value);
+        title="";
       }
     </script>
   </body>

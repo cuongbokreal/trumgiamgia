@@ -13,7 +13,7 @@ var getUrlParameter = function getUrlParameter(sParam) {
 };
 var url = getUrlParameter('url');
 var urlAtob = window.atob(url);
-const id = 5353514789844343379;
+const id = '5353514789844343379';
 var urlFinal = `https://go.isclix.com/deep_link/${id}?url=${urlAtob}&utm_source=trumGiamGia&utm_medium=deeplink`;
 var inner = document.querySelector('#inner');
 var tieude = document.title;

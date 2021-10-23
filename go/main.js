@@ -15,7 +15,7 @@ var getUrlParameter = function getUrlParameter(sParam) {
 var url = getUrlParameter('url');
 var urlfinal = window.atob(url);
 var thbao = document.querySelector('#thbao');
-if(url != 'undefined'){
+if(urlfinal.length >= 11){
 window.location.replace(urlfinal)
 }else{thbao.innerText = 'Lỗi!'}
 

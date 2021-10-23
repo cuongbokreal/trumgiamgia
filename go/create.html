@@ -1,0 +1,37 @@
+<html>
+  <head>
+          <style>
+            * {box-sizing: border-box;&::before, &::after {box-sizing: border-box;}}
+            #create input{display:block; width:100%; height:50px;box-shadow: 0 3px 5px 0 rgba(15,15,15,0.08);  }
+            #create button{width: 200px;font-size: 16px;font-weight: 600;color: #fff;cursor: pointer;margin: 20px;height: 55px;text-align:center;border: none;
+              background-size: 300% 100%;border-radius: 50px;moz-transition: all .4s ease-in-out;-o-transition: all .4s ease-in-out;-webkit-transition: all .4s ease-in-out;
+              transition: all .4s ease-in-out;background-position: 100% 0;moz-transition: all .4s ease-in-out;-o-transition: all .4s ease-in-out;
+              -webkit-transition: all .4s ease-in-out;transition: all .4s ease-in-out;background-image: linear-gradient(to right, #eb3941, #f15e64, #e14e53, #e2373f);
+              box-shadow: 0 5px 15px rgba(242, 97, 103, .4);}
+            #create button:focus {outline: none;}
+          </style>
+  </head>
+  <body>
+    <div id="create">
+      <input onblur="submit()" onclick="this.select()" class="input" id="getLink" placeholder="Nhập link" />
+      <button id="submit" onclick="submit()">Tạo link</button>
+        <a onclick="submit()" target="_blank" id="getHref">Chuyến đến liên kết</a>
+      <input placeholder="Kết quả:" id="ketqua"/>
+      </div>
+      <script>
+        function submit(){
+        var getlink = document.getElementById('getLink').value;
+         var baseLink = Base64.encode(getlink);  
+          let ketqua = 'https://trumgiamgia.tk/go?url=' + baseLink;
+        document.getElementById('ketqua').value = ketqua;
+         document.getElementById('getHref').href= ketqua;
+
+            var copyText = document.getElementById("ketqua");
+        copyText.select();
+        copyText.setSelectionRange(0, 99999); /* For mobile devices */
+        navigator.clipboard.writeText(copyText.value);
+        console.log(copyText.value)  
+        }
+      </script>
+  </body>
+</html>

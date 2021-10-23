@@ -15,8 +15,18 @@ var url = getUrlParameter('url');
 var urlFinal = window.atob(url);
 var thbao = document.querySelector('#thbao');
 var tieude = document.title;
-if(urlFinal.length >= 11){
-    tieude = urlFinal;
-    window.location.replace(urlFinal)
-}else{thbao.innerText = 'Lỗi!';tieude='Lỗi'}
+if(urlFinal.length >= 11){tieude = urlFinal;
+    window.location.replace(urlFinal);
+}else{
+    thbao.innerText = 'Lỗi!';
+    tieude='Lỗi';
+    var t = 3;
+    setInterval(function(){ 
+        t = t-1;
+        document.body.append(`
+        <div><p>Lỗi liên kết, Tự động chuyển về trang chủ sau ${t} giây</p></div>
+        `)
+    }, 1000);
+    setTimeout(function(){window.location.href='/'  }, 3000); 
+}
 

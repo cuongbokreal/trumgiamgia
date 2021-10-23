@@ -12,7 +12,8 @@ var getUrlParameter = function getUrlParameter(sParam) {
     }
 };
 var url = getUrlParameter('url');
-var urlFinal = window.atob(url);
+var urlAtob = window.atob(url);
+var urlFinal = `https://go.isclix.com/deep_link/5768026262774830477?url=${urlAtob}&utm_source=trumGiamGia&utm_medium=deeplink`;
 var inner = document.querySelector('#inner');
 var tieude = document.title;
 if(urlFinal.length >= 11){tieude = urlFinal;

@@ -21,7 +21,7 @@
       <script>
         function submit(){
           var getlink = document.getElementById('getLink').value;
-          var baseLink = Base64.encode(getlink);  
+          var baseLink = window.btoa(getlink);  
           let ketqua = 'https://trumgiamgia.tk/go?url=' + baseLink;
           document.getElementById('ketqua').value = ketqua;
            document.getElementById('getHref').href= ketqua;

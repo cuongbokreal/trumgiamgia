@@ -17,7 +17,8 @@ var inner = document.querySelector('#inner');
 var tieude = document.title;
 if(urlFinal.length >= 11){tieude = urlFinal;
     window.location.replace(urlFinal);
-}else{
+}else
+if (url.length <= 0 | url = 'undefined'){
     tieude='Lỗi';
     var t = 3;
     setInterval(function(){ 

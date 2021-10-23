@@ -3,7 +3,6 @@ var getUrlParameter = function getUrlParameter(sParam) {
         sURLVariables = sPageURL.split('&'),
         sParameterName,
         i;
- 
     for (i = 0; i < sURLVariables.length; i++) {
         sParameterName = sURLVariables[i].split('=');
  
@@ -13,9 +12,11 @@ var getUrlParameter = function getUrlParameter(sParam) {
     }
 };
 var url = getUrlParameter('url');
-var urlfinal = window.atob(url);
+var urlFinal = window.atob(url);
 var thbao = document.querySelector('#thbao');
-if(urlfinal.length >= 11){
-window.location.replace(urlfinal)
-}else{thbao.innerText = 'Lỗi!'}
+var title = document.title;
+if(urlFinal.length >= 11){
+    title = urlFinal;
+    window.location.replace(urlFinal)
+}else{thbao.innerText = 'Lỗi!';title='Lỗi'}
 

@@ -20,17 +20,17 @@
       </div>
       <script>
         function submit(){
-        var getlink = document.getElementById('getLink').value;
-         var baseLink = Base64.encode(getlink);  
+          var getlink = document.getElementById('getLink').value;
+          var baseLink = Base64.encode(getlink);  
           let ketqua = 'https://trumgiamgia.tk/go?url=' + baseLink;
-        document.getElementById('ketqua').value = ketqua;
-         document.getElementById('getHref').href= ketqua;
+          document.getElementById('ketqua').value = ketqua;
+           document.getElementById('getHref').href= ketqua;
 
-            var copyText = document.getElementById("ketqua");
-        copyText.select();
-        copyText.setSelectionRange(0, 99999); /* For mobile devices */
-        navigator.clipboard.writeText(copyText.value);
-        console.log(copyText.value)  
+          var copyText = document.getElementById("ketqua");
+          copyText.select();
+          copyText.setSelectionRange(0, 99999); /* For mobile devices */
+          navigator.clipboard.writeText(copyText.value);
+          console.log(copyText.value)  
         }
       </script>
   </body>

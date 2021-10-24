@@ -15,9 +15,10 @@ var url = getUrlParameter('url');
 var urlAtob = window.atob(url);
 const id = '5353514789844343379';
 var urlFinal = `https://go.isclix.com/deep_link/${id}?url=${urlAtob}&utm_source=trumGiamGia&utm_medium=deeplink`;
-//var inner = document.querySelector('#inner');
-//var tieude = document.title;
-//if(urlFinal.length >= 10){tieude = urlFinal;
-    window.location.replace(urlFinal);
-//}else{tieude='Lỗi';var t = 3;setInterval(function(){ t = t-1;inner.innerHTML = `<div><p>Lỗi liên kết, Tự động chuyển về trang chủ sau ${t} giây</p></div>`;}, 1000);setTimeout(function(){window.location.href='/'  }, 3000); }
+var meta = `
+<meta http-equiv='refresh' content='0;url=${urlFinal}'>
+<meta property='og:url' content='${urlFinal}'>
+`;
+document.head.appendChild(meta)
+    //window.location.replace(urlFinal);
 

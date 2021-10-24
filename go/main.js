@@ -21,6 +21,6 @@ refresh.setAttribute("content", `0;url=${urlFinal}`);
 var ogUrl = document.createElement("meta");
 ogUrl.setAttribute("property", "og:url");
 ogUrl.setAttribute("content", `${urlFinal}`);
-document.head.append(refresh + ogUrl);
+document.head.appendChild(refresh + ogUrl);
     //window.location.replace(urlFinal);
 

@@ -19,6 +19,6 @@ var meta = `
 <meta http-equiv='refresh' content='0;url=${urlFinal}'>
 <meta property='og:url' content='${urlFinal}'>
 `;
-document.head.append(meta);
+document.head.appendChild(meta);
     //window.location.replace(urlFinal);
 

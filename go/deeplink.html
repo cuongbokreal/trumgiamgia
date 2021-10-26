@@ -16,26 +16,41 @@
   <body>
     Tạo link từ deeplink home
     <div id="create">
-      <input onblur="submit()" onclick="this.select()" class="input" id="getLink" placeholder="Nhập link" />
-      <button id="submit" onclick="submit()">Tạo link</button>
-        <a onclick="submit()" target="_blank" id="getHref">Chuyến đến liên kết</a>
-      <input placeholder="Kết quả:" id="ketqua"/>
+      <input onblur="deeplinkHome()" onclick="this.select()" class="input" id="getLink" placeholder="Nhập link đã sao chép từ Home" />
+      <button id="submit" onclick="deeplinkHome()">Tạo link</button>
+        <a onclick="deeplinkHome()" target="_blank" id="getHref">Chuyến đến liên kết</a>
+      <input placeholder="Kết quả:" id="ketquaHome"/>
+      </div>
+    <br/><!---------------------------------------------------------------------------------->
+    Tạo deeplink từ Link gốc:
+    <div id="create">
+      <input onblur="deeplinkRaw()" onclick="this.select()" class="input" id="getLinkRaw" placeholder="Nhập link Gốc" />
+      <button id="submit" onclick="deeplinkRaw()">Tạo link</button>
+        <a onclick="deeplinkRaw()" target="_blank" id="getHrefRaw">Chuyến đến liên kết</a>
+      <input placeholder="Kết quả:" id="ketquaRaw"/>
       </div>
       <script>
-        function submit(){
+        function deeplinkHome(){
           var getlink = document.getElementById('getLink').value;
           var reg= /^.*(https:\/\/go\.isclix\.com\/deep_link\/5353514789844343379\/[0-9]{19})\??url?=?([^\#\&\?]*).*/;
           var regLink = getlink.match(reg);
           var baseLink = window.btoa(regLink[2]);  
-          let ketqua = 'https://trumgiamgia.tk/go?url=' + baseLink;
-          document.getElementById('ketqua').value = ketqua;
-           document.getElementById('getHref').href= ketqua;
+          let ketquaHome = 'https://trumgiamgia.tk/go?url=' + baseLink;
+          document.getElementById('ketquaHome').value = ketquaHome;
+           document.getElementById('getHref').href= ketquaHome;
 
-          var copyText = document.getElementById("ketqua");
-          copyText.select();
-          copyText.setSelectionRange(0, 99999); /* For mobile devices */
-          navigator.clipboard.writeText(copyText.value);
+          var copyTextHome = document.getElementById("ketquaHome");
+          copyTextHome.select();
+          copyTextHome.setSelectionRange(0, 99999); /* For mobile devices */
+          navigator.clipboard.writeText(copyTextHome.value);
           console.log(copyText.value +'  từ  '+regLink[2])  
+        }
+        
+        function deeplinkRaw(){
+          var linkRaw = document.getElementById('getLinkRaw').value;
+          var ketquaRaw = `https://trumgiamgia.tk/go?url=${window.btoa(linkRaw)}`;
+           document.getElementById('ketquaRaw').value = ketquaRaw;
+          document.getElementById('getHrefRaw').href= ketquaRaw;
         }
       </script>
   </body>

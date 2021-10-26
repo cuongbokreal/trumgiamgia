@@ -43,7 +43,7 @@
           copyTextHome.select();
           copyTextHome.setSelectionRange(0, 99999); /* For mobile devices */
           navigator.clipboard.writeText(copyTextHome.value);
-          console.log(copyText.value +'  từ  '+regLink[2])  
+          console.log(copyTextHome.value +'  từ  '+regLink[2])  
         }
         
         function deeplinkRaw(){
@@ -51,6 +51,12 @@
           var ketquaRaw = `https://trumgiamgia.tk/go?url=${window.btoa(linkRaw)}`;
            document.getElementById('ketquaRaw').value = ketquaRaw;
           document.getElementById('getHrefRaw').href= ketquaRaw;
+          
+          var copyTextRaw = document.getElementById("ketquaRaw");
+          copyTextRaw.select();
+          copyTextRaw.setSelectionRange(0, 99999); /* For mobile devices */
+          navigator.clipboard.writeText(copyTextRaw.value);
+          console.log(copyTextRaw.value +'  từ  ' + linkRaw) 
         }
       </script>
   </body>

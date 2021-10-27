@@ -155,110 +155,151 @@
     </header>
     <!--end update time-->
     </div>
-    <div id="layout-wrapper"> 
-      <main class="voucher-main"> 
-        <div class="container"> 
-          <div class="voucher-tagsearch" id="searchTab">
-            <h2 class="title" style="font-size: 17px; color: #3D3F40; font-weight: bold; margin-bottom: 20px; display: block;">Tìm mã theo link sản phẩm</h2>
-            <div class="search-form">
-               <span class="icon"><img src="https://static.accesstrade.vn/coupon/v2/images/icon-search.svg" alt=""></span>
-               <input class="form-control" id="search" placeholder="Nhập liên kết sản phẩm cần tìm" type="text" value="">
-            </div>
-            <ul class="tags-form list-unstyled">
-              <li><a href="#"></a></li>
-             </ul>
-          </div> 
-          <div class="voucher-mostbrand" id="mostBrandTab"> 
-            <h4 class="title">Lọc Voucher theo hãng</h4> 
-            <div class="listbrand-item"> 
-              <div class="item-brand"> 
-                <a href=""> <img src="https://static.accesstrade.vn/coupon/v2/images/logo-brand/img-12.png" alt=""> <span></span> </a> 
-              </div> 
-            </div> 
-          </div> 
-          <div class="voucher-dealhot" id="dealHotTab"> 
-            <div class="title-filter"> 
-              <div class="title-total"> 
-                <img src="https://static.accesstrade.vn/coupon/v2/images/icon-coupon.svg" alt=""> 
-                <h2 class="title">Deal Hot - Dùng Ngay</h2> </div> <div class="dropdown filter-sort"> 
-              <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
-                <span>Ngày</span> <i class="icon-down"><img src="https://static.accesstrade.vn/coupon/v2/images/icon-caret.svg" alt=""></i> 
-              </button> 
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> 
-                <a class="dropdown-item" data-date="0" href="#">Hôm nay</a> 
-                <a class="dropdown-item" data-date="1" href="#">7 ngày gần nhất</a> 
-                <a class="dropdown-item" data-date="2" href="#">30 ngày gần nhất</a> 
-              </div> 
-              </div> 
-            </div> 
-            <div class="dealitem-body"></div> 
-          </div> 
-          <div class="voucher-dealcoupon" id="couponTab"> 
-            <div class="title-tabs"> 
-              <div class="title-total"> 
-                <img src="https://static.accesstrade.vn/coupon/v2/images/icon-promo.svg" alt=""> 
-                <h2 class="title">Danh sách mã khuyến mại</h2> </div> <div class="title-tabslist"> 
-              <ul class="nav nav-tabs" id="tabsdeal--link" role="tablist"> 
-                <li class="nav-item"> <a class="nav-link active" id="history-tabs" data-toggle="tab" href="#deal-opening" role="tab">Đang mở <em></em></a> </li> 
-                <li class="nav-item"> <a class="nav-link" id="record-tabs" data-toggle="tab" href="#deal-soon" role="tab">Sắp mở <em></em></a> </li> 
-              </ul> 
-              </div> 
-            </div> 
-            <div class="tab-content" id="tabsdeal--content"> 
-              <div class="tab-pane fade show active" id="deal-opening" role="tabpanel"> 
-                <div id="no-coupon-link" style="display: none;text-align: center;padding: 1em;"> 
-                  <h4>Link sản phẩm không có mã giảm giá</h4> </div> <div class="dealpromo-body"> 
-                </div> 
-                <div class="coupon-pagination"> 
-                  <nav> 
-                    <ul class="pagination" name='pagination'> 
-                      <li class="page-item" style="display: none"> <a onclick="prev(event,1)" class="page-link" href="#" tabindex="-1"><i class="fas fa-angle-double-left"></i></a> </li> 
-                      <li class="page-item" style="display: none"> <a onclick="prev(event)" class="page-link" href="#" tabindex="-1"><i class="fas fa-angle-left"></i></a> </li> 
-                      <li class="page-item" style="display: none"> <a onclick="prev(event)" class="page-link" id="prev-page-active" href="#"></a> </li> 
-                      <li class="page-item active"> <a class="page-link" href="#"><span class="sr-only"></span>1</a> </li> 
-                      <li class="page-item" style="display: none" > <a onclick="next(event)" class="page-link" id="next-page-active" href="#"></a> </li> 
-                      <li class="page-item" style="display: none"> <a onclick="next(event)" class="page-link" href="#" tabindex="-1"><i class="fas fa-angle-right"></i></a> </li> 
-                      <li class="page-item" style="display: none"> <a class="page-link" href="#" tabindex="-1"><i class="fas fa-angle-double-right"></i></a> </li> 
-                    </ul> 
-                  </nav> 
-                  <div class="page-box"> 
-                    <span class="p-0" style="display: none"> <input class="page-selected" type="text"></span> 
-                    <span class="text-muted" name="text-muted">Trên trang</span> 
-                  </div> 
-                </div> 
-              </div> 
-              <div class="tab-pane fade" id="deal-soon" role="tabpanel"> 
-                <div id="no-coupon" style="display: none;text-align: center;padding: 1em;"> 
-                  <h4>Đang cập nhật</h4> </div> <div class="dealpromo-body"> </div> 
-                <div class="coupon-pagination" > 
-                  <nav> 
-                    <ul class="pagination" name="pagination-soon"> 
-                      <li class="page-item" style="display: none"> <a onclick="prev(event,1,true)" class="page-link" href="#" tabindex="-1"><i class="fas fa-angle-double-left"></i></a> </li> 
-                      <li class="page-item" style="display: none"> <a onclick="prev(event,null,true)" class="page-link" href="#" tabindex="-1"><i class="fas fa-angle-left"></i></a> </li> 
-                      <li class="page-item" style="display: none"> <a onclick="prev(event,null,true)" class="page-link" id="prev-soon-page-active" href="#"></a> </li> 
-                      <li class="page-item active"> <a class="page-link" href="#"><span class="sr-only"></span>1</a> </li> 
-                      <li class="page-item" style="display: none"> <a onclick="next(event,null,true)" class="page-link" id="next-soon-page-active" href="#"></a> </li> 
-                      <li class="page-item" style="display: none"> <a onclick="next(event,null,true)" class="page-link" href="#" tabindex="-1"><i class="fas fa-angle-right"></i></a> </li> 
-                      <li class="page-item" style="display: none"> <a class="page-link" href="#" tabindex="-1"><i class="fas fa-angle-double-right"></i></a> </li> 
-                    </ul> 
-                  </nav> 
-                  <div class="page-box"> 
-                    <span class="p-0" style="display: none"> 
-                      <input class="page-selected" type="text"></span> 
-                    <span class="text-muted" name="text-muted-soon">Trên trang</span> 
-                  </div> 
-                </div> 
-              </div> 
-            </div> 
-          </div><br/>
-          <div id="fb-comment" class="col-xs-6 col-md-6" style="background: #fffefe;" >
-            <div id="fb-root"></div>
-              <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v12.0&appId=234309843908926&autoLogAppEvents=1" nonce="O62yw7QO"></script>
-                <div data-lazy="true" data-colorscheme="" data-order-by="reverse_time" class="fb-comments" data-href="https://trumgiamgia.tk/" data-width="auto" data-numposts="3"></div>
-          </div>
-        </div> 
-      </main>
+    <!--main voucher-->
+    <div id="layout-wrapper">
+        <main class="voucher-main">
+            <div class="container">
+                <div class="voucher-tagsearch">
+                    <div class="search-form">
+                        <span class="icon"><img src="https://static.accesstrade.vn/coupon/v2/images/icon-search.svg" alt=""></span>
+                        <input class="form-control" id="search" placeholder="Nhập liên kết sản phẩm cần tìm" type="text" value="">
+                    </div>
+                    <ul class="tags-form list-unstyled">
+                        <li><a href="#"></a></li>
+                    </ul>
+                </div>
+                <div class="voucher-mostbrand">
+                    <h4 class="title">Các nhà cung cấp nổi bật</h4>
+                    <div class="listbrand-item">
+                        <div class="item-brand">
+                            <a href="">
+                                <img src="https://static.accesstrade.vn/coupon/v2/images/logo-brand/img-12.png" alt="">
+                                <span></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="voucher-dealhot">
+                    <div class="title-filter">
+                        <div class="title-total">
+                            <img src="https://static.accesstrade.vn/coupon/v2/images/icon-coupon.svg" alt="">
+                            <h2 class="title">Deal Hot</h2>
+                        </div>
+                        <div class="dropdown filter-sort">
+                            <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span>Ngày</span>
+                                <i class="icon-down"><img src="https://static.accesstrade.vn/coupon/v2/images/icon-caret.svg" alt=""></i>
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" data-date="0" href="#">Hôm nay</a>
+                                <a class="dropdown-item" data-date="1" href="#">7 ngày gần nhất</a>
+                                <a class="dropdown-item" data-date="2" href="#">30 ngày gần nhất</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dealitem-body">
+                    </div>
+                 </div>
+                <div class="voucher-dealcoupon">
+                    <div class="title-tabs">
+                        <div class="title-total">
+                            <img src="https://static.accesstrade.vn/coupon/v2/images/icon-promo.svg" alt="">
+                            <h2 class="title">Danh sách mã khuyến mại</h2>
+                        </div>
+                        <div class="title-tabslist">
+                            <ul class="nav nav-tabs" id="tabsdeal--link" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="history-tabs" data-toggle="tab" href="#deal-opening"  role="tab">Đang mở <em></em></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="record-tabs" data-toggle="tab" href="#deal-soon"  role="tab">Sắp mở <em></em></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-content" id="tabsdeal--content">
+                        <div class="tab-pane fade show active" id="deal-opening" role="tabpanel">
+                            <div id="no-coupon-link" style="display: none;text-align: center;padding: 1em;">
+								<h4>Link sản phẩm không có mã giảm giá</h4>
+							</div>
+                            <div class="dealpromo-body">
+                            </div>
+                            <div  class="coupon-pagination">
+                            <nav>
+                                <ul class="pagination" name='pagination'>
+                                    <li class="page-item" style="display: none">
+                                        <a onclick="prev(event,1)" class="page-link" href="#" tabindex="-1"><i class="fas fa-angle-double-left"></i></a>
+                                    </li>
+                                    <li class="page-item" style="display: none">
+                                        <a onclick="prev(event)" class="page-link" href="#" tabindex="-1"><i class="fas fa-angle-left"></i></a>
+                                    </li>
+                                    <li  class="page-item" style="display: none">
+                                        <a onclick="prev(event)" class="page-link" id="prev-page-active" href="#"></a>
+                                    </li>
+                                    <li class="page-item active">
+                                        <a class="page-link" href="#"><span class="sr-only"></span>1</a>
+                                    </li>
+                                    <li class="page-item" style="display: none" >
+                                        <a onclick="next(event)" class="page-link" id="next-page-active" href="#"></a>
+                                    </li>
+                                    <li class="page-item" style="display: none">
+                                        <a onclick="next(event)" class="page-link" href="#" tabindex="-1"><i class="fas fa-angle-right"></i></a>
+                                    </li>
+                                    <li class="page-item" style="display: none">
+                                        <a  class="page-link" href="#" tabindex="-1"><i class="fas fa-angle-double-right"></i></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="page-box">
+                                <span class="p-0" style="display: none"> <input class="page-selected" type="text"></span>
+                                <span class="text-muted" name="text-muted">Trên  trang</span>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="deal-soon" role="tabpanel">
+                            <div id="no-coupon" style="display: none;text-align: center;padding: 1em;">
+												<h4>Đang cập nhật</h4>
+											</div>
+                            <div class="dealpromo-body">
+                            </div>
+                            <div  class="coupon-pagination" >
+                            <nav>
+                                <ul class="pagination" name="pagination-soon">
+                                    <li class="page-item" style="display: none">
+                                        <a onclick="prev(event,1,true)" class="page-link" href="#" tabindex="-1"><i class="fas fa-angle-double-left"></i></a>
+                                    </li>
+                                    <li class="page-item" style="display: none">
+                                        <a onclick="prev(event,null,true)" class="page-link" href="#" tabindex="-1"><i class="fas fa-angle-left"></i></a>
+                                    </li>
+                                    <li  class="page-item" style="display: none">
+                                        <a onclick="prev(event,null,true)" class="page-link" id="prev-soon-page-active" href="#"></a>
+                                    </li>
+                                    <li class="page-item active">
+                                        <a class="page-link" href="#"><span class="sr-only"></span>1</a>
+                                    </li>
+                                    <li class="page-item" style="display: none" >
+                                        <a onclick="next(event,null,true)" class="page-link" id="next-soon-page-active" href="#"></a>
+                                    </li>
+                                    <li class="page-item" style="display: none">
+                                        <a onclick="next(event,null,true)" class="page-link" href="#" tabindex="-1"><i class="fas fa-angle-right"></i></a>
+                                    </li>
+                                    <li class="page-item" style="display: none">
+                                        <a  class="page-link" href="#" tabindex="-1"><i class="fas fa-angle-double-right"></i></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="page-box">
+                                <span class="p-0" style="display: none"> <input class="page-selected" type="text"></span>
+                                <span class="text-muted" name="text-muted-soon">Trên  trang</span>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+             </div>
+        </main>
     </div>
+    <!--end-main voucher-->
     <div>
     <footer class="site-footer">
           <div class="container">

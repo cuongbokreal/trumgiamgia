@@ -59,6 +59,13 @@
   <body>
     <button id="linkButton" onclick="linkOn()">Bật Deplink</button>
     <div id="trai">
+    <label>Chọn sàn TMDT:</label>
+    <select id="href" style="height: auto;" onchange="change(this)">
+      <option id="shopeeHref" value="https://shopee.vn">SHOPEE</option>
+      <option id="lazadaHref" value="https://lazada.vn">LAZADA</option>
+      <option id="tikiHref" value="https://tiki.vn">TIKI</option>
+      <option id="sendoHref" value="https://sendo.vn">Sendo</option>
+     </select><br/><br/>  
     <label>Title sản phẩm:</label>
     <input placeholder="Nhập tiêu đề sp" onclick="this.select()" id="title"/>
     <label>Giá gốc:</label>
@@ -97,6 +104,22 @@
           linkButton.setAttribute("onclick", "linkOn()");
           linkButton.innerText = 'Bật Tạo Deeplink';
         }
+      var ad = 'SHOPEE';
+      function change(){
+          var option = document.getElementById('href');
+          if (option.value === 'https://shopee.vn'){
+                ad="SHOPEE";
+            }
+            else if (option.value === 'https://lazada.vn'){
+                 ad="LAZADA";
+            }
+            else if (option.value === 'https://tiki.vn'){
+                 ad="TIKI";
+            }
+          else if (option.value === 'https://sendo.vn'){
+                 ad="SENDO";
+            }
+          }
       </script>
     <script>
      function create(){ 
@@ -104,7 +127,7 @@
       var beforePrice = document.getElementById('beforePrice').value;
       var afterPrice = document.getElementById('afterPrice').value; 
       var percent = document.getElementById('percent').value;  
-      var ketquaText =`🎫 ${title}
+      var ketquaText =`🎫 [${ad}] ${title}
       
 - Giá gốc: ${beforePrice} 
 - Giảm ${percent}

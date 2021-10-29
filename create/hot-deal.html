@@ -59,19 +59,14 @@
   <body>
     <button id="linkButton" onclick="linkOn()">Bật Deplink</button>
     <div id="trai">
-    <label>Title mã:</label>
-    <input placeholder="Nhập tiêu đề Voucher" onclick="this.select()" id="title"/>
-    <label>Mã voucher:</label>
-    <input placeholder="Nhập mã Voucher" onclick="this.select()" id="code"/>
-    <label>Mô tả mã:</label>
-    <input placeholder="Nhập mô tả Voucher" onclick="this.select()" id="des"/>
-    <label>Chọn sàn TMDT:</label>
-    <select id="href" style="height: auto;" onchange="change(this)">
-      <option id="shopeeHref" value="https://shopee.vn">SHOPEE</option>
-      <option id="lazadaHref" value="https://lazada.vn">LAZADA</option>
-      <option id="tikiHref" value="https://tiki.vn">TIKI</option>
-      <option id="sendoHref" value="https://sendo.vn">Sendo</option>
-     </select><br/><br/>
+    <label>Title sản phẩm:</label>
+    <input placeholder="Nhập tiêu đề sp" onclick="this.select()" id="title"/>
+    <label>Giá gốc:</label>
+    <input placeholder="Nhập giá gốc" onclick="this.select()" id="beforePrice"/>
+    <label>Giá sau giảm:</label>
+    <input placeholder="Nhập mô tả Voucher" onclick="this.select()" id="afterPrice"/>
+    <label>Số %:</label>
+    <input placeholder="Tự động tính" onclick="this.select()" id="percentpercent"/>
     <label>Link Aff:</label>
     <input value="https://shorten.asia/bp2tWYRP" placeholder="Nhập link Aff (Chọn sàn rồi thì tự động điền)" onclick="this.select()" id="link"/>
     <button onclick="create()" class="button">Tạo Text</button>
@@ -102,36 +97,16 @@
           linkButton.setAttribute("onclick", "linkOn()");
           linkButton.innerText = 'Bật Tạo Deeplink';
         }
-      
-        var linkApDung ="https://shorten.asia/bp2tWYRP";
-        var link = document.getElementById('link');
-        function change(){
-          var option = document.getElementById('href');
-          if (option.value === 'https://shopee.vn'){
-                link.value ="https://shorten.asia/bp2tWYRP";
-            }
-            else if (option.value === 'https://lazada.vn'){
-                link.value ="https://shorten.asia/YKhthjs1";
-            }
-            else if (option.value === 'https://tiki.vn'){
-                link.value ="https://shorten.asia/y4yWtUHc";
-            }
-          else if (option.value === 'https://sendo.vn'){
-                link.value ="https://shorten.asia/yvmWMkvv";
-            }
-          }
       </script>
     <script>
      function create(){ 
       var title = document.getElementById('title').value;
-      var code = document.getElementById('code').value;
-      var des = document.getElementById('des').value; 
+      var beforePrice = document.getElementById('beforePrice').value;
+      var afterPrice = document.getElementById('afterPrice').value; 
+      var percent = document.getElementById('percent').value;  
       var ketquaText =`🎫 ${title}
       
-Mã: ${code}
-
-Mô tả chi tiết:
- - ${des}
+Giá gốc ${beforePrice} giảm ${percent} chỉ còn ${afterPrice}
       
 👉 Link áp dụng: ${link.value}
 

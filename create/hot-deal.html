@@ -68,14 +68,22 @@
      </select><br/><br/>  
     <label>Title sản phẩm:</label>
     <input placeholder="Nhập tiêu đề sp" onclick="this.select()" id="title"/>
+      
     <label>Giá gốc:</label>
     <input placeholder="Nhập giá gốc" onclick="this.select()" id="beforePrice"/>
+      
     <label>Số % giảm:</label>
-    <input placeholder="Giảm x %" onclick="this.select()" id="percent"/>      
+    <input placeholder="Giảm x %" onclick="this.select()" id="percent"/>    
+      
     <label>Giá sau giảm:</label>
     <input placeholder="Nhập mô tả Voucher" onclick="this.select()" id="afterPrice"/>
+      
     <label>Link Aff:</label>
     <input placeholder="Nhập link Aff" onclick="this.select()" id="link"/>
+      
+    <label>Ngày FlashSale:</label>
+    <input placeholder="Nhập giá gốc" onclick="this.select()" id="daySale"/> 
+      
     <button onclick="create()" class="button">Tạo Text</button>
     <textarea id="ketqua" >Kết quả hiển thị ở đây, tự động sao chép khi bấm tạo link</textarea><br/>
     <img src="https://i.imgur.com/W85AZWv.jpg"/>
@@ -127,12 +135,15 @@
       var beforePrice = document.getElementById('beforePrice').value;
       var afterPrice = document.getElementById('afterPrice').value; 
       var percent = document.getElementById('percent').value;  
+      var daySale = document.getElementById('daySale').value;
+      var daySaleText = `Ngày FlashSale: ${daySale}` 
+      if (daySale.length = 0){daySaleText=""}
       var ketquaText =`🔥 [HotDeal ${ad}] ${title}
       
 - Giá gốc: ${beforePrice} 
 - Giảm ${percent}
 - Giá sau giảm chỉ còn: ${afterPrice}
-      
+- ${daySaleText}  
 👉 Link sản phẩm: ${link.value}
 
 --------------------------

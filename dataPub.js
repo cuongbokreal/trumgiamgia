@@ -19,7 +19,7 @@ jsMain.src = 'https://static.accesstrade.vn/coupon/v2/js/main.js';
 jsMain.id = 'atScript6626';
 jsMain.setAttribute("data-accesskey", "5353514789844343379");
 jsMain.setAttribute("data-filters", `
-{"merchant":"4742147753565840242,4348611690224153209,4348611682079477428,","category":"E-COMMERCE,","campaign":"4751584435713464237,4348614231480407268,4348614229221512955,"}
+{"merchant":"4742147753565840242,4348611690224153209,5127139956446111602,4348611682079477428","category":"","campaign":"4751584435713464237,4348614231480407268,5127144557053758578,4348614229221512955,"}
 `); 
 jsMain.setAttribute("data-utm-content", `clickTime:${updateTime.toLocaleTimeString()} ngày ${updateTime.toLocaleDateString()}`);
 if(ctv){

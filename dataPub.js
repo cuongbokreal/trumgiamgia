@@ -47,7 +47,7 @@ document.getElementsByClassName('voucher-main')[0].style.background = randomBgCo
 //mariquee
 var surf = document.getElementById('surf');
 setTimeout(function(){ 
-    var titleVouchers = document.querySelector('.promoitem-body > .title');
+    var titleVouchers = document.querySelector('.promoitem-body > .title > .dealpromo-item-cta');
     var classTitleVouchers = titleVouchers.getAttribute("class");
     var idTitleVouchers = titleVouchers.getAttribute("id");
     surf.innerHTML = `<a class="${classTitleVouchers}" id="${idTitleVouchers}" href="javascript:void(0);" title="${titleVouchers.innerText}">${titleVouchers.innerText}</a>`;

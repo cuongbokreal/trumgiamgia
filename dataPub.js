@@ -57,6 +57,7 @@ function createMariquee(){
         surf.innerHTML = innerSurf;
         innerVoucherFooter.innerHTML = innerSurf;
     }, 5000);
+    console.log('Đã load marquee!');
 }    
 createMariquee();
 

@@ -49,7 +49,7 @@ var surf = document.getElementById('surf');
 setTimeout(function(){ 
     var titleVouchers = document.getElementsByClassName('title');
     let innerSurf = "";
-    for(let i=3;i<vouchers.length;i++){
+    for(let i=3;i<titleVouchers.length;i++){
         innerSurf+=`<a href="#couponTab" title="Mã tại TrumGiamGia: ${titleVouchers[i].innerText}" alt="Mã tại TrumGiamGia: ${titleVouchers[i].innerText}">${titleVouchers[i].innerText}</a>  |  `
     }    
     surf.innerHTML = innerSurf;

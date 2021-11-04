@@ -73,7 +73,8 @@
      </select><br/><br/>
     <label>Link Aff:</label>
     <input value="https://shorten.asia/bp2tWYRP" placeholder="Nhập link Aff (Chọn sàn rồi thì tự động điền)" onclick="this.select()" id="link"/>
-    <button onclick="create()" class="button">Tạo Text</button>
+    <button onclick="createText()" class="button">Tạo Text</button>
+    <button onclick="createHTML()" class="button">Tạo HTML</button>  
     <textarea id="ketqua" >Kết quả hiển thị ở đây, tự động sao chép khi bấm tạo link</textarea><br/>
     <img src="https://i.imgur.com/W85AZWv.jpg"/>
     <img src="https://i.imgur.com/Oa4MUJJ.jpg"/>
@@ -121,7 +122,7 @@
           }
       </script>
     <script>
-     function create(){ 
+     function createText(){ 
       var title = document.getElementById('title').value;
       var code = document.getElementById('code').value;
       var des = document.getElementById('des').value; 
@@ -148,6 +149,41 @@ Mô tả chi tiết:
         copyText.setSelectionRange(0, 99999);
         navigator.clipboard.writeText(copyText.value);
         console.log("Copied the text: " + copyText.value);
+      }
+      
+      function createHTML(){ 
+      var title = document.getElementById('title').value;
+      var code = document.getElementById('code').value;
+      var des = document.getElementById('des').value; 
+      var ketquaHTML =`<span><!--more--></span>
+<p><a href="${link.value}" target="_blank" title="${title}" alt="${title}">🎫 ${title}</a></p>
+<p>Mã: <span><a href="${link.value}" style="color: red;" target="_blank" title="Mã tại TrumGiamGia: ${code}" alt="${code}">${code}</a></span></p>
+<p>Mô tả chi tiết:</p>
+<p><a href="${link.value}" target="_blank" title="${des}" alt="${des}">- ${des}</a></p>
+<p>👉 Link áp dụng <a href="${link.value}" target="_blank" title="${title}" alt="${title}"><span style="color: #6aa84f;">TẠI ĐÂY</span></a></p>
+<br/><hr/>
+<p>- Xem thêm mã giảm giá tại: <a href="https://trumgiamgia.tk/" target="_blank">https://trumgiamgia.tk/</a></p>
+<p>- Affiliate: <a target="_blank" href="https://trumgiamgia.tk/ctv">https://trumgiamgia.tk/ctv</a></p>
+<p>- Group giao lưu, chia sẻ mã giảm giá Shopee, Lazada, Tiki, Sendo: <a href="https://facebook.com/584602429633228">https://facebook.com/584602429633228</a></p>
+<p>- Fanpage: <a href="https://facebook.com/101663378977673">https://facebook.com/101663378977673</a></p>
+<p>
+  <a href="/search?q=trumgiamgia" target="_blank">#trumgiamgia</a> 
+  <a href="/search?q=shopee" target="_blank">#shopee</a> 
+  <a href="/search?q=lazada" target="_blank">#lazada</a> 
+  <a href="/search?q=tiki" target="_blank">#tiki</a> 
+  <a href="/search?q=sendo" target="_blank">#sendo</a> 
+  <a href="/search?q=voucher" target="_blank">#voucher</a> 
+  <a href="/search?q=coupon" target="_blank">#coupon</a></p>
+
+      `;
+      
+        document.getElementById('ketqua').innerHTML = ketquaHTML;
+       
+        var copyText = document.getElementById("ketqua");
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        navigator.clipboard.writeText(copyText.value);
+        console.log("Copied the HTML: " + copyText.value);
       }
     </script>
   </body>

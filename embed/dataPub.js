@@ -23,10 +23,10 @@ jsMain.setAttribute("data-filters", `
 `); 
 jsMain.setAttribute("data-utm-content", `clickTime:${updateTime.toLocaleTimeString()} ngày ${updateTime.toLocaleDateString()}`);
 if(ctv){
-  jsMain.setAttribute("data-utm-source", "ctvTrumGiamGia");
+  jsMain.setAttribute("data-utm-source", "ctvTrumGG_Embed");
   jsMain.setAttribute("data-utm-medium", `ctvId:${ctv}`);  
 }else{
-  jsMain.setAttribute("data-utm-source", "trumGiamGia");
+  jsMain.setAttribute("data-utm-source", "trumGG_Embed");
   jsMain.setAttribute("data-utm-medium", "home");
 }
 document.body.appendChild(jsMain); 

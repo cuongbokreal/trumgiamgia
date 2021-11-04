@@ -1,4 +1,10 @@
-
+	<style>
+		#search-button{
+		border-top-right-radius: 7px;
+		border-bottom-right-radius: 7px;
+		}
+		#search{box-shadow: 0 3px 15px rgb(51 51 51 / 7%);}
+	</style>
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 			<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" />
@@ -18,7 +24,7 @@
                 <div class="voucher-tagsearch">
 		    <marquee id="surf" direction="left" behavior="scroll" scrollamount="4" onmouseover="this.stop()" onmouseout="this.start()">Vouchers tại TrumGiamGia</marquee>	
                     <div class="search-form">
-                        <span class="icon"><img src="https://static.accesstrade.vn/coupon/v2/images/icon-search.svg" alt=""></span>
+                        <span class="icon" id="search-button"><img src="https://static.accesstrade.vn/coupon/v2/images/icon-search.svg" alt=""></span>
                         <input class="form-control" id="search" placeholder="Nhập liên kết sản phẩm cần tìm" type="text" value="">
                     </div>
                     <ul class="tags-form list-unstyled">

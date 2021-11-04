@@ -1,0 +1,155 @@
+
+<html>
+  <head>
+    <title>Tạo Coupon Post FB</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="https://i.imgur.com/bZacc3E.jpg"/>
+        <style>
+          img{max-width:200px;max-height:200px;margin-right:15px;border:1px solid black}
+          *{margin-top:10px;}
+          #href{height: 1.75rem;padding: 5px;margin-left: 10px;}
+          #ketqua{height:250px;width:100%;margin-top:10px;line-height: normal;}   
+            #4CAF50
+            div{padding:1px}
+          input {
+            font-family: "Roboto", sans-serif;
+            outline: 0;
+            background: #f2f2f2;
+            width: 100%;
+            border: 0;
+            margin: 0 0 15px;
+            padding: 15px;
+            box-sizing: border-box;
+            font-size: 14px;
+          }
+
+          .button {
+            font-family: "Roboto", sans-serif;
+            text-transform: uppercase;
+            outline: 0;
+            background: #4CAF50;
+            border: 1px solid #f44296;
+            width: 100%;
+            padding: 15px;
+            color: #FFFFFF;
+            font-size: 14px;
+            -webkit-transition: all 0.3 ease;
+            transition: all 0.3 ease;
+            cursor: pointer;
+          }
+          .button:hover,.button:active,.button:focus {
+            background: #43A047;
+          }
+          .button:hover {
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.09), 0 17px 50px 0 rgba(0,0,0,0.09);
+          }  
+
+          .message {
+            margin: 15px 0 0;
+            color: #b3b3b3;
+            font-size: 12px;
+          }
+          #trai{position:absolute;width:100%;overflow:hidden;max-width:100%;float:left;left:0}
+          #phai{position:absolute;width:100%;overflow:hidden;max-width:35%;float:right;right:0;border: 1px solid black;height: 100%;}
+          #phai iframe{overflow:hidden;max-height:fit-content;height: 100%;}
+          #linkButton{position:absolute;right:0;margin:10px;z-index:99}
+        </style>
+  </head>
+  <body>
+    <button id="linkButton" onclick="linkOn()">Bật Deplink</button>
+    <div id="trai">
+    <label>Title mã:</label>
+    <input placeholder="Nhập tiêu đề Voucher" onclick="this.select()" id="title"/>
+    <label>Mã voucher:</label>
+    <input placeholder="Nhập mã Voucher" onclick="this.select()" id="code"/>
+    <label>Mô tả mã:</label>
+    <input placeholder="Nhập mô tả Voucher" onclick="this.select()" id="des"/>
+    <label>Chọn sàn TMDT:</label>
+    <select id="href" style="height: auto;" onchange="change(this)">
+      <option id="shopeeHref" value="https://shopee.vn">SHOPEE</option>
+      <option id="lazadaHref" value="https://lazada.vn">LAZADA</option>
+      <option id="tikiHref" value="https://tiki.vn">TIKI</option>
+      <option id="sendoHref" value="https://sendo.vn">Sendo</option>
+     </select><br/><br/>
+    <label>Link Aff:</label>
+    <input value="https://shorten.asia/bp2tWYRP" placeholder="Nhập link Aff (Chọn sàn rồi thì tự động điền)" onclick="this.select()" id="link"/>
+    <button onclick="create()" class="button">Tạo Text</button>
+    <textarea id="ketqua" >Kết quả hiển thị ở đây, tự động sao chép khi bấm tạo link</textarea><br/>
+    <img src="https://i.imgur.com/W85AZWv.jpg"/>
+    <img src="https://i.imgur.com/Oa4MUJJ.jpg"/>
+    <img src="https://i.imgur.com/BcadJ5n.jpg" />
+    <img src="https://i.imgur.com/6EzuOl8.jpg"/>
+    </div>  
+    <div id="phai" style="display:none">
+      <iframe frameborder="0" src="https://trumgiamgia.tk/go/deeplink.html" width="100%" height="200%"></iframe>
+    </div>
+    <script>
+        var trai = document.querySelector('#trai');
+        var phai = document.querySelector('#phai');
+        var linkButton = document.querySelector('#linkButton');
+        function linkOn(){
+          phai.setAttribute("style", "display:block");
+          trai.setAttribute("style", "max-width:75%");
+          phai.setAttribute("style", "max-width:25%");
+          linkButton.setAttribute("onclick", "linkOff()");
+          linkButton.innerText = 'Tắt Tạo Deeplink';
+          
+        }
+        function linkOff(){
+          phai.setAttribute("style", "display:none");
+          trai.setAttribute("style", "max-width:100%");
+          linkButton.setAttribute("onclick", "linkOn()");
+          linkButton.innerText = 'Bật Tạo Deeplink';
+        }
+      
+        var linkApDung ="https://shorten.asia/bp2tWYRP";
+        var link = document.getElementById('link');
+        function change(){
+          var option = document.getElementById('href');
+          if (option.value === 'https://shopee.vn'){
+                link.value ="https://shorten.asia/bp2tWYRP";
+            }
+            else if (option.value === 'https://lazada.vn'){
+                link.value ="https://shorten.asia/YKhthjs1";
+            }
+            else if (option.value === 'https://tiki.vn'){
+                link.value ="https://shorten.asia/y4yWtUHc";
+            }
+          else if (option.value === 'https://sendo.vn'){
+                link.value ="https://shorten.asia/yvmWMkvv";
+            }
+          }
+      </script>
+    <script>
+     function create(){ 
+      var title = document.getElementById('title').value;
+      var code = document.getElementById('code').value;
+      var des = document.getElementById('des').value; 
+      var ketquaText =`🎫 ${title}
+      
+Mã: ${code}
+
+Mô tả chi tiết:
+ - ${des}
+      
+👉 Link áp dụng: ${link.value}
+
+--------------------------
+ - Xem thêm mã giảm giá tại: https://trumgiamgia.tk/?ctv=fanpagePost
+ - Affiliate: https://trumgiamgia.tk/ctv
+ - Group giao lưu, chia sẻ mã giảm giá Shopee, Lazada, Tiki, Sendo: https://fb.com/584602429633228
+ - Fanpage: https://fb.com/101663378977673
+ #trumgiamgia #shopee #lazada #tiki #sendo #voucher #coupon`;
+      
+        document.getElementById('ketqua').innerHTML = ketquaText;
+       
+        var copyText = document.getElementById("ketqua");
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        navigator.clipboard.writeText(copyText.value);
+        console.log("Copied the text: " + copyText.value);
+      }
+    </script>
+  </body>
+</html>

@@ -47,7 +47,6 @@ document.getElementsByClassName('voucher-main')[0].style.background = randomBgCo
 //mariquee
 function createMariquee(){
     var surf = document.getElementById('surf');
-    var innerVoucherFooter = document.getElementById('inner-voucher-footer');
     setTimeout(function(){ 
         var titleVouchers = document.getElementsByClassName('title');
         let innerSurf = "";
@@ -55,9 +54,7 @@ function createMariquee(){
             innerSurf+=`<a href="?ctv=vouchers_click&utm_source=vouchers_a_tag_click&utm_medium=${titleVouchers[i].innerText}#couponTab" title="Mã tại TrumGiamGia: ${titleVouchers[i].innerText}" alt="Mã tại TrumGiamGia: ${titleVouchers[i].innerText}">${titleVouchers[i].innerText}</a>   |   `
         }    
         surf.innerHTML = innerSurf;
-        innerVoucherFooter.innerHTML = innerSurf;
     }, 5000);
-    console.log('Đã load marquee!');
 }    
 createMariquee();
 

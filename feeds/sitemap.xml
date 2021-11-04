@@ -1,23 +1,63 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset>
 <url>
-<loc>https://trumgiamgia.tk/</loc>
-<lastmod>2021-10-25T03:47:44+00:00</lastmod>
-<priority>1.00</priority>
+  <loc>https://trumgiamgia.tk/</loc>
+  <lastmod>2021-11-04T09:59:09+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-<loc>https://trumgiamgia.tk/?logo-click</loc>
-<lastmod>2021-10-25T03:47:44+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://trumgiamgia.tk/?logo-click</loc>
+  <lastmod>2021-11-04T09:59:09+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://trumgiamgia.tk/ctv/</loc>
-<lastmod>2021-10-25T03:47:44+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://trumgiamgia.tk/?ctv=Shopee</loc>
+  <lastmod>2021-11-04T09:59:09+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://trumgiamgia.tk/ctv/login/?a=report</loc>
-<lastmod>2021-10-25T03:47:44+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://trumgiamgia.tk/?ctv=Tiki</loc>
+  <lastmod>2021-11-04T09:59:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://trumgiamgia.tk/?ctv=Lazada</loc>
+  <lastmod>2021-11-04T09:59:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://trumgiamgia.tk/?ctv=Sendo</loc>
+  <lastmod>2021-11-04T09:59:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://trumgiamgia.tk/ctv/</loc>
+  <lastmod>2021-11-04T09:59:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://trumgiamgia.tk/?ctv=Shopee_right_menu</loc>
+  <lastmod>2021-11-04T09:59:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://trumgiamgia.tk/?ctv=Tiki_right_menu</loc>
+  <lastmod>2021-11-04T09:59:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://trumgiamgia.tk/?ctv=Lazada_right_menu</loc>
+  <lastmod>2021-11-04T09:59:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://trumgiamgia.tk/?ctv=Sendo_right_menu</loc>
+  <lastmod>2021-11-04T09:59:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://trumgiamgia.tk/ctv/login/?a=report</loc>
+  <lastmod>2021-11-04T09:59:09+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 </urlset>

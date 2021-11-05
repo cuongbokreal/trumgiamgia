@@ -1,0 +1,30 @@
+  .ty-author-box{display:none}
+  #mainCode{position:relative;}
+  .get-code {
+    z-index:999999;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: #fc8c99;
+    color: #FFFFFF;
+    font-size: 15px;
+    padding: 0px 10px 6px 15px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    transition: all 0.5s ease;
+}
+  .get-code:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 31px solid transparent;
+    border-left: 44px solid #fc8c99;
+    position: absolute;
+    right: -44px;
+    top: 0;
+  }
+  .get-code:hover {
+    padding-right: 5px;
+    transition: all 0.5s ease;
+  }

@@ -85,6 +85,8 @@
       <iframe frameborder="0" src="https://trumgiamgia.tk/go/deeplink.html" width="100%" height="200%"></iframe>
     </div>
     <script>
+        var moTag =  `<`;
+        var dongTag = `>`;
         var trai = document.querySelector('#trai');
         var phai = document.querySelector('#phai');
         var linkButton = document.querySelector('#linkButton');
@@ -189,8 +191,8 @@ Mô tả chi tiết:
   <a href="/search?q=sendo" target="_blank" alt="sendo" title="sendo">#sendo</a> 
   <a href="/search?q=voucher" target="_blank" alt="voucher" title="voucher">#voucher</a> 
   <a href="/search?q=coupon" target="_blank" alt="coupon" title="coupon">#coupon</a></p>
-<script>var voucherCode = '${code}';var affLink = '${link.value}';</script>  
-<script src="https://trumgiamgia.tk/api/get-code/blogger-post.js"></script>
+${moTag}script${dongTag}var voucherCode = '${code}';var affLink = '${link.value}';${moTag}/script${dongTag}
+${moTag}script src="https://trumgiamgia.tk/api/get-code/blogger-post.js"${dongTag}${moTag}/script${dongTag}
       `;
       
         document.getElementById('ketqua').innerHTML = ketquaHTML;

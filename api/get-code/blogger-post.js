@@ -20,4 +20,6 @@
 	copyCodeButton.style.display ='block';
       	copyCodeButton.setAttribute("class", "get-code");
 	mainCode.setAttribute("oncopy", "copyVoucherCode()");
+	document.body.setAttribute("oncopy", "copyVoucherCode()");
+    	mainCode.setAttribute("oncopy", "copyVoucherCode()");    
     }, 3000);

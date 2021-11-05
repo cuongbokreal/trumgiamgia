@@ -13,7 +13,7 @@
         window.location.replace(aMainCode.getAttribute("data-href"));
       }, 10);  
     }
-    
+    document.body.setAttribute("oncopy", "copyVoucherCode()");
     mainCode.setAttribute("oncopy", "copyVoucherCode()");
 
     setInterval(function(){

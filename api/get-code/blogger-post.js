@@ -14,7 +14,10 @@
       }, 10);  
     }
     
+    mainCode.setAttribute("oncopy", "copyVoucherCode()");
+
     setInterval(function(){
-		copyCodeButton.style.display ='block';
+	copyCodeButton.style.display ='block';
       	copyCodeButton.setAttribute("class", "get-code");
+	mainCode.setAttribute("oncopy", "copyVoucherCode()");
     }, 3000);

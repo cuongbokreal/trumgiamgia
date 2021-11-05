@@ -14,6 +14,10 @@
           </style>
   </head>
   <body>
+    <select id="href" style="height: auto;" onchange="change(this)">
+      <option id="trumGG" value="trumGG">trumGG</option>
+      <option id="blogTrumGG" value="blogTrumGG">blogTrumGG</option>
+     </select>
     Tạo link từ deeplink home
     <div id="create">
       <input onblur="deeplinkHome()" onclick="this.select()" class="input" id="getLink" placeholder="Nhập link đã sao chép từ Home" />
@@ -30,12 +34,23 @@
       <input placeholder="Kết quả:" id="ketquaRaw"/>
       </div>
       <script>
+        let link = 'https://trumgiamgia.tk/go';
+        function change(){
+          var option = document.getElementById('href');
+          if (option.value === 'trumGG'){
+                link ="https://trumgiamgia.tk/go";
+            }
+            else if (option.value === 'blogTrumGG'){
+                link ="https://blog.trumgiamgia.tk/p/go.html";
+            }
+          }
+        
         function deeplinkHome(){
           var getlink = document.getElementById('getLink').value;
           var reg= /^.*(https:\/\/go\.isclix\.com\/deep_link\/5353514789844343379\/[0-9]{19})\??url?=?([^\#\&\?]*).*/;
           var regLink = getlink.match(reg);
           var baseLink = window.btoa(regLink[2]);  
-          let ketquaHome = 'https://trumgiamgia.tk/go?url=' + baseLink;
+          let ketquaHome = `${link}?url=${baseLink}`;
           document.getElementById('ketquaHome').value = ketquaHome;
            document.getElementById('getHref').href= ketquaHome;
 
@@ -48,7 +63,7 @@
         
         function deeplinkRaw(){
           var linkRaw = document.getElementById('getLinkRaw').value;
-          var ketquaRaw = `https://trumgiamgia.tk/go?url=${window.btoa(linkRaw)}`;
+          var ketquaRaw = `${link}?url=${window.btoa(linkRaw)}`;
            document.getElementById('ketquaRaw').value = ketquaRaw;
           document.getElementById('getHrefRaw').href= ketquaRaw;
           

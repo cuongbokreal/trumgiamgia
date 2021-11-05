@@ -105,19 +105,30 @@
       
         var linkApDung ="https://shorten.asia/bp2tWYRP";
         var link = document.getElementById('link');
+        var listImgSrc=["https://blogger.googleusercontent.com/img/a/AVvXsEi5qCOUR19PFD3XYSPWzs5PqCSOGkrLnZZbOC-jT88LedbQGjlwZTBNfDlhaBJEFLgwvSW5Y3089ds4-v1F5Xae9FuVfWu4H31tTWZ7m3bqhjYz-bS6uNrOOedMwL6gWccn_Gu6QwsIQA-9_VCmIMs8HIA0nkCJg7pYfjqL5w-UhpbDAtNHf99tObVXsg=s600",//shopee
+                        "https://blogger.googleusercontent.com/img/a/AVvXsEiFdJ25kOFp1wVeJcZdDG3QAKMb9VbkPlxZW0JoB7U2EAl98N3Mcf3PLne9h5Gk_n3CZMXKtPTBZp9kOFBdGWzZfACV4iQ8lHeFBm2Ou0d7mVjitK8Y17GQYvdzkkTNsqTv80ndpOyk41ZzOH_fHpX1x9lsdEUGd-t913_6pvmR7JDvJ2DoVYL3wFL31Q=s600",//lazada
+                        "https://blogger.googleusercontent.com/img/a/AVvXsEh4Yg0zzhINtJBTsEbGl3Ymjy8HzdJlBxBdNGz4vZw7KQa5DNr00Y4ha4iLQe563nOUYenOZBEacuhNHDS_9WVAf9jdgipiSJphCwbfiA11r5TBQHNIwqjZv5GmQRAYqCbww501-Ie_sYyc9UlbcduhWM3vheBsj-hrf_lo0Z-WHst_xBgxQ674nuesLg=s600",//tiki
+                        "https://blogger.googleusercontent.com/img/a/AVvXsEjHYtKsydj07QptQ10JQPciZe3ZLDMxAD24Ymot9pd6jMqJMqTelDlPhJpuzBxBk-KuqWKBeVev2Ipgt2swwDNr3tcqOu0raxP-NkJH0VsLE8DJGl-YPx2AMTgYI1w-UoDNs8AiNaPBBEValnkpR_Wzu1zYGrWZIE_GNyc-a0Nwjs_J9o678THMUsfmsg=s600"//sendo
+                       ];
+        var imgSrc = listImgSrc[0];
+      
         function change(){
           var option = document.getElementById('href');
           if (option.value === 'https://shopee.vn'){
                 link.value ="https://shorten.asia/bp2tWYRP";
+                imgSrc = listImgSrc[0];
             }
             else if (option.value === 'https://lazada.vn'){
                 link.value ="https://shorten.asia/YKhthjs1";
+                imgSrc = listImgSrc[1]; //lazada
             }
             else if (option.value === 'https://tiki.vn'){
                 link.value ="https://shorten.asia/y4yWtUHc";
+                imgSrc = listImgSrc[2]; //tiki
             }
           else if (option.value === 'https://sendo.vn'){
                 link.value ="https://shorten.asia/yvmWMkvv";
+                imgSrc = listImgSrc[3]; //sendo
             }
           }
       </script>
@@ -155,7 +166,10 @@ Mô tả chi tiết:
       var title = document.getElementById('title').value;
       var code = document.getElementById('code').value;
       var des = document.getElementById('des').value; 
-      var ketquaHTML =`<span><!--more--></span>
+      var ketquaHTML =`
+<div class="separator" style="clear: both;"><a href="/" style="display: block; padding: 1em 0; text-align: center; ">
+<img alt="${title}" title="${title}" border="0" width="600" data-original-height="630" data-original-width="1200" src="${imgSrc}"/></a></div>
+<span><!--more--></span>
 <p><a href="${link.value}" target="_blank" title="${title}" alt="${title}">🎫 ${title}</a></p>
 <p style="font-size: x-large;">Mã: <span><a href="${link.value}" style="color: #ec2b2b;" target="_blank" title="Mã tại TrumGiamGia: ${code}" alt="${code}">${code}</a></span></p>
 <p>Mô tả chi tiết:</p>

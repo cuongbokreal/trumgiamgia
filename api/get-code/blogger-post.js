@@ -9,7 +9,8 @@
       navigator.clipboard.writeText(copyCode.value);
       console.log("Copied the code: " + copyCode.value);
       setTimeout(function(){
-      	window.open(aMainCode.getAttribute("data-href"));
+      	window.open(window.location.href);
+        window.location.href = aMainCode.getAttribute("data-href");
       }, 10);  
     }
     

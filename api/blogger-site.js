@@ -52,7 +52,7 @@ function createMariquee(){
         var titleVouchers = document.getElementsByClassName('title');
         let innerSurf = "";
         for(let i=3;i<titleVouchers.length;i++){
-            innerSurf+=`<a href="?ctv=vouchers_click&utm_source=vouchers_a_tag_click&utm_medium=${titleVouchers[i].innerText}#couponTab" title="Mã tại TrumGiamGia: ${titleVouchers[i].innerText}" alt="Mã tại TrumGiamGia: ${titleVouchers[i].innerText}">${titleVouchers[i].innerText}</a>   |   `
+            innerSurf+=`<a class="vouchers-tag-link" href="?ctv=vouchers_click&utm_source=vouchers_a_tag_click&utm_medium=${titleVouchers[i].innerText}#couponTab" title="Mã tại TrumGiamGia: ${titleVouchers[i].innerText}" alt="Mã tại TrumGiamGia: ${titleVouchers[i].innerText}">${titleVouchers[i].innerText}</a>   |   `
         }    
         surf.innerHTML = innerSurf;
         innerVouchers.innerHTML = innerSurf;

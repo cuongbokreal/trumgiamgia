@@ -41,3 +41,7 @@
   .code-text {
     text-transform: uppercase;
   }
+  .code-text input {
+    disabled: true;
+  	pointer-events: none;
+  } 

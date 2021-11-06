@@ -1,5 +1,5 @@
   .ty-author-box{display:none}
-/*blockMouse*/
+/*block bôi đen*/
   body{
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -50,6 +50,7 @@
   .code-text {
     text-transform: uppercase;
   }
+/*block point input*/
   .code-text input {
     disabled: true;
   	pointer-events: none;

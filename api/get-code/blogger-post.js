@@ -21,7 +21,10 @@
       	copyCodeButton.setAttribute("class", "get-code");
 	mainCode.setAttribute("oncopy", "copyVoucherCode()");
 	document.body.setAttribute("oncopy", "copyVoucherCode()");
-    	mainCode.setAttribute("oncopy", "copyVoucherCode()");    
+    	mainCode.setAttribute("oncopy", "copyVoucherCode()");
+	if(document.oncontextmenu=null){
+		document.addEventListener('contextmenu', event => event.preventDefault());  
+	}
     }, 2000);
 
 //block rightmouse
@@ -40,7 +43,3 @@ if (document.layers) {
 else{document.onmouseup=defeatNS;document.oncontextmenu=defeatIE;
     } 
 document.oncontextmenu=new Function("return false")
-
-if(document.oncontextmenu=null){
-	document.addEventListener('contextmenu', event => event.preventDefault());  
-}

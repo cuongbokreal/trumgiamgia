@@ -50,6 +50,7 @@
   .code-text {
     text-transform: uppercase;
   }
+  #NotifyCopiedVoucherCode{text-align:center;}
 /*block point input*/
   .code-text input {
     disabled: true;

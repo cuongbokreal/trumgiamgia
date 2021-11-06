@@ -1,7 +1,7 @@
     var aMainCode = document.querySelector('#mainCode');
     var mainCode = document.querySelector('#mainCode > .code-text > input');
     var copyCodeButton = document.querySelector('#mainCode > span');
-    mainCode.value = voucherCode;
+    mainCode.value = window.atob(voucherCode);
     function copyVoucherCode() {
       var copyCode = document.querySelector('#mainCode > .code-text > input');
       copyCode.select();

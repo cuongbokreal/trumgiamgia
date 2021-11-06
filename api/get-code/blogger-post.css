@@ -27,8 +27,8 @@
     display: block;
     width: 0;
     height: 0;
-    border-top: 44px solid transparent;
-    border-left: 44px solid #fc8c99;
+    border-top: 40px solid transparent;
+    border-left: 45px solid #fc8c99;
     position: absolute;
     right: -44px;
     top: 0;

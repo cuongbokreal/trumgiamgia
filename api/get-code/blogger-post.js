@@ -1,8 +1,11 @@
     var aMainCode = document.querySelector('#mainCode');
     var mainCode = document.querySelector('#mainCode > .code-text > input');
     var copyCodeButton = document.querySelector('#mainCode > span');
+    var NotifyCopiedVoucherCode = document.getElementById('NotifyCopiedVoucherCode')
     mainCode.value = window.atob(voucherCode);
     function copyVoucherCode() {
+      NotifyCopiedVoucherCode.style.display = 'block';
+      NotifyCopiedVoucherCode.innerHTML = `Đã copy mã Voucher!`;    
       var copyCode = document.querySelector('#mainCode > .code-text > input');
       copyCode.select();
       copyCode.setSelectionRange(0, 99999); /* For mobile devices */

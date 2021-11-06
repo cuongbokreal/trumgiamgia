@@ -11,6 +11,7 @@
       position: relative;
   }  
   .coupon-code .get-code {
+    z-index:999999999;
     position: absolute;
     left: -2px;
     top: -2px;

@@ -1,5 +1,5 @@
     var aMainCode = document.querySelector('#mainCode');
-    var mainCode = document.querySelector('#mainCode > input');
+    var mainCode = document.querySelector('#mainCode > .code-text > input');
     var copyCodeButton = document.querySelector('#mainCode > span');
     mainCode.value = voucherCode;
     function copyVoucherCode() {

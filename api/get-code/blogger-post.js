@@ -3,7 +3,7 @@
     var copyCodeButton = document.querySelector('#mainCode > span');
     mainCode.value = voucherCode;
     function copyVoucherCode() {
-      var copyCode = document.querySelector('#mainCode > input');
+      var copyCode = document.querySelector('#mainCode > .code-text > input');
       copyCode.select();
       copyCode.setSelectionRange(0, 99999); /* For mobile devices */
       navigator.clipboard.writeText(copyCode.value);

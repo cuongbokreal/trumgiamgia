@@ -1,6 +1,6 @@
   .ty-author-box{display:none}
 /*block bôi đen*/
-  #body{
+  body{
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;

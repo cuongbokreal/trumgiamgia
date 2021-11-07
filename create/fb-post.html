@@ -80,6 +80,7 @@
     <img src="https://i.imgur.com/Oa4MUJJ.jpg"/>
     <img src="https://i.imgur.com/BcadJ5n.jpg" />
     <img src="https://i.imgur.com/6EzuOl8.jpg"/>
+      <p id="innerLink" />
     </div>  
     <div id="phai" style="display:none">
       <iframe id="embedDeeplink" frameborder="0" src="https://trumgiamgia.tk/go/deeplink.html" width="100%" height="200%"></iframe>
@@ -226,6 +227,14 @@ ${moTag}script type="text/javascript" src="https://cuongbokreal.github.io/api/vo
         navigator.clipboard.writeText(copyText.value);
         console.log("Copied the HTML: " + copyText.value);
       }
+      
+      var bloggerLink = ["chuategiamgia","sanmavoucher"];
+      var innerLink = document.getElementById('innerLink');
+      let innerDataLink = ``;
+      for(let i=0;i<bloggerLink.length;i++){
+        innerDataLink += `<a href="${window.location.hostname}/create/fb-post.html?url=https://${bloggerLink[i]}/p/go.html">${bloggerLink[i]}</a>`;
+      }
+      innerLink.innerHTML = innerDataLink;
     </script>
   </body>
 </html>

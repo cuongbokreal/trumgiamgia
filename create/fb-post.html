@@ -101,7 +101,7 @@
         };
         var url = getUrlParameter('url');
         var embedDeeplink = document.getElementById('embedDeeplink');
-        embedDeeplink.src = url;
+        embedDeeplink.src += `?url=${url}`;
         var moTag =  `<`;
         var dongTag = `>`;
         var trai = document.querySelector('#trai');

@@ -12,6 +12,7 @@ var getUrlParameter = function getUrlParameter(sParam) {
         }
     }
 };
+var hostNameVoucherSite = window.location.hostname;
 var updateTime = new Date();
 var ctv = getUrlParameter('ctv');
 var jsMain = document.createElement("SCRIPT");
@@ -23,10 +24,10 @@ jsMain.setAttribute("data-filters", `
 `); 
 jsMain.setAttribute("data-utm-content", `clickTime:${updateTime.toLocaleTimeString()} ngày ${updateTime.toLocaleDateString()}`);
 if(ctv){
-  jsMain.setAttribute("data-utm-source", "ctvBlogTrumGG");
+  jsMain.setAttribute("data-utm-source", `CTV${hostNameVoucherSite}`);
   jsMain.setAttribute("data-utm-medium", `ctvId:${ctv}`);  
 }else{
-  jsMain.setAttribute("data-utm-source", "blogTrumGG");
+  jsMain.setAttribute("data-utm-source", hostNameVoucherSite);
   jsMain.setAttribute("data-utm-medium", "home");
 }
 document.body.appendChild(jsMain); 

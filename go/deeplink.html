@@ -34,23 +34,28 @@
       <input placeholder="Kết quả:" id="ketquaRaw"/>
       </div>
       <script>
-        let link = 'https://blog.trumgiamgia.tk/p/go.html';
-        function change(){
-          var option = document.getElementById('href');
-          if (option.value === 'trumGG'){
-                link ="https://trumgiamgia.tk/go";
+        var getUrlParameter = function getUrlParameter(sParam) {
+            var sPageURL = window.location.search.substring(1),
+                sURLVariables = sPageURL.split('&'),
+                sParameterName,
+                i;
+
+            for (i = 0; i < sURLVariables.length; i++) {
+                sParameterName = sURLVariables[i].split('=');
+
+                if (sParameterName[0] === sParam) {
+                    return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+                }
             }
-            else if (option.value === 'blogTrumGG'){
-                link ="https://blog.trumgiamgia.tk/p/go.html";
-            }
-          }
-        
+        };
+
+          var url = getUrlParameter('url');
         function deeplinkHome(){
           var getlink = document.getElementById('getLink').value;
           var reg= /^.*(https:\/\/go\.isclix\.com\/deep_link\/5353514789844343379\/[0-9]{19})\??url?=?([^\#\&\?]*).*/;
           var regLink = getlink.match(reg);
           var baseLink = window.btoa(regLink[2]);  
-          let ketquaHome = `${link}?url=${baseLink}`;
+          let ketquaHome = `${url}?url=${baseLink}`;
           document.getElementById('ketquaHome').value = ketquaHome;
            document.getElementById('getHref').href= ketquaHome;
 

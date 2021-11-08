@@ -99,7 +99,7 @@ footer {
 .jumbotron {min-height: 460px;padding: 5px 15px;}
 .jumbotron h1 {font-size: 30px;}
 .jumbotron h2 {font-size: 16px;}
-.form-container {margin-top: 20px;width:100%;overflow:hidden;padding:0;}
+.form-container {margin-top: 20px;width:32.5rem;overflow:hidden;padding:0;}
 .col-md-offset-1 {margin-left:0}	
 #sigupForm{height:1650px;}
 #logoHeader{width:8rem; height:7rem;}	

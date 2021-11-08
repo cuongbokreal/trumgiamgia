@@ -6,9 +6,9 @@ var dataAcc=[
    "refBy":"",
   },
   {"id":"01",
-   "mk":"02",
-   "name":"Chaoem",
-   "ref":"02",
-   "refBy":"00",
+   "mk":"VINH0399173413",
+   "name":"Trần Công Vinh",
+   "ref":"",
+   "refBy":"",
   },
 ]

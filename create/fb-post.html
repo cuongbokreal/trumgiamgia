@@ -101,6 +101,7 @@
             }
         };
         var url = getUrlParameter('url');
+        if (url = 'undefined'){url="/p/go.html";}
         var embedDeeplink = document.getElementById('embedDeeplink');
         embedDeeplink.src += `?url=${url}`;
         var moTag =  `<`;

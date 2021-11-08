@@ -72,3 +72,6 @@ var innerPubId = document.getElementById('innerPubId');
 var regPubId = /[0-9]{1}|[0-9]{2}/;
 var pubId = pathName.match(regPubId)
 innerPubId.innerHTML = pubId;
+
+var innerPubName = document.getElementById('innerPubName');
+innerPubName.innerHTML = dataAcc[parseInt(pubId)].name;

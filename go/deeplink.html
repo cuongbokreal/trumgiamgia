@@ -45,7 +45,9 @@
             }
         };
 
-          var url = getUrlParameter('url');
+        var url = getUrlParameter('url');
+        if (url = undefined){url="/p/go.html";}
+        console.log(url)
         function deeplinkHome(){
           var getlink = document.getElementById('getLink').value;
           var reg= /^.*(https:\/\/go\.isclix\.com\/deep_link\/5353514789844343379\/[0-9]{19})\??url?=?([^\#\&\?]*).*/;

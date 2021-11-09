@@ -191,6 +191,8 @@
       var title = document.getElementById('title').value;
       var code = document.getElementById('code').value;
       var des = document.getElementById('des').value; 
+        title = title.replaceAll(code,"");
+        des = des.replaceAll(code,"");
       var ketquaHTML =`
 <link href="https://cuongbokreal.github.io/api/voucher-blogger-site/get-code/blogger-post.css" rel="stylesheet"/>      
 <div class="separator" style="clear: both;"><a href="/" style="display: block; padding: 1em 0; text-align: center; ">

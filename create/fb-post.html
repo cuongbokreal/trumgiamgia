@@ -133,32 +133,32 @@
                         "https://blogger.googleusercontent.com/img/a/AVvXsEjHYtKsydj07QptQ10JQPciZe3ZLDMxAD24Ymot9pd6jMqJMqTelDlPhJpuzBxBk-KuqWKBeVev2Ipgt2swwDNr3tcqOu0raxP-NkJH0VsLE8DJGl-YPx2AMTgYI1w-UoDNs8AiNaPBBEValnkpR_Wzu1zYGrWZIE_GNyc-a0Nwjs_J9o678THMUsfmsg=s600"//sendo
                        ];
         var imgSrc = listImgSrc[0];
-        var imgUrl = document.getElementById('imgUrl').value;  
+        var imgUrl = document.getElementById('imgUrl');  
         var hashTagBrand = '<a href="/search?q=shopee" target="_blank" alt="Mã giảm giá SHOPEE" title="shopee">#shopee</a>'
         function change(){
           var option = document.getElementById('href');
           if (option.value === 'https://shopee.vn'){
                 link.value ="https://shorten.asia/bp2tWYRP";
                 imgSrc = listImgSrc[0];
-                imgUrl = imgSrc;
+                imgUrl.value = listImgSrc[0];
                 hashTagBrand = `<a href="/search?q=shopee" target="_blank" alt="Mã giảm giá SHOPEE" title="shopee">#shopee</a>`;
             }
             else if (option.value === 'https://lazada.vn'){
                 link.value ="https://shorten.asia/YKhthjs1";
                 imgSrc = listImgSrc[1]; //lazada
-                imgUrl = imgSrc;
+                imgUrl.value = listImgSrc[1];
                 hashTagBrand = `<a href="/search?q=lazada" target="_blank" alt="Mã giảm giá LAZADA" title="lazada">#lazada</a>`;
             }
             else if (option.value === 'https://tiki.vn'){
                 link.value ="https://shorten.asia/y4yWtUHc";
                 imgSrc = listImgSrc[2]; //tiki
-                imgUrl = imgSrc;
+                imgUrl.value = listImgSrc[2];
                 hashTagBrand = `<a href="/search?q=tiki" target="_blank" alt="Mã giảm giá TIKI" title="tiki">#tiki</a>`;
             }
           else if (option.value === 'https://sendo.vn'){
                 link.value ="https://shorten.asia/yvmWMkvv";
                 imgSrc = listImgSrc[3]; //sendo
-                imgUrl = imgSrc;
+                imgUrl.value = listImgSrc[3];
                 hashTagBrand = `<a href="/search?q=sendo" target="_blank" alt="Mã giảm giá SENDO" title="sendo">#sendo</a>`;
             }
           }

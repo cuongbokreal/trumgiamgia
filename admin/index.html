@@ -191,16 +191,33 @@ var moTag =  `<`;
 var dongTag = `>`;
 var inputKetQua = document.createElement('TEXTAREA');
 inputKetQua.setAttribute("id", "inputKetQua");
-inputKetQua.innerText = 'MÃ HTML hiển thị ở đây, hiển thị khi click sao chép!'	
+inputKetQua.innerText = 'MÃ HTML hiển thị ở đây, hiển thị khi click sao chép!';
+
+var inputTitleVoucher = document.createElement('INPUT');
+inputTitleVoucher.setAttribute("id", "inputTitleVoucher");
+inputTitleVoucher.setAttribute("onclick", "copyText(this)");
+var inputDesVoucher = document.createElement('INPUT');
+inputDesVoucher.setAttribute("id", "inputDesVoucher");
+inputDesVoucher.setAttribute("onclick", "copyText(this)");
+
 var createHtmlButton = document.createElement('BUTTON');
 createHtmlButton.setAttribute("onclick", "create()");
 createHtmlButton.setAttribute("id", "create");
 createHtmlButton.innerHTML = 'Sao chép HTML của mã này';
+	
 setTimeout(function(){ 
 	var modelContent = document.querySelector('.modal-content');
-    modelContent.appendChild(createHtmlButton)
-    modelContent.appendChild(inputKetQua)
+	modelContent.appendChild(inputTitleVoucher);
+	modelContent.appendChild(inputDesVoucher);
+    	modelContent.appendChild(createHtmlButton);
+    	modelContent.appendChild(inputKetQua);
 }, 2500);
+function copyText(this){
+	this.select();
+        this.setSelectionRange(0, 99999);
+        navigator.clipboard.writeText(this.value);
+        console.log("Copied the Text: " + this.value);
+}
 function create(){
 	var getTitleVoucher = document.querySelector('.heading-info > .title').innerText;
     	var getCodeVoucher = document.querySelector('.details-footer > .code-coupon').innerText;
@@ -217,6 +234,8 @@ function create(){
 	var baseLink = window.btoa(regLink[2]);
 	var hrefVoucher = `/p/go.html?url=${baseLink}`;
 	
+	inputTitleVoucher.value = getTitleVoucher;
+	inputDesVoucher.value = getDesVoucher;
     var ketQua = `
 <link href="https://cuongbokreal.github.io/api/voucher-blogger-site/get-code/blogger-post.css" rel="stylesheet"/>      
 <div class="separator" style="clear: both;"><a href="/?ctv=img_post_click&utm_source=${getTitleVoucher}" style="display: block; padding: 1em 0; text-align: center; ">
@@ -244,7 +263,7 @@ function create(){
   <a href="/search?q=coupon" target="_blank" alt="coupon" title="coupon">#coupon</a></p>
   <a href="/search?q=${brandVoucher}" target="_blank" alt="${brandVoucher}" title="${brandVoucher}">#${brandVoucher}</a></p>
 ${moTag}script${dongTag}var voucherCode = '${window.btoa(getCodeVoucher)}';var affLink = '${hrefVoucher}';${moTag}/script${dongTag}
-${moTag}script type="text/javascript" src="https://cuongbokreal.github.io/api/voucher-blogger-site/get-code/blogger-post.js"${dongTag}${moTag}/script${dongTag}
+${moTag}script async type="text/javascript" src="https://cuongbokreal.github.io/api/voucher-blogger-site/get-code/blogger-post.js"${dongTag}${moTag}/script${dongTag}
     `;
 	var inputKetQua = document.getElementById('inputKetQua').innerText = ketQua;
 	var copyText = document.getElementById("inputKetQua");

@@ -185,6 +185,9 @@ function create(){
     	var getHrefVoucher = document.querySelector('.details-footer > .dealact-copy').href;
 	var getImgUrl = document.querySelector('.heading--img > img').src;
 	
+	getTitleVoucher = getTitleVoucher.replaceAll(getCodeVoucher,"");
+	getDesVoucher = getDesVoucher.replaceAll(getCodeVoucher,"");
+	
 	var reg= /^.*(https:\/\/go\.isclix\.com\/deep_link\/5353514789844343379\/[0-9]{19})\??url?=?([^\#\&\?]*).*/;
         var regLink = getHrefVoucher.match(reg);
 	var baseLink = window.btoa(regLink[2]);

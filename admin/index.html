@@ -181,10 +181,10 @@ inputKetQua.innerText = 'MÃ HTML hiển thị ở đây, hiển thị khi click
 
 var inputTitleVoucher = document.createElement('INPUT');
 inputTitleVoucher.setAttribute("id", "inputTitleVoucher");
-inputTitleVoucher.setAttribute("onclick", "copyText()");
+inputTitleVoucher.setAttribute("onclick", "this.select()");
 var inputDesVoucher = document.createElement('INPUT');
 inputDesVoucher.setAttribute("id", "inputDesVoucher");
-inputDesVoucher.setAttribute("onclick", "copyText()");
+inputDesVoucher.setAttribute("onclick", "this.select()");
 
 var createHtmlButton = document.createElement('BUTTON');
 createHtmlButton.setAttribute("onclick", "create()");

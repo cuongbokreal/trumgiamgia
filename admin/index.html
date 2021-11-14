@@ -212,7 +212,7 @@ setTimeout(function(){
     	modelContent.appendChild(createHtmlButton);
     	modelContent.appendChild(inputKetQua);
 }, 2500);
-function copyText(this){
+function copyText(){
 	this.select();
         this.setSelectionRange(0, 99999);
         navigator.clipboard.writeText(this.value);

@@ -167,7 +167,7 @@ inputKetQua.setAttribute("id", "inputKetQua");
 var createHtmlButton = document.createElement('BUTTON');
 createHtmlButton.setAttribute("onclick", "create()");
 createHtmlButton.setAttribute("id", "create");
-createHtmlButton.innerHTML = 'Tạo HTML (không ảnh)'
+createHtmlButton.innerHTML = 'Tạo HTML';
 setTimeout(function(){ 
 	var modelContent = document.querySelector('.modal-content');
     modelContent.appendChild(createHtmlButton)
@@ -214,6 +214,11 @@ ${moTag}script${dongTag}var voucherCode = '${window.btoa(getCodeVoucher)}';var a
 ${moTag}script type="text/javascript" src="https://cuongbokreal.github.io/api/voucher-blogger-site/get-code/blogger-post.js"${dongTag}${moTag}/script${dongTag}
     `;
 	var inputKetQua = document.getElementById('inputKetQua').innerText = ketQua;
+	var copyText = document.getElementById("inputKetQua");
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        navigator.clipboard.writeText(copyText.value);
+        console.log("Copied the html: " + copyText.value);
 }
 	
 </script>

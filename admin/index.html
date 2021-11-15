@@ -232,6 +232,8 @@ function create(){
 	var regBrandName = /\[?([^\[\]]*)\]/g;
     	var matchBrandName = getTitleVoucher.match(regBrandName);
 	var brandNameHashTag = matchBrandName.toString().replaceAll(/\[|\]/g, "");
+	var hashTagBrandName = `<a href="/search?q=${brandNameHashTag.toString().replaceAll(" ", "%20")}" target="_blank" alt="${brandNameHashTag}" title="${brandNameHashTag}">#${brandNameHashTag}</a>`;
+	if(brandNameHashTag = (shopee|lazada|tiki|sendo|lazadacps)){hashTagBrandName="";}
     var ketQua = `
 <link href="https://cuongbokreal.github.io/api/voucher-blogger-site/get-code/blogger-post.css" rel="stylesheet"/>      
 <div class="separator" style="clear: both;"><a href="/?ctv=img_post_click&utm_source=${getTitleVoucher}" style="display: block; padding: 1em 0; text-align: center; ">
@@ -256,9 +258,10 @@ function create(){
 <p>💵 
   <a href="/search?q=trumgiamgia" target="_blank" alt="trumgiamgia" title="trumgiamgia">#trumgiamgia</a> 
   <a href="/search?q=voucher" target="_blank" alt="voucher" title="voucher">#voucher</a> 
-  <a href="/search?q=coupon" target="_blank" alt="coupon" title="coupon">#coupon</a></p>
-  <a href="/search?q=${brandNameHashTag.toString().replaceAll(" ", "%20")}" target="_blank" alt="${brandNameHashTag}" title="${brandNameHashTag}">#${brandNameHashTag}</a></p>
-  <a href="/search?q=${brandVoucher}" target="_blank" alt="${brandVoucher}" title="${brandVoucher}">#${brandVoucher}</a></p>
+  <a href="/search?q=coupon" target="_blank" alt="coupon" title="coupon">#coupon</a>
+  ${hashTagBrandName}
+  <a href="/search?q=${brandVoucher}" target="_blank" alt="${brandVoucher}" title="${brandVoucher}">#${brandVoucher}</a>
+</p>
 ${moTag}script${dongTag}var voucherCode = '${window.btoa(getCodeVoucher)}';var affLink = '${hrefVoucher}';${moTag}/script${dongTag}
 ${moTag}script async type="text/javascript" src="https://cuongbokreal.github.io/api/voucher-blogger-site/get-code/blogger-post.js"${dongTag}${moTag}/script${dongTag}
     `;

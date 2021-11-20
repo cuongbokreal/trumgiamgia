@@ -167,7 +167,6 @@
 	}
 </style>
     <!--end-main voucher-->
-    <div>
     <script type="text/javascript" src="https://static.accesstrade.vn/coupon/v2/js/jquery-1.11.1.min.js"></script> 
     <script type="text/javascript" src="https://static.accesstrade.vn/coupon/v2/js/popper.min.js"></script> 
     <script type="text/javascript" src="https://static.accesstrade.vn/coupon/v2/js/bootstrap.min.js"></script> 
@@ -177,6 +176,41 @@
 	    data-accesskey="5353514789844343379" 
 	    src="https://static.accesstrade.vn/coupon/v2/js/main.js"></script>
   
+
+<script>
+	var getUrlParameter = function getUrlParameter(sParam) {
+    var sPageURL = window.location.search.substring(1),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
+ 
+    for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+ 
+        if (sParameterName[0] === sParam) {
+            return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+        }
+    }
+};
+ var id = getUrlParameter('id');
+ var listAd = [
+	{"id":"00",
+	 "name":"Nguyễn Ngọc Cường",
+	 "source":"Cuongbok"
+	},
+	 {"id":"01",
+	 "name":"Nguyễn Tất Minh",
+	 "source":"TatMinh"
+	},
+	 {"id":"02",
+	 "name":"Nguyễn Thị Quỳnh Anh",
+	 "source":"QuynhAnh"
+	},
+ ];
+
+</script>
+
+
 <script>
 var moTag =  `<`;
 var dongTag = `>`;

@@ -1,0 +1,310 @@
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
+<meta name="HandheldFriendly" content="true" /> 
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, content-fix=cover">
+<title>Admin TrumGG</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">  
+<link rel="stylesheet" type="text/css" href="https://static.accesstrade.vn/coupon/v2/css/bootstrap.min.css" media="all" /> 
+<link rel="stylesheet" type="text/css" href="https://static.accesstrade.vn/coupon/v2/css/css-voucher.css" media="all" /> 
+<link rel="stylesheet" type="text/css" href="https://static.accesstrade.vn/coupon/v2/js/slick/slick.css" media="all" /> 
+<link rel="stylesheet" type="text/css" href="https://static.accesstrade.vn/coupon/v2/js/slick/slick-theme.css" media="all" />
+    <!--main voucher-->
+    <div id="layout-wrapper">
+        <main class="voucher-main">
+            <div class="container">
+                <div class="voucher-tagsearch" id="searchTab">
+                    <div class="search-form">
+                        <span class="icon" id="search-button"><img src="https://static.accesstrade.vn/coupon/v2/images/icon-search.svg" alt=""></span>
+                        <input class="form-control" id="search" placeholder="Nhập link sản phẩm cần tìm (Shopee, Tiki, Lazada, Sendo,...)" type="text" value="">
+                    </div>
+                    <ul class="tags-form list-unstyled">
+                        <li><a href="#"></a></li>
+                    </ul>
+                </div>
+                <div class="voucher-mostbrand" id="mostBrandTab">
+                    <h4 class="title">Các nhà cung cấp nổi bật</h4>
+                    <div class="listbrand-item">
+                        <div class="item-brand">
+                            <a href="">
+                                <img src="https://static.accesstrade.vn/coupon/v2/images/logo-brand/img-12.png" alt="">
+                                <span></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="voucher-dealhot" id="dealHotTab">
+                    <div class="title-filter">
+                        <div class="title-total">
+                            <img src="https://static.accesstrade.vn/coupon/v2/images/icon-coupon.svg" alt="">
+                            <h2 class="title">Deal Hot</h2>
+                        </div>
+                        <div class="dropdown filter-sort">
+                            <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span>Ngày</span>
+                                <i class="icon-down"><img src="https://static.accesstrade.vn/coupon/v2/images/icon-caret.svg" alt=""></i>
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" data-date="0" href="#">Hôm nay</a>
+                                <a class="dropdown-item" data-date="1" href="#">7 ngày gần nhất</a>
+                                <a class="dropdown-item" data-date="2" href="#">30 ngày gần nhất</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dealitem-body">
+                    </div>
+                 </div>
+                <div class="voucher-dealcoupon" id="couponTab">
+                    <div class="title-tabs">
+                        <div class="title-total">
+                            <img src="https://static.accesstrade.vn/coupon/v2/images/icon-promo.svg" alt="">
+                            <h2 class="title">Danh sách mã khuyến mại</h2>
+                        </div>
+                        <div class="title-tabslist">
+                            <ul class="nav nav-tabs" id="tabsdeal--link" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="history-tabs" data-toggle="tab" href="#deal-opening"  role="tab">Đang mở <em></em></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="record-tabs" data-toggle="tab" href="#deal-soon"  role="tab">Sắp mở <em></em></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-content" id="tabsdeal--content">
+                        <div class="tab-pane fade show active" id="deal-opening" role="tabpanel">
+                            <div id="no-coupon-link" style="display: none;text-align: center;padding: 1em;">
+								<h4>Link sản phẩm không có mã giảm giá</h4>
+							</div>
+                            <div class="dealpromo-body">
+                            </div>
+                            <div  class="coupon-pagination">
+                            <nav>
+                                <ul class="pagination" name='pagination'>
+                                    <li class="page-item" style="display: none" onclick="createMariquee()">
+                                        <a onclick="prev(event,1)" class="page-link" href="#" tabindex="-1"><i class="fas fa-angle-double-left"></i></a>
+                                    </li>
+                                    <li class="page-item" style="display: none" onclick="createMariquee()">
+                                        <a onclick="prev(event)" class="page-link" href="#" tabindex="-1"><i class="fas fa-angle-left"></i></a>
+                                    </li>
+                                    <li  class="page-item" style="display: none" onclick="createMariquee()">
+                                        <a onclick="prev(event)" class="page-link" id="prev-page-active" href="#"></a>
+                                    </li>
+                                    <li class="page-item active">
+                                        <a class="page-link" href="#"><span class="sr-only"></span>1</a>
+                                    </li>
+                                    <li class="page-item" style="display: none" onclick="createMariquee()">
+                                        <a onclick="next(event)" class="page-link" id="next-page-active" href="#"></a>
+                                    </li>
+                                    <li class="page-item" style="display: none" onclick="createMariquee()">
+                                        <a onclick="next(event)" class="page-link" href="#" tabindex="-1"><i class="fas fa-angle-right"></i></a>
+                                    </li>
+                                    <li class="page-item" style="display: none" onclick="createMariquee()">
+                                        <a  class="page-link" href="#" tabindex="-1"><i class="fas fa-angle-double-right"></i></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="page-box">
+                                <span class="p-0" style="display: none"> <input class="page-selected" type="text"></span>
+                                <span class="text-muted" name="text-muted">Trên  trang</span>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="deal-soon" role="tabpanel">
+                            <div id="no-coupon" style="display: none;text-align: center;padding: 1em;">
+												<h4>Đang cập nhật</h4>
+											</div>
+                            <div class="dealpromo-body">
+                            </div>
+                            <div  class="coupon-pagination" >
+                            <nav>
+                                <ul class="pagination" name="pagination-soon">
+                                    <li class="page-item" style="display: none">
+                                        <a onclick="prev(event,1,true)" class="page-link" href="#" tabindex="-1"><i class="fas fa-angle-double-left"></i></a>
+                                    </li>
+                                    <li class="page-item" style="display: none">
+                                        <a onclick="prev(event,null,true)" class="page-link" href="#" tabindex="-1"><i class="fas fa-angle-left"></i></a>
+                                    </li>
+                                    <li  class="page-item" style="display: none">
+                                        <a onclick="prev(event,null,true)" class="page-link" id="prev-soon-page-active" href="#"></a>
+                                    </li>
+                                    <li class="page-item active">
+                                        <a class="page-link" href="#"><span class="sr-only"></span>1</a>
+                                    </li>
+                                    <li class="page-item" style="display: none" >
+                                        <a onclick="next(event,null,true)" class="page-link" id="next-soon-page-active" href="#"></a>
+                                    </li>
+                                    <li class="page-item" style="display: none">
+                                        <a onclick="next(event,null,true)" class="page-link" href="#" tabindex="-1"><i class="fas fa-angle-right"></i></a>
+                                    </li>
+                                    <li class="page-item" style="display: none">
+                                        <a  class="page-link" href="#" tabindex="-1"><i class="fas fa-angle-double-right"></i></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="page-box">
+                                <span class="p-0" style="display: none"> <input class="page-selected" type="text"></span>
+                                <span class="text-muted" name="text-muted-soon">Trên  trang</span>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>  
+             </div>
+        </main>
+    </div>
+<style>
+	.modal-view-coupon .modal-dialog {max-width: 50rem;}
+	.modal-view-coupon .modal-body {padding: 10px;}
+	input{margin-bottom:5px}
+	#inputKetQua{height:250px}
+	#create{font-family: "Roboto", sans-serif;text-transform: uppercase;outline: 0;background: #4CAF50;border: 1px solid #f44296;width: 100%;padding: 15px;color: #FFFFFF;-webkit-transition: all 0.3 ease;transition: all 0.3 ease;cursor: pointer;margin-bottom: 5px;}
+	#create:hover {box-shadow: 0 12px 16px 0 rgba(0,0,0,0.09), 0 17px 50px 0 rgba(0,0,0,0.09);}
+	
+	.dealdetails-body .details-footer {margin-top: 5px;}
+	.dealdetails-body .details-info .info-desp p p{margin-bottom:0px;height: 0px;}
+	.dealdetails-body .details-heading{padding-bottom:0;}
+	@media only screen and (max-width: 640px) {
+		#inputKetQua{height:60px}
+	}
+</style>
+    <!--end-main voucher-->
+    <script type="text/javascript" src="https://static.accesstrade.vn/coupon/v2/js/jquery-1.11.1.min.js"></script> 
+    <script type="text/javascript" src="https://static.accesstrade.vn/coupon/v2/js/popper.min.js"></script> 
+    <script type="text/javascript" src="https://static.accesstrade.vn/coupon/v2/js/bootstrap.min.js"></script> 
+    <script type="text/javascript" src="https://static.accesstrade.vn/coupon/v2/js/slick/slick.min.js"></script>
+    <script type="text/javascript" id="atScript6626" data-sub1="" data-sub2="" data-sub3="" data-sub4="" data-sub5="" data-utm-source="adminTrumGG" data-utm-medium="home" data-utm-campaign="" data-utm-content="" 
+	    data-filters='{"merchant":"4742147753565840242,4348611690224153209,5127139956446111602,4348611682079477428,","category":"E-COMMERCE,","campaign":"4751584435713464237,4348614231480407268,5127144557053758578,4348614229221512955,"}' 
+	    data-accesskey="5353514789844343379" 
+	    src="https://static.accesstrade.vn/coupon/v2/js/main.js"></script>
+  
+
+<script>
+	var getUrlParameter = function getUrlParameter(sParam) {
+    var sPageURL = window.location.search.substring(1),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
+ 
+    for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+ 
+        if (sParameterName[0] === sParam) {
+            return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+        }
+    }
+};
+ var id = getUrlParameter('id');
+ var listAd = [
+	{"id":"00",
+	 "name":"Nguyễn Ngọc Cường",
+	 "source":"Cuongbok"
+	},
+	 {"id":"01",
+	 "name":"Nguyễn Tất Minh",
+	 "source":"TatMinh"
+	},
+	 {"id":"02",
+	 "name":"Nguyễn Thị Quỳnh Anh",
+	 "source":"QuynhAnh"
+	},
+ ];
+
+</script>
+
+
+<script>
+var moTag =  `<`;
+var dongTag = `>`;
+var inputKetQua = document.createElement('TEXTAREA');
+inputKetQua.setAttribute("id", "inputKetQua");
+inputKetQua.setAttribute("onclick", "this.select()");
+inputKetQua.innerText = 'MÃ HTML hiển thị ở đây, hiển thị khi click sao chép!';
+
+var inputTitleVoucher = document.createElement('INPUT');
+inputTitleVoucher.setAttribute("id", "inputTitleVoucher");
+inputTitleVoucher.setAttribute("onclick", "this.select()");
+var inputDesVoucher = document.createElement('INPUT');
+inputDesVoucher.setAttribute("id", "inputDesVoucher");
+inputDesVoucher.setAttribute("onclick", "this.select()");
+
+var createHtmlButton = document.createElement('BUTTON');
+createHtmlButton.setAttribute("onclick", "create()");
+createHtmlButton.setAttribute("id", "create");
+createHtmlButton.innerHTML = 'Tạo mã HTML (Tự động copy khi click tạo)';
+	
+setTimeout(function(){ 
+	var modelContent = document.querySelector('.modal-content');
+	modelContent.appendChild(inputTitleVoucher);
+	modelContent.appendChild(inputDesVoucher);
+    	modelContent.appendChild(createHtmlButton);
+    	modelContent.appendChild(inputKetQua);
+}, 2500);
+function copyText(){
+	this.select();
+        this.setSelectionRange(0, 99999);
+        navigator.clipboard.writeText(this.value);
+        console.log("Copied the Text: " + this.value);
+}
+function create(){
+	var getTitleVoucher = document.querySelector('.heading-info > .title').innerText;
+    	var getCodeVoucher = document.querySelector('.details-footer > .code-coupon').innerText;
+    	var getDesVoucher = document.querySelector('.info-desp > p').innerText;
+    	var getHrefVoucher = document.querySelector('.details-footer > .dealact-copy').href;
+	var getImgUrl = document.querySelector('.heading--img > img').src;
+	var brandVoucher = document.querySelector('.heading-info > .item-label').innerText;
+	
+	getTitleVoucher = getTitleVoucher.replaceAll(getCodeVoucher,"");
+	getDesVoucher = getDesVoucher.replaceAll(getCodeVoucher,"");
+	
+	var reg= /^.*(https:\/\/go\.isclix\.com\/deep_link\/5353514789844343379\/[0-9]{19})\??url?=?([^\#\&\?]*).*/;
+        var regLink = getHrefVoucher.match(reg);
+	var baseLink = window.btoa(regLink[2]);
+	var hrefVoucher = `/p/go.html?url=${baseLink}`;
+	
+	inputTitleVoucher.value = getTitleVoucher;
+	inputDesVoucher.value = getDesVoucher;
+	
+	/*var regBrandName = /\[?([^\[\]]*)\]/g;
+    	var matchBrandName = getTitleVoucher.match(regBrandName);
+	var brandNameHashTag = matchBrandName.toString().replaceAll(/\[|\]/g, "");
+	var hashTagBrandName = `<a href="/search?q=${brandNameHashTag.toString().replaceAll(" ", "%20")}" target="_blank" alt="${brandNameHashTag}" title="${brandNameHashTag}">#${brandNameHashTag}</a>`;
+	if(brandNameHashTag = (shopee|lazada|tiki|sendo|lazadacps)){hashTagBrandName="";}*/
+    var ketQua = `
+<link href="https://cuongbokreal.github.io/api/voucher-blogger-site/get-code/blogger-post.css" rel="stylesheet"/>
+<div class="separator" style="clear: both;"><a href="/?utm_source=thumbPost-click&utm_medium=${getTitleVoucher}" style="display: block; padding: 1em 0; text-align: center; ">
+<img alt="${getTitleVoucher}" title="${getTitleVoucher}" border="0" width="600" height="auto" data-original-height="630" data-original-width="1200" src="${getImgUrl}"/></a></div>
+<p id="NotifyCopiedVoucherCode"></p>
+<p><a href="${hrefVoucher}" target="_blank" title="${getTitleVoucher}" alt="${getTitleVoucher}">🎫 ${getTitleVoucher} 🔥</a></p>
+<p style="font-size: x-large;">🎉 Mã: <span><a class="coupon-button coupon-code" oncopy="copyVoucherCode()" onclick="copyVoucherCode()" alt="${getCodeVoucher}" id="mainCode" data-href="${hrefVoucher}" style="color: #ec2b2b;" target="_blank" title="Mã tại TrumGiamGia">
+<span oncopy="copyVoucherCode()" onclick="copyVoucherCode()" class="get-code">Sao chép mã</span>
+<span class="code-text">
+<input oncopy="copyVoucherCode()" onclick="copyVoucherCode()" disabled value="Nếu không copy được mã, hãy làm mới lại trang!"/>
+</span>
+</a></span></p>
+<p style="margin-top:10px;">💥 Mô tả chi tiết:</p>
+<p><a href="${hrefVoucher}" target="_blank" title="${getDesVoucher}" alt="${getDesVoucher}">- ${getDesVoucher}</a></p>
+<p style="font-size: x-large;">👉 Link áp dụng <a href="${hrefVoucher}" target="_blank" title="${getTitleVoucher}" alt="${getTitleVoucher}"><b><u><span style="color: #3271da;">TẠI ĐÂY</span></u></b></a></p>
+<span><!--more--></span>
+<br/><hr/>
+<p>📌 Xem thêm mã giảm giá tại: <a href="https://trumgiamgia.tk/" target="_blank">https://trumgiamgia.tk/</a></p>
+<!--p>💵 Affiliate: <a target="_blank" href="https://trumgiamgia.tk/ctv">https://trumgiamgia.tk/ctv</a></p-->
+<p>🎉 Group giao lưu, chia sẻ mã giảm giá Shopee, Lazada, Tiki, Sendo: <a target="_blank" href="https://facebook.com/584602429633228">https://facebook.com/584602429633228</a></p>
+<p>⚡ Fanpage: <a target="_blank" href="https://facebook.com/101663378977673">https://facebook.com/101663378977673</a></p>
+<p>💵
+	<a href="/search?q=trumgiamgia" target="_blank" alt="trumgiamgia" title="trumgiamgia">#trumgiamgia</a>
+	<a href="/search?q=voucher" target="_blank" alt="voucher" title="voucher">#voucher</a>
+	<a href="/search?q=coupon" target="_blank" alt="coupon" title="coupon">#coupon</a>
+	<a href="/search?q=${brandVoucher}" target="_blank" alt="${brandVoucher}" title="${brandVoucher}">#${brandVoucher}</a>
+</p>
+${moTag}script${dongTag}var voucherCode = '${window.btoa(getCodeVoucher)}';var affLink = '${hrefVoucher}';${moTag}/script${dongTag}
+${moTag}script async type="text/javascript" src="https://cuongbokreal.github.io/api/voucher-blogger-site/get-code/blogger-post.js"${dongTag}${moTag}/script${dongTag}
+    `;
+	var inputKetQua = document.getElementById('inputKetQua').innerText = ketQua;
+	var copyText = document.getElementById("inputKetQua");
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        navigator.clipboard.writeText(copyText.value);
+        console.log("Copied the html: " + copyText.value);
+}	
+</script>
+</html>

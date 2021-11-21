@@ -187,6 +187,7 @@
       <main class="atEQPOIVFSDFSDG-voucher-main">
         <div class="container">
           <div class='atEQPOIVFSDFSDG-search' id="searchTab">
+		<marquee id="surf" direction="left" behavior="scroll" scrollamount="4" onmouseover="this.stop()" onmouseout="this.start()">Vouchers tại TrumGiamGia</marquee>
             <div class='atEQPOIVFSDFSDG-filter-keyword'>
                 <ul class='atEQPOIVFSDFSDG-tags'>
                 </ul>
@@ -476,9 +477,9 @@
         var surf = document.getElementById('surf');
         var innerVouchers = document.getElementById('innerVouchers');
         setTimeout(function(){ 
-            var titleVouchers = document.getElementsByClassName('title');
+            var titleVouchers = document.getElementsByClassName('dealpromo-item-cta');
             let innerSurf = "";
-            for(let i=3;i< titleVouchers.length;i++){
+            for(let i=0;i< titleVouchers.length;i=i+2){
                 innerSurf+=`<a class="vouchers-tag-link" href="?ctv=vouchers_click&utm_source=vouchers_a_tag_click&utm_medium=${titleVouchers[i].innerText}#couponTab" title="Mã tại TrumGiamGia: ${titleVouchers[i].innerText}" alt="Mã tại TrumGiamGia: ${titleVouchers[i].innerText}">${titleVouchers[i].innerText}</a>   |   `
             }
             if(pathNameVoucherSite = '/'){

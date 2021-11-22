@@ -211,5 +211,22 @@
     <script defer type="text/javascript" id="atScript6626" data-sub1="" data-sub2="" data-sub3="" data-sub4="" data-sub5="" data-utm-source="chaoem" data-utm-medium="" data-utm-campaign="" data-utm-content="" data-filters='{"merchant":"5127139956446111602,4348611682079477428,4348611690224153209,4742147753565840242,","category":"E-COMMERCE,","campaign":"5127144557053758578,4348614229221512955,4348614231480407268,4751584435713464237,"}' data-accesskey="5353514789844343379" src="https://static.accesstrade.vn/coupon/v2/js/main_at_v2.js"></script>
     
     <script>
-    document.getElementById('atScript6626').setAttribute("data-utm-source", "trumGG_dealhot");
+            var getUrlParameter = function getUrlParameter(sParam) {
+            var sPageURL = window.location.search.substring(1),
+                sURLVariables = sPageURL.split('&'),
+                sParameterName,
+                i;
+
+            for (i = 0; i < sURLVariables.length; i++) {
+                sParameterName = sURLVariables[i].split('=');
+
+                if (sParameterName[0] === sParam) {
+                    return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+                }
+            }
+        };
+
+          var id = getUrlParameter('id');
+            console.log(id.length)
+        document.getElementById('atScript6626').setAttribute("data-utm-source", "trumGG_dealhot");
     </script>

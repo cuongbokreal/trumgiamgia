@@ -230,6 +230,7 @@
           var id = getUrlParameter('id');
             if (id != 'undefined'){console.log(id)}
             else{id = accessKey}
+            if (id.length < 19){id = accessKey}
             if (id.length == 19){
                 jsMain.setAttribute("data-accesskey",id);
             }

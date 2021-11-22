@@ -232,10 +232,9 @@
             else{id = accessKey}
             if (id.length == 19){
                 jsMain.setAttribute("data-accesskey",id);
-                jsMain.setAttribute("data-utm-content", `clickTime:${updateTime.toLocaleTimeString()} ngày ${updateTime.toLocaleDateString()}`);    
             }
             
         var updateTime = new Date();
-
+        jsMain.setAttribute("data-utm-content", `clickTime:${updateTime.toLocaleTimeString()} ngày ${updateTime.toLocaleDateString()}`);
         
     </script>

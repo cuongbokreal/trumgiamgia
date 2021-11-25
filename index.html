@@ -478,7 +478,7 @@
         var innerVouchers = document.getElementById('innerVouchers');
         setTimeout(function(){ 
             var titleVouchers = document.getElementsByClassName('dealpromo-item-cta');
-            let innerSurf = "";
+            let innerSurf = `Hôm nay (${updateTime.getDate()}/${updateTime.getMonth() + 1}): `;
             for(let i=0;i< titleVouchers.length;i=i+2){
                 innerSurf+=`<a class="vouchers-tag-link" href="?ctv=vouchers_click&utm_source=vouchers_a_tag_click&utm_medium=${titleVouchers[i].innerText}#couponTab" title="Mã tại TrumGiamGia: ${titleVouchers[i].innerText}" alt="Mã tại TrumGiamGia: ${titleVouchers[i].innerText}">${titleVouchers[i].innerText}</a>   |   `
             }

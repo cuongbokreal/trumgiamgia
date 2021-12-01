@@ -43,39 +43,40 @@
                 <div class="_5cuiRy">
                   <div class="_36sYBt _3BR2jk">
                     <div class="_25_r8I e4duai">
-                      <div
-                        class="OcIMKQ _2GchKS"
-                        style='background-image: url("https://i.imgur.com/8uIODqf.jpg"); background-size: contain; background-repeat: no-repeat;'
+                      <div id="vc_brand_image" class="OcIMKQ _2GchKS" style='background-image: url("https://i.imgur.com/8uIODqf.jpg"); background-size: contain; background-repeat: no-repeat;'
                       ></div>
                     </div>
-                    <div class="_2SgcUS">Mã Giảm Giá</div>
+                    <div id="vc_brand" class="_2SgcUS">tikivn</div>
                     <div class="_6bQJYc"></div>
                   </div>
                 </div>
                 <div class="_12exiy _1AKWOR">
                   <div class="_30mgoN">
-                    <div class="_1Hi5GR _39tPPM">
-                      Tiêu đề mã
+                    <div id="vc_title" class="_1Hi5GR _39tPPM">
+                      [TIKI_COUPON]-Giảm 8% tối đa 30K cho đơn hàng từ 249K
                     </div>
                   </div>
                   <div class="_3kGWPE"></div>
-                  <span class="MUoVIu _2tHkAM _1hJ2z_"
-                    ><div class="ZfvPYV">
-                      <div
-                        style="width: 86%; height: 100%; background: linear-gradient(270deg, rgb(255, 176, 0) 0%, rgb(235, 23, 23) 100%);"
-                      ></div>
+                  <!--span class="MUoVIu _2tHkAM _1hJ2z_"><div class="ZfvPYV">
+                      <div style="width: 86%; height: 100%; background: linear-gradient(270deg, rgb(255, 176, 0) 0%, rgb(235, 23, 23) 100%);"></div>
                     </div>
                     <div class="_2VFlvK">
-                      <span class="_3YQBHL">Đã dùng 86%, </span
-                      ><span class="_5BU55m">HSD: 22.09.2021</span>
-                    </div></span
-                  >
+                      <span class="_3YQBHL">Đã dùng 86%, </span>
+                      <span class="_5BU55m">HSD: 22.09.2021</span>
+                    </div>
+                  </span-->
                 </div>
                 <div class="_13xb87 _1D9baJ _3uQ3vc">Số luợng có hạn</div>
               </div>
             </div>
             <div class="Vtsa3m">
-              Chào em anh đứng đây từ chiều
+              <h4>Mô tả chi tiết:</h4>
+              <p id="vc_des">
+                Giảm 8% tối đa 30K cho đơn hàng từ 249K
+Áp dụng cho các sản phẩm trong danh mục Các môn thể thao chơi vợt, Các môn thể thao đồng đội, Các môn thể thao khác, Các môn thể thao đối kháng , Thể thao dưới nước, Dụng cụ - thiết bị tập thể thao, Dụng cụ leo núi, Đồ dùng dã ngoại, Phụ kiện thể thao, Thực phẩm bổ sung năng lượng, Dụng cụ câu cá
+Không áp dụng cho 1 số nhà bán
+Chỉ áp dụng cho KH có gói TikiNow
+Mỗi khách hàng được sử dụng tối đa 1 lần.</p>
               <!--div class="XMlOAE">
                 <h4>Ưu đãi</h4>
                 <div class="_9pwVVN">
@@ -102,70 +103,61 @@
                 </div>
               </div-->
             </div>
+            <input value="Nhìn gì bạn hiền?" style="display:none" id="vc_code" />
             <div class="_2WT_e5">
-              <buttontype="button"
+              <button onclick="copy_code()" id="vc_copy" type="button"
 class="btn btn-solid-primary btn--s btn--inline bPDR8t">
-                Đồng ý
+                Sao chép mã
               </button>
             </div>
           </div>
         </div>
-        <div></div>
         <div class="qgeUgW" id="BackgroundImagePortalAnchor"></div>
       </div>
     </div>
-    <div id="modal">
-      <div>
-        <div
-          class="shopee-modal__transition-appear-done shopee-modal__transition-enter-done"
-        ></div>
-      </div>
-    </div>
-    <div class="shopee__kZMc3xKQ4ab">
-      <div class="shopee__3o9SfdFxcoiKs"></div>
-    </div>
-    <div class="shopee__fo0dKsgoukkfcaik">
-      <div class="shopee-modal-xbcA3dFx0Ck"></div>
-    </div>
-    <noscript><img height="1"width="1"style="display:none"src="https://www.facebook.com/tr?id=1457130904612161&amp;ev=PageView&amp;noscript=1"/></noscript>
-    <noscript><img height="1"width="1"style="display:none"src="https://www.facebook.com/tr?id=1457130904612161&amp;ev=PageView&amp;noscript=1"/></noscript>
-    <div><div></div></div>
-<!--link href="https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/styles.21833f8f.7d91efc3bb14519976a3.css" rel="stylesheet" type="text/css"/>
-    <div
-      id="shopee-mini-chat-embedded"
-      style="position: fixed; right: 8px; bottom: 0px; z-index: 99999;"
-    >
-      <div
-        class="
-    src-pages-Entry-index__root--1G_Ox
+  <script>
+    var getUrlParameter = function getUrlParameter(sParam) {
+    var sPageURL = window.location.search.substring(1),sURLVariables = sPageURL.split('&'),sParameterName,i;
+        for (i = 0; i < sURLVariables.length; i++) {
+            sParameterName = sURLVariables[i].split('=');
+            if (sParameterName[0] === sParam) {
+                return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+            }
+        }
+    };
+    var access_key = '5353514789844343379';
     
-    src-pages-Entry-index__has-unread--110fk
-  "
-      >
-        <div class="src-pages-Entry-index__logo-wrapper--IqLfz">
-          <div class="src-pages-Entry-index__counts--1f4Va">19</div>
-          <i class="_3kEAcT1Mk5 src-pages-Entry-index__chat--3rr3d"
-            ><svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              class="chat-icon"
-            >
-              <path
-                d="M18 6.07a1 1 0 01.993.883L19 7.07v10.365a1 1 0 01-1.64.768l-1.6-1.333H6.42a1 1 0 01-.98-.8l-.016-.117-.149-1.783h9.292a1.8 1.8 0 001.776-1.508l.018-.154.494-6.438H18zm-2.78-4.5a1 1 0 011 1l-.003.077-.746 9.7a1 1 0 01-.997.923H4.24l-1.6 1.333a1 1 0 01-.5.222l-.14.01a1 1 0 01-.993-.883L1 13.835V2.57a1 1 0 011-1h13.22zm-4.638 5.082c-.223.222-.53.397-.903.526A4.61 4.61 0 018.2 7.42a4.61 4.61 0 01-1.48-.242c-.372-.129-.68-.304-.902-.526a.45.45 0 00-.636.636c.329.33.753.571 1.246.74A5.448 5.448 0 008.2 8.32c.51 0 1.126-.068 1.772-.291.493-.17.917-.412 1.246-.74a.45.45 0 00-.636-.637z"
-              ></path></svg></i
-          ><i class="_3kEAcT1Mk5 src-pages-Entry-index__logo--2m8Mr"
-            ><svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 44 22"
-              class="chat-icon"
-            >
-              <path
-                d="M9.286 6.001c1.161 0 2.276.365 3.164 1.033.092.064.137.107.252.194.09.085.158.064.203 0 .046-.043.182-.194.251-.26.182-.17.433-.43.752-.752a.445.445 0 00.159-.323c0-.172-.092-.3-.227-.365A7.517 7.517 0 009.286 4C5.278 4 2 7.077 2 10.885s3.256 6.885 7.286 6.885a7.49 7.49 0 004.508-1.484l.022-.043a.411.411 0 00.046-.71v-.022a25.083 25.083 0 00-.957-.946.156.156 0 00-.227 0c-.933.796-2.117 1.205-3.392 1.205-2.846 0-5.169-2.196-5.169-4.885C4.117 8.195 6.417 6 9.286 6zm32.27 9.998h-.736c-.69 0-1.247-.54-1.247-1.209v-3.715h1.96a.44.44 0 00.445-.433V9.347h-2.45V7.035c-.021-.043-.066-.065-.111-.043l-1.603.583a.423.423 0 00-.29.41v1.362h-1.781v1.295c0 .238.2.433.445.433h1.337v4.19c0 1.382 1.158 2.505 2.583 2.505H42v-1.339a.44.44 0 00-.445-.432zm-21.901-6.62c-.739 0-1.41.172-2.013.496V4.43a.44.44 0 00-.446-.43h-1.788v13.77h2.234v-4.303c0-1.076.895-1.936 2.013-1.936 1.117 0 2.01.86 2.01 1.936v4.239h2.234v-4.561l-.021-.043c-.202-2.088-2.012-3.723-4.223-3.723zm10.054 6.785c-1.475 0-2.681-1.12-2.681-2.525 0-1.383 1.206-2.524 2.681-2.524 1.476 0 2.682 1.12 2.682 2.524 0 1.405-1.206 2.525-2.682 2.525zm2.884-6.224v.603a4.786 4.786 0 00-2.985-1.035c-2.533 0-4.591 1.897-4.591 4.246 0 2.35 2.058 4.246 4.59 4.246 1.131 0 2.194-.388 2.986-1.035v.604c0 .237.203.431.453.431h1.356V9.508h-1.356c-.25 0-.453.173-.453.432z"
-              ></path></svg
-          ></i>
-        </div>
-      </div>
-    </div-->
+    var vc_title = getUrlParameter('vc_title');
+    var vc_brand = getUrlParameter('vc_brand');
+    var vc_brand_image = getUrlParameter('vc_brand_image');
+    var vc_des = getUrlParameter('vc_des');
+    var vc_code = getUrlParameter('vc_code');
+    var vc_href = getUrlParameter('vc_href');
+    
+    var inner_title = document.getElementById('vc_title');
+    var inner_brand = document.getElementById('vc_brand');
+    var inner_brand_image = document.getElementById('vc_brand_image');
+    var inner_des = document.getElementById('vc_des');
+    var inner_code = document.getElementById('vc_code');
+    
+    if (!inner_code != 'undefined' && !vc_href  != 'undefined'){
+      inner_title.innerText = vc_title;
+      inner_brand.innerText = vc_brand;
+      inner_brand_image.style.backgroundImage=`url(${vc_brand_image})`;
+      inner_des.innerText = vc_des;
+      inner_code.value = window.atob(vc_code);
+    }else{console.log('đ có mã')}
+    
+var updateTime = new Date(); //updateTime
+    
+    function copy_code(){
+      var copyText = document.getElementById("vc_code");
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        navigator.clipboard.writeText(copyText.value);
+        console.log("Copied the text: " + copyText.value);
+        window.location.href = `https://go.isclix.com/deep_link/${access_key}?url=${vc_href}&utm_source=tggVoucherDetails&utm_medium=copy_code&utm_content=clickTime:${updateTime.toLocaleTimeString()} ngày ${updateTime.toLocaleDateString()}`;
+    }  
+  </script>
   </body>
-  <div style="position: absolute; top: 0px;"></div>
 </html>

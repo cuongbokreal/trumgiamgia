@@ -215,42 +215,6 @@
 	    data-filters='{"merchant":"4742147753565840242,4348611690224153209,5127139956446111602,4348611682079477428,","category":"E-COMMERCE,","campaign":"4751584435713464237,4348614231480407268,5127144557053758578,4348614229221512955,"}' 
 	    data-accesskey="5353514789844343379" 
 	    src="https://static.accesstrade.vn/coupon/v2/js/main_at_v2.js"></script>
-  
-
-<script>
-	var getUrlParameter = function getUrlParameter(sParam) {
-    var sPageURL = window.location.search.substring(1),
-        sURLVariables = sPageURL.split('&'),
-        sParameterName,
-        i;
- 
-    for (i = 0; i < sURLVariables.length; i++) {
-        sParameterName = sURLVariables[i].split('=');
- 
-        if (sParameterName[0] === sParam) {
-            return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
-        }
-    }
-};
- var id = getUrlParameter('id');
- var listAd = [
-	{"id":"00",
-	 "name":"Nguyễn Ngọc Cường",
-	 "source":"Cuongbok"
-	},
-	 {"id":"01",
-	 "name":"Nguyễn Tất Minh",
-	 "source":"TatMinh"
-	},
-	 {"id":"02",
-	 "name":"Nguyễn Thị Quỳnh Anh",
-	 "source":"QuynhAnh"
-	},
- ];
-
-</script>
-
-
 <script>
 var moTag =  `<`;
 var dongTag = `>`;
@@ -286,8 +250,19 @@ createHtmlButton.setAttribute("onclick", "create()");
 createHtmlButton.setAttribute("id", "create");
 createHtmlButton.innerHTML = 'Tạo mã HTML (Tự động copy khi click tạo)';
 	
+var inputVoucherDetailsLink = document.createElement('INPUT');
+inputVoucherDetailsLink.setAttribute("id", "inputVoucherDetailsLink");
+inputVoucherDetailsLink.setAttribute("onclick", "this.select()");
+var createVoucherDetailsButton = document.createElement('BUTTON');
+createVoucherDetailsButton.setAttribute("onclick", "getVoucherDetailsLink()");
+createVoucherDetailsButton.setAttribute("id", "createDetails");
+createVoucherDetailsButton.innerHTML = 'Tạo mã Link Voucher Deatils (Tự động copy khi click tạo)';
+	
 setTimeout(function(){ 
 	var modelContent = document.querySelector('.atEQPOIVFSDFSDG-at-modal-content');
+	var vcDes = document.querySelector('.atEQPOIVFSDFSDG-details-description');
+	vcDes.appendChild(inputVoucherDetailsLink);
+	vcDes.appendChild(createVoucherDetailsButton);
 	modelContent.appendChild(inputTitleVoucher);
 	modelContent.appendChild(inputDesVoucher);
     	modelContent.appendChild(createHtmlButton);
@@ -299,6 +274,25 @@ function copyText(){
         navigator.clipboard.writeText(this.value);
         console.log("Copied the Text: " + this.value);
 }
+
+function getVoucherDetailsLink(){
+	var getTitleVoucher = document.querySelector('.atEQPOIVFSDFSDG-heading--title > p').innerText;
+    	var getCodeVoucher = document.querySelector('.atEQPOIVFSDFSDG-code-coupon').innerText;
+    	var getDesVoucher = document.querySelector('.atEQPOIVFSDFSDG-details-description > p').innerText;
+    	var getHrefVoucher = document.querySelector('.atEQPOIVFSDFSDG-details-dealact-copy').href;
+	var getImgUrl = document.querySelector('.atEQPOIVFSDFSDG-heading--img > .atEQPOIVFSDFSDG-img-cover').src;
+	var brandVoucher = document.querySelector('.atEQPOIVFSDFSDG-heading--label > span').innerText;
+	
+	var ketQuaVoucherDetails = `https://trumgiamgia.tk/voucher-details/?vc_title=${getTitleVoucher}&vc_des=${getDesVoucher}&vc_brand=${brandVoucher}&vc_code=${window.btoa(getCodeVoucher)}&vc_brand_image=${getImgUrl}&vc_href=${getHrefVoucher}`
+	document.getElementById('inputVoucherDetailsLink').value = ketQuaVoucherDetails;
+	var copyText = document.getElementById("inputVoucherDetailsLink");
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        navigator.clipboard.writeText(copyText.value);
+        console.log("Copied the Link Details Voucher: " + copyText.value);
+}
+	
+	
 function create(){
 	var getTitleVoucher = document.querySelector('.atEQPOIVFSDFSDG-heading--title > p').innerText;
     	var getCodeVoucher = document.querySelector('.atEQPOIVFSDFSDG-code-coupon').innerText;

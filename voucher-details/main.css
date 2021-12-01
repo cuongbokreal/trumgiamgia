@@ -1,4 +1,4 @@
-body{
+/*body{
   pointer-events: none;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -6,7 +6,7 @@ body{
   -ms-user-select: none;
   -o-user-select: none;
   user-select: none;
-}
+}*/
 
 .copyright{
     text-align: center;

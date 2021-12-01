@@ -9,6 +9,7 @@
 }*/
 a:hover{color:#009900;
 transition: box-shadow ease-in-out .1s;
+text-decoration:none;
 }
 .copyright{
     text-align: center;

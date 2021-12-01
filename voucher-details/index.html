@@ -140,14 +140,13 @@ class="btn btn-solid-primary btn--s btn--inline bPDR8t" style="padding: 21px 36p
     var inner_des = document.getElementById('vc_des');
     var inner_code = document.getElementById('vc_code');
     
-    if (!inner_code != 'undefined' && !vc_href  != 'undefined'){
       inner_title.innerText = vc_title;
       inner_brand.innerText = vc_brand;
       inner_brand_image.style.backgroundImage=`url(${vc_brand_image})`;
       inner_des.innerText = vc_des;
       inner_code.value = window.atob(vc_code);
-    }else{console.log('đ có mã')}
     
+    if (!inner_code != 'undefined' && !vc_href  != 'undefined'){window.location.replace('/?utm_source=voucher_details_page')}
 var updateTime = new Date(); //updateTime
     
     function copy_code(){

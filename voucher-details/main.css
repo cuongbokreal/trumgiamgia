@@ -7,7 +7,9 @@
   -o-user-select: none;
   user-select: none;
 }*/
-
+a:hover{color:#009900;
+transition: box-shadow ease-in-out .1s;
+}
 .copyright{
     text-align: center;
     margin-top: 40px;

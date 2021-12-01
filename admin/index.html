@@ -284,6 +284,7 @@ function getVoucherDetailsLink(){
 	var brandVoucher = document.querySelector('.atEQPOIVFSDFSDG-heading--label > span').innerText;
 	
 	var ketQuaVoucherDetails = `https://trumgiamgia.tk/voucher-details/?vc_title=${getTitleVoucher}&vc_des=${getDesVoucher}&vc_brand=${brandVoucher}&vc_code=${window.btoa(getCodeVoucher)}&vc_brand_image=${getImgUrl}&vc_href=${getHrefVoucher}`
+	ketQuaVoucherDetails = ketQuaVoucherDetails.replaceAll(" ","%20")
 	document.getElementById('inputVoucherDetailsLink').value = ketQuaVoucherDetails;
 	var copyText = document.getElementById("inputVoucherDetailsLink");
         copyText.select();

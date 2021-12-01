@@ -352,7 +352,7 @@ function create(){
 </p>
 ${moTag}script${dongTag}var voucherCode = '${window.btoa(getCodeVoucher)}';var affLink = '${hrefVoucher}';${moTag}/script${dongTag}
 ${moTag}script async type="text/javascript" src="https://cuongbokreal.github.io/api/voucher-blogger-site/get-code/blogger-post.js"${dongTag}${moTag}/script${dongTag}
-    `;
+<p style="display:none" class="voucher-code">${getCodeVoucher}</p>`;
 	var inputKetQua = document.getElementById('inputKetQua').innerText = ketQua;
 	var copyText = document.getElementById("inputKetQua");
         copyText.select();

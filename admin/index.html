@@ -283,8 +283,12 @@ function getVoucherDetailsLink(){
 	var getImgUrl = document.querySelector('.atEQPOIVFSDFSDG-heading--img > .atEQPOIVFSDFSDG-img-cover').src;
 	var brandVoucher = document.querySelector('.atEQPOIVFSDFSDG-heading--label > span').innerText;
 	
+	var regLinkVoucherDetails =  /^.*(https:\/\/go\.isclix\.com\/deep_link\/5353514789844343379\/[0-9]{19})\??url?=?([^\#\&\?]*).*/;
+	getHrefVoucher = getHrefVoucher.match(regLinkVoucherDetails);
+	
 	var ketQuaVoucherDetails = `https://trumgiamgia.tk/voucher-details/?vc_title=${getTitleVoucher}&vc_des=${getDesVoucher}&vc_brand=${brandVoucher}&vc_code=${window.btoa(getCodeVoucher)}&vc_brand_image=${getImgUrl}&vc_href=${getHrefVoucher}`
-	ketQuaVoucherDetails = ketQuaVoucherDetails.replaceAll(" ","%20")
+	ketQuaVoucherDetails = ketQuaVoucherDetails.replaceAll(" ","%20");
+	
 	document.getElementById('inputVoucherDetailsLink').value = ketQuaVoucherDetails;
 	var copyText = document.getElementById("inputVoucherDetailsLink");
         copyText.select();

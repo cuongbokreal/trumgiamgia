@@ -35,7 +35,7 @@ innerId.innerText = id;
 var idCtv = document.getElementById('idCtv');
 function getIdCtv(obj){
 	var value = obj.value;
-	console.log(value)
+	window.location.href = `//${window.location.hostname}${window.location.pathname}?id=${value}`;
 }
 </script>
       <div id="layout-wrapper">

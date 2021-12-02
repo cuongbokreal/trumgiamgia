@@ -296,6 +296,8 @@
         var updateTime = new Date();
         jsMain.setAttribute("data-utm-content", `clickTime:${updateTime.toLocaleTimeString()} ngày ${updateTime.toLocaleDateString()}`);
       
+var updateTime = new Date(); //updateTime
+	var today = `${updateTime.getDate()}/${updateTime.getMonth() + 1}`;	    
       //mariquee
     function createMariquee(){
         var surf = document.getElementById('surf');

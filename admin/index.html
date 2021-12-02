@@ -27,10 +27,11 @@ var getUrlParameter = function getUrlParameter(sParam) {
         }
     }
 };
-  var id = getUrlParameter('id');
+var id = getUrlParameter('id');
 var innerId = document.getElementById('innerId');
 if(id != 'undefined'){
-innerId.innerText = id;
+	innerId.innerText = id;
+	document.title = id + ' | Admin TrumGG'
 }
 var idCtv = document.getElementById('idCtv');
 function getIdCtv(obj){

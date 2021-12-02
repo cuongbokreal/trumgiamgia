@@ -10,6 +10,42 @@
 <link rel="stylesheet" type="text/css" href="https://static.accesstrade.vn/coupon/v2/js/slick/slick-theme.css" media="all" />
     <!--main voucher-->
 <style>.atEQPOIVFSDFSDG-at-modal-content {width: 60%;}</style>
+<select id="gender" onchange="genderChanged(this)">
+            <option value=""> -- Chọn -- </option>
+            <option value="01">01</option>
+            <option value="02">02</option>
+	    <option value="03">03</option>
+</select>
+<p>Mã của bạn là: <span id="innerId" style="color:red">Chưa chọn</span></p>
+<script>
+var getUrlParameter = function getUrlParameter(sParam) {
+    var sPageURL = window.location.search.substring(1),sURLVariables = sPageURL.split('&'),sParameterName,i;
+    for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+        if (sParameterName[0] === sParam) {
+            return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+        }
+    }
+};
+  var id = getUrlParameter('id');
+var innerId = document.getElementById('innerId');
+if(!id = 'undefined'){
+innerId.innerText = id;
+}
+/*nction getIdCtv(){
+    var valueI obj.value;
+    if (value === ''){
+        message.innerHTML = "Bạn chưa chọn giới tính";
+    }
+    else if (value === 'nam'){
+        message.innerHTML = "Bạn đã chọn giới tính nam";
+    }
+    else if (value === 'nu'){
+        message.innerHTML = "Bạn đã chọn giới tính nữ";
+    }
+	
+}*/
+</script>
       <div id="layout-wrapper">
       <main class="atEQPOIVFSDFSDG-voucher-main">
         <div class="container">

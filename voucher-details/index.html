@@ -171,10 +171,11 @@ class="btn btn-solid-primary btn--s btn--inline bPDR8t" style="padding: 21px 36p
       inner_code.value = window.atob(vc_code);
     
     document.title = vc_title;
-
+	  
+var updateTime = new Date(); //updateTime
 var affLink = `https://go.isclix.com/deep_link/${access_key}?url=${window.atob(vc_href)}&utm_source=tggVoucherDetails&utm_medium=copy_code&utm_content=clickTime:${updateTime.toLocaleTimeString()} ngày ${updateTime.toLocaleDateString()}`;
 console.log(affLink + ' ' + vc_href);
-var updateTime = new Date(); //updateTime
+
     function copy_code(){
       var copyText = document.getElementById("vc_code");
         copyText.select();

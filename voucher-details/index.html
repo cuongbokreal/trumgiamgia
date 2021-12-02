@@ -155,7 +155,8 @@ class="btn btn-solid-primary btn--s btn--inline bPDR8t" style="padding: 21px 36p
     var vc_des = getUrlParameter('vc_des');
     var vc_code = getUrlParameter('vc_code');
     var vc_href = getUrlParameter('vc_href');
-    
+    var ctvId = getUrlParameter('ctvId');
+	  
     var inner_title = document.getElementById('vc_title');
     var inner_brand = document.getElementById('vc_brand');
     var inner_brand_image = document.getElementById('vc_brand_image');
@@ -173,7 +174,7 @@ class="btn btn-solid-primary btn--s btn--inline bPDR8t" style="padding: 21px 36p
     document.title = vc_title;
 	  
 var updateTime = new Date(); //updateTime
-var affLink = `https://go.isclix.com/deep_link/${access_key}?url=${window.atob(vc_href)}&utm_source=tggVoucherDetails&utm_medium=copy_code&utm_content=clickTime:${updateTime.toLocaleTimeString()} ngày ${updateTime.toLocaleDateString()}`;
+var affLink = `https://go.isclix.com/deep_link/${access_key}?url=${window.atob(vc_href)}&utm_source=tggVoucherDetails&utm_medium=ctvId:${ctvId}&utm_content=clickTime:${updateTime.toLocaleTimeString()} ngày ${updateTime.toLocaleDateString()}`;
 console.log(affLink + ' ' + vc_href);
 
     function copy_code(){

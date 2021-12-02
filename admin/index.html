@@ -10,7 +10,7 @@
 <link rel="stylesheet" type="text/css" href="https://static.accesstrade.vn/coupon/v2/js/slick/slick-theme.css" media="all" />
     <!--main voucher-->
 <style>.atEQPOIVFSDFSDG-at-modal-content {width: 60%;}</style>
-<select id="gender" onchange="genderChanged(this)">
+<select id="idCtv" onchange="getIdCtv(this)">
             <option value=""> -- Chọn -- </option>
             <option value="01">01</option>
             <option value="02">02</option>
@@ -29,22 +29,17 @@ var getUrlParameter = function getUrlParameter(sParam) {
 };
   var id = getUrlParameter('id');
 var innerId = document.getElementById('innerId');
-if(!id = 'undefined'){
+if(id != 'undefined'){
 innerId.innerText = id;
 }
-/*nction getIdCtv(){
-    var valueI obj.value;
-    if (value === ''){
-        message.innerHTML = "Bạn chưa chọn giới tính";
-    }
-    else if (value === 'nam'){
-        message.innerHTML = "Bạn đã chọn giới tính nam";
-    }
-    else if (value === 'nu'){
-        message.innerHTML = "Bạn đã chọn giới tính nữ";
-    }
-	
-}*/
+var idCtv = document.getElementById('idCtv');
+function getIdCtv(obj){
+	var value = obj.value;
+ for (let i=0; i<3;){}
+    if (value === i){
+        innerId.innerText = value;
+    }	
+}
 </script>
       <div id="layout-wrapper">
       <main class="atEQPOIVFSDFSDG-voucher-main">

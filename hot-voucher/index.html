@@ -295,4 +295,23 @@
             
         var updateTime = new Date();
         jsMain.setAttribute("data-utm-content", `clickTime:${updateTime.toLocaleTimeString()} ngày ${updateTime.toLocaleDateString()}`);
+      
+      //mariquee
+    function createMariquee(){
+        var surf = document.getElementById('surf');
+        var innerVouchers = document.getElementById('innerVouchers');
+        setTimeout(function(){ 
+            var titleVouchers = document.getElementsByClassName('dealpromo-item-cta');
+            let innerSurf = `Hôm nay <span style='color:red;margin: 0px;'>(${today})</span>: `;
+            for(let i=0;i< titleVouchers.length;i=i+2){
+                innerSurf+=`<a class="vouchers-tag-link" href="?utm_source=vouchers_a_tag_click&utm_medium=${titleVouchers[i].innerText}#couponTab" title="Mã tại TrumGiamGia: ${titleVouchers[i].innerText}" alt="Mã tại TrumGiamGia: ${titleVouchers[i].innerText}">${titleVouchers[i].innerText}</a>   |   `
+            }
+            if(pathNameVoucherSite = '/'){
+                surf.innerHTML = innerSurf;
+                //innerVouchers.innerHTML = innerSurf;
+            }
+		document.querySelector('.atEQPOIVFSDFSDG-list-title > h4').innerHTML += ` <span style='color:red;margin: 0px;'>(${today})</span>:`;
+        }, 3500);
+    }    
+    createMariquee();
     </script>

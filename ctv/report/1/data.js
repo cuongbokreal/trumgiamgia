@@ -1,5 +1,5 @@
 var dataDoanhThu =[
-  {"thangDoiSoat":"",
+  {"thangDoiSoat":"10-2021",
    "hoaHongDuocDuyet":0,
    "phatSinhDuocDuyet":0,
    "tamUngThanhToan":0,

@@ -320,6 +320,9 @@ function getVoucherDetailsLink(){
 	var getImgUrl = document.querySelector('.atEQPOIVFSDFSDG-heading--img > .atEQPOIVFSDFSDG-img-cover').src;
 	var brandVoucher = document.querySelector('.atEQPOIVFSDFSDG-heading--label > span').innerText;
 	
+	inputTitleVoucher.value = getTitleVoucher;
+	inputDesVoucher.value = getDesVoucher;
+	
 	getTitleVoucher = getTitleVoucher.replaceAll("%","%25");
 	getDesVoucher = getDesVoucher.replaceAll("%","%25");
 	getTitleVoucher = getTitleVoucher.replaceAll("&","%26");
@@ -334,8 +337,6 @@ function getVoucherDetailsLink(){
 	ketQuaVoucherDetails = ketQuaVoucherDetails.replaceAll(" ","%20");
 	
 	hrefDetails.href = ketQuaVoucherDetails;
-	document.getElementById('inputTitleVoucher').value = getTitleVoucher;
-	document.getElementById('inputDesVoucher').value = getDesVoucher;
 	
 	document.getElementById('inputVoucherDetailsLink').value = ketQuaVoucherDetails;
 	var copyText = document.getElementById("inputVoucherDetailsLink");

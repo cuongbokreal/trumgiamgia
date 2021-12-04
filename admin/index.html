@@ -334,6 +334,8 @@ function getVoucherDetailsLink(){
 	ketQuaVoucherDetails = ketQuaVoucherDetails.replaceAll(" ","%20");
 	
 	hrefDetails.href = ketQuaVoucherDetails;
+	document.getElementById('inputTitleVoucher').value = getTitleVoucher;
+	document.getElementById('inputDesVoucher').value = getDesVoucher;
 	
 	document.getElementById('inputVoucherDetailsLink').value = ketQuaVoucherDetails;
 	var copyText = document.getElementById("inputVoucherDetailsLink");

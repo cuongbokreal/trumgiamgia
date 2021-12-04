@@ -320,6 +320,9 @@ function getVoucherDetailsLink(){
 	var getImgUrl = document.querySelector('.atEQPOIVFSDFSDG-heading--img > .atEQPOIVFSDFSDG-img-cover').src;
 	var brandVoucher = document.querySelector('.atEQPOIVFSDFSDG-heading--label > span').innerText;
 	
+	getTitleVoucher = getTitleVoucher.replaceAll(getCodeVoucher,"");
+	getDesVoucher = getDesVoucher.replaceAll(getCodeVoucher,"");
+	
 	inputTitleVoucher.value = getTitleVoucher;
 	inputDesVoucher.value = getDesVoucher;
 	
@@ -327,8 +330,7 @@ function getVoucherDetailsLink(){
 	getDesVoucher = getDesVoucher.replaceAll("%","%25");
 	getTitleVoucher = getTitleVoucher.replaceAll("&","%26");
 	getDesVoucher = getDesVoucher.replaceAll("&","%26");
-	getTitleVoucher = getTitleVoucher.replaceAll(getCodeVoucher,"");
-	getDesVoucher = getDesVoucher.replaceAll(getCodeVoucher,"");
+	
 	
 	var regLinkVoucherDetails =  /^.*(https:\/\/go\.isclix\.com\/deep_link\/5353514789844343379\/[0-9]{19})\??url?=?([^\#\&\?]*).*/;
 	var regLinkAff = getHrefVoucher.match(regLinkVoucherDetails);

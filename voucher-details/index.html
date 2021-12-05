@@ -180,6 +180,7 @@ console.log(affLink + ' ' + vc_href);
 
     function copy_code(){
       var copyText = document.getElementById("vc_code");
+	document.getElementById('vc_copy').innerText = 'Đã copy mã!';
         copyText.select();
         copyText.setSelectionRange(0, 99999);
         navigator.clipboard.writeText(copyText.value);

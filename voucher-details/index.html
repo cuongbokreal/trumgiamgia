@@ -147,7 +147,8 @@ class="btn btn-solid-primary btn--s btn--inline bPDR8t" style="padding: 21px 36p
             }
         }
     };
-    var access_key = '5353514789844343379';
+const accessKey1 = "5353514789844343379";
+const accessKey2 = "5768026262774830477"; 
     
     var vc_title = getUrlParameter('vc_title');
     var vc_brand = getUrlParameter('vc_brand');
@@ -173,9 +174,22 @@ class="btn btn-solid-primary btn--s btn--inline bPDR8t" style="padding: 21px 36p
       inner_code.value = window.atob(vc_code);
     
     document.title = vc_title;
+
+var id = getUrlParameter('id');
+            if (id != 'undefined'){console.log(id)}
+            else{id = accessKey1}
+            if(!id){id = accessKey1}
+            if (id.length < 19){id = accessKey1}
+            if (id.length == 19){
+		var listId = [id,accessKey1, id, accessKey2];
+		var randomListId = listId[Math.floor(Math.random() * listId.length)];
+                jsMain.setAttribute("data-accesskey",randomListId);
+		console.log(listId);
+		console.log(randomListId);
+            }
 	  
 var updateTime = new Date(); //updateTime
-var affLink = `https://go.isclix.com/deep_link/${access_key}?url=${window.atob(vc_href)}&utm_source=tggVoucherDetails&utm_medium=ctvId:${ctvId}&utm_content=clickTime:${updateTime.toLocaleTimeString()} ngày ${updateTime.toLocaleDateString()}`;
+var affLink = `https://go.isclix.com/deep_link/${randomListId}?url=${window.atob(vc_href)}&utm_source=tggVoucherDetails&utm_medium=ctvId:${ctvId}&utm_content=clickTime:${updateTime.toLocaleTimeString()} ngày ${updateTime.toLocaleDateString()}`;
 console.log(affLink + ' ' + vc_href);
 
     function copy_code(){

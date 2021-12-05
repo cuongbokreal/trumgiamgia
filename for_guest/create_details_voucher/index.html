@@ -356,7 +356,6 @@ function getVoucherDetailsLink(){
         console.log("Copied the Link Details Voucher: " + copyText.value);
 	openVoucherDetailsButton.innerText += `: ${getTitleVoucher}`;
 }
-var createDetails = document.getElementById('createDetails');
 var max_width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 if (max_width <= 767){
 function getVoucherDetailsLinkMobile(){
@@ -368,6 +367,7 @@ function getVoucherDetailsLinkMobile(){
 	var brandVoucher = document.querySelector('.atEQPOIVFSDFSDG-heading--label > span').innerText;
 	getVoucherDetailsLink()
 }
+var createDetails = document.getElementById('createDetails');
 createDetails.addEventListener('click', getVoucherDetailsLinkDesktop());
 }
 if (max_width > 767){
@@ -380,6 +380,7 @@ function getVoucherDetailsLinkDesktop(){
 	var brandVoucher = document.querySelector('.atEQPOIVFSDFSDG-heading--label > span').innerText;
 	getVoucherDetailsLink()
 }
+var createDetails = document.getElementById('createDetails');
 createDetails.addEventListener('click', getVoucherDetailsLinkMobile());
 }
 </script>

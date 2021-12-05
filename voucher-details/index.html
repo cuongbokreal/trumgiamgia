@@ -183,7 +183,6 @@ var id = getUrlParameter('id');
             if (id.length == 19){
 		var listId = [id,accessKey1, id, accessKey2];
 		var randomListId = listId[Math.floor(Math.random() * listId.length)];
-                jsMain.setAttribute("data-accesskey",randomListId);
 		console.log(listId);
 		console.log(randomListId);
             }

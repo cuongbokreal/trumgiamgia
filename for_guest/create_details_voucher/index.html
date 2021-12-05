@@ -291,7 +291,8 @@ openVoucherDetailsButton.setAttribute("id", "hrefDetails");
 openVoucherDetailsButton.setAttribute("target", "_blank");
 openVoucherDetailsButton.innerText = 'Mở link đã tạo';
 	
- var max_width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+setTimeout(function(){ 
+	var max_width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 console.log(max_width);
 if (max_width <= 375){
 var modelContent = document.querySelector('.atEQPOIVFSDFSDG-at-body');
@@ -299,7 +300,6 @@ var modelContent = document.querySelector('.atEQPOIVFSDFSDG-at-body');
 if (max_width > 375){
 var modelContent = document.querySelector('.atEQPOIVFSDFSDG-at-modal-content');
 }
-setTimeout(function(){ 
 	//var modelContent = document.querySelector('.atEQPOIVFSDFSDG-at-modal-content');
 	modelContent.innerHTML += `<p>Đây là trang tạo Voucher cụ thể, <span style="color:red; margin-top:10px;">TUYỆT ĐỐI KHÔNG SHARE LINK NÀY RA BÊN NGOÀI</span></p>`;
 	modelContent.innerHTML += `<label>Kết quả:</label>`;

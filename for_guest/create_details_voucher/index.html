@@ -11,12 +11,12 @@
 <link rel="stylesheet" type="text/css" href="https://static.accesstrade.vn/coupon/v2/js/slick/slick-theme.css" media="all" />
     <!--main voucher-->
 <style>.atEQPOIVFSDFSDG-at-modal-content {width: 60%;}</style>
-<select id="idCtv" onchange="getIdCtv(this)">
+<!--select id="idCtv" onchange="getIdCtv(this)">
             <option value=""> -- Chọn -- </option>
             <option value="01">01</option>
             <option value="02">02</option>
 	    <option value="03">03</option>
-</select>
+</select-->
 <p>Mã của bạn là: <span id="innerId" style="color:red">Chưa chọn</span></p>
 <script>
 var getUrlParameter = function getUrlParameter(sParam) {
@@ -28,17 +28,26 @@ var getUrlParameter = function getUrlParameter(sParam) {
         }
     }
 };
+const accessKey1 = "5353514789844343379";
+const accessKey2 = "5768026262774830477"; 
 var id = getUrlParameter('id');
 var innerId = document.getElementById('innerId');
+if (id != 'undefined'){console.log(id)}
+            else{id = accessKey1}
+            if(!id){id = accessKey1}
+            if (id.length < 19){id = accessKey1}
+            if (id.length > 19){id = accessKey1}
+            if (id.length == 19){console.log('id là: ' + id)}
 if(id != 'undefined'){
 	innerId.innerText = id;
 	document.title = id + ' | Admin TrumGG'
 }
 var idCtv = document.getElementById('idCtv');
+/*
 function getIdCtv(obj){
 	var value = obj.value;
 	window.location.href = `//${window.location.hostname}${window.location.pathname}?id=${value}`;
-}
+}*/
 </script>
       <div id="layout-wrapper">
       <main class="atEQPOIVFSDFSDG-voucher-main">
@@ -315,7 +324,7 @@ function getVoucherDetailsLink(){
 	var regLinkVoucherDetails =  /^.*(https:\/\/go\.isclix\.com\/deep_link\/5353514789844343379\/[0-9]{19})\??url?=?([^\#\&\?]*).*/;
 	var regLinkAff = getHrefVoucher.match(regLinkVoucherDetails);
 	
-	var ketQuaVoucherDetails = `https://trumgiamgia.tk/voucher-details/?vc_title=${getTitleVoucher}&vc_des=${getDesVoucher}&vc_brand=${brandVoucher}&vc_code=${window.btoa(getCodeVoucher)}&vc_brand_image=${getImgUrl}&vc_href=${window.btoa(regLinkAff[2])}&ctvId=${id}`;
+	var ketQuaVoucherDetails = `https://trumgiamgia.tk/voucher-details/?vc_title=${getTitleVoucher}&vc_des=${getDesVoucher}&vc_brand=${brandVoucher}&vc_code=${window.btoa(getCodeVoucher)}&vc_brand_image=${getImgUrl}&vc_href=${window.btoa(regLinkAff[2])}&ctvId=${id}&id=${id}`;
 	ketQuaVoucherDetails = ketQuaVoucherDetails.replaceAll(" ","%20");
 	
 	hrefDetails.href = ketQuaVoucherDetails;

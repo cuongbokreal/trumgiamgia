@@ -248,6 +248,13 @@ function getIdCtv(obj){
 	    data-accesskey="5353514789844343379" 
 	    src="https://static.accesstrade.vn/coupon/v2/js/main_at_v2.js"></script>
 <script>
+var inputTitleVoucher = document.createElement('INPUT');
+inputTitleVoucher.setAttribute("id", "inputTitleVoucher");
+inputTitleVoucher.setAttribute("onclick", "copyTitle()");
+var inputDesVoucher = document.createElement('INPUT');
+inputDesVoucher.setAttribute("id", "inputDesVoucher");
+inputDesVoucher.setAttribute("onclick", "copyDes()");
+	
 function copyTitle(){
 	var copyText = document.getElementById("inputTitleVoucher");
         copyText.select();
@@ -281,6 +288,8 @@ setTimeout(function(){
 	modelContent.appendChild(inputVoucherDetailsLink);
 	modelContent.appendChild(createVoucherDetailsButton);
 	modelContent.appendChild(openVoucherDetailsButton);
+	modelContent.appendChild(inputTitleVoucher);
+	modelContent.appendChild(inputDesVoucher);
 }, 2500);
 
 function getVoucherDetailsLink(){

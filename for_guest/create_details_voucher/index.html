@@ -291,10 +291,12 @@ var openVoucherDetailsButton = document.createElement('A');
 openVoucherDetailsButton.setAttribute("id", "hrefDetails");
 openVoucherDetailsButton.setAttribute("target", "_blank");
 openVoucherDetailsButton.innerText = 'Mở link đã tạo';
-	
-setTimeout(function(){ 
-	var max_width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+
+var max_width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 console.log(max_width);
+	
+setTimeout(function(max_width){ 
+	
 if (max_width <= 767){
 var modelContent = document.querySelector('.atEQPOIVFSDFSDG-at-body');
 }
@@ -315,7 +317,7 @@ var modelContent = document.querySelector('.atEQPOIVFSDFSDG-at-modal-content');
 	modelContent.innerHTML += `</div>`;
 }, 2500);
 
-function getVoucherDetailsLink(){
+function getVoucherDetailsLinkDesktop(){
 	var getTitleVoucher = document.querySelector('.atEQPOIVFSDFSDG-heading--title > p').innerText;
     	var getCodeVoucher = document.querySelector('.atEQPOIVFSDFSDG-code-coupon').innerText;
     	var getDesVoucher = document.querySelector('.atEQPOIVFSDFSDG-details-description > p').innerText;

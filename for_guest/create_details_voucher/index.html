@@ -338,12 +338,12 @@ function getVoucherDetailsLinkMobile(){
 var max_width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 if (max_width <= 767){
 	function getVoucherDetailsLinkMobile(){
-			var getTitleVoucher = document.querySelector('.atEQPOIVFSDFSDG-heading--title > p').innerText;
+			var getTitleVoucher = document.querySelector('.atEQPOIVFSDFSDG-at-body > .atEQPOIVFSDFSDG-details > .atEQPOIVFSDFSDG-details-header > .atEQPOIVFSDFSDG-heading--title > p').innerText;
 			var getCodeVoucher = document.querySelector('.atEQPOIVFSDFSDG-code-coupon-mb').innerText;
 			var getDesVoucher = document.querySelector('.atEQPOIVFSDFSDG-at-body > .atEQPOIVFSDFSDG-details-content > .atEQPOIVFSDFSDG-details-description > p').innerText;
 			var getHrefVoucher = document.querySelector('.atEQPOIVFSDFSDG-btnGoToLinkAff').href;
 			var getImgUrl = document.querySelector('.atEQPOIVFSDFSDG-at-body > .atEQPOIVFSDFSDG-details > .atEQPOIVFSDFSDG-details-header > .atEQPOIVFSDFSDG-heading--img > .atEQPOIVFSDFSDG-img-cover').src;
-			var brandVoucher = document.querySelector('.atEQPOIVFSDFSDG-heading--label > span').innerText;
+			var brandVoucher = document.querySelector('.atEQPOIVFSDFSDG-at-body > .atEQPOIVFSDFSDG-details > .atEQPOIVFSDFSDG-details-header > .atEQPOIVFSDFSDG-heading--label > span').innerText;
 			getTitleVoucher = getTitleVoucher.replaceAll(getCodeVoucher,"");
 			getDesVoucher = getDesVoucher.replaceAll(getCodeVoucher,"");
 			document.getElementById('inputTitleVoucher').value = getTitleVoucher;

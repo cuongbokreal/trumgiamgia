@@ -316,8 +316,8 @@ function getVoucherDetailsLink(){
 	getTitleVoucher = getTitleVoucher.replaceAll(getCodeVoucher,"");
 	getDesVoucher = getDesVoucher.replaceAll(getCodeVoucher,"");
 	
-	inputTitleVoucher.value = getTitleVoucher;
-	inputDesVoucher.value = getDesVoucher;
+	document.getElementById('inputTitleVoucher').value = getTitleVoucher;
+	document.getElementById('inputDesVoucher').value = getDesVoucher;
 	
 	getTitleVoucher = getTitleVoucher.replaceAll("%","%25");
 	getDesVoucher = getDesVoucher.replaceAll("%","%25");

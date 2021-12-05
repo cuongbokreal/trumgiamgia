@@ -368,7 +368,7 @@ function getVoucherDetailsLinkMobile(){
 	getVoucherDetailsLink()
 }
 var createDetails = document.getElementById('createDetails');
-createDetails.addEventListener('click', getVoucherDetailsLinkDesktop());
+createDetails.setAttribute("onclick", "getVoucherDetailsLinkMobile()");
 }
 if (max_width > 767){
 function getVoucherDetailsLinkDesktop(){
@@ -381,7 +381,7 @@ function getVoucherDetailsLinkDesktop(){
 	getVoucherDetailsLink()
 }
 var createDetails = document.getElementById('createDetails');
-createDetails.addEventListener('click', getVoucherDetailsLinkMobile());
+createDetails.setAttribute("onclick", "getVoucherDetailsLinkDesktop()");
 }
 </script>
 </html>

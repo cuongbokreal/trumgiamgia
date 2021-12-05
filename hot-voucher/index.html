@@ -283,12 +283,12 @@
 	const accessKey2 = "5768026262774830477";    
           var jsMain = document.getElementById('atScript6626');
           var id = getUrlParameter('id');
-	    var listId = [id,accessKey1, id, accessKey2];
             if (id != 'undefined'){console.log(id)}
             else{id = accessKey1}
             if(!id){id = accessKey1}
             if (id.length < 19){id = accessKey1}
             if (id.length == 19){
+		var listId = [id,accessKey1, id, accessKey2];
 		var randomListId = listId[Math.floor(Math.random() * listId.length)];
                 jsMain.setAttribute("data-accesskey",randomListId);
 		console.log(randomListId);

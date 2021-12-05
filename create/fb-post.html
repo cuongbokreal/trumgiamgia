@@ -60,11 +60,11 @@
     <button id="linkButton" onclick="linkOn()">Bật Deplink</button>
     <div id="trai">
     <label>Title mã:</label>
-    <input placeholder="Nhập tiêu đề Voucher" onclick="this.select()" id="title"/>
+    <input placeholder="Nhập tiêu đề Voucher" onclick="copyTitle()" id="title"/>
     <label>Mã voucher:</label>
     <input placeholder="Nhập mã Voucher" onclick="this.select()" id="code"/>
     <label>Mô tả mã:</label>
-    <input placeholder="Nhập mô tả Voucher" onclick="this.select()" id="des"/>
+    <input placeholder="Nhập mô tả Voucher" onclick="copyDes()" id="des"/>
     <label>Chọn sàn TMDT:</label>
     <select id="href" style="height: auto;" onchange="change(this)">
       <option id="shopeeHref" value="https://shopee.vn">SHOPEE</option>
@@ -196,13 +196,30 @@
         console.log("Copied the text: " + copyText.value);
       }
       
+function copyTitle(){
+	var copyText = document.getElementById("title");
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        navigator.clipboard.writeText(copyText.value);
+        console.log("Copied the Title: " + copyText.value);
+}
+function copyDes(){
+	var copyText = document.getElementById("des");
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        navigator.clipboard.writeText(copyText.value);
+        console.log("Copied the Des: " + copyText.value);
+}
+      
       function createHTML(){ 
       var title = document.getElementById('title').value;
       var code = document.getElementById('code').value;
       var des = document.getElementById('des').value; 
         title = title.replaceAll(code,"");
         des = des.replaceAll(code,"");
-      var imgUrl = document.getElementById('imgUrl').value;  
+      var imgUrl = document.getElementById('imgUrl').value; 
+        document.getElementById('title').value = title;.
+        document.getElementById('des').value = des;
       var ketquaHTML =`
 <link href="https://cuongbokreal.github.io/api/voucher-blogger-site/get-code/blogger-post.css" rel="stylesheet"/>      
 <div class="separator" style="clear: both;"><a href="/?ctv=img_post_click&utm_source=${title}" style="display: block; padding: 1em 0; text-align: center; ">

@@ -292,7 +292,7 @@ openVoucherDetailsButton.setAttribute("id", "hrefDetails");
 openVoucherDetailsButton.setAttribute("target", "_blank");
 openVoucherDetailsButton.innerText = 'Mở link đã tạo';
 	
-setTimeout(function(max_width){ 
+setTimeout(function(){ 
 var max_width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 console.log(max_width);	
 if (max_width <= 767){
@@ -313,7 +313,7 @@ var modelContent = document.querySelector('.atEQPOIVFSDFSDG-at-modal-content');
 	modelContent.innerHTML += `<label>Mô tả Voucher:</label>`;
 	modelContent.appendChild(inputDesVoucher);
 	modelContent.innerHTML += `</div>`;
-}, 2500);
+}, 2200);
 /*
 function getVoucherDetailsLinkDesktop(){
 	var getTitleVoucher = document.querySelector('.atEQPOIVFSDFSDG-heading--title > p').innerText;
@@ -358,34 +358,34 @@ function getVoucherDetailsLink(){
 }
 var max_width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 if (max_width <= 767){
-	function getVoucherDetailsLinkMobile(){
-		var getTitleVoucher = document.querySelector('.atEQPOIVFSDFSDG-heading--title > p').innerText;
-		var getCodeVoucher = document.querySelector('.atEQPOIVFSDFSDG-code-coupon-mb').innerText;
-		var getDesVoucher = document.querySelector('.atEQPOIVFSDFSDG-details-description > p').innerText;
-		var getHrefVoucher = document.querySelector('.atEQPOIVFSDFSDG-btnGoToLinkAff').href;
-		var getImgUrl = document.querySelector('.atEQPOIVFSDFSDG-heading--img > .atEQPOIVFSDFSDG-img-cover').src;
-		var brandVoucher = document.querySelector('.atEQPOIVFSDFSDG-heading--label > span').innerText;
-		getVoucherDetailsLink()
-	}
-	setTimeout(function(){
-		var createDetails = document.getElementById('createDetails');
-		createDetails.setAttribute("onclick", "getVoucherDetailsLinkMobile()");
-			     }, 2600);
+	setTimeout(function(){		
+		function getVoucherDetailsLinkMobile(){
+			var getTitleVoucher = document.querySelector('.atEQPOIVFSDFSDG-heading--title > p').innerText;
+			var getCodeVoucher = document.querySelector('.atEQPOIVFSDFSDG-code-coupon-mb').innerText;
+			var getDesVoucher = document.querySelector('.atEQPOIVFSDFSDG-details-description > p').innerText;
+			var getHrefVoucher = document.querySelector('.atEQPOIVFSDFSDG-btnGoToLinkAff').href;
+			var getImgUrl = document.querySelector('.atEQPOIVFSDFSDG-heading--img > .atEQPOIVFSDFSDG-img-cover').src;
+			var brandVoucher = document.querySelector('.atEQPOIVFSDFSDG-heading--label > span').innerText;
+			getVoucherDetailsLink()
+		}
+			var createDetails = document.getElementById('createDetails');
+			createDetails.setAttribute("onclick", "getVoucherDetailsLinkMobile()");
+	}, 2600);
 }
 if (max_width > 767){
-	function getVoucherDetailsLinkDesktop(){
-		var getTitleVoucher = document.querySelector('.atEQPOIVFSDFSDG-heading--title > p').innerText;
-		var getCodeVoucher = document.querySelector('.atEQPOIVFSDFSDG-code-coupon').innerText;
-		var getDesVoucher = document.querySelector('.atEQPOIVFSDFSDG-details-description > p').innerText;
-		var getHrefVoucher = document.querySelector('.atEQPOIVFSDFSDG-details-dealact-copy').href;
-		var getImgUrl = document.querySelector('.atEQPOIVFSDFSDG-heading--img > .atEQPOIVFSDFSDG-img-cover').src;
-		var brandVoucher = document.querySelector('.atEQPOIVFSDFSDG-heading--label > span').innerText;
-		getVoucherDetailsLink()
-	}
-	setTimeout(function(){
-		var createDetails = document.getElementById('createDetails');
-		createDetails.setAttribute("onclick", "getVoucherDetailsLinkDesktop()");
-				}, 2600);
+	setTimeout(function(){	
+		function getVoucherDetailsLinkDesktop(){
+			var getTitleVoucher = document.querySelector('.atEQPOIVFSDFSDG-heading--title > p').innerText;
+			var getCodeVoucher = document.querySelector('.atEQPOIVFSDFSDG-code-coupon').innerText;
+			var getDesVoucher = document.querySelector('.atEQPOIVFSDFSDG-details-description > p').innerText;
+			var getHrefVoucher = document.querySelector('.atEQPOIVFSDFSDG-details-dealact-copy').href;
+			var getImgUrl = document.querySelector('.atEQPOIVFSDFSDG-heading--img > .atEQPOIVFSDFSDG-img-cover').src;
+			var brandVoucher = document.querySelector('.atEQPOIVFSDFSDG-heading--label > span').innerText;
+			getVoucherDetailsLink()
+		}
+			var createDetails = document.getElementById('createDetails');
+			createDetails.setAttribute("onclick", "getVoucherDetailsLinkDesktop()");
+	}, 2600);
 }
 </script>
 </html>

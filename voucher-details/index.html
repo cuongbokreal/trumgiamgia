@@ -138,71 +138,9 @@ class="btn btn-solid-primary btn--s btn--inline bPDR8t" style="padding: 21px 36p
       </div>
     </div>
   <script>
-    var getUrlParameter = function getUrlParameter(sParam) {
-    var sPageURL = window.location.search.substring(1),sURLVariables = sPageURL.split('&'),sParameterName,i;
-        for (i = 0; i < sURLVariables.length; i++) {
-            sParameterName = sURLVariables[i].split('=');
-            if (sParameterName[0] === sParam) {
-                return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
-            }
-        }
-    };
-const accessKey1 = "5353514789844343379";
-const accessKey2 = "5768026262774830477"; 
-    
-    var vc_title = getUrlParameter('vc_title');
-    var vc_brand = getUrlParameter('vc_brand');
-    var vc_brand_image = getUrlParameter('vc_brand_image');
-    var vc_des = getUrlParameter('vc_des');
-    var vc_code = getUrlParameter('vc_code');
-    var vc_href = getUrlParameter('vc_href');
-    var ctvId = getUrlParameter('ctvId');
-	  console.log(ctvId);
-	  
-    var inner_title = document.getElementById('vc_title');
-    var inner_brand = document.getElementById('vc_brand');
-    var inner_brand_image = document.getElementById('vc_brand_image');
-    var inner_des = document.getElementById('vc_des');
-    var inner_code = document.getElementById('vc_code');
-    
-    //if (!inner_code != 'undefined'){window.location.replace('/?utm_source=voucher_details_page')}
-    
-      inner_title.innerText = vc_title;
-      inner_brand.innerText = vc_brand;
-      inner_brand_image.style.backgroundImage=`url(${vc_brand_image})`;
-      inner_des.innerText = vc_des;
-      inner_code.value = window.atob(vc_code);
-    
-    document.title = vc_title;
 
-var id = getUrlParameter('id');
-            if (id != 'undefined'){console.log(id)}
-            else{id = accessKey1}
-            if(!id){id = accessKey1}
-            if (id.length < 19){id = accessKey1}
-	    if (id.length > 19){id = accessKey1}
-            if (id.length == 19){
-		var listId = [id,accessKey1, id, accessKey2];
-		var randomListId = listId[Math.floor(Math.random() * listId.length)];
-		console.log(listId);
-		console.log(randomListId);
-            }
+	  var _0xc936=["\x73\x75\x62\x73\x74\x72\x69\x6E\x67","\x73\x65\x61\x72\x63\x68","\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x26","\x73\x70\x6C\x69\x74","\x6C\x65\x6E\x67\x74\x68","\x3D","\x35\x33\x35\x33\x35\x31\x34\x37\x38\x39\x38\x34\x34\x33\x34\x33\x33\x37\x39","\x35\x37\x36\x38\x30\x32\x36\x32\x36\x32\x37\x37\x34\x38\x33\x30\x34\x37\x37","\x76\x63\x5F\x74\x69\x74\x6C\x65","\x76\x63\x5F\x62\x72\x61\x6E\x64","\x76\x63\x5F\x62\x72\x61\x6E\x64\x5F\x69\x6D\x61\x67\x65","\x76\x63\x5F\x64\x65\x73","\x76\x63\x5F\x63\x6F\x64\x65","\x76\x63\x5F\x68\x72\x65\x66","\x63\x74\x76\x49\x64","\x6C\x6F\x67","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x69\x6E\x6E\x65\x72\x54\x65\x78\x74","\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x49\x6D\x61\x67\x65","\x73\x74\x79\x6C\x65","\x75\x72\x6C\x28","\x29","\x76\x61\x6C\x75\x65","\x61\x74\x6F\x62","\x74\x69\x74\x6C\x65","\x69\x64","\x75\x6E\x64\x65\x66\x69\x6E\x65\x64","\x72\x61\x6E\x64\x6F\x6D","\x66\x6C\x6F\x6F\x72","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x67\x6F\x2E\x69\x73\x63\x6C\x69\x78\x2E\x63\x6F\x6D\x2F\x64\x65\x65\x70\x5F\x6C\x69\x6E\x6B\x2F","\x3F\x75\x72\x6C\x3D","\x26\x75\x74\x6D\x5F\x73\x6F\x75\x72\x63\x65\x3D\x74\x67\x67\x56\x6F\x75\x63\x68\x65\x72\x44\x65\x74\x61\x69\x6C\x73\x26\x75\x74\x6D\x5F\x6D\x65\x64\x69\x75\x6D\x3D\x63\x74\x76\x49\x64\x3A","\x26\x75\x74\x6D\x5F\x63\x6F\x6E\x74\x65\x6E\x74\x3D\x63\x6C\x69\x63\x6B\x54\x69\x6D\x65\x3A","\x74\x6F\x4C\x6F\x63\x61\x6C\x65\x54\x69\x6D\x65\x53\x74\x72\x69\x6E\x67","\x20\x6E\x67\xE0\x79\x20","\x74\x6F\x4C\x6F\x63\x61\x6C\x65\x44\x61\x74\x65\x53\x74\x72\x69\x6E\x67","","\x20","\x76\x63\x5F\x63\x6F\x70\x79","\u0110\xE3\x20\x63\x6F\x70\x79\x20\x6D\xE3\x21","\x73\x65\x6C\x65\x63\x74","\x73\x65\x74\x53\x65\x6C\x65\x63\x74\x69\x6F\x6E\x52\x61\x6E\x67\x65","\x77\x72\x69\x74\x65\x54\x65\x78\x74","\x63\x6C\x69\x70\x62\x6F\x61\x72\x64","\x43\x6F\x70\x69\x65\x64\x20\x74\x68\x65\x20\x74\x65\x78\x74\x3A\x20","\x68\x72\x65\x66"];var getUrlParameter=function getUrlParameter(_0xb06fx2){var _0xb06fx3=window[_0xc936[2]][_0xc936[1]][_0xc936[0]](1),_0xb06fx4=_0xb06fx3[_0xc936[4]](_0xc936[3]),_0xb06fx5,_0xb06fx6;for(_0xb06fx6= 0;_0xb06fx6< _0xb06fx4[_0xc936[5]];_0xb06fx6++){_0xb06fx5= _0xb06fx4[_0xb06fx6][_0xc936[4]](_0xc936[6]);if(_0xb06fx5[0]=== _0xb06fx2){return _0xb06fx5[1]=== undefined?true:decodeURIComponent(_0xb06fx5[1])}}};const accessKey1=_0xc936[7];const accessKey2=_0xc936[8];var vc_title=getUrlParameter(_0xc936[9]);var vc_brand=getUrlParameter(_0xc936[10]);var vc_brand_image=getUrlParameter(_0xc936[11]);var vc_des=getUrlParameter(_0xc936[12]);var vc_code=getUrlParameter(_0xc936[13]);var vc_href=getUrlParameter(_0xc936[14]);var ctvId=getUrlParameter(_0xc936[15]);console[_0xc936[16]](ctvId);var inner_title=document[_0xc936[17]](_0xc936[9]);var inner_brand=document[_0xc936[17]](_0xc936[10]);var inner_brand_image=document[_0xc936[17]](_0xc936[11]);var inner_des=document[_0xc936[17]](_0xc936[12]);var inner_code=document[_0xc936[17]](_0xc936[13]);inner_title[_0xc936[18]]= vc_title;inner_brand[_0xc936[18]]= vc_brand;inner_brand_image[_0xc936[20]][_0xc936[19]]= `${_0xc936[21]}${vc_brand_image}${_0xc936[22]}`;inner_des[_0xc936[18]]= vc_des;inner_code[_0xc936[23]]= window[_0xc936[24]](vc_code);document[_0xc936[25]]= vc_title;var id=getUrlParameter(_0xc936[26]);if(id!= _0xc936[27]){console[_0xc936[16]](id)}else {id= accessKey1};if(!id){id= accessKey1};if(id[_0xc936[5]]< 19){id= accessKey1};if(id[_0xc936[5]]> 19){id= accessKey1};if(id[_0xc936[5]]== 19){var listId=[id,accessKey1,id,accessKey2];var randomListId=listId[Math[_0xc936[29]](Math[_0xc936[28]]()* listId[_0xc936[5]])];console[_0xc936[16]](listId);console[_0xc936[16]](randomListId)};var updateTime= new Date();var affLink=`${_0xc936[30]}${randomListId}${_0xc936[31]}${window[_0xc936[24]](vc_href)}${_0xc936[32]}${ctvId}${_0xc936[33]}${updateTime[_0xc936[34]]()}${_0xc936[35]}${updateTime[_0xc936[36]]()}${_0xc936[37]}`;console[_0xc936[16]](affLink+ _0xc936[38]+ vc_href);function copy_code(){var _0xb06fx1b=document[_0xc936[17]](_0xc936[13]);document[_0xc936[17]](_0xc936[39])[_0xc936[18]]= _0xc936[40];_0xb06fx1b[_0xc936[41]]();_0xb06fx1b[_0xc936[42]](0,99999);navigator[_0xc936[44]][_0xc936[43]](_0xb06fx1b[_0xc936[23]]);console[_0xc936[16]](_0xc936[45]+ _0xb06fx1b[_0xc936[23]]);window[_0xc936[2]][_0xc936[46]]= affLink}
 	  
-var updateTime = new Date(); //updateTime
-var affLink = `https://go.isclix.com/deep_link/${randomListId}?url=${window.atob(vc_href)}&utm_source=tggVoucherDetails&utm_medium=ctvId:${ctvId}&utm_content=clickTime:${updateTime.toLocaleTimeString()} ngày ${updateTime.toLocaleDateString()}`;
-console.log(affLink + ' ' + vc_href);
-
-    function copy_code(){
-      var copyText = document.getElementById("vc_code");
-	document.getElementById('vc_copy').innerText = 'Đã copy mã!';
-        copyText.select();
-        copyText.setSelectionRange(0, 99999);
-        navigator.clipboard.writeText(copyText.value);
-        console.log("Copied the text: " + copyText.value);
-        window.location.href = affLink;
-	//window.location.href = '/?utm_source=voucher-details-copied';    
-	    
-    } 
    //block rightmouse + CtrlU
 function blockContextMenu(){
 	document.addEventListener('contextmenu', event => event.preventDefault());

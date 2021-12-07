@@ -309,7 +309,7 @@
             if (source != undefined){ jsMain.setAttribute("data-utm-source", source) }
             if (medium != undefined){ jsMain.setAttribute("data-utm-medium", medium) }
             if (campaign != undefined){ jsMain.setAttribute("data-utm-campaign",campaign) }
-        jsMain.setAttribute("data-sub1",`id:${id}`)    
+        jsMain.setAttribute("data-utm-campaign",`id:${id}`)    
         var updateTime = new Date();
         jsMain.setAttribute("data-utm-content", `clickTime:${updateTime.toLocaleTimeString()} ngày ${updateTime.toLocaleDateString()}`);
       

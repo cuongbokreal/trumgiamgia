@@ -5,6 +5,9 @@ var dataLogAcc=[
   {"id":"01",
    "mk":"VINH0399173413",
   },
+  {"id":"02",
+   "mk":"matkhaumoi12",
+  },
 ];
 
 var getUrlParameter = function getUrlParameter(sParam) {

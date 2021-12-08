@@ -485,7 +485,7 @@
 	    let ldJson = ""
             for(let i=0;i< titleVouchers.length;i=i+2){
                 innerSurf+=`<a class="vouchers-tag-link" href="?utm_source=vouchers_a_tag_click&utm_medium=${titleVouchers[i].innerText}#couponTab" title="Mã tại TrumGiamGia: ${titleVouchers[i].innerText}" alt="Mã tại TrumGiamGia: ${titleVouchers[i].innerText}">${titleVouchers[i].innerText}</a>   |   `;
-		/*ldJson += `
+		ldJson += `
 		${moTag}script type='application/ld+json'${dongTag}
     {
         "@context": "https://schema.org",
@@ -515,7 +515,6 @@
             }
         }
     }
-
 ${moTag}/script${dongTag}`;
             }
             if(pathNameVoucherSite = '/'){

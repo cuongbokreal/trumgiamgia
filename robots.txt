@@ -5,4 +5,8 @@ User-agent: Bingbot
 User-agent: *
 Allow: /
 
+Disallow: /admin
+Disallow: /ctv/report/
+
+
 Sitemap: https://trumgiamgia.tk/feeds/sitemap.xml

@@ -1,0 +1,8 @@
+User-agent: coccocbot-web
+User-agent: Mediapartners-Google
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: *
+Allow: /
+
+Sitemap: https://trumgiamgia.tk/feeds/sitemap.xml

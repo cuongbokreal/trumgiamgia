@@ -494,7 +494,7 @@
             "@type": "WebPage",
             "@id": "https://${window.location.hostname}/?ctv=${i}&utm_source=${titleVouchers[i].innerText}"
         },
-        "headline": "${titleVouchers[i].innerText}",
+        "headline": "${updateTime.getDate()}/${updateTime.getMonth()+1}: ${titleVouchers[i].innerText}",
         "description": "Lấy mã: ${titleVouchers[i].innerText} ngay tại TrumGiamGia.tk",
         "image": "https://i.imgur.com/8uIODqf.jpg",
         "datePublished": "${updateTime.getFullYear()}-${updateTime.getMonth()+1}-${updateTime.getDate()}T${updateTime.getHours()}:11:00+07:00",

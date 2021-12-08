@@ -461,6 +461,7 @@
 <!--5353514789844343379-->
 <script type='text/javascript'>
 	var moTag = "<";
+	var dongTag= ">";
 	var updateTime = new Date(); //updateTime
 	var today = `${updateTime.getDate()}/${updateTime.getMonth() + 1}`;
     //custom tí background cho ngựa ngựa =-))
@@ -484,8 +485,8 @@
 	    let ldJson = ""
             for(let i=0;i< titleVouchers.length;i=i+2){
                 innerSurf+=`<a class="vouchers-tag-link" href="?utm_source=vouchers_a_tag_click&utm_medium=${titleVouchers[i].innerText}#couponTab" title="Mã tại TrumGiamGia: ${titleVouchers[i].innerText}" alt="Mã tại TrumGiamGia: ${titleVouchers[i].innerText}">${titleVouchers[i].innerText}</a>   |   `;
-		ldJson += `
-		<script type='application/ld+json'>
+		/*ldJson += `
+		${moTag}script type='application/ld+json'${dongTag}
     {
         "@context": "https://schema.org",
         "@type": "NewsArticle",
@@ -515,7 +516,7 @@
         }
     }
 
-${moTag}/script>`;
+${moTag}/script${dongTag}`;
             }
             if(pathNameVoucherSite = '/'){
                 surf.innerHTML = innerSurf;

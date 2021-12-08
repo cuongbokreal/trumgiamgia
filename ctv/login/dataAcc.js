@@ -6,6 +6,9 @@ var dataLogAcc=[
    "mk":"VINH0399173413",
   },
   {"id":"02",
+   "mk":"000",
+  },
+  {"id":"03",
    "mk":"matkhaumoi12",
   },
 ];

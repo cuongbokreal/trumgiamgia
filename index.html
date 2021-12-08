@@ -492,7 +492,7 @@
         "@type": "NewsArticle",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://${window.location.hostname}/?ctv=${i}&utm_source=${titleVouchers[i].innerText}"
+            "@id": "https://${window.location.hostname}/?ctv=${i}&day=${updateTime.getDate()}%2F${updateTime.getMonth()+1}&utm_source=postIndex&utm_medium=${updateTime.getDate()}%2F${updateTime.getMonth()+1}&utm_content=${titleVouchers[i].innerText}"
         },
         "headline": "${updateTime.getDate()}/${updateTime.getMonth()+1}: ${titleVouchers[i].innerText}",
         "description": "Lấy mã: ${titleVouchers[i].innerText} ngay tại TrumGiamGia.tk",

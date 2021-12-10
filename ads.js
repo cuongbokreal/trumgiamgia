@@ -61,6 +61,7 @@ var innerBanner3 = document.getElementById('innerBanner3');
 if(innerBanner1){
     randomBannerTop = randomBannerTop +1;
     if( randomBannerTop > dataBannerTop.length){randomBannerTop = 0}
+    console.log(randomBannerTop);
     innerBanner1.innerHTML = `
 <a href="${dataBannerTop[randomBannerTop].href}" alt="${dataBannerTop[randomBannerTop].title}" title="${dataBannerTop[randomBannerTop].title}" target="_blank">
 <img alt="${dataBannerTop[randomBannerTop].title}" title="${dataBannerTop[randomBannerTop].title}" src="${dataBannerTop[randomBannerTop].imgUrl}" width="100%" height="auto" />
@@ -69,6 +70,7 @@ if(innerBanner1){
 if(innerBanner2){
     randomBannerTop = randomBannerTop +2;
     if( randomBannerTop > dataBannerTop.length){randomBannerTop = 0}
+    console.log(randomBannerTop);
     innerBanner2.innerHTML = `
 <a href="${dataBannerTop[randomBannerTop].href}" alt="${dataBannerTop[randomBannerTop].title}" title="${dataBannerTop[randomBannerTop].title}" target="_blank">
 <img alt="${dataBannerTop[randomBannerTop].title}" title="${dataBannerTop[randomBannerTop].title}" src="${dataBannerTop[randomBannerTop].imgUrl}" width="100%" height="auto" />
@@ -77,6 +79,7 @@ if(innerBanner2){
 if(innerBanner3){
     randomBannerTop = randomBannerTop +3;
     if( randomBannerTop > dataBannerTop.length){randomBannerTop = 0}
+    console.log(randomBannerTop);
     innerBanner3.innerHTML = `
 <a href="${dataBannerTop[randomBannerTop].href}" alt="${dataBannerTop[randomBannerTop].title}" title="${dataBannerTop[randomBannerTop].title}" target="_blank">
 <img alt="${dataBannerTop[randomBannerTop].title}" title="${dataBannerTop[randomBannerTop].title}" src="${dataBannerTop[randomBannerTop].imgUrl}" width="100%" height="auto" />

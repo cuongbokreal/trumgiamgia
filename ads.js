@@ -46,7 +46,7 @@ var dataBannerTop = [
         },
 
     ]
-var randomBannerTop = dataBannerTop[Math.floor(Math.random() * dataBannerTop.length)];
+var randomBannerTop = [Math.floor(Math.random() * dataBannerTop.length)];
 var innerBannerTop = `
 <a href="${randomBannerTop.href}" alt="${randomBannerTop.title}" title="${randomBannerTop.title}" target="_blank">
 <img alt="${randomBannerTop.title}" title="${randomBannerTop.title}" src="${randomBannerTop.imgUrl}" width="100%" height="auto" />
@@ -60,27 +60,16 @@ var innerBanner2 = document.getElementById('innerBanner2');
 var innerBanner3 = document.getElementById('innerBanner3');
 
 if(innerBanner1){
-    var randomBannerTop = dataBannerTop[Math.floor(Math.random() * dataBannerTop.length)];
-    innerBanner1.innerHTML = `
-<a href="${randomBannerTop.href}" alt="${randomBannerTop.title}" title="${randomBannerTop.title}" target="_blank">
-<img alt="${randomBannerTop.title}" title="${randomBannerTop.title}" src="${randomBannerTop.imgUrl}" width="100%" height="auto" />
-</a>
-`;}
-
+    randomBannerTop = randomBannerTop +1;
+    if( randomBannerTop > dataBannerTop.length){randomBannerTop = 0}
+    innerBanner1.innerHTML = innerBannerTop}
 if(innerBanner2){
-    var randomBannerTop = dataBannerTop[Math.floor(Math.random() * dataBannerTop.length)];
-    innerBanner2.innerHTML = `
-<a href="${randomBannerTop.href}" alt="${randomBannerTop.title}" title="${randomBannerTop.title}" target="_blank">
-<img alt="${randomBannerTop.title}" title="${randomBannerTop.title}" src="${randomBannerTop.imgUrl}" width="100%" height="auto" />
-</a>
-`;}
-
+    randomBannerTop = randomBannerTop +2;
+    if( randomBannerTop > dataBannerTop.length){randomBannerTop = 0}
+    innerBanner2.innerHTML = innerBannerTop}
 if(innerBanner3){
-    var randomBannerTop = dataBannerTop[Math.floor(Math.random() * dataBannerTop.length)];
-    innerBanner3.innerHTML = `
-<a href="${randomBannerTop.href}" alt="${randomBannerTop.title}" title="${randomBannerTop.title}" target="_blank">
-<img alt="${randomBannerTop.title}" title="${randomBannerTop.title}" src="${randomBannerTop.imgUrl}" width="100%" height="auto" />
-</a>
-`;}
+    randomBannerTop = randomBannerTop +3;
+    if( randomBannerTop > dataBannerTop.length){randomBannerTop = 0}
+    innerBanner3.innerHTML = innerBannerTop}
 
 

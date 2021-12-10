@@ -501,7 +501,7 @@ ldJson.type = 'application/ld+json';
     let innerSurf = `Hôm nay <span style='color:red'>(${today})</span>: `;
             for(let i=0;i< titleVouchers.length;i=i+2){
                 innerSurf+=`<a class="vouchers-tag-link" href="?utm_source=vouchers_a_tag_click&utm_medium=${window.location.pathname}&utm_campaign=${titleVouchers[i].innerText}#couponTab" title="Mã tại TrumGiamGia: ${titleVouchers[i].innerText}" alt="Mã tại TrumGiamGia: ${titleVouchers[i].innerText}">${titleVouchers[i].innerText}</a>   |   `;
-		    ldJson.innerHTML `{
+		    ldJson.innerHTML += `{
 			"@context": "https://schema.org",
 			"@type": "NewsArticle",
 			"mainEntityOfPage": {

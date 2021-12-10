@@ -59,7 +59,7 @@ var innerBanner2 = document.getElementById('innerBanner2');
 var innerBanner3 = document.getElementById('innerBanner3');
 
 if(innerBanner1){
-    randomBannerTop = randomBannerTop +1;
+    randomBannerTop += 1;
     if( randomBannerTop > dataBannerTop.length){randomBannerTop = 0}
     console.log(randomBannerTop);
     innerBanner1.innerHTML = `

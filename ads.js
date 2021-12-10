@@ -58,9 +58,8 @@ document.getElementById('innerBannerTop').innerHTML = innerBannerTop;
 var innerBanner1 = document.getElementById('innerBanner1');
 var innerBanner2 = document.getElementById('innerBanner2');
 var innerBanner3 = document.getElementById('innerBanner3');
-
+if(randomBannerTop == 0){randomBannerTop = 1}
 if(innerBanner1){
-    if(randomBannerTop == 0){randomBannerTop = 1}
     randomBannerTop = randomBannerTop +1;
     if( randomBannerTop > dataBannerTop.length){randomBannerTop = 0}
     console.log(randomBannerTop);

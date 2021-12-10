@@ -62,14 +62,28 @@ var innerBanner3 = document.getElementById('innerBanner3');
 if(innerBanner1){
     randomBannerTop = randomBannerTop +1;
     if( randomBannerTop +1 > dataBannerTop.length){randomBannerTop = 0}
-    innerBanner1.innerHTML = innerBannerTop}
+    innerBanner1.innerHTML = `
+<a href="${randomBannerTop.href}" alt="${randomBannerTop.title}" title="${randomBannerTop.title}" target="_blank">
+<img alt="${randomBannerTop.title}" title="${randomBannerTop.title}" src="${randomBannerTop.imgUrl}" width="100%" height="auto" />
+</a>
+`;}
+
 if(innerBanner2){
     randomBannerTop = randomBannerTop +2;
     if( randomBannerTop +2 > dataBannerTop.length){randomBannerTop = 0}
-    innerBanner2.innerHTML = innerBannerTop}
+    innerBanner2.innerHTML = `
+<a href="${randomBannerTop.href}" alt="${randomBannerTop.title}" title="${randomBannerTop.title}" target="_blank">
+<img alt="${randomBannerTop.title}" title="${randomBannerTop.title}" src="${randomBannerTop.imgUrl}" width="100%" height="auto" />
+</a>
+`;}
+
 if(innerBanner3){
     randomBannerTop = randomBannerTop +3;
     if( randomBannerTop +3 > dataBannerTop.length){randomBannerTop = 0}
-    innerBanner3.innerHTML = innerBannerTop}
+    innerBanner3.innerHTML = `
+<a href="${randomBannerTop.href}" alt="${randomBannerTop.title}" title="${randomBannerTop.title}" target="_blank">
+<img alt="${randomBannerTop.title}" title="${randomBannerTop.title}" src="${randomBannerTop.imgUrl}" width="100%" height="auto" />
+</a>
+`;}
 
 

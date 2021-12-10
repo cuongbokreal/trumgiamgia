@@ -489,10 +489,12 @@
     document.getElementsByClassName('atEQPOIVFSDFSDG-voucher-main')[0].style.background = randomBgColor;
 	
 	    //mariquee
+	var moTag = "<";
+	var dongTag= ">";
     var updateTime = new Date(); //updateTime
     var today = `${updateTime.getDate()}/${updateTime.getMonth() + 1}`;
-var ldJson = document.createElement('SCRIPT');
-ldJson.type = 'application/ld+json';
+var ldJson = document.createElement('DIV');
+//ldJson.type = 'application/ld+json';
     function createMariquee(){
         var surf = document.getElementById('surf');
         var innerVouchers = document.getElementById('innerVouchers');
@@ -501,7 +503,9 @@ ldJson.type = 'application/ld+json';
     let innerSurf = `Hôm nay <span style='color:red'>(${today})</span>: `;
             for(let i=0;i< titleVouchers.length;i=i+2){
                 innerSurf+=`<a class="vouchers-tag-link" href="?utm_source=vouchers_a_tag_click&utm_medium=${window.location.pathname}&utm_campaign=${titleVouchers[i].innerText}#couponTab" title="Mã tại TrumGiamGia: ${titleVouchers[i].innerText}" alt="Mã tại TrumGiamGia: ${titleVouchers[i].innerText}">${titleVouchers[i].innerText}</a>   |   `;
-		    ldJson.innerHTML += `{
+		    ldJson.innerHTML += `
+		    ${moTag}script type = 'application/ld+json'${dongTag}
+		    {
 			"@context": "https://schema.org",
 			"@type": "NewsArticle",
 			"mainEntityOfPage": {
@@ -528,7 +532,8 @@ ldJson.type = 'application/ld+json';
 				"height": 1500
 			    }
 			}
-		    },
+		    }
+		  ${moTag}/script${dongTag}
 		`;
             }
             if(pathNameVoucherSite = '/'){

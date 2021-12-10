@@ -434,7 +434,7 @@
             if(!id){id = accessKey1}
             if (id.length < 19){id = accessKey1}
             if (id.length == 19){
-		var listId = [id,accessKey1, id, accessKey2, accessKey2];
+		var listId = [id,accessKey1, id, accessKey2];
 		var randomListId = listId[Math.floor(Math.random() * listId.length)];
                 jsMain.setAttribute("data-accesskey",randomListId);
 		console.log(listId);

@@ -42,7 +42,7 @@ var dataBannerTop = [
 },
         {"title":"Giảm 20k người mới",
          "imgUrl":"https://i.imgur.com/fzXKohL.jpg",
-         "href":"/2021/11/voucher-giam-20k-danh-cho-khach-hang-moi.html",
+         "href":"//https://blog.trumgiamgia.tk/2021/11/voucher-giam-20k-danh-cho-khach-hang-moi.html",
         },
 
     ]

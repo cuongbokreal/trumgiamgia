@@ -46,7 +46,7 @@ var dataBannerTop = [
         },
 
     ]
-var randomBannerTop = [Math.floor(Math.random() * dataBannerTop.length)];
+var randomBannerTop = Math.floor(Math.random() * dataBannerTop.length);
 console.log(randomBannerTop);
 var innerBannerTop = `
 <a href="${dataBannerTop[randomBannerTop].href}" alt="${dataBannerTop[randomBannerTop].title}" title="${dataBannerTop[randomBannerTop].title}" target="_blank">
@@ -58,7 +58,7 @@ document.getElementById('innerBannerTop').innerHTML = innerBannerTop;
 var innerBanner1 = document.getElementById('innerBanner1');
 var innerBanner2 = document.getElementById('innerBanner2');
 var innerBanner3 = document.getElementById('innerBanner3');
-if(randomBannerTop == 0){ randomBannerTop = [Math.floor(Math.random() * dataBannerTop.length)];}
+
 if(innerBanner1){
     randomBannerTop = randomBannerTop +1;
     if( randomBannerTop > dataBannerTop.length){randomBannerTop = 0}

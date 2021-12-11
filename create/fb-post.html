@@ -226,7 +226,7 @@ document.getElementById('des').addEventListener('dblclick', () => {
 		document.getElementById('title').value = title;
 		document.getElementById('des').value = des;
 		var link = document.getElementById('link');
-		ketQuaVoucherDetails = `https://trumgiamgia.tk/voucher-details/?vc_title=${title}&vc_des=${des}&vc_brand=${brand}&vc_code=${code}&vc_brand_image=${imgUrl}&vc_href=${link}`;
+		ketQuaVoucherDetails = `https://trumgiamgia.tk/voucher-details/?vc_title=${title}&vc_des=${des}&vc_brand=${brand}&vc_code=${window.btoa(code)}&vc_brand_image=${imgUrl}&vc_href=${window.btoa(link)}`;
 		ketQuaVoucherDetails = ketQuaVoucherDetails.replaceAll(" ","%20");
 		hrefDetails.href = ketQuaVoucherDetails;
 		document.getElementById('inputVoucherDetailsLink').value = ketQuaVoucherDetails;

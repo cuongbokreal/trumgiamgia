@@ -40,10 +40,12 @@ var dataBannerTop = [
 "imgUrl":"https://i.imgur.com/F0yhnrs.png",
 "href":"https://shorten.asia/NpRQzrhS",
 },
+    /*
         {"title":"Giảm 20k người mới",
          "imgUrl":"https://i.imgur.com/fzXKohL.jpg",
          "href":"//https://blog.trumgiamgia.tk/2021/11/voucher-giam-20k-danh-cho-khach-hang-moi.html",
-        },
+        }, 
+        */
 
     ]
 var randomBannerTop = Math.floor(Math.random() * dataBannerTop.length);

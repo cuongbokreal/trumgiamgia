@@ -220,6 +220,7 @@ document.getElementById('des').addEventListener('dblclick', () => {
 	        var code = document.getElementById('code').value;
 	        var des = document.getElementById('des').value; 
 		var brand =  document.getElementById('href').value;
+		brand = brand.replaceAll("https://","");
 		title = title.replaceAll(code,"");
 		des = des.replaceAll(code,"");
 	        var imgUrl = document.getElementById('imgUrl').value; 

@@ -165,7 +165,7 @@ const accessKey2 = "5768026262774830477";
     var inner_des = document.getElementById('vc_des');
     var inner_code = document.getElementById('vc_code');
     
-    if(typeof vc_title == 'undefined'){vc_title = 'Đã xảy ra lỗi'; window.location.replace('/?utm_source=voucher_details_404')}
+    if(typeof vc_title == 'undefined' | typeof vc_des == 'undefined' | typeof vc_code == 'undefined' | typeof vc_href == 'undefined'){vc_title = 'Đã xảy ra lỗi'; window.location.replace('/?utm_source=voucher_details_404')}
     
     //if(typeof vc_title == 'undefined'){alert('Đã xảy ra lỗi, vui lòng báo lỗi với Fanpge TrumGiamGia để được khắc phục'); console.log('lỗi')}
     

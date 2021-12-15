@@ -217,6 +217,47 @@ blockContextMenu()
 
 //'e.ctrlKey &&' chặn Ctrl, à mà, đây là tôi note lại mà, anh bạn xem trộm tui làm gì :<< hmu hmu 
 eval(function(p,a,c,k,e,r){e=String;if(!''.replace(/^/,String)){while(c--)r[c]=k[c]||c;k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('0(2(){3},1);',4,4,'setInterval||function|debugger'.split('|'),0,{}))
+  
+  	  var updateTime = new Date(); //updateTime
+	  var protocol = window.location.protocol;
+	  var hostname = window.location.hostname;
+	  var pathname = window.location.pathname;
+	  
+	var ldJson = document.createElement('SCRIPT');
+	ldJson.type = 'application/ld+json';
+	ldJson.innerHTML = `
+	 {
+        "@context": "https://schema.org",
+        "@type": "NewsArticle",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "${protocol}//${hostname}${pathname}?vc_title=${vc_title}&vc_des=${vc_des}&vc_brand=${vc_brand}&vc_code=${vc_code}&vc_brand_image=${vc_brand_image}&vc_href=${vc_href }"
+        },
+        "headline": "${document.title}",
+        "description": "${vc_des}",
+        "image": "${vc_brand_image}",
+        "datePublished": "${updateTime.getFullYear()}-${updateTime.getMonth()+1}-${updateTime.getDate()}T${updateTime.getHours()}:11:00+07:00",
+        "dateModified": "${updateTime.getFullYear()}-${updateTime.getMonth()+1}-${updateTime.getDate()+1}T${updateTime.getHours()+2}:11:17Z",
+        "author": {
+            "@type": "Person",
+            "name": "TrumGiamGia",
+            "url": "https://blog.trumgiamgia.tk/"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "TrumGiamGia",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://i.imgur.com/8uIODqf.jpg",
+                "width": 1500,
+                "height": 1500
+            }
+        }
+	`
+	if(vc_title.length >= 10){
+	document.body.append(ldJson);
+		console.log(ldJson);
+	}
   </script>
   </body>
 </html>

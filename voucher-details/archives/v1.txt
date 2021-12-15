@@ -165,6 +165,12 @@ const accessKey2 = "5768026262774830477";
     var inner_des = document.getElementById('vc_des');
     var inner_code = document.getElementById('vc_code');
     
+    if(typeof vc_title == 'undefined'){vc_title = 'Đã xảy ra lỗi'}
+    if(typeof inner_brand == 'undefined'){inner_brand = 'Đã xảy ra lỗi'}
+    if(typeof inner_des == 'undefined'){inner_des = 'Đã xảy ra lỗi'}
+    
+    //if(typeof vc_title == 'undefined'){alert('Đã xảy ra lỗi, vui lòng báo lỗi với Fanpge TrumGiamGia để được khắc phục'); console.log('lỗi')}
+    
     //if (!inner_code != 'undefined'){window.location.replace('/?utm_source=voucher_details_page')}
     
       inner_title.innerText = vc_title;
@@ -203,6 +209,7 @@ console.log(affLink + ' ' + vc_href);
 	//window.location.href = '/?utm_source=voucher-details-copied';    
 	    
     } 
+    
    //block rightmouse + CtrlU
 function blockContextMenu(){
 	document.addEventListener('contextmenu', event => event.preventDefault());

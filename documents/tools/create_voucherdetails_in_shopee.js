@@ -7,7 +7,7 @@ function copyKetQua(){
 }
 var inputKetQua = document.createElement('input');
 inputKetQua.setAttribute("id", "inputKetQua");
-inputKetQua.setAttribute("onclick", "copyKetQua()");
+//inputKetQua.setAttribute("onclick", "copyKetQua()");
 inputKetQua.setAttribute("style", "text-align: center;width: 100%;");
 document.body.append(inputKetQua)
 

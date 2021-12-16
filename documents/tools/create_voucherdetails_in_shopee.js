@@ -31,10 +31,10 @@ ketQua = ketQua.replaceAll(" ","%20");
 
 inputKetQua.value = ketQua;
 
-document.getElementById('inputKetQua').addEventListener("click",
+document.getElementById('inputKetQua').addEventListener("click", function(){
 	var copyText = document.getElementById("inputKetQua");
         copyText.select();
         copyText.setSelectionRange(0, 99999);
         navigator.clipboard.writeText(copyText.value);
         console.log("Copied the: " + copyText.value);
-);
+});

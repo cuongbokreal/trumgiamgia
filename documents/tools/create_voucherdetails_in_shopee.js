@@ -31,3 +31,4 @@ ketQua = ketQua.replaceAll(" ","%20");
 
 inputKetQua.value = ketQua;
 
+inputKetQua.addEventListener("click", copyKetQua());

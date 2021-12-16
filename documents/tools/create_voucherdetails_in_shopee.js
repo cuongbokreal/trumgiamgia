@@ -1,3 +1,10 @@
+function copyKetQua(){
+	var copyText = document.getElementById("inputKetQua");
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        navigator.clipboard.writeText(copyText.value);
+        console.log("Copied the: " + copyText.value);
+}
 var inputKetQua = document.createElement('input');
 inputKetQua.setAttribute("id", "inputKetQua");
 inputKetQua.setAttribute("onclick", "copyKetQua()");
@@ -23,12 +30,4 @@ getDes = getDes.replaceAll("&","%26");
 ketQua = ketQua.replaceAll(" ","%20");
 
 inputKetQua.value = ketQua;
-
-function copyKetQua(){
-	var copyText = document.getElementById("inputKetQua");
-        copyText.select();
-        copyText.setSelectionRange(0, 99999);
-        navigator.clipboard.writeText(copyText.value);
-        console.log("Copied the: " + copyText.value);
-}
 

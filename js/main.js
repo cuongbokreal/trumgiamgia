@@ -58,10 +58,10 @@ function toast({ title = "", message = "", type = "info", duration = 3000 }) {
 
 !function(){
   function f(){
-    alert(' Opps, bạn đang dùng Ad Block, hãy tắt trình chặn quảng cáo để giúp mình có thêm thu nhập! Iu bạn nhìu nhìu 😍👉👈');
+    alert(' Opps, bạn đang dùng Ad Block, hãy tắt trình chặn quảng cáo để giúp chúng mình có thêm thu nhập! Iu bạn nhìu nhìu 😍👉👈');
   	toast({
       title: '&#9728;&#65039; Hãy tắt AD Block &#9728;&#65039;',
-      message: `&#9888;&#65039; Opps, bạn đang dùng Ad Block, hãy tắt trình chặn quảng cáo để giúp mình có thêm thu nhập! Iu bạn nhìu nhìu 😍👉👈. Xem cách <a href='/p/cach-tat-adblock.html'><b>TẮT AD BLOCK TẠI ĐÂY</b></a>`,
+      message: `&#9888;&#65039; Opps, bạn đang dùng Ad Block, hãy tắt trình chặn quảng cáo để giúp chúng mình có thêm thu nhập! Iu bạn nhìu nhìu 😍👉👈. Xem cách <a href='/p/cach-tat-adblock.html'><b>TẮT AD BLOCK TẠI ĐÂY</b></a>`,
       type: "error",
       duration: 999000
     });

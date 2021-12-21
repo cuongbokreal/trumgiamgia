@@ -56,8 +56,8 @@
   #menu{max-width:13rem;height:999px;}
 }
 .adsBanner{position:relative}
-.closeBanner{position:absolute;top:0;right:0;background:#fff}
-.closeX{ fill:#00aecd}
+.closeBanner{position:absolute;top:0;right:0}
+.closeX{ fill:#00aecd;background:#fff}
 .closeBanner:hover{background:#686868}
 .closeX:hover{ fill:#fff}
 

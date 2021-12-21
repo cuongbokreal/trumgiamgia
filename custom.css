@@ -58,7 +58,7 @@
 }
 #title{text-align:center; font-size:15px;}
 #right-nav-fixed{position: fixed;display: inline-flex;/*flex: 0 0 auto;*/flex-direction: column;z-index: 100;right: 1rem;bottom: 2rem;}
-#scrollToTop {display: none;z-index: 99;font-size: 18px;border: none;outline: none;background-color: red;color: white;cursor: pointer;padding: 15px;border-radius: 4px;}
+#scrollToTop {display: none;z-index: 99;font-size: 20px;border: none;outline: none;background-color: red;color: white;cursor: pointer;padding: 9px;border-radius: 4px;}
 #scrollToTop:hover {background-color: #555;}
 /*set voucher main*/
 .voucher-main {padding: 3.25rem 0 80px;}

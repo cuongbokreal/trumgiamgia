@@ -26,7 +26,6 @@
     	border-radius: 5px;
       }
 .atEQPOIVFSDFSDG-coupon-grid:hover {
-    
     box-shadow: 0px 4px 4px 0px rgba(33,33,33,.2);
     transform: scale(1.01);
     border: 1.5px solid #ff6800;
@@ -56,6 +55,12 @@
 @media screen and (max-width:375px){
   #menu{max-width:13rem;height:999px;}
 }
+.adsBanner{position:relative}
+.closeBanner{position:absolute;top:0;right:0;background:#fff}
+.closeX{ fill:#00aecd}
+.closeBanner:hover{background:#686868}
+.closeX:hover{ fill:#fff}
+
 #title{text-align:center; font-size:15px;}
 .note{position:relative; padding:20px 30px 20px 50px; background-color:#e1f5fe;color:#01579b; font-size:.85rem; line-height:1.62em;border-radius:2px}
 .note:before{content:'';position:absolute;left:18px;top:23px; width:20px;height:20px; background: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2301579b' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'><path d='M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z'/><line x1='4' y1='22' x2='4' y2='15'/></svg>") center / 20px no-repeat}

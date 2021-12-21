@@ -59,7 +59,7 @@ var adsBanner = document.getElementsByClassName('adsBanner');
 for(let i=1; i<adsBanner.length; i++){
     var adsId = document.getElementById(`innerBanner${i}`);
     if(adsId){
-        randomBannerTop = randomBannerTop +1;
+        randomBannerTop = randomBannerTop + i;
         if( randomBannerTop >= dataBannerTop.length){randomBannerTop = 0}
         console.log(randomBannerTop);
         adsId.innerHTML = `

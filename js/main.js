@@ -1,3 +1,23 @@
+!function(){
+  function f(){
+    alert(' Opps, bạn đang dùng Ad Block, hãy tắt trình chặn quảng cáo để giúp mình có thêm thu nhập! Iu bạn nhìu nhìu 😍👉👈');
+  	toast({
+      title: '&#9728;&#65039; Hãy tắt AD Block &#9728;&#65039;',
+      message: `&#9888;&#65039; Opps, bạn đang dùng Ad Block, hãy tắt trình chặn quảng cáo để giúp mình có thêm thu nhập! Iu bạn nhìu nhìu 😍👉👈. Xem cách <a href='/p/cach-tat-adblock.html'><b>TẮT AD BLOCK TẠI ĐÂY</b></a>`,
+      type: "error",
+      duration: 999000
+    });
+  	document.getElementsByClassName('toast__close')[0].style.display = 'none';
+  }
+  
+var b=document.createElement("script");b.type="text/javascript";
+b.async=!0;b.src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
+            b.onerror=function(){f();window.adblock=!0
+};
+var e=document.getElementsByTagName("script")[0];
+e.parentNode.insertBefore(b,e)}();
+
+
 //custom tí background cho ngựa ngựa =-))
     var listBgColor = ["ffeeee",//hồng nhạt
         "#eee3ff",//tím hơi nhạt
@@ -79,6 +99,7 @@ function closeBanner(idBanner){
 		}
 	, 15000);
 }
+
 
 
 

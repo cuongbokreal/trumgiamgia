@@ -48,7 +48,7 @@ var dataBannerTop = [
 ]
 var randomBannerTop = Math.floor(Math.random() * dataBannerTop.length);
 console.log(randomBannerTop);
-var innerBannerTop = `
+var innerBannerTop += `
 <a href="${dataBannerTop[randomBannerTop].href}" alt="${dataBannerTop[randomBannerTop].title}" title="${dataBannerTop[randomBannerTop].title}" target="_blank">
 <img alt="${dataBannerTop[randomBannerTop].title}" title="${dataBannerTop[randomBannerTop].title}" src="${dataBannerTop[randomBannerTop].imgUrl}" width="100%" height="auto" />
 </a>`;
@@ -63,7 +63,7 @@ if(innerBanner1){
     randomBannerTop = randomBannerTop +1;
     if( randomBannerTop >= dataBannerTop.length){randomBannerTop = 0}
     console.log(randomBannerTop);
-    innerBanner1.innerHTML = `
+    innerBanner1.innerHTML += `
 <a href="${dataBannerTop[randomBannerTop].href}" alt="${dataBannerTop[randomBannerTop].title}" title="${dataBannerTop[randomBannerTop].title}" target="_blank">
 <img alt="${dataBannerTop[randomBannerTop].title}" title="${dataBannerTop[randomBannerTop].title}" src="${dataBannerTop[randomBannerTop].imgUrl}" width="100%" height="auto" />
 </a>
@@ -75,7 +75,7 @@ if(innerBanner2){
     randomBannerTop = randomBannerTop +2;
     if( randomBannerTop >= dataBannerTop.length){randomBannerTop = 0}
     console.log(randomBannerTop);
-    innerBanner2.innerHTML = `
+    innerBanner2.innerHTML += `
 <a href="${dataBannerTop[randomBannerTop].href}" alt="${dataBannerTop[randomBannerTop].title}" title="${dataBannerTop[randomBannerTop].title}" target="_blank">
 <img alt="${dataBannerTop[randomBannerTop].title}" title="${dataBannerTop[randomBannerTop].title}" src="${dataBannerTop[randomBannerTop].imgUrl}" width="100%" height="auto" />
 </a>
@@ -87,7 +87,7 @@ if(innerBanner3){
     randomBannerTop = randomBannerTop +3;
     if( randomBannerTop >= dataBannerTop.length){randomBannerTop = 0}
     console.log(randomBannerTop);
-    innerBanner3.innerHTML = `
+    innerBanner3.innerHTML += `
 <a href="${dataBannerTop[randomBannerTop].href}" alt="${dataBannerTop[randomBannerTop].title}" title="${dataBannerTop[randomBannerTop].title}" target="_blank">
 <img alt="${dataBannerTop[randomBannerTop].title}" title="${dataBannerTop[randomBannerTop].title}" src="${dataBannerTop[randomBannerTop].imgUrl}" width="100%" height="auto" />
 </a>

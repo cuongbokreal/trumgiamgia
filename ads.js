@@ -48,7 +48,7 @@ var dataBannerTop = [
 ]
 var randomBannerTop = Math.floor(Math.random() * dataBannerTop.length);
 console.log(randomBannerTop);
-var innerBannerTop = `
+var innerBannerTop += `
 <a href="${dataBannerTop[randomBannerTop].href}" alt="${dataBannerTop[randomBannerTop].title}" title="${dataBannerTop[randomBannerTop].title}" target="_blank">
 <img alt="${dataBannerTop[randomBannerTop].title}" title="${dataBannerTop[randomBannerTop].title}" src="${dataBannerTop[randomBannerTop].imgUrl}" width="100%" height="auto" />
 </a>`;

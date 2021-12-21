@@ -18,9 +18,14 @@ var dataBannerTop = [
 "imgUrl":"https://i.imgur.com/uSWdEXL.png",
 "href":"https://shorten.asia/HgSzykxm",
 },
+    {
+    "title":"[TIKI] 💥 ĐẠI TIỆC CÔNG NGHỆ MỪNG LỄ GIÁNG SINH 💥",
+    "imgUrl":"https://i.imgur.com/CTAIl67.png",
+    "href":"https://shorten.asia/YJ2JMPW3",
+    },
 
 
-    ]
+]
 var randomBannerTop = Math.floor(Math.random() * dataBannerTop.length);
 console.log(randomBannerTop);
 var innerBannerTop = `

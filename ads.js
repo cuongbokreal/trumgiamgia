@@ -23,6 +23,11 @@ var dataBannerTop = [
     "imgUrl":"https://i.imgur.com/CTAIl67.png",
     "href":"https://shorten.asia/YJ2JMPW3",
     },
+    {
+    "title":"LAZADA Xmas",
+    "imgUrl":"https://i.imgur.com/dx4J85j.jpg",
+    "href":"https://shorten.asia/9cP7VZAe",
+    },
 
 
 ]

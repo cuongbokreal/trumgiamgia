@@ -28,6 +28,11 @@ var dataBannerTop = [
     "imgUrl":"https://i.imgur.com/dx4J85j.jpg",
     "href":"https://shorten.asia/9cP7VZAe",
     },
+    {
+    "title":"Shopee Xmas Ngày Hội Làm Đẹp Lên Đến 90%",
+    "imgUrl":"https://i.imgur.com/oWQIg0w.jpg",
+    "href":"https://shorten.asia/BF4cyCFq",
+    },
 
 
 ]

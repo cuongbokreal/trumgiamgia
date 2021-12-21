@@ -69,7 +69,6 @@ for(let i=1; i<adsBanner.length; i++){
 }
 
 function closeBanner(idBanner){
-	
   	document.getElementById(idBanner).style.display='none';
 	setTimeout(function(){
 			document.getElementById(idBanner).style.display='block';

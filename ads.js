@@ -38,6 +38,11 @@ var dataBannerTop = [
     "imgUrl":"https://i.imgur.com/lvHM1JD.png",
     "href":"https://shorten.asia/BF4cyCFq",
     },
+    {
+    "title":"Chốt đơn mùa lễ hội",
+    "imgUrl":"https://i.imgur.com/PESbnzf.png",
+    "href":"https://shorten.asia/BF4cyCFq",
+    },
 
 
 ]

@@ -77,6 +77,7 @@ e.parentNode.insertBefore(b,e)}();
 
 
 //custom tí background cho ngựa ngựa =-))
+/*
     var listBgColor = ["ffeeee",//hồng nhạt
         "#eee3ff",//tím hơi nhạt
         "#b7b6e4",//tím hơi đậm
@@ -87,7 +88,7 @@ e.parentNode.insertBefore(b,e)}();
         ]
     randomBgColor = listBgColor[Math.floor(Math.random() * listBgColor.length)];
     document.getElementsByClassName('atEQPOIVFSDFSDG-voucher-main')[0].style.background = randomBgColor;
-	
+*/	
 	    //mariquee
 	var moTag = "<";
 	var dongTag= ">";

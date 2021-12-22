@@ -87,8 +87,9 @@ e.parentNode.insertBefore(b,e)}();
         "#8bcff3",//xanh facebook
         ]
     randomBgColor = listBgColor[Math.floor(Math.random() * listBgColor.length)];
-    document.getElementsByClassName('atEQPOIVFSDFSDG-voucher-main')[0].style.background = randomBgColor;
-*/	
+*/
+    document.getElementsByClassName('atEQPOIVFSDFSDG-voucher-main')[0].style.background = '#eff3f4';
+
 	    //mariquee
 	var moTag = "<";
 	var dongTag= ">";

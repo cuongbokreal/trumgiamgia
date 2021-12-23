@@ -16,8 +16,12 @@ var getUrlParameter = function getUrlParameter(sParam) {
 var q = getUrlParameter('q');
 var inputSearch = document.getElementById('atEQPOIVFSDFSDG-search');
 var buttonSearch = document.getElementsByClassName('atEQPOIVFSDFSDG-btn-search')[0];
-if(typeof q != 'undefined'){
-  inputSearch.value = q;
-  buttonSearch.click();
-}
+
+$(document).ready(function(){
+        if(typeof q != 'undefined'){
+          inputSearch.value = q;
+          buttonSearch.click();
+        }
+    }
+)
 

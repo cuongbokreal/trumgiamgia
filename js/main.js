@@ -153,9 +153,6 @@ var mainSearch = document.getElementsByClassName('atEQPOIVFSDFSDG-input-main-sea
 var filter_and_delete = document.getElementsByClassName('atEQPOIVFSDFSDG-filters-and-delete-search')[0];
 var next_tab = document.getElementsByClassName('atEQPOIVFSDFSDG-coupon-pagination')[0];
 
-fetch('https://trumgiamgia.tk/')
-    .then(res => res.text())
-    .then(body => console.log(body));
 
 //filter_keyword.addEventListener("click", createMariquee() );
 //mainSearch.addEventListener("click", createMariquee() );

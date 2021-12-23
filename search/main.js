@@ -19,9 +19,14 @@ var buttonSearch = document.getElementsByClassName('atEQPOIVFSDFSDG-btn-search')
 
 $(document).ready(function(){
         if(typeof q != 'undefined'){
-          inputSearch.value = q;
-          buttonSearch.click();
-          document.title = `${q} - Trùm Giảm Giá | Tổng hợp Mã Giảm Giá, Coupon, Voucher`;
+            inputSearch.value = q;
+            buttonSearch.click();
+            if(q.match(/\/\//g)){
+                fetch(q)
+                    .then(res => res.text())
+                    .then(body => console.log(body));
+            }
+            document.title = `${q} - Trùm Giảm Giá | Tổng hợp Mã Giảm Giá, Coupon, Voucher`;
         }
     }
 )

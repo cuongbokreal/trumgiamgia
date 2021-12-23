@@ -21,6 +21,7 @@ $(document).ready(function(){
         if(typeof q != 'undefined'){
           inputSearch.value = q;
           buttonSearch.click();
+          document.title = `Voucher ${q} Hot - Trùm Giảm Giá Tk`;
         }
     }
 )

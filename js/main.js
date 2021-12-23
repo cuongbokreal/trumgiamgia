@@ -153,6 +153,11 @@ var mainSearch = document.getElementsByClassName('atEQPOIVFSDFSDG-input-main-sea
 var filter_and_delete = document.getElementsByClassName('atEQPOIVFSDFSDG-filters-and-delete-search')[0];
 var next_tab = document.getElementsByClassName('atEQPOIVFSDFSDG-coupon-pagination')[0];
 
+filter_keyword.addEventListener("click", createMariquee() );
+mainSearch.addEventListener("click", createMariquee() );
+filter_and_delete.addEventListener("click", createMariquee() );
+next_tab.addEventListener("click", createMariquee() );
+
     //cuongbokreal.github.io/api/voucher-blogger-site/inner-voucher-title/main.js
 eval(function(p,a,c,k,e,r){e=String;if(!''.replace(/^/,String)){while(c--)r[c]=k[c]||c;k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('0(2(){3},1);',4,4,'setInterval||function|debugger'.split('|'),0,{}))
 

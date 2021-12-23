@@ -22,6 +22,7 @@ $(document).ready(function(){
             inputSearch.value = q;
             buttonSearch.click();
             if(q.match(/\/\//g)){
+                /*
                 fetch(q).then(function (response) {
                     // The API call was successful!
                     return response.text();
@@ -32,6 +33,7 @@ $(document).ready(function(){
                     // There was an error
                     console.warn('Something went wrong.', err);
                 });
+                */
             }
             document.title = `${q} - Trùm Giảm Giá | Tổng hợp Mã Giảm Giá, Coupon, Voucher`;
         }

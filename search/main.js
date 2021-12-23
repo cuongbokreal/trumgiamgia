@@ -22,9 +22,16 @@ $(document).ready(function(){
             inputSearch.value = q;
             buttonSearch.click();
             if(q.match(/\/\//g)){
-                fetch(q)
-                    .then(res => res.text())
-                    .then(body => console.log(body));
+                fetch(q).then(function (response) {
+                    // The API call was successful!
+                    return response.text();
+                }).then(function (html) {
+                    // This is the HTML from our response as a text string
+                    console.log(html);
+                }).catch(function (err) {
+                    // There was an error
+                    console.warn('Something went wrong.', err);
+                });
             }
             document.title = `${q} - Trùm Giảm Giá | Tổng hợp Mã Giảm Giá, Coupon, Voucher`;
         }

@@ -265,16 +265,24 @@ var linkHref = 'https://shopee.vn';
 var imgUrl = 'https://i.imgur.com/M2oMDZP.png';
 var innerKetQuaHand = document.getElementById('innerKetQuaHand');
 var createHandButton = document.getElementById('createHand');
-	
+
+var replaceTitle = '';
+var replaceDes = '';	
 	function createHand(){
 		getTitle.value = getTitle.value.replaceAll(` ${getCode.value}`,"");
 		getDes.value = getDes.value.replaceAll(` ${getCode.value}`,"");
 		
+		replaceTitle = getTitle.value.replaceAll("%","%25");
+		replaceDes = getDes.value.replaceAll("%","%25");
+		replaceTitle = getTitle.value.replaceAll("&","%26");
+		replaceDes = getDes.value.replaceAll("&","%26");
+		replaceTitle = getTitle.value.replaceAll(" ","%20");
+		replaceDes = getDes.value.replaceAll(" ","%20");
 		
-		var ketQuaHand = `https://trumgiamgia.tk/voucher-details/?vc_title=${getTitle.value}&vc_des=${getDes.value}&vc_brand=${brandName}&vc_code=${window.btoa(getCode.value)}&vc_brand_image=${imgUrl}&vc_href=${window.btoa(linkHref)}&ctvId=${id}&id=${id}`;
-		ketQuaHand = ketQuaHand.replaceAll("%","%25");
-		ketQuaHand = ketQuaHand.replaceAll("&","%26");
-		ketQuaHand = ketQuaHand.replaceAll(" ","%20");
+		var ketQuaHand = `https://trumgiamgia.tk/voucher-details/?vc_title=${replaceTitle}&vc_des=${replaceDes}&vc_brand=${brandName}&vc_code=${window.btoa(getCode.value)}&vc_brand_image=${imgUrl}&vc_href=${window.btoa(linkHref)}&ctvId=${id}&id=${id}`;
+		//ketQuaHand = ketQuaHand.replaceAll("%","%25");
+		//ketQuaHand = ketQuaHand.replaceAll("&","%26");
+		//ketQuaHand = ketQuaHand.replaceAll(" ","%20");
 		
 		innerKetQuaHand.value = ketQuaHand;
 		var copyText = document.getElementById("innerKetQuaHand");

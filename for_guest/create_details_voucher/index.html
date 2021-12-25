@@ -233,6 +233,62 @@ function getIdCtv(obj){
         </div>
       </main>
       </div>
+<div id="hand">
+<label>Tên voucher:</label>
+<input id="title" class="input"/>
+<label>Mã voucher:</label>
+<input id="code" class="input"/>
+<label>Mô tả voucher</label>
+<input id="des" class="input"/>
+<label>Chọn sàn TMDT:</label>
+<select id="href" style="height: auto;" onchange="change(this)">
+      <option id="shopeeHref" value="https://shopee.vn" data-name="Shopee">SHOPEE</option>
+      <option id="lazadaHref" value="https://lazada.vn" data-name="Lazada">LAZADA</option>
+      <option id="tikiHref" value="https://tiki.vn" data-name="Tiki">TIKI</option>
+      <option id="sendoHref" value="https://sendo.vn" data-name="Sendo">Sendo</option>
+</select>
+<label>Link Href:</label>
+<input id="linkHref" class="input"/>
+<label>Link ảnh:</label>
+<input id="imgUrl" class="input"/>
+</div>
+<script>
+var getTitle = document.getElementById('title');
+var getCode = document.getElementById('code');
+var getDes = document.getElementById('des');
+var getLinkHref= document.getElementById('linkHref');
+var getImgUrl= document.getElementById('imgUrl');
+	
+var brandName = 'Shopee';
+var linkHref = 'https://shopee.vn';
+var imgUrl = 'https://i.imgur.com/M2oMDZP.png';
+	
+	function change(){
+          var option = document.getElementById('href');
+          if (option.value === 'https://shopee.vn'){
+		brandName = 'Shopee';
+		linkHref = 'https://shopee.vn';
+		imgUrl = '';
+            }
+            else if (option.value === 'https://lazada.vn'){
+		brandName = 'Lazada';
+		linkHref = 'https://lazada.vn';
+		imgUrl = 'https://i.imgur.com/9pMjF3h.jpg';
+            }
+            else if (option.value === 'https://tiki.vn'){
+		brandName = 'Tiki';
+		linkHref = 'https://tiki.vn';
+		imgUrl = 'https://i.imgur.com/oznhdud.png'; //tiki
+            }
+          else if (option.value === 'https://sendo.vn'){
+		brandName = 'Sendo';
+		linkHref = 'https://sendo.vn';
+		imgUrl = 'https://i.imgur.com/JJNWIj7.png'; //sendo
+            }
+		getLinkHref.value = linkHref;
+		getImgUrl.value = imgUrl;
+          }
+</script>
 
 <style>
 	#inputVoucherDetailsLink, #inputTitleVoucher, #inputDesVoucher, #inputKetQua{width:100%}

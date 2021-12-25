@@ -251,7 +251,7 @@ function getIdCtv(obj){
 <input id="linkHref" class="input"/>
 <label>Link ảnh:</label>
 <input id="imgUrl" class="input"/>
-	<button onclick="createHand()" class="button">Tạo link</button>
+	<button id="createHand" onclick="createHand()" class="button">Tạo link</button>
 <textarea id="innerKetQuaHand">Ket qua hien thi o day!</textarea>
 </div>
 <script>
@@ -263,7 +263,9 @@ function getIdCtv(obj){
 var brandName = 'Shopee';
 var linkHref = 'https://shopee.vn';
 var imgUrl = 'https://i.imgur.com/M2oMDZP.png';
-
+var innerKetQuaHand = document.getElementById('innerKetQuaHand');
+var createHandButton = document.getElementById('createHand');
+	
 	function createHand(){
 		var ketQuaHand = `https://trumgiamgia.tk/voucher-details/?vc_title=${getTitle.value}&vc_des=${getDes.value}&vc_brand=${brandName}&vc_code=${window.btoa(getCode.value)}&vc_brand_image=${imgUrl}&vc_href=${window.btoa(linkHref)}&ctvId=${id}&id=${id}`;
 		innerKetQuaHand.value = ketQuaHand;
@@ -293,6 +295,7 @@ var imgUrl = 'https://i.imgur.com/M2oMDZP.png';
 		getLinkHref.value = linkHref;
 		getImgUrl.value = imgUrl;
           }
+createHandButton.addEventListener("click", createHand());
 </script>
 
 <style>

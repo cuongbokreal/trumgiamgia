@@ -266,11 +266,11 @@ var linkHref = 'https://shopee.vn';
 var imgUrl = 'https://i.imgur.com/M2oMDZP.png';
 
 	function createHand(){
-		var getTitle = document.getElementById('title');
-		var getCode = document.getElementById('code');
-		var getDes = document.getElementById('des');
-		var getLinkHref= document.getElementById('linkHref');
-		var getImgUrl= document.getElementById('imgUrl');
+		var getTitle = document.getElementById('title').value;
+		var getCode = document.getElementById('code').value;
+		var getDes = document.getElementById('des').value;
+		var getLinkHref= document.getElementById('linkHref').value;
+		var getImgUrl= document.getElementById('imgUrl').value;
 		
 		var ketQuaHand = `https://trumgiamgia.tk/voucher-details/?vc_title=${getTitle}&vc_des=${getDes}&vc_brand=${brandName}&vc_code=${window.btoa(getCode)}&vc_brand_image=${imgUrl}&vc_href=${window.btoa(linkHref)}&ctvId=${id}&id=${id}`;
 		innerKetQuaHand.value = ketQuaHand;

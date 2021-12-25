@@ -251,6 +251,7 @@ function getIdCtv(obj){
 <input id="linkHref" class="input"/>
 <label>Link ảnh:</label>
 <input id="imgUrl" class="input"/>
+<textarea id="innerKetQuaHand">Ket qua hien thi o day!</textarea>
 </div>
 <script>
 var getTitle = document.getElementById('title');
@@ -258,11 +259,21 @@ var getCode = document.getElementById('code');
 var getDes = document.getElementById('des');
 var getLinkHref= document.getElementById('linkHref');
 var getImgUrl= document.getElementById('imgUrl');
-	
+var innerKetQuaHand = document.getElementById('innerKetQuaHand');
 var brandName = 'Shopee';
 var linkHref = 'https://shopee.vn';
 var imgUrl = 'https://i.imgur.com/M2oMDZP.png';
-	
+
+	function createHand(){
+		var getTitle = document.getElementById('title');
+		var getCode = document.getElementById('code');
+		var getDes = document.getElementById('des');
+		var getLinkHref= document.getElementById('linkHref');
+		var getImgUrl= document.getElementById('imgUrl');
+		
+		var ketQuaHand = `https://trumgiamgia.tk/voucher-details/?vc_title=${getTitle}&vc_des=${getDes}&vc_brand=${brandName}&vc_code=${window.btoa(getCode)}&vc_brand_image=${imgUrl}&vc_href=${window.btoa(linkHref)}&ctvId=${id}&id=${id}`;
+		innerKetQuaHand.value = ketQuaHand;
+	}
 	function change(){
           var option = document.getElementById('href');
           if (option.value === 'https://shopee.vn'){

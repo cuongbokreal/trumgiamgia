@@ -280,10 +280,10 @@ var replaceCode = '';
 		replaceDes = getDes.value.replaceAll("&","%26");
 		//replaceTitle = getTitle.value.replaceAll(" ","%20");
 		//replaceDes = getDes.value.replaceAll(" ","%20");
-		replaceLinkHref = getLinkHref.value;
+		replaceLinkHref = window.btoa(getLinkHref.value);
 		replaceCode = window.btoa(getCode.value);
 		
-		var ketQuaHand = `https://trumgiamgia.tk/voucher-details/?vc_title=${replaceTitle}&vc_des=${replaceDes}&vc_brand=${brandName}&vc_code=${replaceCode}&vc_brand_image=${imgUrl}&vc_href=${window.btoa(replaceLinkHref.value)}&ctvId=${id}&id=${id}`;
+		var ketQuaHand = `https://trumgiamgia.tk/voucher-details/?vc_title=${replaceTitle}&vc_des=${replaceDes}&vc_brand=${brandName}&vc_code=${replaceCode}&vc_brand_image=${imgUrl}&vc_href=${replaceLinkHref}&ctvId=${id}&id=${id}`;
 		//ketQuaHand = ketQuaHand.replaceAll("%","%25");
 		//ketQuaHand = ketQuaHand.replaceAll("&","%26");
 		//ketQuaHand = ketQuaHand.replaceAll(" ","%20");

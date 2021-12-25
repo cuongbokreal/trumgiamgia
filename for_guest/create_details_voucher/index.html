@@ -277,7 +277,7 @@ var createHandButton = document.getElementById('createHand');
 		ketQuaHand = ketQuaHand.replaceAll(" ","%20");
 		
 		innerKetQuaHand.value = ketQuaHand;
-		var copyText = document.getElementById("ketqua");
+		var copyText = document.getElementById("innerKetQuaHand");
 		copyText.select();
 		copyText.setSelectionRange(0, 99999);
 		navigator.clipboard.writeText(copyText.value);

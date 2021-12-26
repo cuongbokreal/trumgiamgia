@@ -291,8 +291,8 @@ var replaceCode = '';
 		
 		replaceTitle = getTitle.value.replaceAll("%","%25");
 		replaceDes = getDes.value.replaceAll("%","%25");
-		replaceTitle = getTitle.value.replaceAll("&","%26");
-		replaceDes = getDes.value.replaceAll("&","%26");
+		replaceTitle = replaceTitle.replaceAll("&","%26");
+		replaceDes = replaceDes.replaceAll("&","%26");
 		//replaceTitle = getTitle.value.replaceAll(" ","%20");
 		//replaceDes = getDes.value.replaceAll(" ","%20");
 		replaceLinkHref = window.btoa(getLinkHref.value);

@@ -246,7 +246,9 @@ function getIdCtv(obj){
       <option id="lazadaHref" value="https://lazada.vn" data-name="Lazada">LAZADA</option>
       <option id="tikiHref" value="https://tiki.vn" data-name="Tiki">TIKI</option>
       <option id="sendoHref" value="https://sendo.vn" data-name="Sendo">Sendo</option>
-</select>
+</select></br>
+<label>Brand:</label>
+<input id="brand" class="input"/>	
 <label>Link Href:</label>
 <input id="linkHref" class="input"/>
 <label>Link ảnh:</label>
@@ -260,6 +262,7 @@ function getIdCtv(obj){
 		var getDes = document.getElementById('des');
 		var getLinkHref= document.getElementById('linkHref');
 		var getImgUrl= document.getElementById('imgUrl');
+		var getBrand = document.getElementById('brand');
 var brandName = 'Shopee';
 var linkHref = 'https://shopee.vn';
 var imgUrl = 'https://i.imgur.com/M2oMDZP.png';
@@ -282,8 +285,9 @@ var replaceCode = '';
 		//replaceDes = getDes.value.replaceAll(" ","%20");
 		replaceLinkHref = window.btoa(getLinkHref.value);
 		replaceCode = window.btoa(getCode.value);
+		replaceBrand = getBrand.value;
 		
-		var ketQuaHand = `https://trumgiamgia.tk/voucher-details/?vc_title=${replaceTitle}&vc_des=${replaceDes}&vc_brand=${brandName}&vc_code=${replaceCode}&vc_brand_image=${imgUrl}&vc_href=${replaceLinkHref}&ctvId=${id}&id=${id}`;
+		var ketQuaHand = `https://trumgiamgia.tk/voucher-details/?vc_title=${replaceTitle}&vc_des=${replaceDes}&vc_brand=${replaceBrand}&vc_code=${replaceCode}&vc_brand_image=${imgUrl}&vc_href=${replaceLinkHref}&ctvId=${id}&id=${id}`;
 		//ketQuaHand = ketQuaHand.replaceAll("%","%25");
 		//ketQuaHand = ketQuaHand.replaceAll("&","%26");
 		//ketQuaHand = ketQuaHand.replaceAll(" ","%20");
@@ -317,6 +321,7 @@ var replaceCode = '';
 		linkHref = 'https://sendo.vn';
 		imgUrl = 'https://i.imgur.com/JJNWIj7.png'; //sendo
             }
+		getBrand.value = brandName;
 		getLinkHref.value = linkHref;
 		getImgUrl.value = imgUrl;
           }

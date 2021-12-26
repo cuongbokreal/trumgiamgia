@@ -80,8 +80,8 @@ Xem trước: <span id="openIframe" onclick="iframeVoucher('open')"><a href="#">
 <script>
 	var openIframe = document.getElementById('openIframe');
 	function iframeVoucher(get){
-		if(get == 'close'){xemTruoc.style.display = 'none'; openIframe.innerText = 'Mở'; openIframe.onclick = "iframeVoucher('open')"}
-		if(get == 'open'){xemTruoc.style.display = ''; openIframe.innerText = 'Đóng'; openIframe.onclick = "iframeVoucher('close')"}
+		if(get == 'close'){xemTruoc.style.display = 'none'; openIframe.innerText = 'Mở'; openIframe.setAttribute("onclick", "iframeVoucher('open')");}
+		if(get == 'open'){xemTruoc.style.display = ''; openIframe.innerText = 'Đóng'; openIframe.setAttribute("onclick", "iframeVoucher('close')");}
 	}
 </script>
       <div id="layout-wrapper">

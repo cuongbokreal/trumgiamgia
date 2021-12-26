@@ -74,6 +74,8 @@ function getIdCtv(obj){
 	<button id="createHand" onclick="createHand()" class="button">Tạo link</button>
 <a id="hrefHand" target="_blank">Mở link đã tạo</a>
 <textarea id="innerKetQuaHand">Ket qua hien thi o day!</textarea>
+Xem trước:
+<iframe id="xemTruoc" width="100%" height="500px"></iframe>
 </div>
 
       <div id="layout-wrapper">
@@ -332,6 +334,23 @@ var replaceCode = '';
 		getImgUrl.value = imgUrl;
           }
 createHandButton.addEventListener("click", createHand());
+var xemTruoc = document.getElementById('xemTruoc');
+	getTitle.addEventListener("blur", viewIframe());
+	getCode.addEventListener("blur", viewIframe());
+	getDes.addEventListener("blur", viewIframe());
+	getLinkHref.addEventListener("blur", viewIframe());
+	getImgUrl.addEventListener("blur", viewIframe());
+	getBrand.addEventListener("blur", viewIframe());
+
+	function viewIframe(){
+		var iframeTitle = document.iframeElementById('title').value;
+		var iframeCode = document.iframeElementById('code').value;
+		var iframeDes = document.iframeElementById('des').value;
+		var iframeLinkHref= document.iframeElementById('linkHref').value;
+		var iframeImgUrl= document.iframeElementById('imgUrl').value;
+		var iframeBrand = document.iframeElementById('brand').value;
+		xemTruoc.src = `https://trumgiamgia.tk/voucher-details/?vc_title=${iframeTitle}&vc_des=${iframeDes}&vc_brand=${iframeBrand}&vc_code=${window.btoa(iframeCode)}&vc_brand_image=${iframeImgUrl}&vc_href=${window.btoa(iframeLinkHref)}&ctvId=${id}&id=${id}`;
+	}
 </script>
 
 <style>

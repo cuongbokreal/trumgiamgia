@@ -356,7 +356,13 @@ var xemTruoc = document.getElementById('xemTruoc');
 		var iframeLinkHref= document.getElementById('linkHref').value;
 		var iframeImgUrl= document.getElementById('imgUrl').value;
 		var iframeBrand = document.getElementById('brand').value;
-		xemTruoc.src = `https://trumgiamgia.tk/voucher-details/?vc_title=${iframeTitle}&vc_des=${iframeDes}&vc_brand=${iframeBrand}&vc_code=${window.btoa(iframeCode)}&vc_brand_image=${iframeImgUrl}&vc_href=${window.btoa(iframeLinkHref)}&ctvId=${id}&id=${id}`.replaceAll("%","%25").replaceAll("&","%26");
+		
+		iframeTitle = iframeTitle.replaceAll("%","%25");
+		iframeDes = iframeDes.replaceAll("%","%25");
+		iframeTitle = iframeTitle.replaceAll("&","%26");
+		iframeDes = iframeDes.replaceAll("&","%26");
+		
+		xemTruoc.src = `https://trumgiamgia.tk/voucher-details/?vc_title=${iframeTitle}&vc_des=${iframeDes}&vc_brand=${iframeBrand}&vc_code=${window.btoa(iframeCode)}&vc_brand_image=${iframeImgUrl}&vc_href=${window.btoa(iframeLinkHref)}&ctvId=${id}&id=${id}`;
 	}
 </script>
 

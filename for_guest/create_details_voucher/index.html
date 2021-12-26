@@ -343,12 +343,12 @@ var xemTruoc = document.getElementById('xemTruoc');
 	getBrand.addEventListener("blur", viewIframe());
 
 	function viewIframe(){
-		var iframeTitle = document.iframeElementById('title').value;
-		var iframeCode = document.iframeElementById('code').value;
-		var iframeDes = document.iframeElementById('des').value;
-		var iframeLinkHref= document.iframeElementById('linkHref').value;
-		var iframeImgUrl= document.iframeElementById('imgUrl').value;
-		var iframeBrand = document.iframeElementById('brand').value;
+		var iframeTitle = document.getElementById('title').value;
+		var iframeCode = document.getElementById('code').value;
+		var iframeDes = document.getElementById('des').value;
+		var iframeLinkHref= document.getElementById('linkHref').value;
+		var iframeImgUrl= document.getElementById('imgUrl').value;
+		var iframeBrand = document.getElementById('brand').value;
 		xemTruoc.src = `https://trumgiamgia.tk/voucher-details/?vc_title=${iframeTitle}&vc_des=${iframeDes}&vc_brand=${iframeBrand}&vc_code=${window.btoa(iframeCode)}&vc_brand_image=${iframeImgUrl}&vc_href=${window.btoa(iframeLinkHref)}&ctvId=${id}&id=${id}`;
 	}
 </script>

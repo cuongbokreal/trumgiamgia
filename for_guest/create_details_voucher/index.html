@@ -53,11 +53,11 @@ function getIdCtv(obj){
 </script>
 <div id="hand">
 <label>Tên voucher:</label>
-<input id="title" class="input"/>
+<input id="title" class="input" onblur="viewIframe()"/>
 <label>Mã voucher:</label>
-<input id="code" class="input"/>
+<input id="code" class="input" onblur="viewIframe()"/>
 <label>Mô tả voucher</label>
-<input id="des" class="input"/>
+<input id="des" class="input" onblur="viewIframe()"/>
 <label>Chọn sàn TMDT:</label>
 <select id="href" style="height: auto;" onchange="change(this)">
       <option id="shopeeHref" value="https://shopee.vn" data-name="Shopee">SHOPEE</option>
@@ -66,11 +66,11 @@ function getIdCtv(obj){
       <option id="sendoHref" value="https://sendo.vn" data-name="Sendo">Sendo</option>
 </select></br>
 <label>Brand:</label>
-<input id="brand" class="input" value="Shopee"/>	
+<input id="brand" class="input" value="Shopee" onblur="viewIframe()"/>	
 <label>Link Href:</label>
-<input id="linkHref" class="input" value="https://shopee.vn"/>
+<input id="linkHref" class="input" value="https://shopee.vn" onblur="viewIframe()"/>
 <label>Link ảnh:</label>
-<input id="imgUrl" class="input" value="https://i.imgur.com/M2oMDZP.png"/>
+<input id="imgUrl" class="input" value="https://i.imgur.com/M2oMDZP.png" onblur="viewIframe()"/>
 	<button id="createHand" onclick="createHand()" class="button">Tạo link</button>
 <a id="hrefHand" target="_blank">Mở link đã tạo</a>
 <textarea id="innerKetQuaHand">Ket qua hien thi o day!</textarea>

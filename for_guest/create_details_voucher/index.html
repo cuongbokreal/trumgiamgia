@@ -72,6 +72,7 @@ function getIdCtv(obj){
 <label>Link ảnh:</label>
 <input id="imgUrl" class="input"/>
 	<button id="createHand" onclick="createHand()" class="button">Tạo link</button>
+<a id="hrefHand" target="_blank">Mở link đã tạo</a>
 <textarea id="innerKetQuaHand">Ket qua hien thi o day!</textarea>
 </div>
 
@@ -265,6 +266,7 @@ function getIdCtv(obj){
 		var getLinkHref= document.getElementById('linkHref');
 		var getImgUrl= document.getElementById('imgUrl');
 		var getBrand = document.getElementById('brand');
+		var hrefHand = document.getElementById('hrefHand');
 var brandName = 'Shopee';
 var linkHref = 'https://shopee.vn';
 var imgUrl = 'https://i.imgur.com/M2oMDZP.png';
@@ -295,6 +297,8 @@ var replaceCode = '';
 		//ketQuaHand = ketQuaHand.replaceAll(" ","%20");
 		
 		innerKetQuaHand.value = ketQuaHand;
+		hrefHand.href = ketQuaHand;
+		
 		var copyText = document.getElementById("innerKetQuaHand");
 		copyText.select();
 		copyText.setSelectionRange(0, 99999);

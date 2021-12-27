@@ -39,6 +39,11 @@ var dataBannerTop = [
 "imgUrl":"https://i.imgur.com/mvJFT98.png",
 "href":"https://shorten.asia/cjMtGPc6",
 },
+	{
+	"title":"Tiki Tech Area",
+	"imgUrl":"https://i.imgur.com/5RgEbYS.png",
+	"href":"https://shorten.asia/jc7cSgcH",
+	},
 ]
 var randomBannerTop = Math.floor(Math.random() * dataBannerTop.length);
 console.log(randomBannerTop);

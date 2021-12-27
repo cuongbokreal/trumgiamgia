@@ -54,6 +54,11 @@ var dataBannerTop = [
 	"imgUrl":"https://i.imgur.com/bLNxPN7.png",
 	"href":"https://shorten.asia/nDzxBQTz",
 	},
+	{
+	"title":"Tiki Ngành Hàng Đồng Giảm",
+	"imgUrl":"https://i.imgur.com/ogbRpWg.png",
+	"href":"https://shorten.asia/uJ5axdzH",
+	},
 ]
 var randomBannerTop = Math.floor(Math.random() * dataBannerTop.length);
 console.log(randomBannerTop);

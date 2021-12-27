@@ -19,9 +19,9 @@ var dataBannerTop = [
 "href":"https://shorten.asia/HgSzykxm",
 },
     {
-    "title":"[TIKI] 💥 ĐẠI TIỆC CÔNG NGHỆ MỪNG LỄ GIÁNG SINH 💥",
-    "imgUrl":"https://i.imgur.com/CTAIl67.png",
-    "href":"https://shorten.asia/YJ2JMPW3",
+    "title":"LAZADA Top bán chạy",
+    "imgUrl":"https://i.imgur.com/Nd1QKcj.jpg",
+    "href":"https://shorten.asia/W4MGCzYP",
     },
     {
     "title":"LAZADA Sale Tất Niên",

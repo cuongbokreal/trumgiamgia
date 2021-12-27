@@ -29,9 +29,9 @@ var dataBannerTop = [
     "href":"https://shorten.asia/8SKUnRmR",
     },
     {
-    "title":"Shopee Xmas Ngày Hội Làm Đẹp Lên Đến 90%",
-    "imgUrl":"https://i.imgur.com/oWQIg0w.jpg",
-    "href":"https://shorten.asia/BF4cyCFq",
+    "title":"LAZADA Điện tử",
+    "imgUrl":"https://i.imgur.com/2BAT7n3.jpg",
+    "href":"https://shorten.asia/SE2d1aE1",
     },
     {
     "title":"Bạn mới đơn 0d",
@@ -39,10 +39,6 @@ var dataBannerTop = [
     "href":"https://shorten.asia/BF4cyCFq",
     },
     {
-    "title":"Chốt đơn mùa lễ hội",
-    "imgUrl":"https://i.imgur.com/PESbnzf.png",
-    "href":"https://shorten.asia/BF4cyCFq",
-    },
 ]
 var randomBannerTop = Math.floor(Math.random() * dataBannerTop.length);
 console.log(randomBannerTop);

@@ -24,9 +24,9 @@ var dataBannerTop = [
     "href":"https://shorten.asia/YJ2JMPW3",
     },
     {
-    "title":"LAZADA Xmas",
-    "imgUrl":"https://i.imgur.com/dx4J85j.jpg",
-    "href":"https://shorten.asia/9cP7VZAe",
+    "title":"LAZADA Sale Tất Niên",
+    "imgUrl":"https://i.imgur.com/jk2UkeO.jpg",
+    "href":"https://shorten.asia/8SKUnRmR",
     },
     {
     "title":"Shopee Xmas Ngày Hội Làm Đẹp Lên Đến 90%",

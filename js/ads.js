@@ -4,40 +4,33 @@ var dataBannerTop = [
 "imgUrl":"https://i.imgur.com/J0LyYCe.jpg",
 "href":"https://shorten.asia/4xZASvyX",
 },
-    {
-    "title":"Bạn mới đơn 0d",
+    {"title":"Bạn mới đơn 0d",
     "imgUrl":"https://i.imgur.com/lvHM1JD.png",
     "href":"https://shorten.asia/BF4cyCFq",
     },
 //LAZADA
-{
-"title":"LAZADA Nạp thẻ",
+{"title":"LAZADA Nạp thẻ",
 "imgUrl":"https://i.imgur.com/v1cMOnm.jpg",
 "href":"https://shorten.asia/15pvYcAN",
 },
-    {
-    "title":"LAZADA Top bán chạy",
+    {"title":"LAZADA Top bán chạy",
     "imgUrl":"https://i.imgur.com/Nd1QKcj.jpg",
     "href":"https://shorten.asia/W4MGCzYP",
     },
-    {
-    "title":"LAZADA Sale Tất Niên",
+    {"title":"LAZADA Sale Tất Niên",
     "imgUrl":"https://i.imgur.com/jk2UkeO.jpg",
     "href":"https://shorten.asia/8SKUnRmR",
     },
-    {
-    "title":"LAZADA Điện tử",
+    {"title":"LAZADA Điện tử",
     "imgUrl":"https://i.imgur.com/2BAT7n3.jpg",
     "href":"https://shorten.asia/SE2d1aE1",
-    },
-	
+    },	
 //Tiki
 {
 "title":"22.12 Christmas Tiki",
 "imgUrl":"https://i.imgur.com/8vO82LA.png",
 "href":"https://shorten.asia/T2fDfgHx",
 },
-
 ]
 var randomBannerTop = Math.floor(Math.random() * dataBannerTop.length);
 console.log(randomBannerTop);

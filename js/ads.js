@@ -1,22 +1,19 @@
 var dataBannerTop = [
+	//Shopee
 {"title":"22.12 Giáng Sinh Shopee",
 "imgUrl":"https://i.imgur.com/l7EeJRp.jpg",
 "href":"https://shorten.asia/VZRF41cV",
 },
+    {
+    "title":"Bạn mới đơn 0d",
+    "imgUrl":"https://i.imgur.com/lvHM1JD.png",
+    "href":"https://shorten.asia/BF4cyCFq",
+    },
+//LAZADA
 {
-"title":"Lazada 12/12",
-"imgUrl":"https://i.imgur.com/F0yhnrs.png",
-"href":"https://shorten.asia/NpRQzrhS",
-},
-{
-"title":"22.12 Christmas Tiki",
-"imgUrl":"https://i.imgur.com/8vO82LA.png",
-"href":"https://shorten.asia/T2fDfgHx",
-},
-{
-"title":"TIKI DELI GIAO 2H + CODE ĐỘC QUYỀN DUY NHẤT 22.12.2021",
-"imgUrl":"https://i.imgur.com/uSWdEXL.png",
-"href":"https://shorten.asia/HgSzykxm",
+"title":"LAZADA Nạp thẻ",
+"imgUrl":"https://i.imgur.com/v1cMOnm.jpg",
+"href":"https://shorten.asia/15pvYcAN",
 },
     {
     "title":"LAZADA Top bán chạy",
@@ -33,12 +30,14 @@ var dataBannerTop = [
     "imgUrl":"https://i.imgur.com/2BAT7n3.jpg",
     "href":"https://shorten.asia/SE2d1aE1",
     },
-    {
-    "title":"Bạn mới đơn 0d",
-    "imgUrl":"https://i.imgur.com/lvHM1JD.png",
-    "href":"https://shorten.asia/BF4cyCFq",
-    },
-    {
+	
+//Tiki
+{
+"title":"22.12 Christmas Tiki",
+"imgUrl":"https://i.imgur.com/8vO82LA.png",
+"href":"https://shorten.asia/T2fDfgHx",
+},
+
 ]
 var randomBannerTop = Math.floor(Math.random() * dataBannerTop.length);
 console.log(randomBannerTop);

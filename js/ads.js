@@ -35,9 +35,9 @@ var dataBannerTop = [
     },	
 //Tiki
 {
-"title":"22.12 Christmas Tiki",
-"imgUrl":"https://i.imgur.com/8vO82LA.png",
-"href":"https://shorten.asia/T2fDfgHx",
+"title":"Tiki bia SG Sabeco",
+"imgUrl":"https://i.imgur.com/mvJFT98.png",
+"href":"https://shorten.asia/cjMtGPc6",
 },
 ]
 var randomBannerTop = Math.floor(Math.random() * dataBannerTop.length);

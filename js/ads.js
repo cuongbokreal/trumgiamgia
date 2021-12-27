@@ -1,8 +1,8 @@
 var dataBannerTop = [
 	//Shopee
-{"title":"22.12 Giáng Sinh Shopee",
-"imgUrl":"https://i.imgur.com/l7EeJRp.jpg",
-"href":"https://shorten.asia/VZRF41cV",
+{"title":"Shopee tặng bạn 20k đơn 0d",
+"imgUrl":"https://i.imgur.com/J0LyYCe.jpg",
+"href":"https://shorten.asia/4xZASvyX",
 },
     {
     "title":"Bạn mới đơn 0d",

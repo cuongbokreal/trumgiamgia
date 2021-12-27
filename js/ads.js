@@ -44,6 +44,11 @@ var dataBannerTop = [
 	"imgUrl":"https://i.imgur.com/5RgEbYS.png",
 	"href":"https://shorten.asia/jc7cSgcH",
 	},
+	{
+	"title":"Tiki Yêu Bếp",
+	"imgUrl":"https://i.imgur.com/bLNxPN7.png",
+	"href":"https://shorten.asia/nDzxBQTz",
+	},
 ]
 var randomBannerTop = Math.floor(Math.random() * dataBannerTop.length);
 console.log(randomBannerTop);

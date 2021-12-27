@@ -34,6 +34,11 @@ var dataBannerTop = [
     "href":"https://shorten.asia/SE2d1aE1",
     },	
 //Tiki
+	{
+	"title":"Tiki Pro",
+	"imgUrl":"https://i.imgur.com/MWbXInx.png",
+	"href":"https://shorten.asia/WwjwvkdH",
+	},
 {
 "title":"Tiki bia SG Sabeco",
 "imgUrl":"https://i.imgur.com/mvJFT98.png",

@@ -17,6 +17,10 @@ var dataBannerTop = [
     "href":"https://shorten.asia/99Jdx1SF",
     },
 //LAZADA
+	{"title":"LAZADA Tết Nhâm Dần 2022",
+	"imgUrl":"https://gcp-img.slatic.net/lazada/f257a068-8754-4ec2-880d-7dd80051ff7b_VN-1019-400.gif",
+	"href":"https://shorten.asia/FueuXS5q",
+	},
 {"title":"LAZADA Nạp thẻ",
 "imgUrl":"https://i.imgur.com/v1cMOnm.jpg",
 "href":"https://shorten.asia/15pvYcAN",

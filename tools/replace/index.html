@@ -1,8 +1,10 @@
 <title>Công cụ thay thế văn bản</title>
 <p class="note">Nhâp HTML a tag cần thêm target blank</p>
 <div id="main">
-<textarea class="valueText" style="width:100%; height:350px;" id="input">Nhập HTML</textarea>
-<textarea class="valueText" style="width:100%; height:350px;" id="output" onclick="this.select()">Kết quả </textarea>
+<label>Nhập Text</label>
+<textarea class="valueText" style="width:100%; height:350px;" id="input"></textarea>
+<label>Kết quả </label>
+<textarea class="valueText" style="width:100%; height:350px;" id="output" onclick="this.select()"></textarea>
 </div>
 
 <input id="replaceIn" placeholder="Từ muốn thay" onblur="create()" onchange="create()" class="input"/>

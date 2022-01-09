@@ -1,0 +1,17 @@
+<p class="note">Nhâp HTML a tag cần thêm target blank</p>
+<textarea style="width:100%; height:350px;" id="input">Nhập HTML</textarea>
+<button class="button" onclick="create()" id="buttonCreate">Tạo mã</button>
+<textarea style="width:100%; height:350px;" id="output" onclick="this.select()">Kết quả </textarea>
+
+<script>
+function create(){
+  var getHTML = document.getElementById('input').value;
+  getHTML = getHTML.reaplaceAll('<a href','<a target="_blank" href')
+  
+  document.getElementById('output').value = getHTML;
+}
+  
+document.getElementById('buttonCreate').addEventListener("click", create());
+</script>
+
+<a href="https://cuongbokreal.github.io/api/google-trends/get-chip.js" target="_blank">api</a>

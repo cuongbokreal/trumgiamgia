@@ -5,14 +5,15 @@
 <textarea class="valueText" style="width:100%; height:350px;" id="output" onclick="this.select()">Kết quả </textarea>
 </div>
 
-<input id="replaceIn" placeholder="Từ muốn thay" onblur="create()" onchange="create()"/>
+<input id="replaceIn" placeholder="Từ muốn thay" onblur="create()" onchange="create()" class="input"/>
 Với
-<input id="replaceWith" placeholder="Thay với" onblur="create()" onchange="create()"/>
+<input id="replaceWith" placeholder="Thay với" onblur="create()" onchange="create()" class="input"/>
 <button class="button" onclick="create()" id="buttonCreate">Tạo mã</button>
 
 <style>
   #main{display: flex;}
   .valueText{width:40%; text-align:center; margin: 10px; padding: 5px; font-size: 20px;}
+  .input{margin:15px;}
 </style>
 <script>
 function create(){

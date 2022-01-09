@@ -2,7 +2,7 @@
 <p class="note">Công cụ thay thế văn bản</p>
 <div id="main">
 <label>Nhập Text</label>
-<textarea class="valueText" style="width:100%; height:350px;" id="input"></textarea>
+<textarea class="valueText" style="width:100%; height:350px;" id="input" onblur="create()"></textarea>
 <label>Kết quả </label>
 <textarea class="valueText" style="width:100%; height:350px;" id="output" onclick="this.select()"></textarea>
 </div>
@@ -26,13 +26,16 @@ function create(){
   
   document.getElementById('output').value = getText;
 }
-  
+var onGetText = document.getElementById('input');
+var onReplaceIn = document.getElementById('replaceIn');
+var onReplaceWith = document.getElementById('replaceWith');
+
 document.getElementById('buttonCreate').addEventListener("click", create());
-document.getElementById('replaceIn').addEventListener("change", create());
-document.getElementById('replaceWith').addEventListener("change", create());
-document.getElementById('replaceIn').addEventListener("blur", create());
-document.getElementById('replaceWith').addEventListener("blur", create());
-document.getElementById('input').addEventListener("blur", create());
+onReplaceIn.addEventListener("change", create());
+onReplaceWith.addEventListener("change", create());
+onReplaceIn.addEventListener("blur", create());
+onReplaceWith.addEventListener("blur", create());
+onGetText.addEventListener("blur", create());
 </script>
 
 <!--a href="https://cuongbokreal.github.io/api/google-trends/get-chip.js" target="_blank">api</a-->

@@ -5,9 +5,9 @@
 <textarea class="valueText" style="width:100%; height:350px;" id="output" onclick="this.select()">Kết quả </textarea>
 </div>
 
-<input id="replaceIn" placeholder="Từ muốn thay" onblur="create()"/>
+<input id="replaceIn" placeholder="Từ muốn thay" onblur="create()" onchange="create()"/>
 Với
-<input id="replaceWith" placeholder="Thay với" />
+<input id="replaceWith" placeholder="Thay với" onblur="create()" onchange="create()"/>
 <button class="button" onclick="create()" id="buttonCreate">Tạo mã</button>
 
 <style>

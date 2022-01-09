@@ -6,7 +6,7 @@
 <script>
 function create(){
   var getHTML = document.getElementById('input').value;
-  getHTML = getHTML.reaplaceAll('<a href','<a target="_blank" href')
+  getHTML = getHTML.replaceAll('<a href','<a target="_blank" href')
   
   document.getElementById('output').value = getHTML;
 }

@@ -27,13 +27,22 @@
 }
 </style>
 
-<h2>Tổng Hợp Mã Giảm Giá <span id="date"></span> - Khung giờ Săn Sale ưu đãi<br/><b style="color:green">Đang diễn ra</b></h2>
+<h2>Tổng Hợp Mã Giảm Giá <span style="color:red" id="date"></span> - Khung giờ Săn Sale ưu đãi<br/><b style="color:green">Đang diễn ra</b></h2>
 <div id="main" class="grid-menu">
   <div>1</div>
   <div>2</div>
   <div>3</div>  
 </div>
 <script>
+var updateTime = new Date(); //updateTime
+var updateDate = updateTime.getDate();
+var updateMonth = updateTime.getMonth() + 1;
+var updateYear = updateTime.getFullYear();
+var date = document.querySelector('#date');
+date.innerText = `${updateDate}.${updateMonth}`;
+document.title += `${updateDate}.${updateMonth}`;
+ 
+ 
 var main = document.getElementById('main');
 var menuChild  = document.querySelectorAll('.flex-container > div');
 var listBrand = [
@@ -55,4 +64,5 @@ for(let i=0; i< listBrand.length; i++){
 innerMain +=`<div><a target="_blank" href="${listBrand[i].href}"><img alt="${listBrand[i].title}" title="${listBrand[i].title}" src="${listBrand[i].imgUrl}"/></a></div>`;
 }
   main.innerHTML = innerMain;
+ 
 </script>

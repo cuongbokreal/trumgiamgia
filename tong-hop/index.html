@@ -48,7 +48,7 @@ var listBrand = [
 ]
 let innerMain = "";
 for(let i=0; i< listBrand.length; i++){
-innerMain +=`<div><a target="_blank" href="${listBrand[i].href}"><img src="${listBrand[i].imgUrl}"/></a></div>`;
+innerMain +=`<div><a target="_blank" href="${listBrand[i].href}"><img alt="${listBrand[i].title}" title="${listBrand[i].title}" src="${listBrand[i].imgUrl}"/></a></div>`;
 }
   main.innerHTML = innerMain;
 </script>

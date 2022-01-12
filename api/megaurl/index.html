@@ -1,0 +1,22 @@
+<script>
+
+// Async/Await requirements: Latest Chrome/FF browser or Babel: https://babeljs.io/docs/plugins/transform-async-to-generator/
+// Fetch requirements: Latest Chrome/FF browser or Github fetch polyfill: https://github.com/github/fetch
+
+// async function
+async function fetchAsync () {
+  // await response of fetch call
+  let response = await fetch('https://megaurl.in/api?api=ead8b32ee97d9350a307ffc6b31d80fbcbcce6e0&url=https://www.facebook.com/');
+  // only proceed once promise is resolved
+  let data = await response.json();
+  // only proceed once second promise is resolved
+  return data;
+}
+
+// trigger async function
+// log response or catch error of fetch promise
+fetchAsync()
+    .then(data => console.log(data))
+    .catch(reason => console.log(reason.message.shortenedUrl))
+
+</script>

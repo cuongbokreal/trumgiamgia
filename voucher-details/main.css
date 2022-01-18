@@ -11,9 +11,9 @@ a:hover{color:#009900;
 transition: box-shadow ease-in-out .1s;
 text-decoration:none;
 }
+#footer{margin-top: 20px;}
 .copyright{
     text-align: center;
-    margin-top: 40px;
     color: #a0a0a0;
     font-size: inherit;
 }

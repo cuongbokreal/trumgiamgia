@@ -11,7 +11,7 @@
 <script>
 function regVoucher(){
 var longLink = document.getElementById('longLink').value;
-var evcode = longLink.match(/evcode=?(.+)%3D/g);
+var evcode = longLink.match(/evcode=?([a-zA-Z0-9]+)/g);
 var promotionId = longLink.match(/&promotionId=?([0-9]+)/g);
 var signature = longLink.match(/&signature=?([a-zA-Z0-9]+)/g);
 var finalLongLink = `https://shopee.vn/search?${evcode}${promotionId}${signature}`;

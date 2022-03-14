@@ -2,17 +2,24 @@
   <head>
   </head>
   <body>
-  </body>
-
+    <h4>Reg Voucher</h4>
+    <ingput id="longLink" placeholder="Nhập long link"/>
+    <button id="regLongLink">Reg</button>
+    <textarea id="kqLongLink" placeholder="Kết quả"></textarea>
+    
+    
 <script>
 
-var a = 'https://shopee.vn/search?af_click_lookback=7d&af_reengagement_window=7d&af_siteid=an_17137630000&af_sub_siteid=622e9c81a4e5ef7733212ae2-6159a7744a30540c0e2c6c0e---&af_viewthrough_lookback=1d&c=-&evcode=TEZQTUFSMDg%3D&is_retargeting=true&pid=affiliates&promotionId=313961237233664&signature=4eb6060c6dca8c02b9d724242d4d926ca17519ee58abf98d69ecb6247ee61442&utm_campaign=-&utm_content=622e9c81a4e5ef7733212ae2-6159a7744a30540c0e2c6c0e---&utm_medium=affiliates&utm_source=an_17137630000'
+function regVoucher(){
+var longLink = document.getElementById('longLink').value;
+var evcode = longLink.match(/evcode=?(.+)%3D/g);
+var VoucherCode = longLink.match(/evcode=?(a-zA-Z0-9)/g);
+var promotionId = longLink.match(/&promotionId=?([0-9]+)/g);
+var signature = longLink.match(/&signature=?([a-zA-Z0-9]+)/g);
+finalLongLink = `https://shopee.vn/search?${evcode}${promotionId}${signature}${VoucherCode}`
 
-var evcode = a.match(/evcode=?(.+)%3D/g);
-var promotionId = a.match(/&promotionId=?([0-9]+)/g);
-var signature = a.match(/&signature=?([a-zA-Z0-9]+)/g);
-finalLink = `https://shopee.vn/search?${evcode}${promotionId}${signature}`
-
-document.write(finalLink)
+document.getElementById('kqLongLink').value = finalLink;
+}
 </script>
+  </body>
 </html>

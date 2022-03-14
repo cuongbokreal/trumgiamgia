@@ -28,6 +28,12 @@ if(longLink.match('/VoucherCode/g')){
   finalLongLink = `https://shopee.vn/search?${VoucherCode}${promotionId}${signature}`;
 }
 document.getElementById('kqLongLink').value = finalLongLink;
+  
+var copyText = document.getElementById("kqLongLink");
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        navigator.clipboard.writeText(copyText.value);
+        console.log("Copied the html: " + copyText.value);
 }
 
 function regBanner(){

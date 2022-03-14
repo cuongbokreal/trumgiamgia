@@ -45,8 +45,8 @@ function regVoucher(){
 
 function regSp(){
   var spLink = document.getElementById('longLink').value;
-  var idSp = spLink.match(/i\..+\?/g);
-  var finalSpLink = `https://shopee.vn/TrumGiamGia.tk-${idSp.replaceAll('?','')}`;
+  var idSp = spLink.match(/i\..+\?/g).replaceAll('?','');
+  var finalSpLink = `https://shopee.vn/TrumGiamGia.tk-${idSp}`;
 
   document.getElementById('kqSpLink').value = finalSpLink;
   var copyText = document.getElementById("kqSpLink");

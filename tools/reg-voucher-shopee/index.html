@@ -47,8 +47,9 @@ function regSp(){
   var spLink = document.getElementById('spLink').value;
   var idSp = spLink.match(/i\..+\?/g).replaceAll('?','');
   var finalSpLink = `https://shopee.vn/TrumGiamGia.tk-${idSp}`;
-
+  finalSpLink = finalSpLink.replaceAll('?','');
   document.getElementById('kqSpLink').value = finalSpLink;
+  //copy
   var copyText = document.getElementById("kqSpLink");
   copyText.select();
   copyText.setSelectionRange(0, 99999);

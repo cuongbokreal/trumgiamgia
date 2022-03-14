@@ -32,7 +32,7 @@ document.getElementById('kqLongLink').value = finalLongLink;
 
 function regBanner(){
 var bannerLink = document.getElementById('bannerLink').value;
-var pathBanner = bannerLink.match('\/m\/?(.+)\?/g');
+var pathBanner = bannerLink.match('/\/m\/.+\?/g');
 var finalBannerLink = `https://shopee.vn${pathBanner.replaceAll('?','')}`;
   document.getElementById('kqBannerLink').value = finalBannerLink;
 }

@@ -12,15 +12,11 @@
 function regVoucher(){
 var longLink = document.getElementById('longLink').value;
 var evcode = longLink.match(/evcode=?(.+)%3D/g);
-var VoucherCode = longLink.match(/VoucherCode=?(a-zA-Z0-9)/g);
 var promotionId = longLink.match(/&promotionId=?([0-9]+)/g);
 var signature = longLink.match(/&signature=?([a-zA-Z0-9]+)/g);
-var finalLongLink="";
-  if(evcode != null){finalLongLink = `https://shopee.vn/search?${evcode}${promotionId}${signature}`}
-  if(VoucherCode != null){finalLongLink = `https://shopee.vn/search?${VoucherCode}${promotionId}${signature}`}
+var finalLongLink = `https://shopee.vn/search?${evcode}${promotionId}${signature}`}
+
 document.getElementById('kqLongLink').value = finalLongLink;
-  if(evcode != null){console.log('ev != null')}
-  if(VoucherCode != null){console.log('VoucherCode != null')}
 }
 </script>
   </body>

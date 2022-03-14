@@ -20,6 +20,8 @@ var finalLongLink="";
   if(evcode != null){finalLongLink = `https://shopee.vn/search?${evcode}${promotionId}${signature}`}
   if(VoucherCode != null){finalLongLink = `https://shopee.vn/search?${VoucherCode}${promotionId}${signature}`}
 document.getElementById('kqLongLink').value = finalLongLink;
+  if(evcode != null){console.log('ev != null')}
+  if(VoucherCode != null){console.log('VoucherCode != null')}
 }
 </script>
   </body>

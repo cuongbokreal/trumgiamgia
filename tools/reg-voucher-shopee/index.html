@@ -3,9 +3,9 @@
   </head>
   <body>
     <h4>Reg Voucher</h4>
-    <input class="input" id="longLink" placeholder="Nhập long link" onblur="regVoucher()"/>
+    <input id="longLink" placeholder="Nhập long link" onblur="regVoucher()"/>
     <button class="button" id="regLongLink" onclick="regVoucher()">Reg</button>
-    <textarea class="textarea" id="kqLongLink" placeholder="Kết quả"></textarea>
+    <textarea id="kqLongLink" placeholder="Kết quả"></textarea>
     
     
 <script>
@@ -28,6 +28,7 @@ document.getElementById('kqLongLink').value = finalLongLink;
       .button {font-family: "Roboto", sans-serif;text-transform: uppercase;outline: 0;background: #4CAF50;border: 1px solid #f44296;width: 100%;padding: 15px;color: #FFFFFF;font-size: 14px;-webkit-transition: all 0.3 ease;transition: all 0.3 ease;cursor: pointer;}
       .button:hover,.button:active,.button:focus {background: #43A047;}
       .button:hover {box-shadow: 0 12px 16px 0 rgba(0,0,0,0.09), 0 17px 50px 0 rgba(0,0,0,0.09);}  
+      textarea{width:100%;}
     </style>
   </body>
 </html>

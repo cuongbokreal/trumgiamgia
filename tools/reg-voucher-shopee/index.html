@@ -3,13 +3,12 @@
   </head>
   <body>
     <h4>Reg Voucher</h4>
-    <input id="longLink" placeholder="Nhập long link"/>
+    <input id="longLink" placeholder="Nhập long link" onblur="regVoucher()"/>
     <button id="regLongLink" onclick="regVoucher()">Reg</button>
     <textarea id="kqLongLink" placeholder="Kết quả"></textarea>
     
     
 <script>
-
 function regVoucher(){
 var longLink = document.getElementById('longLink').value;
 var evcode = longLink.match(/evcode=?(.+)%3D/g);

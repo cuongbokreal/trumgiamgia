@@ -2,11 +2,19 @@
   <head>
   </head>
   <body>
+    <div>
     <h4>Reg Voucher</h4>
     <input id="longLink" placeholder="Nhập long link" onblur="regVoucher()"/>
     <button class="button" id="regLongLink" onclick="regVoucher()">Reg</button>
     <textarea id="kqLongLink" placeholder="Kết quả"></textarea>
+    </div>
     
+    <div>
+      <label>Reg banner</label>
+      <input id="bannerLink" placeholder="Nhập banner link" onblur="regBanner()"/>
+      <button class="button" id="regBannerLink" onclick="regBanner()">Reg</button>
+      <textarea id="kqBannerLink" placeholder="Kết quả"></textarea>
+    </div>
     
 <script>
 function regVoucher(){
@@ -15,12 +23,18 @@ var evcode = longLink.match(/evcode=?([a-zA-Z0-9]+)/g);
 var promotionId = longLink.match(/&promotionId=?([0-9]+)/g);
 var signature = longLink.match(/&signature=?([a-zA-Z0-9]+)/g);
 var finalLongLink = `https://shopee.vn/search?${evcode}${promotionId}${signature}`;
-
 if(longLink.match('/VoucherCode/g')){
   var VoucherCode = longLink.match(/VoucherCode=?([a-zA-Z0-9]+)/g);
   finalLongLink = `https://shopee.vn/search?${VoucherCode}${promotionId}${signature}`;
 }
 document.getElementById('kqLongLink').value = finalLongLink;
+}
+
+function regBanner(){
+var bannerLink = document.getElementById('bannerLink').value;
+var pathBanner = bannerLink.match('/\/m\/?(a-zA-Z0-9)/g');
+var finalBannerLink = 'https://shopee.vn${pathBanner}';
+  document.getElementById('kqBannerLink').value = finalBannerLink;
 }
 </script>
     <style>

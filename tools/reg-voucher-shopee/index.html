@@ -1,0 +1,10 @@
+<script>
+
+var a = 'https://shopee.vn/search?af_click_lookback=7d&af_reengagement_window=7d&af_siteid=an_17137630000&af_sub_siteid=622e9c81a4e5ef7733212ae2-6159a7744a30540c0e2c6c0e---&af_viewthrough_lookback=1d&c=-&evcode=TEZQTUFSMDg%3D&is_retargeting=true&pid=affiliates&promotionId=313961237233664&signature=4eb6060c6dca8c02b9d724242d4d926ca17519ee58abf98d69ecb6247ee61442&utm_campaign=-&utm_content=622e9c81a4e5ef7733212ae2-6159a7744a30540c0e2c6c0e---&utm_medium=affiliates&utm_source=an_17137630000'
+
+var reg = 'evcode=?(.+)%3D&.+&promotionId=?([0-9]+)&signature=?([a-zA-Z0-9]+)/g'
+var match = a.match(reg);
+
+alert(match.length)
+
+</script>

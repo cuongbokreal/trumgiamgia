@@ -18,11 +18,11 @@ function regLongLink(){
     var promotionId = longLink.match(/&promotionId=?([0-9]+)/g);
     var signature = longLink.match(/&signature=?([a-zA-Z0-9]+)/g);
     finalLink = `https://shopee.vn/search?${evcode}${promotionId}${signature}`;
-    kqLongLink = finalLink;
+    kqLongLink.value = finalLink;
   }else
   if(longLink.match(/https:\/\/shopee.vn\/.+\?/)){
   	finalLink = longLink.match(/https:\/\/shopee.vn\/.+\?/);
-    kqLongLink = finalLink.replaceAll("?","");
+    kqLongLink.value = finalLink.replaceAll("?","");
   }
 }
 

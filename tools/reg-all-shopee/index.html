@@ -20,13 +20,6 @@
     var kqLongLink = document.getElementById('kqLongLink');
     var finalLink = '';
 
-    function copy(){
-        var copyText = document.getElementById(kqLongLink);
-      copyText.select();
-      copyText.setSelectionRange(0, 99999);
-      navigator.clipboard.writeText(copyText.value);
-      console.log("Copied the html: " + copyText.value);
-    } 
     function regLongLink(){
       var longLink = document.getElementById('longLink').value;
       if(longLink.match(/promotionId/g) || longLink.match(/signature/g) || longLink.match(/evcode/g)){
@@ -35,13 +28,19 @@
         var signature = longLink.match(/&signature=?([a-zA-Z0-9]+)/g);
         finalLink = `https://shopee.vn/search?${evcode}${promotionId}${signature}`;
         kqLongLink.value = finalLink;
-        copy()
       }else
       if(longLink.match(/https:\/\/shopee.vn\/.+\?/)){
         finalLink = longLink.match(/https:\/\/shopee.vn\/.+\?/);
         kqLongLink.value = finalLink[0].replaceAll("?","");
         copy()
       }
+      
+      //copy
+        var copyText = document.getElementById('kqLongLink');
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        navigator.clipboard.writeText(copyText.value);
+        console.log("Copied the html: " + copyText.value);
     }
 
     </script>

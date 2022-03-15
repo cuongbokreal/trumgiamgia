@@ -32,7 +32,7 @@
       else if(longLink.match(/i\..+\?/g)){
         var idSp = longLink.match(/i\..+\?/g)
         finalLink = `https://shopee.vn/TrumGiamGia.Tk-${idSp}`;
-        kqLongLink.value = finalLink[0].replaceAll("?","");
+        kqLongLink.value = finalLink.replaceAll("?","");
       }
       else if(longLink.match(/https:\/\/shopee.vn\/.+\?/)){
         finalLink = longLink.match(/https:\/\/shopee.vn\/.+\?/);

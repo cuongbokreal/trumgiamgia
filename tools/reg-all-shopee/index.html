@@ -1,0 +1,50 @@
+<div>
+    <h4>Reg Voucher</h4>
+    <input id="longLink" placeholder="Nhập long link" onblur="regLongLink()" onclick="this.select()"/>
+    <button class="button" id="regLongLink" onclick="regLongLink()">Reg</button>
+    <textarea id="kqLongLink" placeholder="Kết quả"></textarea>
+    </div>
+<div>
+
+
+<script>
+var kqLongLink = document.getElementById('kqLongLink');
+var finalLink = '';
+
+function regLongLink(){
+  var longLink = document.getElementById('longLink').value;
+  if(longLink.match(/promotionId/g) || longLink.match(/signature/g) || longLink.match(/evcode/g)){
+    var evcode = longLink.match(/evcode=?([a-zA-Z0-9]+)/g);
+    var promotionId = longLink.match(/&promotionId=?([0-9]+)/g);
+    var signature = longLink.match(/&signature=?([a-zA-Z0-9]+)/g);
+    finalLink = `https://shopee.vn/search?${evcode}${promotionId}${signature}`;
+    kqLongLink = finalLink;
+  }else
+  if(longLink.match(/https:\/\/shopee.vn\/.+\?/)){
+  	finalLink = longLink.match(/https:\/\/shopee.vn\/.+\?/);
+    kqLongLink = finalLink.replaceAll("?","");
+  }
+}
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <style>
+      input {font-family: "Roboto", sans-serif;outline: 0;background: #f2f2f2;width: 100%;border: 0;margin: 0 0 15px;padding: 15px;box-sizing: border-box;font-size: 14px;}
+      .button {font-family: "Roboto", sans-serif;text-transform: uppercase;outline: 0;background: #4CAF50;border: 1px solid #f44296;width: 100%;padding: 15px;color: #FFFFFF;font-size: 14px;-webkit-transition: all 0.3 ease;transition: all 0.3 ease;cursor: pointer;}
+      .button:hover,.button:active,.button:focus {background: #43A047;}
+      .button:hover {box-shadow: 0 12px 16px 0 rgba(0,0,0,0.09), 0 17px 50px 0 rgba(0,0,0,0.09);}  
+      textarea{width:100%;margin-top:10px}
+</style>

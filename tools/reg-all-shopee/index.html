@@ -22,7 +22,7 @@ function regLongLink(){
   }else
   if(longLink.match(/https:\/\/shopee.vn\/.+\?/)){
   	finalLink = longLink.match(/https:\/\/shopee.vn\/.+\?/);
-    kqLongLink.value = finalLink.replaceAll("?","");
+    kqLongLink.value = finalLink[0].replaceAll("?","");
   }
 }
 

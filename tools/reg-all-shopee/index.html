@@ -28,8 +28,13 @@
         var signature = longLink.match(/&signature=?([a-zA-Z0-9]+)/g);
         finalLink = `https://shopee.vn/search?${evcode}${promotionId}${signature}`;
         kqLongLink.value = finalLink;
-      }else
-      if(longLink.match(/https:\/\/shopee.vn\/.+\?/)){
+      }
+      else if(longLink.match(/i\..+\?/g)){
+        var idSp = longLink.match(/i\..+\?/g)
+        finalLink = `https://shopee.vn/TrumGiamGia.Tk-${idSp}`;
+        kqLongLink.value = finalLink[0].replaceAll("?","");
+      }
+      else if(longLink.match(/https:\/\/shopee.vn\/.+\?/)){
         finalLink = longLink.match(/https:\/\/shopee.vn\/.+\?/);
         kqLongLink.value = finalLink[0].replaceAll("?","");
       }

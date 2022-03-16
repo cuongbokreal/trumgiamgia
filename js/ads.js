@@ -12,9 +12,9 @@ var dataBannerTop = [
     "imgUrl":"https://i.imgur.com/HxvmZRB.png",
     "href":"https://shorten.asia/1D9hp3Jk",
     },
-    {"title":"Shopee Siêu Hội Sống Chất",
-    "imgUrl":"https://i.imgur.com/5Kvulux.png",
-    "href":"https://shorten.asia/99Jdx1SF",
+    {"title":"Shopee Sale To Tặng Nàng",
+    "imgUrl":"https://cf.shopee.vn/file/393c449f710096225b4245c440398d93_xxhdpi",
+    "href":"https://shorten.asia/nnvy3MPC",
     },
 //LAZADA
 	{"title":"LAZADA Tết Nhâm Dần 2022",

@@ -39,9 +39,9 @@ var dataBannerTop = [
     },	
 //Tiki
 	{
-	"title":"Tiki Pro",
-	"imgUrl":"https://i.imgur.com/MWbXInx.png",
-	"href":"https://shorten.asia/WwjwvkdH",
+	"title":"Friso TIKI",
+	"imgUrl":"https://i.imgur.com/FSgqeV0.jpg",
+	"href":"https://shorten.asia/nEZgSdeN",
 	},
 {
 "title":"Tiki bia SG Sabeco",

@@ -44,25 +44,11 @@ var dataBannerTop = [
 	"href":"https://shorten.asia/nEZgSdeN",
 	},
 {
-"title":"Tiki bia SG Sabeco",
-"imgUrl":"https://i.imgur.com/mvJFT98.png",
-"href":"https://shorten.asia/cjMtGPc6",
-},
-	{
-	"title":"Tiki Tech Area",
-	"imgUrl":"https://i.imgur.com/5RgEbYS.png",
-	"href":"https://shorten.asia/jc7cSgcH",
+	"title":"TIKI Beauty Club",
+	"imgUrl":"https://i.imgur.com/yBxEKxb.png",
+	"href":"https://shorten.asia/ycJaP4T7",
 	},
-	{
-	"title":"Tiki Yêu Bếp",
-	"imgUrl":"https://i.imgur.com/bLNxPN7.png",
-	"href":"https://shorten.asia/nDzxBQTz",
-	},
-	{
-	"title":"Tiki Ngành Hàng Đồng Giảm",
-	"imgUrl":"https://i.imgur.com/ogbRpWg.png",
-	"href":"https://shorten.asia/uJ5axdzH",
-	},
+	
 ]
 var randomBannerTop = Math.floor(Math.random() * dataBannerTop.length);
 console.log(randomBannerTop);

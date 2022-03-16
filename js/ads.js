@@ -48,6 +48,11 @@ var dataBannerTop = [
 	"imgUrl":"https://i.imgur.com/yBxEKxb.png",
 	"href":"https://shorten.asia/ycJaP4T7",
 	},
+	{
+	"title":"TIKI Chào tháng 3",
+	"imgUrl":"https://i.imgur.com/blKGs9e.png",
+	"href":"https://shorten.asia/RNYKqEAu",
+	},
 	
 ]
 var randomBannerTop = Math.floor(Math.random() * dataBannerTop.length);

@@ -62,6 +62,21 @@ var dataBannerTop = [
 	"imgUrl":"https://i.imgur.com/blKGs9e.png",
 	"href":"https://shorten.asia/RNYKqEAu",
 	},
+	{
+	"title":"TIKI Tefal",
+	"imgUrl":"https://salt.tikicdn.com/cache/w1080/ts/banner/51/bd/94/67779b0148758aab7b4032ed81667d5d.png",
+	"href":"https://shorten.asia/AxBSkDU8",
+	},
+	{
+	"title":"TIKI Tefal",
+	"imgUrl":"https://salt.tikicdn.com/cache/w1080/ts/banner/76/82/9d/cd27350f0800d7562b02dac7832ef86a.png.webp",
+	"href":"https://shorten.asia/ZFmSVrRq",
+	},
+	{
+	"title":"TIKI Tips mách mẹ ",
+	"imgUrl":"https://salt.tikicdn.com/cache/w1080/ts/banner/28/b2/32/14406bd4869efae23f62249a0af6b148.png.webp",
+	"href":"https://shorten.asia/1HDMTKGn",
+	},
 	
 ]
 var randomBannerTop = Math.floor(Math.random() * dataBannerTop.length);

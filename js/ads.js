@@ -83,7 +83,7 @@ var dataBannerTop = [
 	"href":"https://shorten.asia/a57WbuC5",
 	},
 	{
-	"title":"TIKI Làm mới tủ đồ,
+	"title":"TIKI Làm mới tủ đồ",
 	"imgUrl":"https://salt.tikicdn.com/cache/w1080/ts/banner/47/c2/33/052fe51de742a1e2c28a70381eea84b4.png.webp",
 	"href":"https://shorten.asia/fVZPuWnW",
 	},

@@ -77,6 +77,16 @@ var dataBannerTop = [
 	"imgUrl":"https://salt.tikicdn.com/cache/w1080/ts/banner/28/b2/32/14406bd4869efae23f62249a0af6b148.png.webp",
 	"href":"https://shorten.asia/1HDMTKGn",
 	},
+	{
+	"title":"TIKI Bách hóa",
+	"imgUrl":"https://salt.tikicdn.com/cache/w1080/ts/banner/ed/b8/b9/8fbe0ff46848364ff6dd715d4e9287ed.png.webp",
+	"href":"https://shorten.asia/a57WbuC5",
+	},
+	{
+	"title":"TIKI Làm mới tủ đồ,
+	"imgUrl":"https://salt.tikicdn.com/cache/w1080/ts/banner/47/c2/33/052fe51de742a1e2c28a70381eea84b4.png.webp",
+	"href":"https://shorten.asia/fVZPuWnW",
+	},
 	
 ]
 var randomBannerTop = Math.floor(Math.random() * dataBannerTop.length);

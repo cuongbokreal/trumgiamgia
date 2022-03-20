@@ -7,7 +7,7 @@
   </head>
   <body>
     <div id="main">
-        <h4>Reg Voucher</h4>
+        <h4>Reg All TMDT</h4>
         <input id="longLink" placeholder="Nhập long link" onblur="regLongLink()" onclick="this.select()"/>
         <button class="button" id="regLongLink" onclick="regLongLink()">Reg</button>
         <textarea id="kqLongLink" placeholder="Kết quả" onclick="this.select()"></textarea>
@@ -21,21 +21,27 @@
 
     function regLongLink(){
       var longLink = document.getElementById('longLink').value;
-      if(longLink.match(/promotionId/g) || longLink.match(/signature/g) || longLink.match(/evcode/g)){
-        var evcode = longLink.match(/evcode=?([a-zA-Z0-9]+)/g);
-        var promotionId = longLink.match(/&promotionId=?([0-9]+)/g);
-        var signature = longLink.match(/&signature=?([a-zA-Z0-9]+)/g);
-        finalLink = `https://shopee.vn/search?${evcode}${promotionId}${signature}`;
-        kqLongLink.value = finalLink;
+      if(longLink.match(/shopee/g)){
+        if(longLink.match(/promotionId/g) || longLink.match(/signature/g) || longLink.match(/evcode/g)){
+          var evcode = longLink.match(/evcode=?([a-zA-Z0-9]+)/g);
+          var promotionId = longLink.match(/&promotionId=?([0-9]+)/g);
+          var signature = longLink.match(/&signature=?([a-zA-Z0-9]+)/g);
+          finalLink = `https://shopee.vn/search?${evcode}${promotionId}${signature}`;
+          kqLongLink.value = finalLink;
+        }
+        else if(longLink.match(/i\..+\?/g)){
+          var idSp = longLink.match(/i\..+\?/g)
+          finalLink = `https://shopee.vn/TrumGiamGia.Tk-${idSp}`;
+          kqLongLink.value = finalLink.replaceAll("?","");
+        }
+        else if(longLink.match(/https:\/\/shopee.vn\/.+\?/)){
+          finalLink = longLink.match(/https:\/\/shopee.vn\/.+\?/);
+          kqLongLink.value = finalLink[0].replaceAll("?","");
+        }
       }
-      else if(longLink.match(/i\..+\?/g)){
-        var idSp = longLink.match(/i\..+\?/g)
-        finalLink = `https://shopee.vn/TrumGiamGia.Tk-${idSp}`;
-        kqLongLink.value = finalLink.replaceAll("?","");
-      }
-      else if(longLink.match(/https:\/\/shopee.vn\/.+\?/)){
-        finalLink = longLink.match(/https:\/\/shopee.vn\/.+\?/);
-        kqLongLink.value = finalLink[0].replaceAll("?","");
+      else if(longLink.match(/lazada/g)){
+        finalLink = longLink.match(/http.+?laz_trackid/g);
+        kqLongLink.value = finalLink.replaceAll(/laz_trackid.+/g,"");
       }
       
       //copy

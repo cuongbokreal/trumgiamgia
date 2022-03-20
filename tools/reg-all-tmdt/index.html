@@ -41,7 +41,7 @@
       }
       else if(longLink.match(/lazada/g)){
         finalLink = longLink.match(/http.+?laz_trackid/g);
-        kqLongLink.value = finalLink.replaceAll(finalLink.match(/(\?|\&)laz_trackid.+/g)[0],"");
+        kqLongLink.value = finalLink[0].replaceAll(finalLink.match(/(\?|\&)laz_trackid.+/g),"");
       }
       else if(longLink.match(/tiki/g)){
         finalLink = longLink.match(/http.+\?/g);

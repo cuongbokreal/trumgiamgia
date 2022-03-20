@@ -43,6 +43,10 @@
         finalLink = longLink.match(/http.+?laz_trackid/g);
         kqLongLink.value = finalLink.replaceAll(/laz_trackid.+/g,"");
       }
+      else if(longLink.match(/tiki/g)){
+        finalLink = longLink.match(/http.+\?/g);
+        kqLongLink.value = finalLink.replaceAll("?","");
+      }
       
       //copy
         var copyText = document.getElementById('kqLongLink');

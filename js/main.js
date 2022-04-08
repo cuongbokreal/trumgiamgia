@@ -95,6 +95,8 @@ e.parentNode.insertBefore(b,e)}();
 	var dongTag= ">";
     var updateTime = new Date(); //updateTime
     var today = `${updateTime.getDate()}/${updateTime.getMonth() + 1}`;
+document.getElementById('thbaoTop').innerHTML = `Mã cập nhật lúc <span style="color:red">${updateTime.getHours()}:${updateTime.getMinutes()} ${today}</span>`;
+
 var ldJson = document.createElement('DIV');
 //ldJson.type = 'application/ld+json';
     function createMariquee(){

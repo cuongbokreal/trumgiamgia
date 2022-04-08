@@ -73,9 +73,9 @@ var dataBannerTop = [
 	"href":"https://shorten.asia/ZFmSVrRq",
 	},
 	{
-	"title":"TIKI Tips mách mẹ ",
-	"imgUrl":"https://salt.tikicdn.com/cache/w1080/ts/banner/28/b2/32/14406bd4869efae23f62249a0af6b148.png.webp",
-	"href":"https://shorten.asia/1HDMTKGn",
+	"title":"TIKI Mọt sách ",
+	"imgUrl":"https://salt.tikicdn.com/cache/w1080/ts/banner/06/3a/df/fc6b6eca994c362cefff33e6f35036a2.png.webp",
+	"href":"https://shorten.asia/j81UhftS",
 	},
 	{
 	"title":"TIKI Bách hóa",
@@ -83,9 +83,9 @@ var dataBannerTop = [
 	"href":"https://shorten.asia/a57WbuC5",
 	},
 	{
-	"title":"TIKI Làm mới tủ đồ",
-	"imgUrl":"https://salt.tikicdn.com/cache/w1080/ts/banner/47/c2/33/052fe51de742a1e2c28a70381eea84b4.png.webp",
-	"href":"https://shorten.asia/fVZPuWnW",
+	"title":"TIKI MOM CLUB",
+	"imgUrl":"https://salt.tikicdn.com/cache/w1080/ts/banner/e7/20/5c/16ec7f5b4a7198aa9bc67dd5a845c8f6.png.webp",
+	"href":"https://shorten.asia/9nk1DfcW",
 	},
 	
 ]

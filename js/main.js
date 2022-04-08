@@ -97,7 +97,7 @@ e.parentNode.insertBefore(b,e)}();
     var today = `${updateTime.getDate()}/${updateTime.getMonth() + 1}`;
 
 var zaloGr = 'https://zalo.me/g/fqehfa279';
-document.getElementById('thbaoTop').innerHTML = `Mã cập nhật lúc <span style="color:red">${updateTime.getHours()}:${updateTime.getMinutes()} ${today}</span>, Tham gia group nhắc săn Deal, Voucher hàng ngày tại <a href="${zaloGr}" target="_blank">${zaloGr}</a>`;
+document.getElementById('thbaoTop').innerHTML = `Mã cập nhật lúc <span style="color:red">${updateTime.getHours()}:${updateTime.getMinutes()} ${today}</span>, tham gia group nhắc săn Deal, Voucher hàng ngày tại <a href="${zaloGr}" target="_blank">${zaloGr}</a>`;
 
 var ldJson = document.createElement('DIV');
 //ldJson.type = 'application/ld+json';

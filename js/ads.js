@@ -58,9 +58,9 @@ var dataBannerTop = [
 	"href":"https://shorten.asia/ycJaP4T7",
 	},
 	{
-	"title":"TIKI Chào tháng 3",
-	"imgUrl":"https://i.imgur.com/blKGs9e.png",
-	"href":"https://shorten.asia/RNYKqEAu",
+	"title":"TIKI Săn deal điện tử",
+	"imgUrl":"https://salt.tikicdn.com/cache/w1080/ts/banner/9c/ea/5d/d4fb710908d862484f14e6242dd1faf9.png.webp",
+	"href":"https://shorten.asia/u2kKdER9",
 	},
 	{
 	"title":"TIKI Tefal",

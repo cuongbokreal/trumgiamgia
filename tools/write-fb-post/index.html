@@ -29,17 +29,17 @@
     </style>
     <script>
       var updateTime = new Date(); //updateTime
-    writeTime = '';
+    writeTime = ''; var saleDay = updateTime.getDate();
     if(updateTime.getHours() >= 0 && updateTime.getHours() < 9){writeTime = '9'}else
     if(updateTime.getHours() >= 9 && updateTime.getHours() < 12){writeTime = '12'}else
     if(updateTime.getHours() >= 12 && updateTime.getHours() < 15){writeTime = '15'}else
     if(updateTime.getHours() >= 15 && updateTime.getHours() < 18){writeTime = '18'}else
     if(updateTime.getHours() >= 18 && updateTime.getHours() < 21){writeTime = '21'}else
     if(updateTime.getHours() >= 21 && updateTime.getHours() < 23){writeTime = '23'}else
-    if(updateTime.getHours() >= 23 && updateTime.getHours() < 24){writeTime = '0'}
+    if(updateTime.getHours() >= 23 && updateTime.getHours() < 24){writeTime = '0'; saleDay += 1}
       
       document.getElementById('saleTime').value = `${writeTime}H`;
-      document.getElementById('saleDay').value = `${updateTime.getDate()}`;
+      document.getElementById('saleDay').value = `${saleDay}`;
       document.getElementById('saleMonth').value = `${updateTime.getMonth() +1}`;
       
       //document.getElementById('actionWrite').onclick = write();

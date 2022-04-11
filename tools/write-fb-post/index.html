@@ -30,11 +30,11 @@
     <script>
       var updateTime = new Date(); //updateTime
     writeTime = '';
-    if(updateTime.getHours() >= 0){writeTime = '9'}else
-    if(updateTime.getHours() >= 9){writeTime = '12'}else
-    if(updateTime.getHours() >= 12){writeTime = '15'}else
-    if(updateTime.getHours() >= 15){writeTime = '18'}else
-    if(updateTime.getHours() >= 18){writeTime = '21'}
+    if(updateTime.getHours() >= 0 && updateTime.getHours() < 9){writeTime = '9'}else
+    if(updateTime.getHours() >= 9 && updateTime.getHours() < 12){writeTime = '12'}else
+    if(updateTime.getHours() >= 12 && updateTime.getHours() < 15){writeTime = '15'}else
+    if(updateTime.getHours() >= 15 && updateTime.getHours() < 18){writeTime = '18'}else
+    if(updateTime.getHours() >= 18 && updateTime.getHours() < 21){writeTime = '21'}
       document.getElementById('saleTime').value = `${writeTime}H`;
       document.getElementById('saleDay').value = `${updateTime.getDate()}`;
       document.getElementById('saleMonth').value = `${updateTime.getMonth() +1}`;

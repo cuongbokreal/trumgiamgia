@@ -58,12 +58,12 @@ function functionWrite(){
                 // Lặp qua từng checkbox để lấy giá trị
                 for (var i = 0; i < checkbox.length; i++){
                     if (checkbox[i].checked === true){
-                        tmdt += `${checkbox[i].value} +`;
+                        tmdt += ` ${checkbox[i].value} +`;
                     }
                 }
                 tmdt += '  ';
                 tmdt = tmdt.replaceAll(" +  ","");
-ketquaWrite.innerHTML = `🎉 ${tmdt} ${saleTime} ngày ${saleDay}/${saleMonth} 🏆
+ketquaWrite.innerHTML = `🎉${tmdt} ${saleTime} ngày ${saleDay}/${saleMonth} 🏆
 🍀 
 ${inputWrite.value}
 📢 Lưu ý nho nhỏ AD có thêm mấy nhóm gửi mã + deal nhắc mã khung giờ liên tục mọi người tham gia tránh bỏ lở nhưng thứ hay ho ở nhóm này nhé

@@ -16,7 +16,7 @@
     <input class="input" id="saleDay" placeholder="Ngày Up mã"/>
     <input class="input" id="saleMonth" placeholder="Tháng Up mã"/>
     
-    <textarea id="inputWrite" placeholder="Nhập text"></textarea>
+    <textarea id="inputWrite" onclick="write()" onblur="write()" placeholder="Nhập text"></textarea>
     <button class="button" id="actionWrite" onclick="actionWrite()">Reg</button>
     <textarea id="ketquaWrite" placeholder="Kết quả hiển thị ở đây"></textarea>
     <style>
@@ -42,8 +42,8 @@
       document.getElementById('saleDay').value = `${updateTime.getDate()}`;
       document.getElementById('saleMonth').value = `${updateTime.getMonth() +1}`;
       
-      document.getElementById('actionWrite').onclick = write();
-      document.getElementById('actionWrite').onblur = write();
+      //document.getElementById('actionWrite').onclick = write();
+      //document.getElementById('actionWrite').onblur = write();
       
       function write(){
       var ketquaWrite = document.getElementById('ketquaWrite');

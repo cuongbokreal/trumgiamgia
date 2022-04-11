@@ -41,7 +41,10 @@
       document.getElementById('saleDay').value = `${updateTime.getDate()}`;
       document.getElementById('saleMonth').value = `${updateTime.getMonth() +1}`;
       
-    document.getElementById('actionWrite').onclick = function(){
+      document.getElementById('actionWrite').onclick = write();
+      document.getElementById('actionWrite').onblur = write();
+      
+      function write(){
       var ketquaWrite = document.getElementById('ketquaWrite');
       var inputWrite = document.getElementById('inputWrite');
       var saleTime = document.getElementById('saleTime').value;

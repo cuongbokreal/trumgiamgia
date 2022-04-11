@@ -16,9 +16,9 @@
     <input id="saleDay" placeholder="Ngày Up mã"/>
     <input id="saleMonth" placeholder="Tháng Up mã"/>
     
-    <textarea id="inputWrite"></textarea>
+    <textarea id="inputWrite" placeholder="Nhập text"></textarea>
     <button class="button" id="actionWrite" onclick="actionWrite()">Reg</button>
-    <textarea id="ketquaWrite"></textarea>
+    <textarea id="ketquaWrite" placeholder="Kết quả hiển thị ở đây"></textarea>
     <style>
       #inputWrite, #ketquaWrite{width:100%;height:100px}
       .button {font-family: "Roboto", sans-serif;text-transform: uppercase;outline: 0;background: #4CAF50;border: 1px solid #f44296;width: 100%;padding: 15px;color: #FFFFFF;font-size: 14px;-webkit-transition: all 0.3 ease;transition: all 0.3 ease;cursor: pointer;}
@@ -78,6 +78,12 @@ TGG 2 ➡ https://zalo.me/g/cvpxza602
 ${saleDay}${saleMonth}at
 CTVID: TOPVOUCHERM001-CB
                                                     `;
+      //copy
+        var copyText = document.getElementById('ketquaWrite');
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        navigator.clipboard.writeText(copyText.value);
+        console.log("Copied the text: " + copyText.value);
                                                     };
     </script>
   </body>

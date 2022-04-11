@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <meta charset='UTF-8'/>
+    <meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/>
+    <meta content='IE=edge' http-equiv='X-UA-Compatible'/>
+    <title>Tool Shopee</title>
+  </head>
+  <body>
+    <h4>Write TMDT</h4>
+    
+    <input type="checkbox" name="hobby" value="SHOPEE"/> <label>SHOPEE</label> <br/>
+    <input type="checkbox" name="hobby" value="LAZADA"/> <label>LAZADA</label> <br/>
+    <input type="checkbox" name="hobby" value="TIKI"/> <label>TIKI</label> <br/>
+    
+    <textarea id="inputWrite"></textarea>
+    <button class="button" id="actionWrite" onclick="actionWrite()">Reg</button>
+    <textarea id="ketquaWrite"></textarea>
+    <style>
+      #inputWrite{width:100%;height:100px}
+    </style>
+    
+    document.getElementById('actionWrite').onclick = function(){
+        var ketquaWrite = document.getElementById('ketquaWrite');
+      var inputWrite = document.getElementById('inputWrite');
+                // Khai báo tham số
+                var checkbox = document.getElementsByName('hobby');
+                var tmdt = "";
+                // Lặp qua từng checkbox để lấy giá trị
+                for (var i = 0; i < checkbox.length; i++){
+                    if (checkbox[i].checked === true){
+                        tmdt += `+ checkbox[i].value`;
+                    }
+                }
+ketquaWrite.innerHTML = `🎉 ${tmdt} 18H 9/4  🏆
+🍀 
+${inputWrite.value}
+📢 Lưu ý nho nhỏ AD có thêm mấy nhóm gửi mã + deal nhắc mã khung giờ liên tục mọi người tham gia tránh bỏ lở nhưng thứ hay ho ở nhóm này nhé
+👉 Nhóm tin nhanh mã (chỉ nhận tin từ ad, no chat)
+TGG 3 ➡ https://zalo.me/g/zifnyp887
+TGG 2 ➡ https://zalo.me/g/cvpxza602
+👉 Nhóm chát ➡ https://zalo.me/g/vjliqt213
+--------------------------------------------------------
+😍 Tham gia Group cập nhật Voucher, Deal xịn, duyệt bài tự động 💖
+👉 https://www.facebook.com/584602429633228
+👉 Group Za.lo cập nhật mã sớm nhất: https://zalo.me/g/fqehfa279
+🍀 Tìm mã giảm giá tại: https://topvoucher.tk/
+👉 Mã giảm giá SHOPEE: https://topvoucher.tk/ma-giam-gia/shopee/
+👉 Mã giảm giá LAZADA: https://topvoucher.tk/ma-giam-gia/lazada/
+👉 Mã giảm giá TIKI: https://topvoucher.tk/ma-giam-gia/tiki/
+09044
+CTVID: TOPVOUCHERM001-CB
+                                                    `;
+                                                    };
+  </body>
+</html>

@@ -8,7 +8,7 @@
     -webkit-user-select: none;
     -webkit-touch-callout: none;
 }*/
-.atEQPOIVFSDFSDG-details, .atEQPOIVFSDFSDG-details-description, .atEQPOIVFSDFSDG-code-coupon{
+.atEQPOIVFSDFSDG-heading--title p, .atEQPOIVFSDFSDG-details-description, .atEQPOIVFSDFSDG-code-coupon{
     pointer-events: none;
     -moz-user-select: none;
     -ms-user-select: none;

@@ -1,11 +1,13 @@
-var voucher = '[data-brick-type="COUPON"] > div > div > div > div > div > div > div';
+var queryVoucher = '[data-brick-type="COUPON"] > div > div > div > div > div > div > div';
 
-var imageVoucher = document.querySelectorAll(`${voucher} > div > div > div > div > img`);
+var voucher = document.querySelectorAll(`${queryVoucher}`);
 
-var titleVoucher = document.querySelectorAll(`${voucher} > div > div :nth-child(3)`);
+var imageVoucher = document.querySelectorAll(`${queryVoucher} > div > div > div > div > img`);
+
+var titleVoucher = document.querySelectorAll(`${queryVoucher} > div > div :nth-child(3)`);
 
 
-console.log(titleVoucher[0], imageVoucher[0]);
+console.log(voucher.length);
 
 
 var detailVoucher = document.querySelectorAll('div > button > img')

@@ -168,7 +168,7 @@ var searchButton = document.getElementsByClassName('atEQPOIVFSDFSDG-btn-search')
 searchButton.addEventListener("click", function(){
 	var searchInput = document.getElementById('atEQPOIVFSDFSDG-search');
         if(inputSearch.value.length >= 1){
-    	    window.open(`${window.location.href}/search?q=${searchInput}`)
+    	    window.open(`${window.location.href}/search?q=${searchInput.value}`)
         }
 })
 

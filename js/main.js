@@ -167,7 +167,7 @@ if(document.querySelector("[data-merchant='5127139956446111602']")){
 var searchButton = document.getElementsByClassName('atEQPOIVFSDFSDG-btn-search')[0];
 searchButton.addEventListener("click", function(){
 	var searchInput = document.getElementById('atEQPOIVFSDFSDG-search');
-        if(inputSearch.value.length >= 1){
+        if(searchInput.value.length >= 1){
     	    window.open(`${window.location.href}/search?q=${searchInput.value}`)
         }
 })

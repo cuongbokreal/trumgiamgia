@@ -35,7 +35,7 @@ $(document).ready(function(){
                 });
                 */
             }
-            document.title = `${q} - Trùm Giảm Giá | Tổng hợp Mã Giảm Giá, Coupon, Voucher`;
+            document.title = `${q.toUpperCase()} - Trùm Giảm Giá | Tổng hợp Mã Giảm Giá, Coupon, Voucher`;
         }
     }
 )

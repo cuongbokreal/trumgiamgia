@@ -16,6 +16,8 @@
     -webkit-user-select: none;
     -webkit-touch-callout: none;
 }
+.dealpromo-item-cta{display: -webkit-box;-webkit-line-clamp: 3;-webkit-box-orient: vertical;  overflow: hidden;} /*voucher ở index.html title không quá 3 dòng*/
+
 #menu-logo{width: 70px;}
 #innerBannerTop{margin-top:3rem; margin-bottom:10px;border: 1.5px dashed rgb(41, 189, 253);}
 .bannerAds, #innerBanner1, #innerBanner2, #innerBanner3{margin-top:10px; margin-bottom:10px;;border: 1.5px dashed rgb(41, 189, 253);}

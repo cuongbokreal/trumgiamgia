@@ -157,6 +157,9 @@ var mainSearch = document.getElementsByClassName('atEQPOIVFSDFSDG-input-main-sea
 var filter_and_delete = document.getElementsByClassName('atEQPOIVFSDFSDG-filters-and-delete-search')[0];
 var next_tab = document.getElementsByClassName('atEQPOIVFSDFSDG-coupon-pagination')[0];
 
+//Sửa chữ lazadacps => Lazada
+const dropdown_menu_lazada = document.querySelector("[data-merchant='5127139956446111602']");
+dropdown_menu_lazada.innerText = 'Lazada';
 
 //filter_keyword.addEventListener("click", createMariquee() );
 //mainSearch.addEventListener("click", createMariquee() );

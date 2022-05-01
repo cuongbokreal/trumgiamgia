@@ -158,8 +158,20 @@ var filter_and_delete = document.getElementsByClassName('atEQPOIVFSDFSDG-filters
 var next_tab = document.getElementsByClassName('atEQPOIVFSDFSDG-coupon-pagination')[0];
 
 //Sửa chữ lazadacps => Lazada
-const dropdown_menu_lazada = document.querySelector("[data-merchant='5127139956446111602']");
-dropdown_menu_lazada.innerText = 'Lazada';
+if(document.querySelector("[data-merchant='5127139956446111602']")){
+	const dropdown_menu_lazada = document.querySelector("[data-merchant='5127139956446111602']");
+	dropdown_menu_lazada.innerText = 'Lazada';
+}
+
+//search
+var searchButton = document.getElementsByClassName('atEQPOIVFSDFSDG-btn-search')[0];
+searchButton.addEventListener("click", function(){
+	var searchInput = document.getElementById('atEQPOIVFSDFSDG-search');
+        if(inputSearch.value.length >= 1){
+    	    window.open(`${window.location.href}/search?q=${searchInput}`)
+        }
+})
+
 
 //filter_keyword.addEventListener("click", createMariquee() );
 //mainSearch.addEventListener("click", createMariquee() );

@@ -30,7 +30,7 @@
 @media screen and (max-width:640px){
  .grid-menu {grid-template-columns: auto;}
 }
-div a img{border-radius: 15px;}
+.logoVoucher{border-radius: 15px;}
 	
 </style>
 
@@ -77,7 +77,7 @@ var listBrand = [
 ]
 let innerMain = "";
 for(let i=0; i< listBrand.length; i++){
-innerMain +=`<div><a target="_blank" href="${listBrand[i].href}"><img alt="${listBrand[i].title}" title="${listBrand[i].title}" src="${listBrand[i].imgUrl}"/></a></div>`;
+innerMain +=`<div><a target="_blank" href="${listBrand[i].href}"><img class="logoVoucher" alt="${listBrand[i].title}" title="${listBrand[i].title}" src="${listBrand[i].imgUrl}"/></a></div>`;
 }
   main.innerHTML = innerMain;
  

@@ -103,7 +103,9 @@ var dataVoucher = `
 
 => Lưu sớm mã tại: https://shorten.asia/kvWyZNEk
 
+`;
 
+var monthVoucher = `
 🔥 4/5/22 23:59
 
 Hoàn 5% tối đa 100K Xu cho đơn từ 500K (App): https://bit.ly/3kvwq5e
@@ -135,6 +137,6 @@ Giảm 10% tối đa 20000Đ cho đơn từ 30000Đ: https://bit.ly/3vxL9mA
 🔥 MumClub:
 
 Giảm 100K cho đơn từ 0đ (App): https://bit.ly/3F2iYiC
-
-
 `;
+
+dataVoucher += monthVoucher;

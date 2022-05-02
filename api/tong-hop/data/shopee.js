@@ -46,7 +46,7 @@ ShopeePay:
 Giảm 5% tối đa 50K cho đơn từ 200K: https://bit.ly/3s3MKhT
 Giảm ngay 10K cho đơn từ 50K: https://bit.ly/37RWGnM
 
-🔥 31/05/22 35:59
+🔥 31/05/22 23:59
 [Hóa đơn]- Giảm 3% tối đa 10000Đ cho đơn từ 0Đ: https://bit.ly/3vxHJ34
 [Vé máy bay]- Giảm 5% tối đa 100000Đ cho đơn từ 0Đ: https://bit.ly/3F4bg7w
 [Vé xem phim]- Giảm 20% tối đa 20000Đ cho đơn từ 0Đ: https://bit.ly/3kscQqz

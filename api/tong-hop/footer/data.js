@@ -1,7 +1,7 @@
 var updateTime = new Date();
 var idTime = `${updateTime.getDate()}${updateTime.getMonth()}`;
 var dataFooter = `
-
+<br/>
 <p>📢 Lưu ý nho nhỏ AD có thêm mấy nhóm gửi mã + deal nhắc mã khung giờ liên tục mọi người tham gia tránh bỏ lở nhưng thứ hay ho ở nhóm này nhé</p>
 <p>👉 Nhóm tin nhanh mã (chỉ nhận tin từ ad, no chat)</p>
 <p>TGG 3 ➡ <a href="https://zalo.me/g/fqehfa279">https://zalo.me/g/fqehfa279</a></p>

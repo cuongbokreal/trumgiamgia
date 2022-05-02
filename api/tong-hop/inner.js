@@ -1,4 +1,5 @@
-var innerData = dataVoucher.replaceAll();
+var innerData = dataVoucher.replaceAll(`
+`,"<br/>");
 
 var innerMain = document.getElementById('innerMain');
 

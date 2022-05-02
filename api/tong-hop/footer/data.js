@@ -22,3 +22,6 @@ TGG 2 ➡ https://zalo.me/g/cvpxza602
 ${idTime}
 CTVID: TOPVOUCHERM001-CB
 `;
+
+document.getElementById('innerFooter').innerHTML = dataFooter.replaceAll(`
+`,"<br/>");

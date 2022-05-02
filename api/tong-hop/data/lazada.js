@@ -1,20 +1,28 @@
 var dataVoucher = `
 
-🔥MÃ NGâN HÀNG:  back vào 12H - load liên tục có thể lên sớm hoặc muộn (Có thêm mã CIMB giảm 30K)
-=> Lưu mã tại: https://shorten.asia/87QfXZJF 
+🔥VOUCHER TÍCH LŨY GIẢM TỚI 400K: ngày 5-9.dùng
+• Thu thập voucher hàng ngày tại: https://shorten.asia/kPVxdvwF
+• Thu thập thêm voucher tích lũy dưới link sản phẩm: https://shorten.asia/dBaupHur
+.
+🔥0H; ỐP ĐIỆN THOẠI 1K: https://shorten.asia/t6rNpXkv
+.
+🔥MOMO: canh back 9H hàng ngày - có thể lên sớm hoặc muộn vài phút
+=> Lưu mã tại: https://shorten.asia/fAxnGW9W
+.
+🔥ZALOPAY: canh back 9H hàng ngày - có thể lên sớm hoặc muộn vài phút
+=> Lưu mã tại: https://shorten.asia/xeDm96ju
+.
+🔥MÃ NGâN HÀNG: mở lưu vào 9H, back vào 12H
+=> Lưu mã tại: https://shorten.asia/99qn6BXZ
+.
+🔥FLASH SALE: https://shorten.asia/h9E3ur3H
+• 0H, 12H: Mua deal sốc(sẽ hiện hết giá trước 5-15phút)
+.
+🔥MÃ THANH TOÁN GIẢM 15K ĐƠN TỪ 60K: https://shorten.asia/4kfDwFwJ
 .
 🔥LAZMALL: mã mới hàng ngày
 • Mã giảm 60K đơn từ 400K
-=> Lưu mã tại: https://shorten.asia/E2q42YGR
-.
-🔥ZALOPAY: có full mã
-=> Lưu mã tại: https://shorten.asia/FptnxyZD
-.
-🔥MÃ THANH TOÁN GIẢM 15K ĐƠN TỪ 60K: https://shorten.asia/YaQJevBA
- .
-🔥VOUCHER TÍCH LŨY GIẢM TỚI 400K: ngày 5-9.5dùng
-• Thu thập voucher hàng ngày tại: https://shorten.asia/9rE2bqTa
-• Thu thập thêm voucher tích lũy dưới link sản phẩm: https://shorten.asia/KDr2bXfZ
+=> Lưu mã tại: https://shorten.asia/h3VFuzUQ
 
 `;
 

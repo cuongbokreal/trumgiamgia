@@ -71,6 +71,9 @@
 #menuToggle input:checked ~ ul{transform: none;}
 #menu-logo{margin-top: -15px;}
 @media screen and (max-width:640px){
+    .atEQPOIVFSDFSDG-voucher-main .container {
+        max-width: 100%;
+    }
   #menu{width: 15rem;max-width:15rem;font-size: 16px;}
   #menu li {width: 140%;padding: 5px 0;font-size: 16px;}
   }

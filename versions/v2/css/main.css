@@ -185,9 +185,11 @@ margin: 0px 8px;
   padding-left: 0;
  }
 li.active {
-  color: #ee4d2d !important;
-  caret-color: #ee4d2d !important;
-  border: 1px #ee4d2d solid;
+	.page-link{
+	  color: #ee4d2d !important;
+	  caret-color: #ee4d2d !important;
+	  border: 1px #ee4d2d solid;
+	}
 }
 .atEQPOIVFSDFSDG-btn-keyword {
   /* Auto Layout */

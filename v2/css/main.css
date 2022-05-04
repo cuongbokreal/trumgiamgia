@@ -22,6 +22,7 @@
 } /*từng coupon*/
 
 .page-link{
+    cursor: pointer;
     background: transparent;
     border-radius: 4px;
     font-size: 1rem;

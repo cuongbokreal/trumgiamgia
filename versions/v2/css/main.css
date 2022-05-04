@@ -85,7 +85,7 @@ body {
   /* Primary-dark */
   box-sizing: border-box;
   height: 40px;
-  border: 1.5px #5649B8;
+  border: 1.5px #dedede;
   border-style: solid hidden solid solid;
   border-radius: .25rem 0 0 .25rem;
   flex: 1 1 auto;
@@ -108,7 +108,8 @@ display: flex;
 align-items: center;
 padding: 0px 20px;
 /* Primary */
-background: #6C5CE7;
+background-color: #ee4d2d !important;
+border-color: #ee4d2d !important;
 border-radius: 0px 8px 8px 0px;
 cursor: pointer;
 

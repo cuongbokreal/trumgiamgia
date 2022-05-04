@@ -177,7 +177,11 @@ li.active {
   display: flex;
   margin-right: 0.5rem;
     /* Gray-lighter */
-  background: #E5EBED;
+  background-color: transparent!important;
+  color: #6200ea!important;
+  caret-color: #6200ea!important;
+  border-width: thin;
+  border-style: solid;
   border-radius: 8px;
   /* Inside Auto Layout */
    padding: 0.3em;

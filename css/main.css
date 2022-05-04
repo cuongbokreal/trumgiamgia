@@ -16,6 +16,11 @@
     -webkit-user-select: none;
     -webkit-touch-callout: none;
 }
+.atEQPOIVFSDFSDG-coupon-grid{
+    background-color: rgb(245, 245, 245);
+    border-color: rgb(245, 245, 245);
+} /*từng coupon*/
+
 .dealpromo-item-cta{display: -webkit-box;-webkit-line-clamp: 3;-webkit-box-orient: vertical;  overflow: hidden;} /*voucher ở index.html title không quá 3 dòng*/
 
 #menu-logo{width: 70px;}

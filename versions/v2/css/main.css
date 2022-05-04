@@ -715,8 +715,7 @@ atEQPOIVFSDFSDG-heading--label span{
   padding: 0 4px !important;
 }
 .atEQPOIVFSDFSDG-dealact-copy:hover {
-  background: #5649B8;
-  color: #fff;
+  opacity:.08
 }
 
 /* dropdown  */

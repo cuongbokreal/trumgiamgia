@@ -184,12 +184,11 @@ margin: 0px 8px;
   list-style: none;
   padding-left: 0;
  }
-li.active {
-	.page-link{
-	  color: #ee4d2d !important;
-	  caret-color: #ee4d2d !important;
-	  border: 1px #ee4d2d solid;
-	}
+li.active:nth-child(1) {
+    color: #ee4d2d !important;
+    caret-color: #ee4d2d !important;
+    border: 1px #ee4d2d solid;
+    border-radius: 10px;
 }
 .atEQPOIVFSDFSDG-btn-keyword {
   /* Auto Layout */

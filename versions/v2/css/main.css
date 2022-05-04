@@ -463,7 +463,8 @@ h2.title:before {
 }
 
 .atEQPOIVFSDFSDG-coupon-pagination nav ul.pagination li.active a {
-    background-color: #6C5CE7;
+    background-color: #ffffff;
+    color: #000;
     border-radius: 0.3rem;
 }
 

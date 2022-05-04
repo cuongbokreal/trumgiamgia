@@ -219,3 +219,30 @@
     <script type="text/javascript" src="https://static.accesstrade.vn/coupon/v2/js/slick/slick.min.js"></script>
     <script type="text/javascript" id="atScript6626" data-sub1="" data-sub2="" data-sub3="" data-sub4="" data-sub5="" data-utm-source="" data-utm-medium="" data-utm-campaign="" data-utm-content="" data-filters='{"merchant":"4742147753565840242,4348611690224153209,5127139956446111602","category":"","campaign":"4751584435713464237,4348614231480407268,5087153089503673507,"}' data-accesskey="5353514789844343379" src="https://static.accesstrade.vn/coupon/v2/js/main_at_v2.js"></script>
       
+
+<script>
+var voucher_body = document.getElementsByClassName('atEQPOIVFSDFSDG-dealpromo-body');
+
+document.querySelectorAll('.page-item').forEach(item => {
+  item.addEventListener('click', event => {
+    voucher_body[0].innerHTML = `
+    <style>
+    @keyframes movement{
+    from{transform:translateY(2px)}50%{transform:translateY(-2px)}
+    to{transform:translateY(2px)}}
+    .spinner circle{animation:.4s movement linear infinite}
+    .spinner circle:nth-child(2){animation-delay:.1s}
+    .spinner circle:nth-child(3){animation-delay:.2s}
+    </style>
+
+    <center>
+    <svg class="spinner" style="text-align:center;" width="34" height="12" viewBox="-1 0 33 12"><circle class="loading-dot" cx="4" cy="6" r="4" fill="#ee4d2d"></circle>
+    <circle class="loading-dot" cx="16" cy="6" r="4" fill="#ee4d2d"></circle>
+    <circle class="loading-dot" cx="28" cy="6" r="4" fill="#ee4d2d"></circle>
+    </svg>
+    </center>
+    `;
+  })
+})
+  
+</script>

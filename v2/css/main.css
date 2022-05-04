@@ -19,7 +19,7 @@
 .atEQPOIVFSDFSDG-coupon-grid{
     background-color: rgb(245, 245, 245);
     border-color: rgb(245, 245, 245);
-    border: 1px solid;
+    border: 1px solid rgb(245, 245, 245);
 } /*từng coupon*/
 
 .page-link{
@@ -43,6 +43,7 @@
 #innerBannerTop{margin-top:3rem; margin-bottom:10px;border: 1.5px dashed rgb(41, 189, 253);}
 .bannerAds, #innerBanner1, #innerBanner2, #innerBanner3{margin-top:10px; margin-bottom:10px;;border: 1.5px dashed rgb(41, 189, 253);}
 .atEQPOIVFSDFSDG-search-title{display:none}
+
 .atEQPOIVFSDFSDG-coupon-grid{
       	transition: box-shadow ease-in-out .1s;
 }

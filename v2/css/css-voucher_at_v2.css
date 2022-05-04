@@ -673,7 +673,10 @@ atEQPOIVFSDFSDG-heading--label span{
   cursor: pointer;
 }
 .atEQPOIVFSDFSDG-voucher-btn {
-  background-color: #5649B8 !important;
+  background-color: #ee4d2d !important;
+    border-color: #ee4d2d !important;
+    border-radius: 0px 8px 8px 0px;
+    cursor: pointer;
   color: #fff !important;
   height: 31px;
   padding: 0 4px !important;

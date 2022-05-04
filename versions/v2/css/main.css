@@ -184,7 +184,7 @@ margin: 0px 8px;
   list-style: none;
   padding-left: 0;
  }
-li.active:nth-child(1) {
+li.active > * {
     color: #ee4d2d !important;
     caret-color: #ee4d2d !important;
     border: 1px #ee4d2d solid;

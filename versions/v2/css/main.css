@@ -233,9 +233,14 @@ margin: 16px 0px;
 .atEQPOIVFSDFSDG-delete-search {
   align-items: baseline;
   background: #fff;
-  border: none;
+  border: 1px red solid;
+  border-radius: 5px;
+  border-spacing: 5px;
   cursor: pointer;
   display: none;
+}
+.atEQPOIVFSDFSDG-delete-search:hover{
+	background: #f4f4f4;
 }
 
 .atEQPOIVFSDFSDG-delete-search:focus {

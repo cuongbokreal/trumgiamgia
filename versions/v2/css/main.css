@@ -40,6 +40,12 @@ body {
     width: auto;
     box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);
 }
+
+.atEQPOIVFSDFSDG-voucher-dealcoupon, .atEQPOIVFSDFSDG-search{
+	background: #fff;
+	border-radius: 5px;
+    box-shadow: 4px 0px 5px 2px rgb(61 63 64 / 4%);
+}
 /**/
 
 .atEQPOIVFSDFSDG-voucher-main {
@@ -68,8 +74,6 @@ body {
 
   /* White */
   background: #FFFFFF;
-  box-shadow: 0px 0px 1px 1px rgba(61, 63, 64, 0.2);
-  border-radius: 4px;
 
   /* Inside Auto Layout */
   flex: none;
@@ -948,8 +952,6 @@ atEQPOIVFSDFSDG-heading--label span{
 
 .atEQPOIVFSDFSDG-voucher-dealcoupon {
   background: #fff;
-  border-radius: 2px;
-  box-shadow: 0px 0px 1px 1px rgba(61, 63, 64, 0.05);
 }
 .atEQPOIVFSDFSDG-list-title h4 {
     font-size: 14px;

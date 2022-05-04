@@ -724,6 +724,10 @@ atEQPOIVFSDFSDG-heading--label span{
 .atEQPOIVFSDFSDG-dealact-copy:hover {
   background: #fff3e9;
 }
+.atEQPOIVFSDFSDG-dealact-copy:focus {
+  border: none;
+  outline: none;
+}
 
 /* dropdown  */
 .atEQPOIVFSDFSDG-filter-sort {
@@ -949,15 +953,6 @@ atEQPOIVFSDFSDG-heading--label span{
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.atEQPOIVFSDFSDG-dealact-copy:hover {
-  background: #5649B8;
-  color: #fff;
-}
-.atEQPOIVFSDFSDG-dealact-copy:focus {
-  border: none;
-  outline: none;
-}
-
 .atEQPOIVFSDFSDG-voucher-dealcoupon {
   background: #fff;
 }

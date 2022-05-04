@@ -201,14 +201,9 @@ li.active {
 .atEQPOIVFSDFSDG-btn-keyword a {
   /* Auto Layout */
   font-size: 12px;
-  color: #3D3F40;
 }
-.atEQPOIVFSDFSDG-btn-keyword:hover,
-.atEQPOIVFSDFSDG-btn-keyword a:hover,
-li.active a {
-  /* Auto Layout */
-  background: #6C5CE7;
-  color: #FFFFFF;
+.atEQPOIVFSDFSDG-btn-keyword:hover:before{
+    opacity:.08
 }
 
 .atEQPOIVFSDFSDG-voucher-dealcoupon{

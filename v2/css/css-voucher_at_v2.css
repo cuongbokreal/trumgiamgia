@@ -470,8 +470,7 @@ h2.title:before {
 /* Modal Content/Box */
 .atEQPOIVFSDFSDG-at-modal-content {
   background-color: #fefefe;
-  margin: auto; /* 15% from the top and centered */
-	margin-top:10%;
+  margin: 7% auto auto auto; /* 7% from the top and centered */
   padding: 16px;
   border: 1px solid #888;
   width: 35%; /* Could be more or less, depending on screen size */

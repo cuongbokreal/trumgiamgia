@@ -1,6 +1,7 @@
 var dataVoucher = `
 
-MÃ TOÀN SÀN - NHẬP TAY: không lọc
+
+🔥MÃ TOÀN SÀN - NHẬP TAY: không lọc
 • 12H: 55HUNT55K12H hoàn 25% tối đa 55K đơn từ 0Đ=> Áp chung list sản phẩm tại: https://shorten.asia/pNEncqKx
 .
 🔥SIÊU SALE VOUCHER - MÃ TOÀN SÀN: 
@@ -38,23 +39,6 @@ Link 236: https://shorten.asia/K1qrhXpF
 🔥SHOPEEPAY: https://shorten.asia/XGH5rtfN
 • SPPMAY510KALL hoặc SPPMAY510KALL1 giảm 10K đơn từ 0Đ.
 
-🔥MÃ ÁP MỘT SỐ SẢN PHẨM: 12H có thể back 1 số mã
-• AFF55ADCBALL hoàn 50% tối đa 30K đơn từ 50K. List sản phẩm áp mã: https://goeco.mobi/5nt0b8RR
-• AFF55ADCBNW hoàn 50% tối đa 30K đơn từ 50K. List sản phẩm áp mã: https://goeco.mobi/i7boTWMS
-• AFF55MACB25K hoàn 25K đơn từ 50K. List sản phẩm áp mã:  https://goeco.mobi/KRKcLuHT
-• AFF55ADDRNW giảm 25K đơn từ 99K. List sản phẩm áp mã:  https://goeco.mobi/wl3QEICU
-• AFF55ADDRALL giảm 25K đơn từ 99K. List sản phẩm áp mã: https://goeco.mobi/Z4mE6g7V
-• AFF55P30KS2 giảm 30K đơn từ 99K. List sản phẩm áp mã: https://goeco.mobi/BOV1z42W
-• AFF55CP20KNW hoàn 20K đơn từ 50K. List sản phẩm áp mã: https://goeco.mobi/niDprRxX
-• AFF55CP20KALL hoàn 20K đơn từ 50K. List sản phẩm áp mã: https://goeco.mobi/Q1wdjpsY
-• AFF55PUOR25K giảm 25K từ 99K. List sản phẩm áp mã: https://goeco.mobi/vREJeOVp
-• AFF55MA20K giảm 20K đơn từ 99K. List sản phẩm áp mã: https://goeco.mobi/mOOjHYGs
-• S0505 giảm 50% tối đa 20K đơn từ 0Đ. List sản phẩm áp mã: https://goeco.mobi/dLZ8ui1v
-• SB0505 hoàn 20K đơn từ 0Đ. List sản phẩm áp mã: https://goeco.mobi/rz0kfTrx
-• S0215 giảm 20K đơn từ 0Đ. List sản phẩm áp mã: https://goeco.mobi/iwBAIdd0
-• SKAMNLT05 giảm 20K đơn từ 0Đ. List sản phẩm áp mã: https://goeco.mobi/xZcm3PT2
-• S013105 giảm 15K đơn từ 0Đ. List sản phẩm áp mã: https://goeco.mobi/oWnBgZE5
-• CBKF5SHV100P0M giảm 15K đơn từ 0Đ - quốc tế
 .
 🔥MÃ ÁP SẢN PHẨM CÓ MÁC “Hoàn Xu Xtra”: canh back vào 12H
 • Mã hoàn 8% tối đa 200K đơn từ 400K
@@ -73,16 +57,16 @@ Link 236: https://shorten.asia/K1qrhXpF
 🔥THỜI TRANG: https://shorten.asia/wz62BNAx
 • 12H: 55FASHIONSALE giảm 12% tối đa 30K đơn từ 99K(back)
 • 12H: 55FASHIONSALE1 giảm 10K đơn từ 50K(back)
-• 12H: THEB222K (mã shop) giảm 222K đơn từ 600K. List sản phẩm áp mã: https://goeco.mobi/NOIQa2VE
-• 12H:  GUMAC222B (mã shop) giảm 222K đơn từ 600K. List sản phẩm áp mã: https://goeco.mobi/zi1ESQQF
-• 12H:  CURNANKR3 (mã shop) giảm 222K đơn từ 222K. List sản phẩm áp mã: https://goeco.mobi/c1k2KoLG
-• 12H:  CARDM222 (mã shop) giảm 222K đơn từ 500K. List sản phẩm áp mã: https://goeco.mobi/ELSqDCGH
+• 12H: THEB222K (mã shop) giảm 222K đơn từ 600K. List sản phẩm áp mã: https://shorten.asia/zjrgk5Pj
+• 12H:  GUMAC222B (mã shop) giảm 222K đơn từ 600K. List sản phẩm áp mã: https://shorten.asia/Xv2TdYzB
+• 12H:  CURNANKR3 (mã shop) giảm 222K đơn từ 222K. List sản phẩm áp mã: https://shorten.asia/YCmYbadJ
+• 12H:  CARDM222 (mã shop) giảm 222K đơn từ 500K. List sản phẩm áp mã: https://shorten.asia/QmSVcHsS
 .
 🔥TIÊU DÙNG: https://shorten.asia/2dHEKbPF
 • 12H: 55FMCGSALE giảm 8% tối đa 100K đơn từ 500K(back)
 • 12H: 55FMCGSALE1 giảm 10% tối đa 40K đơn từ 250K(back)
-• 12H:  MON1TM100 (mã shop) giảm 50% tối đa 100K. List sản phẩm áp mã: https://goeco.mobi/SyuRxy6J
-• 12H: CURE50A (mã shop) giảm 50% tối đa 100K. List sản phẩm áp mã: https://goeco.mobi/5IdFqM1K
+• 12H:  MON1TM100 (mã shop) giảm 50% tối đa 100K. List sản phẩm áp mã: https://shorten.asia/B1EQJMps
+• 12H: CURE50A (mã shop) giảm 50% tối đa 100K. List sản phẩm áp mã: https://shorten.asia/UJPNYnHC
 • 12H: FEGOUS5 (mã shop) giảm 50% tối đa 100K đơn từ 0Đ. List sản phẩm áp mã: https://shorten.asia/pNEncqKx
 • 12H: COSRX100K (mã shop) giảm 100K đơn từ 1.499K
 .
@@ -216,7 +200,6 @@ Link 236: https://shorten.asia/K1qrhXpF
 .
 🔥MCase: https://shorten.asia/BvdXmN4S
 • 12H: MCASE2992  giảm 299K đơn từ 0K
-
 
 
 `;

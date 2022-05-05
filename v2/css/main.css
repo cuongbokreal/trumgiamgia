@@ -37,6 +37,8 @@
     box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);
 }
 
+.atEQPOIVFSDFSDG-close, .atEQPOIVFSDFSDG-details-dealact-copy{cursor: pointer;}
+
 .dealpromo-item-cta{display: -webkit-box;-webkit-line-clamp: 3;-webkit-box-orient: vertical;  overflow: hidden;} /*voucher ở index.html title không quá 3 dòng*/
 
 #menu-logo{width: 70px;}

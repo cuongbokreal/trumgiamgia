@@ -1,6 +1,4 @@
 var dataVoucher = `
-🔥Kiehl's Super Brand Day 4/5: https://shorten.asia/vFDCvx86
-.
 🔥VOUCHER TÍCH LŨY GIẢM TỚI 400K: ngày 5-9.dùng
 • Thu thập voucher hàng ngày tại: https://shorten.asia/kPVxdvwF
 • Thu thập thêm voucher tích lũy dưới link sản phẩm: https://shorten.asia/dBaupHur

@@ -151,8 +151,6 @@ Link 236: https://shorten.asia/K1qrhXpF
 `;
 
 var monthVoucher = `
-🔥 4/5/22 23:59
-Hoàn 5% tối đa 100K Xu cho đơn từ 500K (App): https://bit.ly/3kvwq5e
 
 🔥 10/05/22 23:59
 ShopeePay:

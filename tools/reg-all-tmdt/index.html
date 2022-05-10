@@ -41,7 +41,7 @@
       }
       else if(longLink.match(/lazada/g)){
         finalLink = longLink.match(/https:\/\/(pages|www)\.lazada\.vn.+?laz_trackid/g);
-        kqLongLink.value = finalLink[0].replace("laz_trackid"," ").replace(/(\?\s|&\s)/g,"");;
+        kqLongLink.value = finalLink[0].replace("laz_trackid"," ").replace(/(\?\s|&\s)/g,"");
       }
       else if(longLink.match(/tiki/g)){
         finalLink = longLink.match(/http.+\?/g);

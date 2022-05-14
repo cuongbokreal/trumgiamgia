@@ -2,12 +2,6 @@ var dataVoucher = ``;
 
 
 var monthVoucher = `
-🔥 5/5/22 23:59
-
-📌 Tiki Ngon:
-Giảm 20K cho đơn từ 199K: https://bit.ly/3KzNRMG
-Giảm 30K cho đơn từ 299K: https://bit.ly/3kznThu
-
 
 🔥 31/05/22 23:59
 

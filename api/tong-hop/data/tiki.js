@@ -1,4 +1,110 @@
-var dataVoucher = ``;
+var dataVoucher = `
+
+🔥 Tiki Ngon:
+- Giảm 15K Cho đơn hàng từ 199K: https://bit.ly/3Lacuj3
+- Giảm 25K Cho đơn hàng từ 299K: https://bit.ly/3PoTjWg
+Giảm 40K Cho đơn hàng từ 399K: https://bit.ly/3weXht2
+
+🔥 Super Fashion day: https://shorten.asia/1Mg3t1pk
+- Deal 5K: https://shorten.asia/AaBkeawS
+- Deal 69K: https://shorten.asia/pbepfqZE
+- Lưu thêm mã Astra: https://shorten.asia/VKxqbHeQ
+
+🔥 Beauty Club: https://shorten.asia/CCxD5uwu
+Lưu thêm các mã giảm giá: https://shorten.asia/CCxD5uwu
+
+🔥 Tiki Mom Club: https://shorten.asia/m1rr46NU
+- Tiện ích Tiki: https://shorten.asia/B1QR1SMT
+- Đồng giá 16K: https://shorten.asia/m1rr46NU
+- Deal mẹ bé: https://shorten.asia/trKQGEVA
+- List nhà bán uy tín:
++ HiPP Official Store: https://shorten.asia/AZYxVV5k
++ MaxKleen Official Store: https://shorten.asia/yauD9xhC
++ J&J Vietnam Official Store: https://shorten.asia/Uwn89va8
++ TH true mart Official Store: https://shorten.asia/6q9uFAVk
++ DK HARVEST: https://shorten.asia/98guZ6ZN
+
+
+🔥 Lên đời Smartphone, Laptop: https://shorten.asia/5gHvCyT8
+- Apple iPhone: https://shorten.asia/YGE9gU1m
+- Samsung: https://shorten.asia/A4KYFeG4
+- OPPO: https://shorten.asia/azzyxRT4
+- VIVO: https://shorten.asia/HHqaDdrh
+- Deal điện thoại tại HN: https://shorten.asia/dDYAS6pp
+
+🔥 Thể thao dã ngoại: https://shorten.asia/9vAwZEaj
+
+🔥 Thể thao giá tốt Seagames31: https://shorten.asia/MJ6wnu2Q
+
+🔥 Đi chợ nửa giá HCM: https://shorten.asia/SUt8Jfsw
+
+🔥 Deal công nghệ:
+- Giảm 25% Má́y Tăm Nước Gia Đình Waterpush 600ml: https://shorten.asia/D6y3mAhf
+- Giảm 25% Xe đạp thể dục Airbike MK282: https://shorten.asia/3VpwBy1N
+- Giảm 42% Ghế Massage Cao Cấp Airbike Sport MK278: https://shorten.asia/EDQ7Y7Km
+
+🔥 Deal đồ gia dụng:
+- Giảm 23% Lò Chiên Hơi Nước Siêu Nhiệt DKA-SAF118W 18L: https://shorten.asia/gWcndWt2
+- Giảm 32% Nồi chiên không dầu Dreamer DF-S40B: https://shorten.asia/DNKhG9qb
+- Giảm 33% Máy phun xịt rửa di động không dây Kachi MK260: https://shorten.asia/6Mg6m5UX
+- Giảm 34% Nồi điện ceramic Mishio nấu lẩu, mỳ, canh: https://shorten.asia/3vh4efft
+- Giảm 38% Nồi chiên không dầu cao cấp Mishio: https://shorten.asia/9pRcMtWN
+- Giảm 43% Nồi chiên không dầu 5.5L điện tử Mishio MK284: https://shorten.asia/RCWCpvKD
+- Giảm 44% Bàn văn phòng, vi tính có kệ sách Kachi MK184: https://shorten.asia/JBxuqJc8
+- Giảm 45% Lò Nướng Điện 12L Mishio MK306: https://shorten.asia/KqMSC7ej
+
+🔥 Deal mỹ phẩm, sắc đẹp:
+- Giảm 26% Nước uống làm đẹp Collagen Adiva: https://shorten.asia/UjpnFtTF
+- Giảm 29% Combo 3 hộp Collagen Adiva: https://shorten.asia/vme1WbwZ
+- Giảm 33% ADIVA ACEROLA C PLUS 60 viên: https://shorten.asia/vgw11evR
+
+
+🔥 Từ Mishio Kachi Official: https://shorten.asia/WuY43bF4
+Giảm 10% Cho đơn hàng từ 300K: https://bit.ly/3MlM5jN
+Giảm 50K Cho đơn hàng từ 500K: https://bit.ly/3LfH3Uw
+Giảm 100K Cho đơn hàng từ 1 triệu: https://bit.ly/37LXY3r
+Giảm 200K Cho đơn hàng từ 2 triệu: https://bit.ly/3wqsDLX
+Giảm 300K Cho đơn hàng từ 3 triệu: https://bit.ly/3wpF0YR
+Giảm 500K Cho đơn hàng từ 5 triệu: https://bit.ly/3szOXBC
+
+🔥 Từ Unilever : https://shorten.asia/mnRTZS8Q
+Giảm 10K Cho đơn hàng từ 249K: https://bit.ly/37LvcjB
+- Giảm 30% Combo Gội 640g, Xả 620g & Ủ 180ml TRESEMME: https://shorten.asia/98176mkh
+- Giảm 33% Bàn Chải Điện P/S S100 PRO: https://shorten.asia/wqgzkFyE
+
+🔥 Từ iBasic: https://shorten.asia/Qhady4MZ
+Giảm 100K Cho đơn hàng từ 333K: https://bit.ly/3yDjbrd
+Giảm 5% Cho đơn hàng từ 199K: https://bit.ly/38pfNpw
+Giảm 8% Cho đơn hàng từ 399K: https://bit.ly/3wd6emn
+Giảm 50K Cho đơn hàng từ 599K: https://bit.ly/3NhVokG
+Giảm 200K Cho đơn hàng từ 2 triệu: https://bit.ly/3ws66i2
+
+🔥 Từ Bindi Vietnam: https://shorten.asia/1ARNqNNw
+Giảm 12% Cho đơn hàng từ 189K: https://bit.ly/39sfyKw
+Giảm 12% Cho đơn hàng từ 333K: https://bit.ly/3wlOcgA
+
+🔥 Từ  ADIVA Official Store: https://shorten.asia/cgt5dgJp
+- Giảm 20K Cho đơn hàng từ 200K: https://bit.ly/3PmEuTT
+- Giảm 30K Cho đơn hàng từ 800K: https://bit.ly/3NbujQk
+- Giảm 50K Cho đơn hàng từ 1.3 triệu: https://bit.ly/3szNOKk
+
+🔥 Từ Farm49: https://shorten.asia/DKJ4aZcp
+- Giảm 20K Cho đơn hàng từ 230K: https://bit.ly/37QSULm
+- Giảm 30K Cho đơn hàng từ 339K: https://bit.ly/38uy9Fx
+
+🔥 Từ CJ Innerb: https://shorten.asia/pDSzBr99
+Giảm 20K Cho đơn hàng từ 499K: https://bit.ly/3l8YD1Z
+
+🔥 Lưu mã VNPAY: https://shorten.asia/nMCWYvg1
+
+🔥 Mã Zalopay:
+Giảm 20K Cho đơn hàng từ 49K: https://bit.ly/3MfmEQJ
+
+🔥 Ví Moca:
+Giảm 20K Cho đơn hàng từ 199K: https://bit.ly/3yF8fK0
+Giảm 70K Cho đơn hàng từ 799K: https://bit.ly/3sEZKKX
+
+`;
 
 
 var monthVoucher = `

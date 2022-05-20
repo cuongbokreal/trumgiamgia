@@ -4,6 +4,10 @@ var dataBannerTop = [
 "imgUrl":"https://i.imgur.com/J0LyYCe.jpg",
 "href":"https://shorten.asia/4xZASvyX",
 },
+	{"title":"Sieu voucher 400k bạn mới",
+	"imgUrl":"https://cf.shopee.vn/file/8da7a277ab0b311b9152070ac7e2c217_xxhdpi",
+	"href":"https://shorten.asia/VHqVatw2",
+	},
 //LAZADA
 	{"title":"LAZADA Nhà Cửa Đời Sống",
 	"imgUrl":"https://i.imgur.com/chcp9nX.jpg",

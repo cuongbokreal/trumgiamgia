@@ -163,7 +163,9 @@ if(document.querySelector("[data-merchant='5127139956446111602']")){
 	dropdown_menu_lazada.innerText = 'Lazada';
 }
 
+
 //search
+/*
 var searchButton = document.getElementsByClassName('atEQPOIVFSDFSDG-btn-search')[0];
 searchButton.addEventListener("click", function(){
 	var searchInput = document.getElementById('atEQPOIVFSDFSDG-search');
@@ -171,6 +173,7 @@ searchButton.addEventListener("click", function(){
     	    window.open(`${window.location.href.replaceAll(/\?.+/g,"")}/search?q=${searchInput.value}`)
         }
 })
+*/
 
 
 //filter_keyword.addEventListener("click", createMariquee() );

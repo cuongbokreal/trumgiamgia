@@ -11,8 +11,11 @@
         
     <div>
     <script>
+      var updateTime = new Date(); //updateTime
+    var today = `${updateTime.getDate()}/${updateTime.getMonth() + 1}`;
+      
       var data_content = [
-      `🔥 Mã giảm giá =today=:
+      `🔥 Mã giảm giá {updateTime}:
 - Shopee: https://shorten.asia/kvWyZNEk
 - Lazada: https://shorten.asia/mtKhYu5F
 - Tiki: https://shorten.asia/Q5nzVpek
@@ -33,7 +36,7 @@ TGG 2 ➡ https://zalo.me/g/cvpxza602
       var full_content = '';
        data_content.forEach(function(item, index) {
         var textarea = `<textarea>${item}</textarea>`;
-         full_content += textarea;
+         full_content += textarea.replaceAll('{updateTime}', today);
        }
       );
       document.getElementById('main').innerHTML = full_content;

@@ -152,16 +152,22 @@ var ldJson = document.createElement('DIV');
         }, 3500);
     }    
     createMariquee();
-var filter_keyword = document.getElementsByClassName('atEQPOIVFSDFSDG-filter-keyword')[0];
-var mainSearch = document.getElementsByClassName('atEQPOIVFSDFSDG-input-main-search')[0];
-var filter_and_delete = document.getElementsByClassName('atEQPOIVFSDFSDG-filters-and-delete-search')[0];
-var next_tab = document.getElementsByClassName('atEQPOIVFSDFSDG-coupon-pagination')[0];
+
+//location.hash coupon main when click next
+const pageItem = document.querySelectorAll('.pagination > .page-item');
+pageItem.forEach((element) => {element.addEventListener("click", couponTab);});
+function couponTab() {
+	location.hash = "";
+	location.hash = "couponTab"
+}
 
 //Sửa chữ lazadacps => Lazada
 if(document.querySelector("[data-merchant='5127139956446111602']")){
 	const dropdown_menu_lazada = document.querySelector("[data-merchant='5127139956446111602']");
 	dropdown_menu_lazada.innerText = 'Lazada';
 }
+
+
 
 
 //search
@@ -175,12 +181,17 @@ searchButton.addEventListener("click", function(){
 })
 */
 
+/*
+var filter_keyword = document.getElementsByClassName('atEQPOIVFSDFSDG-filter-keyword')[0];
+var mainSearch = document.getElementsByClassName('atEQPOIVFSDFSDG-input-main-search')[0];
+var filter_and_delete = document.getElementsByClassName('atEQPOIVFSDFSDG-filters-and-delete-search')[0];
+var next_tab = document.getElementsByClassName('atEQPOIVFSDFSDG-coupon-pagination')[0];
 
-//filter_keyword.addEventListener("click", createMariquee() );
-//mainSearch.addEventListener("click", createMariquee() );
-//filter_and_delete.addEventListener("click", createMariquee() );
-//next_tab.addEventListener("click", createMariquee() );
-
+filter_keyword.addEventListener("click", createMariquee() );
+mainSearch.addEventListener("click", createMariquee() );
+filter_and_delete.addEventListener("click", createMariquee() );
+next_tab.addEventListener("click", createMariquee() );
+*/
     //cuongbokreal.github.io/api/voucher-blogger-site/inner-voucher-title/main.js
 //eval(function(p,a,c,k,e,r){e=String;if(!''.replace(/^/,String)){while(c--)r[c]=k[c]||c;k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('0(2(){3},1);',4,4,'setInterval||function|debugger'.split('|'),0,{}))
 

@@ -35,11 +35,17 @@ TGG 2 ➡ https://zalo.me/g/cvpxza602
       ]
       var full_content = '';
        data_content.forEach(function(item, index) {
-        var textarea = `<textarea>${item}</textarea>`;
+        var textarea = `<textarea onclick="copyValue(this)">${item}</textarea>`;
          full_content += textarea.replaceAll('{updateTime}', today);
        }
       );
       document.getElementById('main').innerHTML = full_content;
+      
+      function copyValue(s){
+        s.focus();
+        s.select();
+        document.execCommand("Copy");
+      }
     </script>
     <style>
       #main{padding:10px; display: list-item;}

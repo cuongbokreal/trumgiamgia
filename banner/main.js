@@ -1,23 +1,77 @@
 console.log('---------');
 let obj = {
   data: [
-    {src: 'https://cf.shopee.vn/file/8da7a277ab0b311b9152070ac7e2c217_xxhdpi',
-    link: 'https://shorten.asia/VHqVatw2',
-    caption: 'Sieu voucher 400k bạn mới' 
-    },
-    {src: 'https://i.imgur.com/chcp9nX.jpg',
-    link: 'https://shorten.asia/5CrAstQ7',
-    caption: 'LAZADA Nhà Cửa Đời Sống'
-    },
-    {src: 'https://salt.tikicdn.com/cache/w1080/ts/banner/9c/ea/5d/d4fb710908d862484f14e6242dd1faf9.png.webp',
-    link: 'https://shorten.asia/u2kKdER9',
-    caption: 'TIKI Săn deal điện tử'
-    },
+//SHOPEE
+  {"caption":"Sieu voucher 400k bạn mới",
+	"src":"https://cf.shopee.vn/file/8da7a277ab0b311b9152070ac7e2c217_xxhdpi",
+	"link":"https://shorten.asia/VHqVatw2",
+	},
+//LAZADA
+	{"caption":"LAZADA Nhà Cửa Đời Sống",
+	"src":"https://i.imgur.com/chcp9nX.jpg",
+	"link":"https://shorten.asia/5CrAstQ7",
+	},
+	{"caption":"LAZADA Tích Lũy 400k",
+	"src":"https://i.imgur.com/A0pa01x.jpg",
+	"link":"https://shorten.asia/VsMkQE7t",
+	},
+	{"caption":"LAZADA Phố Bách Hóa",
+	"src":"https://i.imgur.com/yAKBUAz.jpg",
+	"link":"https://shorten.asia/X8Bsvewx",
+	},
+	{"caption":"LAZADA Sinh Nhật",
+	"src":"https://i.imgur.com/jNVGZxr.jpg",
+	"link":"https://shorten.asia/Mw5exPsE",
+	},
+
+//Tiki
+	{
+	"caption":"Friso TIKI",
+	"src":"https://i.imgur.com/FSgqeV0.jpg",
+	"link":"https://shorten.asia/nEZgSdeN",
+	},
+{
+	"caption":"TIKI Beauty Club",
+	"src":"https://i.imgur.com/yBxEKxb.png",
+	"link":"https://shorten.asia/ycJaP4T7",
+	},
+	{
+	"caption":"TIKI Săn deal điện tử",
+	"src":"https://salt.tikicdn.com/cache/w1080/ts/banner/9c/ea/5d/d4fb710908d862484f14e6242dd1faf9.png.webp",
+	"link":"https://shorten.asia/u2kKdER9",
+	},
+	{
+	"caption":"TIKI Tefal",
+	"src":"https://salt.tikicdn.com/cache/w1080/ts/banner/51/bd/94/67779b0148758aab7b4032ed81667d5d.png",
+	"link":"https://shorten.asia/AxBSkDU8",
+	},
+	{
+	"caption":"TIKI Tefal",
+	"src":"https://salt.tikicdn.com/cache/w1080/ts/banner/76/82/9d/cd27350f0800d7562b02dac7832ef86a.png.webp",
+	"link":"https://shorten.asia/ZFmSVrRq",
+	},
+	{
+	"caption":"TIKI Mọt sách ",
+	"src":"https://salt.tikicdn.com/cache/w1080/ts/banner/06/3a/df/fc6b6eca994c362cefff33e6f35036a2.png.webp",
+	"link":"https://shorten.asia/j81UhftS",
+	},
+	{
+	"caption":"TIKI Bách hóa",
+	"src":"https://salt.tikicdn.com/cache/w1080/ts/banner/ed/b8/b9/8fbe0ff46848364ff6dd715d4e9287ed.png.webp",
+	"link":"https://shorten.asia/a57WbuC5",
+	},
+	{
+	"caption":"TIKI MOM CLUB",
+	"src":"https://salt.tikicdn.com/cache/w1080/ts/banner/e7/20/5c/16ec7f5b4a7198aa9bc67dd5a845c8f6.png.webp",
+	"link":"https://shorten.asia/9nk1DfcW",
+	},
   ],
 
   container: {
     'max-width': '100%',
-    height: '390px' },
+    height: '450px',
+    'max-height': '450px'
+  },
 
   captionFontCSS: {
     "font-size": "25px" },
@@ -54,7 +108,7 @@ $(document).ready(function () {
     //  Default DOM setting
     obj.data.forEach((item, index) => {
       $("#slideItem").append('<a href=' + item.link + ' target="_blank"><div class="slideItem item' + index + '"></div></a>');
-      $('#slideCaption').append('<li>' + item.caption + '</li>');
+      //$('#slideCaption').append('<li>' + item.caption + '</li>');
       $('#slideNav').append('<li data-navitem="' + index + '"><div class="slideNavItem"></div></li>');
 
     });

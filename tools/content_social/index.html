@@ -71,7 +71,7 @@ TGG 2 ➡ https://zalo.me/g/cvpxza602
          full_content += textarea.replaceAll('{updateTime}', today).replaceAll('{dday}', dday);
        }
       );
-      document.getElementById('main').innerHTML = full_content;
+      document.getElementById('main').innerHTML += full_content;
       
       function copyValue(s){
         s.focus();
@@ -79,6 +79,19 @@ TGG 2 ➡ https://zalo.me/g/cvpxza602
         document.execCommand("Copy");
         console.log(s.value);
       }
+      
+//trumgiamgia.tk/search?q=
+  let searchCost='';
+   for(let i=0; i< 500; i= i +10){
+    searchCost+=`
+      Mã giảm ${i}K: https://trumgiamgia.tk/search/?q=${i}k
+      `
+   }
+   document.getElementById('main').innerHTML += `<textarea onclick="copyValue(this)" style="width:100%;height:130px;margin-top:10px">
+      ${searchCost}
+      </textarea>`;
+
+
     </script>
     <style>
       #main{padding:10px; display: list-item;}

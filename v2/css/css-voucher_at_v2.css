@@ -162,6 +162,7 @@ li.active > * {
   border-radius: 8px;
   /* Inside Auto Layout */
    padding: 0.3em;
+	cursor: pointer;
 }
 .atEQPOIVFSDFSDG-btn-keyword a {
   /* Auto Layout */

@@ -160,7 +160,7 @@ var ldJson = document.createElement('DIV');
 	}
 	var quantityPage = parseInt(replaceBrackets(history_tabs)) + parseInt(replaceBrackets(record_tabs));
 		
-    	document.querySelector('.atEQPOIVFSDFSDG-list-title > h4').innerHTML = `DANH SÁCH ${quantityPage.toLocaleString()} MÃ <span style='color:red;margin: 0px;'>(${today})</span>:`;
+    	document.querySelector('.atEQPOIVFSDFSDG-list-title > h4').innerHTML = `DANH SÁCH <span style='color:red;margin: 0px;'>${quantityPage.toLocaleString()}</span> MÃ <span style='color:red;margin: 0px;'>(${today})</span>:`;
         }, 3500);
     }    
     createMariquee();

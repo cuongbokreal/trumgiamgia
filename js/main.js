@@ -156,7 +156,7 @@ var ldJson = document.createElement('DIV');
 	var record_tabs = document.querySelector('#record-tabs > em').innerText;
 	var quantityVoucher = parseInt(replaceBrackets(history_tabs)) + parseInt(replaceBrackets(record_tabs));
 		
-    	document.querySelector('.atEQPOIVFSDFSDG-list-title > h4').innerHTML = `DANH SÁCH <span style='color:red;margin: 0px;'>${quantityVoucher.toLocaleString()}</span> MÃ <span style='color:red;margin: 0px;'>(${today})</span>:`;
+    	document.querySelector('.atEQPOIVFSDFSDG-list-title > h4').innerHTML = `HIỆN CÓ <span style='color:red;margin: 0px;'>${quantityVoucher.toLocaleString()}</span> MÃ <span style='color:red;margin: 0px;'>(${updateTime.getHours()}:${updateTime.getMinutes()} ${today})</span>:`;
         }, 3500);
     }    
     createMariquee();

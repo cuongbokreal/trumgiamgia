@@ -17,7 +17,7 @@
   padding: 10px;
   color: #CACACA;
   transform: translateY(-50%);
-  z-index: 999;
+  z-index: 5;
 }
 #view-slide .slideButton.slideButtonRight {
   right: 0;

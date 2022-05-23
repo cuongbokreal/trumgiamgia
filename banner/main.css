@@ -79,10 +79,11 @@
 }
 #view-slide .slideNav .slideNavItem {
   background-color: rgb(255 255 255);
-  height: 2px;
-  width: 50px;
+  height: 10px;
+  width: 10px;
   margin-left: 2px;
   margin-right: 2px;
+  border-radius: 50%;
 }
 #view-slide .slideNav .active .slideNavItem {
   background-color: rgba(128, 128, 128, 0.8);

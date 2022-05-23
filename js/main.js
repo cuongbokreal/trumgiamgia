@@ -148,7 +148,16 @@ var ldJson = document.createElement('DIV');
 		    console.log(ldJson);
 		    document.body.append(ldJson);
             }
-    	document.querySelector('.atEQPOIVFSDFSDG-list-title > h4').innerHTML += ` <span style='color:red;margin: 0px;'>(${today})</span>:`;
+
+		//update ngày + số lượng voucher coupon
+	var text_muted = document.querySelectorAll('.text-muted')[0].innerText;
+	var quantityPage = '';
+	if(text_muted.match(/[0-9]{5}/g)){quantityPage = text_muted.match(/[0-9]{5}/g)}else
+	if(text_muted.match(/[0-9]{4}/g)){quantityPage = text_muted.match(/[0-9]{4}/g)}else
+	if(text_muted.match(/[0-9]{3}/g)){quantityPage = text_muted.match(/[0-9]{3}/g)}else
+	if(text_muted.match(/[0-9]{2}/g)){quantityPage = text_muted.match(/[0-9]{2}/g)}
+		
+    	document.querySelector('.atEQPOIVFSDFSDG-list-title > h4').innerHTML = `Danh sách ${(quantityPage[0] *10).toLocaleString()} mã <span style='color:red;margin: 0px;'>(${today})</span>:`;
         }, 3500);
     }    
     createMariquee();

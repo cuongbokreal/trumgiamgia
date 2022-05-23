@@ -18,8 +18,8 @@
       var thisMonth = updateTime.getMonth() + 1;
       var dday = '';
       if(thisDay < thisMonth){dday = `${thisDay}.${thisMonth}`;}
-      else if(thisDay < 15){dday = `15.${thisMonth}`;}
-      else if(thisDay < 25){dday = `25.${thisMonth}`;}
+      else if(thisDay < 15 && thisDay > thisMonth){dday = `15.${thisMonth}`;}
+      else if(thisDay < 25 && thisDay > 15){dday = `25.${thisMonth}`;}
       
       var data_content = [
       `🔥 Mã giảm giá {updateTime}:

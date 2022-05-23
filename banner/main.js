@@ -73,7 +73,7 @@ if(screen.width > 640 && screen.width <= 1500){containerHeight = '350px';}
 
   container: {
     'max-width': '100%',
-    height: containerHeight,
+    height: `${containerHeight}`,
     'max-height': '450px'
   },
 

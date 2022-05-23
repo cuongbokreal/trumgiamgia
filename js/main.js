@@ -151,13 +151,16 @@ var ldJson = document.createElement('DIV');
 
 		//update ngày + số lượng voucher coupon
 	var text_muted = document.querySelectorAll('.text-muted')[0].innerText;
-	var quantityPage = '';
-	if(text_muted.match(/[0-9]{5}/g)){quantityPage = text_muted.match(/[0-9]{5}/g)}else
-	if(text_muted.match(/[0-9]{4}/g)){quantityPage = text_muted.match(/[0-9]{4}/g)}else
-	if(text_muted.match(/[0-9]{3}/g)){quantityPage = text_muted.match(/[0-9]{3}/g)}else
-	if(text_muted.match(/[0-9]{2}/g)){quantityPage = text_muted.match(/[0-9]{2}/g)}
+	
+	var history_tabs = document.querySelector('#history-tabs > em').innerText;
+	var record_tabs = document.querySelector('#record-tabs > em').innerText;
+
+	function replaceBrackets(c){
+		return c.replaceAll('(','').replaceAll(')','')
+	}
+	var quantityPage = parseInt(replaceBrackets(history_tabs)) + parseInt(replaceBrackets(record_tabs));
 		
-    	document.querySelector('.atEQPOIVFSDFSDG-list-title > h4').innerHTML = `DANH SÁCH ${(quantityPage[0] *10).toLocaleString()} MÃ <span style='color:red;margin: 0px;'>(${today})</span>:`;
+    	document.querySelector('.atEQPOIVFSDFSDG-list-title > h4').innerHTML = `DANH SÁCH ${quantityPage.toLocaleString()} MÃ <span style='color:red;margin: 0px;'>(${today})</span>:`;
         }, 3500);
     }    
     createMariquee();

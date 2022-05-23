@@ -143,16 +143,16 @@ margin: 0px 8px;
   list-style: none;
   padding-left: 0;
  }
-li.active > * {
-    color: #ee4d2d !important;
-    caret-color: #ee4d2d !important;
-    border: 1px #ee4d2d solid;
-    border-radius: 10px;
-}
 atEQPOIVFSDFSDG-tags > li.active{
 	color: #ee4d2d !important;
     caret-color: #ee4d2d !important;
     border: 1px #ee4d2d dashed;
+    border-radius: 10px;
+}
+ul.pagination li.active > * {
+    color: #ee4d2d !important;
+    caret-color: #ee4d2d !important;
+    border: 1px #ee4d2d solid;
     border-radius: 10px;
 }
 .atEQPOIVFSDFSDG-btn-keyword {

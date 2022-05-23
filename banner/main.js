@@ -67,9 +67,13 @@ let obj = {
 	},
   ],
 
+var containerHeight = '';
+if(screen.width > 0 && screen.width <= 640){containerHeight = '175px';}else
+if(screen.width > 640 && screen.width <= 1500){containerHeight = '350px';}
+
   container: {
     'max-width': '100%',
-    height: '350px',
+    height: containerHeight,
     'max-height': '450px'
   },
 
@@ -85,12 +89,9 @@ let obj = {
 $(document).ready(function () {
 
   //  Default CSS Setting
-	var containerCSSHeight = '';
-	if(screen.width > 0 && screen.width <= 640){containerCSSHeight = '175px';}else
-	if(screen.width > 640 && screen.width <= 1500){containerCSSHeight = '350px';;}	
   let containerCSS = {
-    'max-width': '100%',
-    height: containerCSSHeight };
+    'max-width': '980px',
+    height: '390px' };
 
   containerCSS['max-width'] = obj.container['max-width'];
   containerCSS.height = obj.container.height;

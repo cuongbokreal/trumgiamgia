@@ -85,9 +85,12 @@ let obj = {
 $(document).ready(function () {
 
   //  Default CSS Setting
+	var containerCSSHeight = '';
+	if(screen.width > 0 && screen.width <= 640){containerCSSHeight = '175px';}else
+	if(screen.width > 640 && screen.width <= 1500){containerCSSHeight = '350px';;}	
   let containerCSS = {
-    'max-width': '980px',
-    height: '390px' };
+    'max-width': '100%',
+    height: containerCSSHeight };
 
   containerCSS['max-width'] = obj.container['max-width'];
   containerCSS.height = obj.container.height;

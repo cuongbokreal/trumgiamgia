@@ -152,7 +152,7 @@ li.active > * {
 atEQPOIVFSDFSDG-tags > li.active{
 	color: #ee4d2d !important;
     caret-color: #ee4d2d !important;
-    border: 1px #ee4d2d solid;
+    border: 1px #ee4d2d dashed;
     border-radius: 10px;
 }
 .atEQPOIVFSDFSDG-btn-keyword {

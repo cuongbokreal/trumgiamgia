@@ -75,7 +75,7 @@ let obj = {
 
   captionFontCSS: {"font-size": "25px" },
   autoSlide: true,
-  changeTime: 3500,
+  changeTime: 5000,
   showArrow: true,
   mode: 'slide' };
 

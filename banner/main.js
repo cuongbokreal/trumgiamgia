@@ -1,8 +1,4 @@
 // https://codepen.io/PJCHENder/pen/KaaBGP
-var containerHeight = '';
-if(screen.width > 0 && screen.width <= 640){containerHeight = '175px';}else
-if(screen.width > 640 && screen.width <= 1500){containerHeight = '350px';}
-
 let obj = {
   data: [
 //SHOPEE
@@ -73,7 +69,7 @@ let obj = {
 	
   container: {
     'max-width': '100%',
-    height: `${containerHeight}`,
+    height: `350px`,
     'max-height': '450px'
   },
 
@@ -82,6 +78,9 @@ let obj = {
   changeTime: 5000,
   showArrow: true,
   mode: 'slide' };
+
+if(screen.width > 0 && screen.width <= 640){obj.container.height = '175px'}else
+if(screen.width > 640 && screen.width <= 1500){obj.container.height = '350px'}
 
 
 $(document).ready(function () {

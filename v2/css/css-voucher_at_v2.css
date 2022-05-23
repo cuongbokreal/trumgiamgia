@@ -266,7 +266,7 @@ margin: 16px 0px;
 .atEQPOIVFSDFSDG-promo-item .atEQPOIVFSDFSDG-title a {
   font-size: 13px;
   color: #3D3F40;
-  font-weight: bold;
+  font-weight: revert;
   line-height: 19px;
 }
 .atEQPOIVFSDFSDG-container-btncopy {

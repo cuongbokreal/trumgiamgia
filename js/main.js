@@ -154,13 +154,9 @@ var ldJson = document.createElement('DIV');
 	
 	var history_tabs = document.querySelector('#history-tabs > em').innerText;
 	var record_tabs = document.querySelector('#record-tabs > em').innerText;
-
-	function replaceBrackets(c){
-		return c.replaceAll('(','').replaceAll(')','')
-	}
-	var quantityPage = parseInt(replaceBrackets(history_tabs)) + parseInt(replaceBrackets(record_tabs));
+	var quantityVoucher = parseInt(replaceBrackets(history_tabs)) + parseInt(replaceBrackets(record_tabs));
 		
-    	document.querySelector('.atEQPOIVFSDFSDG-list-title > h4').innerHTML = `DANH SÁCH <span style='color:red;margin: 0px;'>${quantityPage.toLocaleString()}</span> MÃ <span style='color:red;margin: 0px;'>(${today})</span>:`;
+    	document.querySelector('.atEQPOIVFSDFSDG-list-title > h4').innerHTML = `DANH SÁCH <span style='color:red;margin: 0px;'>${quantityVoucher.toLocaleString()}</span> MÃ <span style='color:red;margin: 0px;'>(${today})</span>:`;
         }, 3500);
     }    
     createMariquee();
@@ -180,7 +176,17 @@ if(document.querySelector("[data-merchant='5127139956446111602']")){
 }
 
 
+function replaceBrackets(c){
+	return c.replaceAll('(','').replaceAll(')','')
+}
 
+function updateQuantityVoucher(){
+	var history_tabs = document.querySelector('#history-tabs > em').innerText;
+	var record_tabs = document.querySelector('#record-tabs > em').innerText;
+	var quantityVoucher = parseInt(replaceBrackets(history_tabs)) + parseInt(replaceBrackets(record_tabs));
+		
+    	document.querySelector('.atEQPOIVFSDFSDG-list-title > h4').innerHTML = `DANH SÁCH <span style='color:red;margin: 0px;'>${quantityVoucher.toLocaleString()}</span> MÃ <span style='color:red;margin: 0px;'>(${today})</span>:`;
+}
 
 //search
 /*

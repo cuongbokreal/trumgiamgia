@@ -38,6 +38,7 @@ body {
   order: 0;
   flex-grow: 0;
   margin-bottom: 1rem;
+	box-shadow: 5px 0px 10px 1px rgb(61 63 64 / 5%);
 }
 
 .atEQPOIVFSDFSDG-input-main-search {

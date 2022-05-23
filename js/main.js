@@ -156,7 +156,7 @@ var ldJson = document.createElement('DIV');
 	var record_tabs = document.querySelector('#record-tabs > em').innerText;
 	var quantityVoucher = parseInt(replaceBrackets(history_tabs)) + parseInt(replaceBrackets(record_tabs));
 		
-    	document.querySelector('.atEQPOIVFSDFSDG-list-title > h4').innerHTML = `HIỆN CÓ <span style='color:red;margin: 0px;'>${quantityVoucher.toLocaleString()}</span> MÃ <span style='color:red;margin: 0px;'>(${updateTime.getHours()}:${updateTime.getMinutes()} ${today})</span>:`;
+    	document.querySelector('.atEQPOIVFSDFSDG-list-title > h4').innerHTML = `HIỆN CÓ <span style='color:red;margin: 0px;'>${quantityVoucher.toLocaleString()}</span> MÃ <span style='color:red;margin: 0px;'>(${add0To1Length(updateTime.getHours())}:${add0To1Length(updateTime.getMinutes())} ${today})</span>:`;
         }, 3500);
     }    
     createMariquee();
@@ -178,6 +178,10 @@ if(document.querySelector("[data-merchant='5127139956446111602']")){
 
 function replaceBrackets(c){
 	return c.replaceAll('(','').replaceAll(')','')
+}
+function add0To1Length(c){
+	if(c < 10){c = parseInt(`0${c}`)}
+	return c
 }
 
 function updateQuantityVoucher(){

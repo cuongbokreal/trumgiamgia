@@ -143,14 +143,14 @@ margin: 0px 8px;
   list-style: none;
   padding-left: 0;
  }
-atEQPOIVFSDFSDG-tags > li.active{
-	color: #ee4d2d !important;
+li.active > * {
+    color: #ee4d2d !important;
     caret-color: #ee4d2d !important;
     border: 1px #ee4d2d solid;
     border-radius: 10px;
 }
-li.active > * {
-    color: #ee4d2d !important;
+atEQPOIVFSDFSDG-tags > li.active{
+	color: #ee4d2d !important;
     caret-color: #ee4d2d !important;
     border: 1px #ee4d2d solid;
     border-radius: 10px;

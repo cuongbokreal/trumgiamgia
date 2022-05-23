@@ -157,7 +157,7 @@ var ldJson = document.createElement('DIV');
 	if(text_muted.match(/[0-9]{3}/g)){quantityPage = text_muted.match(/[0-9]{3}/g)}else
 	if(text_muted.match(/[0-9]{2}/g)){quantityPage = text_muted.match(/[0-9]{2}/g)}
 		
-    	document.querySelector('.atEQPOIVFSDFSDG-list-title > h4').innerHTML = `Danh sách ${(quantityPage[0] *10).toLocaleString()} mã <span style='color:red;margin: 0px;'>(${today})</span>:`;
+    	document.querySelector('.atEQPOIVFSDFSDG-list-title > h4').innerHTML = `DANH SÁCH ${(quantityPage[0] *10).toLocaleString()} MÃ <span style='color:red;margin: 0px;'>(${today})</span>:`;
         }, 3500);
     }    
     createMariquee();

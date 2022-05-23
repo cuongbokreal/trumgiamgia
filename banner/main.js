@@ -1,4 +1,8 @@
 // https://codepen.io/PJCHENder/pen/KaaBGP
+var containerHeight = '';
+if(screen.width > 0 && screen.width <= 640){containerHeight = '175px';}else
+if(screen.width > 640 && screen.width <= 1500){containerHeight = '350px';}
+
 let obj = {
   data: [
 //SHOPEE
@@ -66,20 +70,14 @@ let obj = {
 	"link":"https://shorten.asia/9nk1DfcW",
 	},
   ],
-
-var containerHeight = '';
-if(screen.width > 0 && screen.width <= 640){containerHeight = '175px';}else
-if(screen.width > 640 && screen.width <= 1500){containerHeight = '350px';}
-
+	
   container: {
     'max-width': '100%',
     height: `${containerHeight}`,
     'max-height': '450px'
   },
 
-  captionFontCSS: {
-    "font-size": "25px" },
-
+  captionFontCSS: {"font-size": "25px" },
   autoSlide: true,
   changeTime: 5000,
   showArrow: true,

@@ -14,13 +14,20 @@
       var updateTime = new Date(); //updateTime
     var today = `${updateTime.getDate()}.${updateTime.getMonth() + 1}`;
       
+      var thisDay = updateTime.getDate();
+      var thisMonth = updateTime.getMonth() + 1;
+      var dday = '';
+      if(thisDay < thisMonth){dday = `${thisDay}.${thisMonth}`;}
+      else if(thisDay < 15){dday = `15.${thisMonth}`;}
+      else if(thisDay < 25){dday = `25.${thisMonth}`;}
+      
       var data_content = [
       `🔥 Mã giảm giá {updateTime}:
 - Shopee: https://shorten.asia/kvWyZNEk
 - Lazada: https://shorten.asia/mtKhYu5F
 - Tiki: https://shorten.asia/Q5nzVpek
 
-⏰ Xem trước mã 25.5: https://zalo.me/g/fqehfa279 
+⏰ Xem trước mã {dday}: https://zalo.me/g/fqehfa279 
 
 🔺 Tìm Voucher cập nhật liên tục:
 👉 Mã giảm giá SHOPEE: www.trumgiamgia.tk/ma-giam-gia/shopee
@@ -61,7 +68,7 @@ TGG 2 ➡ https://zalo.me/g/cvpxza602
       var full_content = '';
        data_content.forEach(function(item, index) {
         var textarea = `<textarea onclick="copyValue(this)" style="width:100%;height:130px;margin-top:10px">${item}</textarea>`;
-         full_content += textarea.replaceAll('{updateTime}', today);
+         full_content += textarea.replaceAll('{updateTime}', today).replaceAll('{dday}', dday);
        }
       );
       document.getElementById('main').innerHTML = full_content;

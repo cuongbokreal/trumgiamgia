@@ -2,6 +2,10 @@
 let obj = {
   data: [
 //Ghim
+	  {"caption":"Tiki Rohto",
+	"src":"https://salt.tikicdn.com/cache/w1080/ts/banner/ba/56/d7/d25b5a7bf06fcaefd092fa449059b20f.png.webp",
+	"link":"https://shorten.asia/UsyRcX6X",
+	},
 	  {"caption":"Tiki Tech Area",
 	"src":"https://salt.tikicdn.com/cache/w1080/ts/banner/d5/14/ec/9a312fee59a04443ac7ca13a79d2ef57.png.webp",
 	"link":"https://shorten.asia/emVJ8BUc",

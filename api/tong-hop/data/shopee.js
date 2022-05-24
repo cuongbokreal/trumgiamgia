@@ -1,5 +1,4 @@
 var dataVoucher = `
-
 📌 MPVC 
 ◼ Tặng thêm 4 mã FS đã có trong ví check tại: https://shorten.asia/qu7HuMjP
 ◼ Lưu thêm 1 mã FS 15k/0đ: https://shorten.asia/H4V5eN8u
@@ -214,73 +213,39 @@ Các mã dưới áp hoá đơn
 `;
 
 var monthVoucher = `
-
 Giảm tối đa 25K cho đơn từ 0Đ: https://bit.ly/39Brx8r
-
 Giảm 5% tối đa 30K cho đơn từ 500K (App): https://bit.ly/3yQJXgc
-
 Giảm 10% tối đa 25k cho đơn từ 0Đ: https://bit.ly/3ltrD4L
-
 Giảm 15% tối đa 50K cho đơn từ 99K (App): https://bit.ly/3Gbpt3m
-
 Giảm 15% tối đa 100K cho đơn từ 250K (App): https://bit.ly/38FGxSG
-
 Hoàn 5% tối đa 100K Xu cho đơn từ 500K (App): https://bit.ly/3wDBqui
-
 [Mum's Club] Voucher  giảm 100K cho đơn từ 0đ (App): https://bit.ly/3sLkpgk
 
-
-
 Thú cưng:
-
 Giảm 10% tối đa 50k cho đơn từ 250k: https://bit.ly/3sMkRLm
-
 Giảm tối đa 20k cho đơn từ 0Đ: https://bit.ly/3G4JB7h
 
-
-
 Điện tử: 
-
 Giảm 10% tối đa 500K cho đơn từ 500K: https://bit.ly/3wBJprO
-
 Giảm 7% tối đa 1000K cho đơn từ 5000K trên App: https://bit.ly/3wtXzfI
-
 Giảm 7% tối đa 1000K cho đơn từ 5000K: https://bit.ly/3wvmv6k
-
 Giảm 10% tối đa 2000K cho đơn từ 13000K: https://bit.ly/3a0Or9p
-
 Giảm 10% tối đa 500K cho đơn từ 500K (App): https://bit.ly/3LqXdKY
 
-
-
 Book club:
-
 Giảm 12%, tối đa 30K cho đơn từ 129K trên ứng dụng Shopee: https://bit.ly/3wxjUri
-
 Giảm 10K cho đơn từ 50K trên ứng dụng Shopee: https://bit.ly/3sMkHUg
 
-
-
 Huy chương đồng: 
-
 https://bit.ly/3wEZTzh
-
 https://bit.ly/3LykP0m
-
 Huy chương bạc: 
-
 https://bit.ly/3lqnLBt
-
 https://bit.ly/3LwGoyi
-
 Huy chương vàng: 
-
 https://bit.ly/3LyxTmr
-
 https://bit.ly/3LvdeQc
-
 Cúp: https://bit.ly/3sLV0TX
-
 
 🔥 31/05/22 23:59
 [Hóa đơn]- Giảm 3% tối đa 10000Đ cho đơn từ 0Đ: https://bit.ly/3vxHJ34

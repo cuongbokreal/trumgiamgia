@@ -1,5 +1,10 @@
 var dataVoucher = `
 
+🔥 Từ VnPay:
+- VNPAYNEW Giảm 20% tối đa 45k cho đơn từ 199K: https://shorten.asia/BAj4MUdK
+- VNPAY10K Giảm 10K cho đơn từ 99K: https://shorten.asia/BAj4MUdK
+- VNPAY18K Giảm 18K cho đơn từ 150K: https://shorten.asia/BAj4MUdK
+
 🔥 Tiki Ngon:
 - Giảm 15K Cho đơn hàng từ 199K: https://bit.ly/3Lacuj3
 - Giảm 25K Cho đơn hàng từ 299K: https://bit.ly/3PoTjWg
@@ -24,6 +29,22 @@ Lưu thêm các mã giảm giá: https://shorten.asia/CCxD5uwu
 + TH true mart Official Store: https://shorten.asia/6q9uFAVk
 + DK HARVEST: https://shorten.asia/98guZ6ZN
 
+🔥 Tiki X Rohto Nhật Bản: https://shorten.asia/rcV1yS91
+- ROHTODEAL19RT Giảm 19K cho đơn hàng từ 169K.
+- ROHTODEAL45 Giảm 45K cho đơn hàng từ 369K.
+
+🔥 Tiki X Reckitt: https://shorten.asia/sx387uZw
+- DUREXSBD Giảm 10% tối đa 40K cho đơn hàng từ 289K.
+- MAX80KENFA26T5 Giảm 6% tối đa 80K cho đơn hàng từ 699K.
+- 120KENFA26T50H Giảm 120K cho đơn hàng từ 1.6 triệu.
+
+🔥 Tech Arena: https://shorten.asia/emVJ8BUc
+- Săn thêm Coupon hoàn Astra
+- Chính hãng 50%
+
+🔥 Samsung chính hãng giảm tới 20%: https://shorten.asia/1jZGEbY4
+- S22 Ultra giảm 19%
+- Galaxy A03s Giảm 11%
 
 🔥 Lên đời Smartphone, Laptop: https://shorten.asia/5gHvCyT8
 - Apple iPhone: https://shorten.asia/YGE9gU1m
@@ -32,15 +53,40 @@ Lưu thêm các mã giảm giá: https://shorten.asia/CCxD5uwu
 - VIVO: https://shorten.asia/HHqaDdrh
 - Deal điện thoại tại HN: https://shorten.asia/dDYAS6pp
 
+🔥 Deal điện máy:
+- Hoàn TIKIXU + ASTRA
+- Coupon freeship
+=>https://shorten.asia/pPSaaGKm
+
+🔥 Hàng quốc tế:
+- Coupon 1,5tr
+- Flash Sale 50%
+=> https://shorten.asia/NaGZ6PMa
+
+🔥 Mọt sách Tiki:
+- Quà hội viên 60%
+- Đọc sách miễn phí
+=> https://shorten.asia/ZKZv5hSc
+
+🔥 Voucher dịch vụ:
+- Giảm 10% đơn 199k
+- Giảm 100k đơn 999k
+=> Lưu mã tại: https://shorten.asia/KCgmxqrq
+
 🔥 Thể thao dã ngoại: https://shorten.asia/9vAwZEaj
 
 🔥 Thể thao giá tốt Seagames31: https://shorten.asia/MJ6wnu2Q
 
 🔥 Đi chợ nửa giá HCM: https://shorten.asia/SUt8Jfsw
 
+🔥 Shop thời trang MXH: https://shorten.asia/zsf9exap
+
 🔥 Deal công nghệ:
+- Giảm 11% Laptop Gigabyte G5 MD-51S1123SH Core i5: https://shorten.asia/fWy6WjGJ
+- Giảm 23% Laptop Asus ExpertBook B1400CEAE-EK3724: https://shorten.asia/ecCyP2Mq
 - Giảm 25% Má́y Tăm Nước Gia Đình Waterpush 600ml: https://shorten.asia/D6y3mAhf
 - Giảm 25% Xe đạp thể dục Airbike MK282: https://shorten.asia/3VpwBy1N
+- Giảm 29% Laptop Acer Aspire 7 A715-42G-R1SB: https://shorten.asia/bezNe62N
 - Giảm 42% Ghế Massage Cao Cấp Airbike Sport MK278: https://shorten.asia/EDQ7Y7Km
 
 🔥 Deal đồ gia dụng:
@@ -54,55 +100,64 @@ Lưu thêm các mã giảm giá: https://shorten.asia/CCxD5uwu
 - Giảm 45% Lò Nướng Điện 12L Mishio MK306: https://shorten.asia/KqMSC7ej
 
 🔥 Deal mỹ phẩm, sắc đẹp:
+- Giảm 15% Sữa Rửa Mặt Cetaphil Gentle Skin: https://shorten.asia/4CbYhjHQ
 - Giảm 26% Nước uống làm đẹp Collagen Adiva: https://shorten.asia/UjpnFtTF
 - Giảm 29% Combo 3 hộp Collagen Adiva: https://shorten.asia/vme1WbwZ
 - Giảm 33% ADIVA ACEROLA C PLUS 60 viên: https://shorten.asia/vgw11evR
 
 
+🔥 Từ Dirty Coins:
+- 0H DICO15K Giảm 10% tối đa 15K.
+- 0H DICO15 Giảm 15% tối đa 15K cho đơn hàng từ 100K.
+- 0H DIRTYCOINS Giảm 10K cho đơn hàng từ 300K.
+
+🔥 Từ Coolmate:
+- 0H CM300K Giảm 30K cho đơn hàng từ 300K.
+
 🔥 Từ Mishio Kachi Official: https://shorten.asia/WuY43bF4
-Giảm 10% Cho đơn hàng từ 300K: https://bit.ly/3MlM5jN
-Giảm 50K Cho đơn hàng từ 500K: https://bit.ly/3LfH3Uw
-Giảm 100K Cho đơn hàng từ 1 triệu: https://bit.ly/37LXY3r
-Giảm 200K Cho đơn hàng từ 2 triệu: https://bit.ly/3wqsDLX
-Giảm 300K Cho đơn hàng từ 3 triệu: https://bit.ly/3wpF0YR
-Giảm 500K Cho đơn hàng từ 5 triệu: https://bit.ly/3szOXBC
+- 0H Giảm 10% Cho đơn hàng từ 300K: https://bit.ly/3MlM5jN
+- 0H Giảm 50K Cho đơn hàng từ 500K: https://bit.ly/3LfH3Uw
+- 0H Giảm 100K Cho đơn hàng từ 1 triệu: https://bit.ly/37LXY3r
+- 0H Giảm 200K Cho đơn hàng từ 2 triệu: https://bit.ly/3wqsDLX
+- 0H Giảm 300K Cho đơn hàng từ 3 triệu: https://bit.ly/3wpF0YR
+- 0H Giảm 500K Cho đơn hàng từ 5 triệu: https://bit.ly/3szOXBC
 
 🔥 Từ Unilever : https://shorten.asia/mnRTZS8Q
-Giảm 10K Cho đơn hàng từ 249K: https://bit.ly/37LvcjB
-- Giảm 30% Combo Gội 640g, Xả 620g & Ủ 180ml TRESEMME: https://shorten.asia/98176mkh
-- Giảm 33% Bàn Chải Điện P/S S100 PRO: https://shorten.asia/wqgzkFyE
+- 0H Giảm 10K Cho đơn hàng từ 249K: https://bit.ly/37LvcjB
+- 0H Giảm 30% Combo Gội 640g, Xả 620g & Ủ 180ml TRESEMME: https://shorten.asia/98176mkh
+- 0H Giảm 33% Bàn Chải Điện P/S S100 PRO: https://shorten.asia/wqgzkFyE
 
 🔥 Từ iBasic: https://shorten.asia/Qhady4MZ
-Giảm 100K Cho đơn hàng từ 333K: https://bit.ly/3yDjbrd
-Giảm 5% Cho đơn hàng từ 199K: https://bit.ly/38pfNpw
-Giảm 8% Cho đơn hàng từ 399K: https://bit.ly/3wd6emn
-Giảm 50K Cho đơn hàng từ 599K: https://bit.ly/3NhVokG
-Giảm 200K Cho đơn hàng từ 2 triệu: https://bit.ly/3ws66i2
+- 0H Giảm 100K Cho đơn hàng từ 333K: https://bit.ly/3yDjbrd
+- 0H Giảm 5% Cho đơn hàng từ 199K: https://bit.ly/38pfNpw
+- 0H Giảm 8% Cho đơn hàng từ 399K: https://bit.ly/3wd6emn
+- 0H Giảm 50K Cho đơn hàng từ 599K: https://bit.ly/3NhVokG
+- 0H Giảm 200K Cho đơn hàng từ 2 triệu: https://bit.ly/3ws66i2
 
 🔥 Từ Bindi Vietnam: https://shorten.asia/1ARNqNNw
-Giảm 12% Cho đơn hàng từ 189K: https://bit.ly/39sfyKw
-Giảm 12% Cho đơn hàng từ 333K: https://bit.ly/3wlOcgA
+- 0H Giảm 12% Cho đơn hàng từ 189K: https://bit.ly/39sfyKw
+- 0H Giảm 12% Cho đơn hàng từ 333K: https://bit.ly/3wlOcgA
 
 🔥 Từ  ADIVA Official Store: https://shorten.asia/cgt5dgJp
-- Giảm 20K Cho đơn hàng từ 200K: https://bit.ly/3PmEuTT
-- Giảm 30K Cho đơn hàng từ 800K: https://bit.ly/3NbujQk
-- Giảm 50K Cho đơn hàng từ 1.3 triệu: https://bit.ly/3szNOKk
+- 0H Giảm 20K Cho đơn hàng từ 200K: https://bit.ly/3PmEuTT
+- 0H Giảm 30K Cho đơn hàng từ 800K: https://bit.ly/3NbujQk
+- 0H Giảm 50K Cho đơn hàng từ 1.3 triệu: https://bit.ly/3szNOKk
 
 🔥 Từ Farm49: https://shorten.asia/DKJ4aZcp
-- Giảm 20K Cho đơn hàng từ 230K: https://bit.ly/37QSULm
-- Giảm 30K Cho đơn hàng từ 339K: https://bit.ly/38uy9Fx
+- 0H Giảm 20K Cho đơn hàng từ 230K: https://bit.ly/37QSULm
+- 0H Giảm 30K Cho đơn hàng từ 339K: https://bit.ly/38uy9Fx
 
 🔥 Từ CJ Innerb: https://shorten.asia/pDSzBr99
-Giảm 20K Cho đơn hàng từ 499K: https://bit.ly/3l8YD1Z
+- 0H Giảm 20K Cho đơn hàng từ 499K: https://bit.ly/3l8YD1Z
 
 🔥 Lưu mã VNPAY: https://shorten.asia/nMCWYvg1
 
 🔥 Mã Zalopay:
-Giảm 20K Cho đơn hàng từ 49K: https://bit.ly/3MfmEQJ
+- 0H Giảm 20K Cho đơn hàng từ 49K: https://bit.ly/3MfmEQJ
 
 🔥 Ví Moca:
-Giảm 20K Cho đơn hàng từ 199K: https://bit.ly/3yF8fK0
-Giảm 70K Cho đơn hàng từ 799K: https://bit.ly/3sEZKKX
+- 0H Giảm 20K Cho đơn hàng từ 199K: https://bit.ly/3yF8fK0
+- 0H Giảm 70K Cho đơn hàng từ 799K: https://bit.ly/3sEZKKX
 
 `;
 

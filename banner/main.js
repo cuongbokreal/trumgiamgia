@@ -1,6 +1,15 @@
 // https://codepen.io/PJCHENder/pen/KaaBGP
 let obj = {
   data: [
+//Ghim
+	  {"caption":"Tiki Tech Area",
+	"src":"https://salt.tikicdn.com/cache/w1080/ts/banner/d5/14/ec/9a312fee59a04443ac7ca13a79d2ef57.png.webp",
+	"link":"https://shorten.asia/emVJ8BUc",
+	},
+	  {"caption":"Tiki Samsung",
+	"src":"https://salt.tikicdn.com/cache/w1080/ts/banner/b8/21/ab/488f38e42ac51e4e8709cf800e474a15.jpg.webp",
+	"link":"https://shorten.asia/1jZGEbY4",
+	},
 //SHOPEE
   {"caption":"Sieu voucher 400k bạn mới",
 	"src":"https://cf.shopee.vn/file/8da7a277ab0b311b9152070ac7e2c217_xxhdpi",
@@ -26,11 +35,6 @@ let obj = {
 
 //Tiki
 	{
-	"caption":"Friso TIKI",
-	"src":"https://i.imgur.com/FSgqeV0.jpg",
-	"link":"https://shorten.asia/nEZgSdeN",
-	},
-{
 	"caption":"TIKI Beauty Club",
 	"src":"https://i.imgur.com/yBxEKxb.png",
 	"link":"https://shorten.asia/ycJaP4T7",
@@ -46,7 +50,7 @@ let obj = {
 	"link":"https://shorten.asia/AxBSkDU8",
 	},
 	{
-	"caption":"TIKI Tefal",
+	"caption":"TIKI Mom",
 	"src":"https://salt.tikicdn.com/cache/w1080/ts/banner/76/82/9d/cd27350f0800d7562b02dac7832ef86a.png.webp",
 	"link":"https://shorten.asia/ZFmSVrRq",
 	},

@@ -1,32 +1,80 @@
 var dataVoucher = `
+📌 Mã giảm giá 
+◼ Lưu mã FS 25k đơn 99k 
+◼ Mã giảm 30k đơn 500k, 90k/150k 
+◼ Có thể lên thêm nhiều mã toàn sàn lúc 0H 
+◼ Lưu mã tại: https://shorten.asia/2bdu8DSg - 0H banner mới lên 
+.
+📌 Rẻ vô cực 
+◼ Lưu mã từ các thương hiệu 
+◼ Săn deal dưới 99k 
+◼ Chi tiết:  https://shorten.asia/vfXfdY7q
+.
+📌 Càng mua càng giảm 
+◼ Lưu mã từ các thương hiệu 
+◼ Mua 3 giảm 10% 
+◼ Chi tiết:  https://shorten.asia/f8RngwVb
+.
+📌 Hoàn tiền Max 
+◼ Lưu mã từ các thương hiệu 
+◼ Hoàn tiền đến 50k
+◼ Chi tiết:  https://shorten.asia/UUz4wVVG
+.
+📌 Hà nội ơi 
+◼ Lưu mã từ các thương hiệu 
+◼ Chi tiết:  https://shorten.asia/4Ttqp7De
+.
+📌 Sale thương hiệu 
+◼ Lưu mã từ các thương hiệu 
+◼ Chi tiết:  https://shorten.asia/eUwA6YUD
+.
+📌 Tuần Lễ Đời Sống - Thêm lượt
+◼ 0h: Lưu mã giảm 8%, 40k/500k, 80k/1tr
+◼ Chi tiết: https://shorten.asia/k7naZgaa
+.
+📌 Fashion day
+◼ Lưu mã thời trang từ các thương hiệu Ivy moda, Vingo, Just Bra, Vera, Pedro...
+◼ 12H: Săn deal đồng giá 5k
+◼ 20H: Lưu mã 30% thời trang các thương hiệu
+◼ Chi tiết: https://shorten.asia/Z33Yw3mE
+.
+📌 Lên mã đổi xu
+◼ IOS: https://shorten.asia/guka58tj
+◼ ANDROID: https://shorten.asia/eNJatJUc
+.
+📌 Zalo: https://shorten.asia/Vy7CTWHv  - Thêm lượt
+.
+📌 Momo: https://shorten.asia/vUkUB7hG - Thêm lượt
 
-Mã nhập tay 30K/99K, 50K/299K nếu có mình up trên nhóm zalo và tele(lên bất ngờ)
-🔥MÃ TOÀN SÀN: canh back
-• 9H: Mã toàn sàn giảm 30K/500K, 500K/0Đ
-=> Lưu mã tại: https://shorten.asia/g7EyC8rS
-.
-🔥MOMO: canh back 9H hàng ngày - có thể lên sớm hoặc muộn vài phút
-=> Lưu mã tại: https://shorten.asia/yrgr3Sye
-.
-🔥ZALOPAY: canh back 9H hàng ngày - có thể lên sớm hoặc muộn vài phút
-=> Lưu mã tại: https://shorten.asia/REm47Kuf
-.
-🔥MÃ NGâN HÀNG: mở lưu vào 9H, back vào 12H
-=> Lưu mã tại: https://shorten.asia/bUA5FU7K
-.
-🔥LAZMALL: mã mới hàng ngày
-• Mã giảm 60K đơn từ 400K
-=> Lưu mã tại: https://shorten.asia/tnaamDxJ  (chọn “SĂN VOUCHER TẠI ĐâY”)
-.
-🔥MÃ THANH TOÁN GIẢM 15K ĐƠN TỪ 60K: https://shorten.asia/eh1VZCBE
-.
-🔥MÃ QUỐC TẾ: canh back 9H
-=> Lưu mã tại: https://shorten.asia/q1Emgu3V
-🔥VOUCHER TÍCH LŨY GIẢM TỚI 400K: đã dùng được
-• Thu thập voucher tích luỹ hàng ngày tại: https://shorten.asia/g7EyC8rS
-• Thu thập thêm voucher tích luỹ + làm nhiệm vụ tại: https://shorten.asia/QRwrjjuQ
-• Thu thập thêm voucher tích lũy dưới link sản phẩm: https://shorten.asia/ar1cRWKU
+🔥Tổng Hợp Thông Tin Ưu Đãi Lương Về Lazada
 
+🎉 Sale Lương Về (25-31/05): https://shorten.asia/N8VjptFe
+- 0H: Có thể lên voucher 500K/0Đ toàn sàn tại đây: https://shorten.asia/fc5uU1gM
+- Freeship đơn từ 0đ
+- Giảm đến 50%
+.
+🚛 Lễ Hội Freeship Toàn Quốc: https://shorten.asia/tpuQ8W3Z
+- Ngàn deal freeship đơn từ 0đ
+- Freeship toàn sàn 15K/99K
+- Freeship Max 15K/50K,  50K/300K
+.
+🔸 Giảm đến 50% các Deal Hot Bán Chạy - Freeship đơn từ 0đ: https://shorten.asia/z3bYjAZt
+.
+🔸 Deal dưới 99K - Rẻ vô cực: https://shorten.asia/pQ9N8fMa
+.
+🔸 Tổng hợp Mua 1 tặng 1 - Mua 3 giảm 10%: https://shorten.asia/dVz8umxG
+.
+🔸 Hoàn Tiền Max đến 50K/ngày: https://shorten.asia/jaZSvBAu
+.
+🔸 Sale Lớn Mừng Lương Về Cho Mem Hà Nội: https://shorten.asia/TFkZ1BVj
+.
+🔸 Tự Hào Dùng Hàng Việt: https://shorten.asia/JzEQVJ8m
+.
+🔸 LazCoin - Giảm thêm với xu! 50 xu = 50K: https://shorten.asia/jd1MZfbs
+.
+🔸 Brand Xịn Sale Đỉnh: https://shorten.asia/MQQvCsbX
+.
+🔸 Sale Lớn Hàng Mới: https://shorten.asia/t1Xadv6J
 
 `;
 

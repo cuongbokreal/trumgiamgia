@@ -2,6 +2,14 @@
 let obj = {
   data: [
 //Ghim
+	  {"caption":"Shopee quốc tế thiếu nhi",
+	"src":"https://cf.shopee.vn/file/ab722ea26747dd98b7317ac548ece00f_xxhdpi",
+	"link":"https://shorten.asia/zYZYky3C",
+	},
+	  {"caption":"Shopee khung gio san sale",
+	"src":"https://cf.shopee.vn/file/86196243313a7b5feb46113ad78a5fc1_xxhdpi",
+	"link":"https://shorten.asia/m7NYUCgw",
+	},
 	  {"caption":"Tiki Tech Area",
 	"src":"https://salt.tikicdn.com/cache/w1080/ts/banner/1b/7c/56/a2e8f9bf4ccd41aee3f5ec26d853df46.png.webp",
 	"link":"https://shorten.asia/emVJ8BUc",

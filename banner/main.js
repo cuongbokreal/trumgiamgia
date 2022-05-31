@@ -28,11 +28,6 @@ let obj = {
 	"src":"https://lzd-img-global.slatic.net/g/icms/images/ims-web/659ef5f2-7cc1-416e-be07-39d1261dedbd.jpg_1200x1200q90.jpg_.webp",
 	"link":"https://shorten.asia/xKTJUpws",
 	 },
-	  {"caption":"LAZADA Ngày Hội Thời Trang",
-	"src":"https://lzd-img-global.slatic.net/g/icms/images/ims-web/6e689bc3-b364-4dea-bb8e-bb7eadc2aedf.jpg_1200x1200q90.jpg_.webp",
-	"link":"https://shorten.asia/7vVKckAW",
-	 },
-
 //Tiki
 	{
 	"caption":"TIKI Beauty Club",

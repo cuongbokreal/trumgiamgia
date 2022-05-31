@@ -78,7 +78,7 @@ let obj = {
   showArrow: true,
   mode: 'slide' };
 
-if(screen.width > 0 && screen.width <= 640){obj.container.height = '125px'}else
+if(screen.width > 0 && screen.width <= 640){obj.container.height = '132px'}else
 if(screen.width > 640 && screen.width <= 1500){obj.container.height = '325px'}
 
 

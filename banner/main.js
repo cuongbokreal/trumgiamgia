@@ -2,9 +2,9 @@
 let obj = {
   data: [
 //Ghim
-	  {"caption":"Tiki Rohto",
-	"src":"https://salt.tikicdn.com/cache/w1080/ts/banner/ba/56/d7/d25b5a7bf06fcaefd092fa449059b20f.png.webp",
-	"link":"https://shorten.asia/UsyRcX6X",
+	  {"caption":"Tiki Tech Area",
+	"src":"https://salt.tikicdn.com/cache/w1080/ts/banner/1b/7c/56/a2e8f9bf4ccd41aee3f5ec26d853df46.png.webp",
+	"link":"https://shorten.asia/emVJ8BUc",
 	},
 	  {"caption":"Lazada Lịch khuyến mãi",
 	"src":"https://lzd-img-global.slatic.net/g/icms/images/ims-web/cfb13bc5-6222-4835-b538-142f9d4245f1.jpg_1200x1200q90.jpg_.webp",

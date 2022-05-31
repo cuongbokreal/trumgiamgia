@@ -68,7 +68,7 @@ let obj = {
 	
   container: {
     'max-width': '100%',
-    height: `335px`,
+    height: `325px`,
     'max-height': '450px'
   },
 

@@ -79,7 +79,7 @@ let obj = {
   mode: 'slide' };
 
 if(screen.width > 0 && screen.width <= 640){obj.container.height = '140px'}else
-if(screen.width > 640 && screen.width <= 1500){obj.container.height = '335px'}
+if(screen.width > 640 && screen.width <= 1500){obj.container.height = '325px'}
 
 
 $(document).ready(function () {

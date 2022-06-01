@@ -2,9 +2,9 @@
 let obj = {
   data: [
 //Ghim
-	  {"caption":"Shopee quốc tế thiếu nhi",
-	"src":"https://cf.shopee.vn/file/ab722ea26747dd98b7317ac548ece00f_xxhdpi",
-	"link":"https://shorten.asia/zYZYky3C",
+	  {"caption":"Shopee khung gio san sale 0H",
+	"src":"https://cf.shopee.vn/file/99159bfe2b000da19842aa0699a3bafe_xxhdpi",
+	"link":"https://shorten.asia/zbVpBxpm",
 	},
 	  {"caption":"Shopee khung gio san sale",
 	"src":"https://cf.shopee.vn/file/86196243313a7b5feb46113ad78a5fc1_xxhdpi",

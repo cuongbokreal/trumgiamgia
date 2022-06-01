@@ -2,9 +2,13 @@
 let obj = {
   data: [
 //Ghim
-	  {"caption":"Shopee khung gio san sale 0H",
-	"src":"https://cf.shopee.vn/file/99159bfe2b000da19842aa0699a3bafe_xxhdpi",
-	"link":"https://shorten.asia/zbVpBxpm",
+	  {"caption":"Tiki the bad god",
+	"src":"https://salt.tikicdn.com/cache/w1080/ts/banner/66/72/00/475a381d08c4efe89ac5207f2935eb81.jpg.webp",
+	"link":"https://shorten.asia/17gNvtCs",
+	},
+	  {"caption":"Tiki Boo",
+	"src":"https://salt.tikicdn.com/cache/w1080/ts/banner/de/e8/3c/c446358b9660e51b427b37a7e08f387d.jpg.webp",
+	"link":"https://shorten.asia/MjbuzXWN",
 	},
 	  {"caption":"Lazada cham da mua he",
 	"src":"https://lzd-img-global.slatic.net/g/icms/images/ims-web/6699ff45-aca2-43a7-a907-cbdfb44c09a0.jpg_1200x1200q90.jpg_.webp",

@@ -10,6 +10,10 @@ let obj = {
 	"src":"https://salt.tikicdn.com/cache/w1080/ts/banner/c9/55/8e/4741fcd153b5773b196e919b164573e9.png.webp",
 	"link":"https://shorten.asia/nrJfEhJx",
 	},
+	  {"caption":"Tiki Midori",
+	"src":"https://salt.tikicdn.com/cache/w1080/ts/banner/a1/84/9b/f2a0f8dddbe37b52dd5f58bbfcae4626.png.webp",
+	"link":"https://shorten.asia/t8gMbM2e",
+	},
 	  {"caption":"Tiki Boo",
 	"src":"https://salt.tikicdn.com/cache/w1080/ts/banner/de/e8/3c/c446358b9660e51b427b37a7e08f387d.jpg.webp",
 	"link":"https://shorten.asia/MjbuzXWN",
@@ -72,6 +76,7 @@ let obj = {
 	"src":"https://salt.tikicdn.com/cache/w1080/ts/banner/51/bd/94/67779b0148758aab7b4032ed81667d5d.png",
 	"link":"https://shorten.asia/AxBSkDU8",
 	},
+	  /*
 	{
 	"caption":"TIKI Mom",
 	"src":"https://salt.tikicdn.com/cache/w1080/ts/banner/76/82/9d/cd27350f0800d7562b02dac7832ef86a.png.webp",
@@ -92,6 +97,7 @@ let obj = {
 	"src":"https://salt.tikicdn.com/cache/w1080/ts/banner/e7/20/5c/16ec7f5b4a7198aa9bc67dd5a845c8f6.png.webp",
 	"link":"https://shorten.asia/9nk1DfcW",
 	},
+	*/
   ],
 	
   container: {

@@ -2,6 +2,10 @@
 let obj = {
   data: [
 //Ghim
+	  {"caption":"Tiki Vychi",
+	"src":"https://salt.tikicdn.com/cache/w1080/ts/banner/9c/e0/36/dcd20c08c30a7f2249e5853d57d05709.png.webp",
+	"link":"https://shorten.asia/KcGxbcU2",
+	},
 	  {"caption":"Tiki the bad god",
 	"src":"https://salt.tikicdn.com/cache/w1080/ts/banner/66/72/00/475a381d08c4efe89ac5207f2935eb81.jpg.webp",
 	"link":"https://shorten.asia/17gNvtCs",
@@ -65,6 +69,7 @@ let obj = {
 	"link":"https://shorten.asia/xKTJUpws",
 	 },
 //Tiki
+	  /*
 	{
 	"caption":"TIKI Beauty Club",
 	"src":"https://i.imgur.com/yBxEKxb.png",
@@ -80,7 +85,6 @@ let obj = {
 	"src":"https://salt.tikicdn.com/cache/w1080/ts/banner/51/bd/94/67779b0148758aab7b4032ed81667d5d.png",
 	"link":"https://shorten.asia/AxBSkDU8",
 	},
-	  /*
 	{
 	"caption":"TIKI Mom",
 	"src":"https://salt.tikicdn.com/cache/w1080/ts/banner/76/82/9d/cd27350f0800d7562b02dac7832ef86a.png.webp",

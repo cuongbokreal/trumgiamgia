@@ -272,3 +272,13 @@ $(document).ready(function () {
   }
   
 });
+
+
+//Resivepon
+var liSlideNav = document.querySelectorAll('div.slideNav > ul#slideNav > li');
+if(liSlideNav.length > 16){
+	for(let i=0; i<liSlideNav.length; i++ ){
+		liSlideNav[i].setAttribute('style', 'padding-top: 5px;padding-bottom: 5px;');
+		document.querySelectorAll('div.slideNav > ul#slideNav > li > .slideNavItem').setAttribute('style', 'height: 5px;width: 5px;');
+	}
+}

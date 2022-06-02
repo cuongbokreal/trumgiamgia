@@ -9,7 +9,6 @@
     -webkit-touch-callout: none;
 }*/
 html, body {scroll-behavior: smooth;}
-.modal-backdrop.show{display:none !important;opacity:0 !important;} /*fix xung đột css iphone safari*/
 .atEQPOIVFSDFSDG-heading--title p, .atEQPOIVFSDFSDG-details-description, .atEQPOIVFSDFSDG-code-coupon{
     pointer-events: none;
     -moz-user-select: none;

@@ -2,9 +2,13 @@
 let obj = {
   data: [
 //Ghim
-	  {"caption":"Tiki Vychi",
-	"src":"https://salt.tikicdn.com/cache/w1080/ts/banner/9c/e0/36/dcd20c08c30a7f2249e5853d57d05709.png.webp",
-	"link":"https://shorten.asia/KcGxbcU2",
+	  {"caption":"Tiki 6.6",
+	"src":"https://salt.tikicdn.com/cache/w1080/ts/banner/c4/e2/f7/5ab98ad40b89f8f4fbb9b43124319fe3.png.webp",
+	"link":"https://shorten.asia/45qer1kp",
+	},
+	  {"caption":"Tiki Me be",
+	"src":"https://salt.tikicdn.com/cache/w1080/ts/banner/78/c5/c4/ba7c83e4473e94d20e12d1fabd76b092.png.webp",
+	"link":"https://shorten.asia/9nk1DfcW",
 	},
 	  {"caption":"Tiki the bad god",
 	"src":"https://salt.tikicdn.com/cache/w1080/ts/banner/66/72/00/475a381d08c4efe89ac5207f2935eb81.jpg.webp",
@@ -13,10 +17,6 @@ let obj = {
 	  {"caption":"Tiki tsubaki",
 	"src":"https://salt.tikicdn.com/cache/w1080/ts/banner/79/c5/fd/eec656bb9aead57555186b3cbe727641.jpg.webp",
 	"link":"https://shorten.asia/9fJUmuXk",
-	},
-	  {"caption":"Tiki anessa",
-	"src":"https://salt.tikicdn.com/cache/w1080/ts/banner/1f/cf/4f/a1b9b8fa007533967157e48df18b5210.jpg.webp",
-	"link":"https://shorten.asia/Snh3ZSwC",
 	},
 	  {"caption":"Tiki Logitech",
 	"src":"https://salt.tikicdn.com/cache/w1240/ts/brickv2og/ed/85/22/ccd4fb5b24783041805ae156de01b42d.png.webp",

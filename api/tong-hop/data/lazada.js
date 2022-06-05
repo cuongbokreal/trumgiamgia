@@ -1,90 +1,73 @@
 var dataVoucher = `
-📌 Mã giảm giá 
-◼ Lưu mã FS 25k đơn 99k 
-◼ Mã giảm 30k đơn 500k, 90k/150k 
-◼ Có thể lên thêm nhiều mã toàn sàn lúc 0H 
-◼ Lưu mã tại: https://shorten.asia/2bdu8DSg - 0H banner mới lên 
+Siêu Sale Hè: https://shorten.asia/9AAudAJp
+🔥MÃ TOÀN SÀN LAZADA: lưu là của riêng
+• 12H hàng ngày: Mã 1triệu đơn từ 0Đ
+• 12H hàng ngày: Mã giảm 30K đơn từ 500K(thêm lượt)
+• 0H-2H ngày 06.06: Mã toàn sàn giảm 66K
+• 9H, 12H, 16H, 20H ngày 06-10.06: Mã 100K đơn từ 1tr5
+• 10H, 16H ngày 07-09.06: Mã 100K đơn từ 1tr5
+• 0H ngày 07-09.06: Mã 100K đơn từ 500K
+• 16H ngày 10.06: Mã 30K đơn từ 200K
+• 19H ngày 10.06: Mã 300K đơn từ 400K
+=> Lưu mã tại: https://shorten.asia/AZxnRyPV
+=> Link dự phòng: https://shorten.asia/t6kDBxyZ
 .
-📌 Rẻ vô cực 
-◼ Lưu mã từ các thương hiệu 
-◼ Săn deal dưới 99k 
-◼ Chi tiết:  https://shorten.asia/vfXfdY7q
+🔥VOUCHER TÍCH LŨY GIẢM TỚI 800K: Lưu từ ngày 03.06 đến 10.06 (dùng từ ngày 06.06 tới 10.06)
+=> Giảm 15K cho mỗi 150K, 50K cho mỗi 650K,...
+• 9H, 21H: Thu thập 100K tích lũy(chỉ lấy được 1 lần): https://shorten.asia/r1G7G97d
+• Thu thập tích luỹ + làm nhiệm vụ tại: https://shorten.asia/U755RCXz
+• Thu thập 40K tích luỹ tại: https://shorten.asia/t6kDBxyZ
+• Lưu thêm tích luỹ dưới sản phẩm tại: https://shorten.asia/dFuGD7zF
 .
-📌 Càng mua càng giảm 
-◼ Lưu mã từ các thương hiệu 
-◼ Mua 3 giảm 10% 
-◼ Chi tiết:  https://shorten.asia/f8RngwVb
+🔥ZALOPAY: dự 0H ngày 06.06 mở lưu mã và back vào 9H hàng ngày
+• Mã giảm 50K đơn từ 499K, 30K đơn từ 300K, 25K đơn từ 249K, 25K đơn từ 199K
+=> Lưu mã tại: https://shorten.asia/Vzjhmucp
 .
-📌 Hoàn tiền Max 
-◼ Lưu mã từ các thương hiệu 
-◼ Hoàn tiền đến 50k
-◼ Chi tiết:  https://shorten.asia/UUz4wVVG
+🔥MOMO: dự 0H ngày 06.06 mở lưu mã và back vào 9H hàng ngày
+• Mã giảm 40K đơn từ 700K, 30K đơn từ 499K, 20K đơn từ 250K, 25K đơn từ 400K
+=> Lưu mã tại: https://shorten.asia/Vzjhmucp
 .
-📌 Hà nội ơi 
-◼ Lưu mã từ các thương hiệu 
-◼ Chi tiết:  https://shorten.asia/4Ttqp7De
+🔥MÃ NGÂN HÀNG: Giảm 30%(CitiBank), Giảm 100K(Mastercard), Giảm 100K(HSBC), Giảm 500K(Techcombank), Giảm 1triệu(Citi Platinum), Giảm 200K(SCB),...
+Thời Gian Lưu Mã:
+• 0H, 9H,12H, 20H ngày 06.06
+• 9H, 12H, 16H, 18H từ ngày 07.06-10.06
+=> Lưu mã tại: https://shorten.asia/zjAZ2Vvr
 .
-📌 Sale thương hiệu 
-◼ Lưu mã từ các thương hiệu 
-◼ Chi tiết:  https://shorten.asia/eUwA6YUD
+🔥LIVE SUPER SHOW:
+• DEAL HOT 1Đ: 66 nghìn Deal HOT 1Đ mua ngay trong livestream
+• Quà tặng trị giá 6 tỷ: Cơn mưa quà mỹ phẩm, công nghệ, thời trang… VOUCHER được tung xuyên suốt từ: Từ Elixir, Shiseido, Dprogram, Anessa, Estee Lauder, M.A.C, Clinique, Bobbi Brown, Coway, Bluestone, Cocoon....
+• Voucher 666K, 6tr: Mưa 6 triệu voucher tung liên tục mỗi 6 phút, 100% xem là trúng
+=> Xem live lúc 19H ngày 05.06 tại: https://shorten.asia/1WJUCSJV
 .
-📌 Tuần Lễ Đời Sống - Thêm lượt
-◼ 0h: Lưu mã giảm 8%, 40k/500k, 80k/1tr
-◼ Chi tiết: https://shorten.asia/k7naZgaa
+🔥LIVE SIÊU HỘI CHÉM GIÁ:
+• Thời gian: Từ 9H từ ngày 3.6-10/6
+• 10.000 hàng xịn 1Đ, deal đồng giá 6k - 66k - 666k
+• 100K toàn sàn, Hàng “real” nửa giá giảm 49%
 .
-📌 Fashion day
-◼ Lưu mã thời trang từ các thương hiệu Ivy moda, Vingo, Just Bra, Vera, Pedro...
-◼ 12H: Săn deal đồng giá 5k
-◼ 20H: Lưu mã 30% thời trang các thương hiệu
-◼ Chi tiết: https://shorten.asia/Z33Yw3mE
+🔥FREESHIP:
+• Mã Freeship 15K/49K, 25K/99K, 50K/300K
+=> Lưu mã tại: https://shorten.asia/daJ8bd7x
 .
-📌 Lên mã đổi xu
-◼ IOS: https://shorten.asia/guka58tj
-◼ ANDROID: https://shorten.asia/eNJatJUc
+🔥FLASH SALE: https://shorten.asia/scBPF8V6
+• 0H: Deal khủng nhất ngày, 6H: Đồng giá 6K, 10H: Đồng giá 1K, 14H chiều: Đồng giá 2K, 22H tối: Đồng giá 10K
 .
-📌 Zalo: https://shorten.asia/Vy7CTWHv  - Thêm lượt
+🔥0H NGÀY 06.06: DEAL 6K, 66K: https://shorten.asia/8MfstzGF
 .
-📌 Momo: https://shorten.asia/vUkUB7hG - Thêm lượt
-
-🔥Tổng Hợp Thông Tin Ưu Đãi Lương Về Lazada
-
-🎉 Sale Lương Về (25-31/05): https://shorten.asia/N8VjptFe
-- 0H: Có thể lên voucher 500K/0Đ toàn sàn tại đây: https://shorten.asia/fc5uU1gM
-- Freeship đơn từ 0đ
-- Giảm đến 50%
+🔥ĐẶT CỌC TRƯỚC: https://shorten.asia/e2vN5kWR
+• Đặt cọc trước để nhận thêm ưu đãi + quà tặng kèm siêu hời
 .
-🚛 Lễ Hội Freeship Toàn Quốc: https://shorten.asia/tpuQ8W3Z
-- Ngàn deal freeship đơn từ 0đ
-- Freeship toàn sàn 15K/99K
-- Freeship Max 15K/50K,  50K/300K
-.
-🔸 Giảm đến 50% các Deal Hot Bán Chạy - Freeship đơn từ 0đ: https://shorten.asia/z3bYjAZt
-.
-🔸 Deal dưới 99K - Rẻ vô cực: https://shorten.asia/pQ9N8fMa
-.
-🔸 Tổng hợp Mua 1 tặng 1 - Mua 3 giảm 10%: https://shorten.asia/dVz8umxG
-.
-🔸 Hoàn Tiền Max đến 50K/ngày: https://shorten.asia/jaZSvBAu
-.
-🔸 Sale Lớn Mừng Lương Về Cho Mem Hà Nội: https://shorten.asia/TFkZ1BVj
-.
-🔸 Tự Hào Dùng Hàng Việt: https://shorten.asia/JzEQVJ8m
-.
-🔸 LazCoin - Giảm thêm với xu! 50 xu = 50K: https://shorten.asia/jd1MZfbs
-.
-🔸 Brand Xịn Sale Đỉnh: https://shorten.asia/MQQvCsbX
-.
-🔸 Sale Lớn Hàng Mới: https://shorten.asia/t1Xadv6J
+🔥MÃ THƯƠNG HIỆU 500K, 100K, 200K, 66K, 15K/0Đ,....
+• Link lưu mã 1 - Combo Linh Hoạt: : https://shorten.asia/1HcQkGaH
+• Link lưu mã 2 - Top Bán Chạy: https://shorten.asia/1PUk2p6x
+• Link lưu mã 3 - Hà Nội Ơi: https://shorten.asia/j8kmnKZ5
+• Link lưu mã 4 - Sale Hàng Hiệu: https://shorten.asia/JcSxkabM
+• Link lưu mã 5 - Du Lịch Hè: https://shorten.asia/XnCxYSGt
+• Link lưu mã 6 - MYC: https://shorten.asia/Uds5BVKs
 
 `;
 
 
 var monthVoucher = `
-🔥 31/05/22 23:59
-[ZaloPay New Users] Giảm 15K cho đơn từ 30K: https://bit.ly/3KrUccU
-[ZaloPay Home Living] Giảm 15K cho đơn từ 99K: https://bit.ly/3kwKawq
-[ZaloPay Home Living] Giảm 15K cho đơn từ 99K: https://bit.ly/3MCBCAa
-[Momo New Users] Giảm 20K cho đơn từ 50K: https://bit.ly/3vYPvBV
 `;
 
 dataVoucher += monthVoucher;

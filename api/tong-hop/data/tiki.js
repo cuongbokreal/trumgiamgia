@@ -5,73 +5,61 @@ var dataVoucher = `
 - VNPAY10K Giảm 10K cho đơn từ 99K: https://shorten.asia/BAj4MUdK
 - VNPAY18K Giảm 18K cho đơn từ 150K: https://shorten.asia/BAj4MUdK
 
-🔥 Tiki Ngon:
-- Giảm 15K Cho đơn hàng từ 199K: https://bit.ly/3Lacuj3
-- Giảm 25K Cho đơn hàng từ 299K: https://bit.ly/3PoTjWg
-Giảm 40K Cho đơn hàng từ 399K: https://bit.ly/3weXht2
+🔥Banner chính ngày đôi 6.6: https://shorten.asia/mCyHsjUf
 
-🔥 Super Fashion day: https://shorten.asia/1Mg3t1pk
-- Deal 5K: https://shorten.asia/AaBkeawS
-- Deal 69K: https://shorten.asia/pbepfqZE
-- Lưu thêm mã Astra: https://shorten.asia/VKxqbHeQ
+🔥Top sản phẩm giao nhanh 2H: https://shorten.asia/ck8rwxjw
 
-🔥 Beauty Club: https://shorten.asia/CCxD5uwu
-Lưu thêm các mã giảm giá: https://shorten.asia/CCxD5uwu
+🔥Super Fashion day:
+- Deal sốc 66k
+- Giảm 80%
+- Săn voucher 100k
+=> Chi tiết: https://shorten.asia/1Mg3t1pk
 
-🔥 Tiki Mom Club: https://shorten.asia/m1rr46NU
-- Tiện ích Tiki: https://shorten.asia/B1QR1SMT
-- Đồng giá 16K: https://shorten.asia/m1rr46NU
-- Deal mẹ bé: https://shorten.asia/trKQGEVA
-- List nhà bán uy tín:
-+ HiPP Official Store: https://shorten.asia/AZYxVV5k
-+ MaxKleen Official Store: https://shorten.asia/yauD9xhC
-+ J&J Vietnam Official Store: https://shorten.asia/Uwn89va8
-+ TH true mart Official Store: https://shorten.asia/6q9uFAVk
-+ DK HARVEST: https://shorten.asia/98guZ6ZN
+🔥Beauty Club:
+- Coupon 50k
+- Thương hiệu giảm 50%
+- Deal đồng giá 14K 
+=> Chi tiết: https://shorten.asia/X5m1zfsU
 
-🔥 Tiki X Rohto Nhật Bản: https://shorten.asia/rcV1yS91
-- ROHTODEAL19RT Giảm 19K cho đơn hàng từ 169K.
-- ROHTODEAL45 Giảm 45K cho đơn hàng từ 369K.
+🔥Tech Arena:
+- Deal chỉ 9K
+- Giao nhanh 2H
+- Coupon 200k
+=> Chi tiết: https://shorten.asia/u7NH6jHW
 
-🔥 Tiki X Reckitt: https://shorten.asia/sx387uZw
-- DUREXSBD Giảm 10% tối đa 40K cho đơn hàng từ 289K.
-- MAX80KENFA26T5 Giảm 6% tối đa 80K cho đơn hàng từ 699K.
-- 120KENFA26T50H Giảm 120K cho đơn hàng từ 1.6 triệu.
+🔥Smartphone giảm sâu:
+- Ưu đã 50%
+- Giao nhanh trong 2H
+- Trả góp 12 tháng
+=> Chi tiết tại: https://shorten.asia/5gHvCyT8
 
-🔥 Tech Arena: https://shorten.asia/emVJ8BUc
-- Săn thêm Coupon hoàn Astra
-- Chính hãng 50%
+🔥Deal xe & phụ kiện:
+- Trả góp 0%
+- Thưởng ASTRA 5%
+- Deal dưới 66K
+=> Chi tiết: https://shorten.asia/pa2Q2c3K
 
-🔥 Samsung chính hãng giảm tới 20%: https://shorten.asia/1jZGEbY4
-- S22 Ultra giảm 19%
-- Galaxy A03s Giảm 11%
+🔥Deal điện tử: Rẻ hơn 2tr
+- Coupon 1tr đơn 0d
+- Top deal 1tr
+- Tikipro giao lắp 0d
+=> Chi tiết: https://shorten.asia/dVPurkz1
 
-🔥 Lên đời Smartphone, Laptop: https://shorten.asia/5gHvCyT8
-- Apple iPhone: https://shorten.asia/YGE9gU1m
-- Samsung: https://shorten.asia/A4KYFeG4
-- OPPO: https://shorten.asia/azzyxRT4
-- VIVO: https://shorten.asia/HHqaDdrh
-- Deal điện thoại tại HN: https://shorten.asia/dDYAS6pp
+🔥Mọt sách Tiki:
+- Giao nhanh 2H
+- Sách <66K
+- Mua là có quà
+=> Chi tiết: https://shorten.asia/teNKzDG1
 
-🔥 Deal điện máy:
-- Hoàn TIKIXU + ASTRA
-- Coupon freeship
-=>https://shorten.asia/pPSaaGKm
+🔥Deal đồ gia dụng: https://shorten.asia/tK5CrX1u
+🔥Deal công nghệ: https://shorten.asia/u7NH6jHW
+🔥Deal bách hóa: https://shorten.asia/a57WbuC5
+🔥Deal thể thao: https://shorten.asia/9vAwZEaj
+🔥Deal xe máy: https://shorten.asia/HyQNr7Y1
+🔥Deal nhà cửa: https://shorten.asia/47yJSeMr
+🔥Deal hàng quốc tế: https://shorten.asia/T5fSyT32
 
-🔥 Hàng quốc tế:
-- Coupon 1,5tr
-- Flash Sale 50%
-=> https://shorten.asia/NaGZ6PMa
-
-🔥 Mọt sách Tiki:
-- Quà hội viên 60%
-- Đọc sách miễn phí
-=> https://shorten.asia/ZKZv5hSc
-
-🔥 Voucher dịch vụ:
-- Giảm 10% đơn 199k
-- Giảm 100k đơn 999k
-=> Lưu mã tại: https://shorten.asia/KCgmxqrq
+🔥Voucher từ thương hiệu: https://zalo.me/g/fqehfa279
 
 🔥 Thể thao dã ngoại: https://shorten.asia/9vAwZEaj
 

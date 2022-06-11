@@ -48,10 +48,12 @@ let obj = {
 	"link":"https://shorten.asia/VHqVatw2",
 	},
 //LAZADA
+	  /*
 	  {"caption":"LAZADA Sale Hè 6.6",
 	"src":"https://lzd-img-global.slatic.net/g/icms/images/ims-web/659ef5f2-7cc1-416e-be07-39d1261dedbd.jpg_1200x1200q90.jpg_.webp",
 	"link":"https://shorten.asia/xKTJUpws",
 	 },
+	 */
 //Tiki
 	  /*
 	{

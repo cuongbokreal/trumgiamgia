@@ -1,5 +1,4 @@
 var dataVoucher = `
-
 Sale Giữa Tháng: https://shorten.asia/TFDeMxSk
 🔥MÃ TOÀN SÀN: back vào 9H, 12H, 16H, 20H
 • 0H: Mã toàn sàn giảm 30K/500K, 500K/0Đ(dự đoán, 0h load mới hiện mã)

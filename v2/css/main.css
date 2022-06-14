@@ -126,8 +126,12 @@ border-bottom-right-radius: 7px;
     text-align: center;
 }
 @media screen and (max-width:640px){
-    .embed-social > div{
+    .embed-social {
+        display: block;
+    }
+    #fb-page-timeline > iframe{
         width: 100%;
+        height: 35rem;
     }
 }
 .fb-group{width:100%;text-align:center}

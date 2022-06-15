@@ -240,6 +240,9 @@ Link 39A: https://shorten.asia/vAeTgvyc
 .
 🔥Thời trang nam TSIMPLE OFFICIAL: https://shorten.asia/JwEzvTBQ
 • 12H: TSIMG2 giảm 199K đơn từ 0Đ
+
+
+
 ⏰MÃ LAZADA 12H NGÀY 15.6:
 Sale Giữa Tháng: https://shorten.asia/sA7uRZNn
 🔥MÃ TOÀN SÀN: canh back - có thể lên sớm hoặc muộn vài phút
@@ -259,6 +262,9 @@ Sale Giữa Tháng: https://shorten.asia/sA7uRZNn
 🔥FREESHIP:
 • Mã Freeship 15K/49K, 25K/99K, 50K/300K
 => Lưu mã tại: https://shorten.asia/ewA9N6wz
+
+
+
 ⏰ Mã săn + Deal TIKI 12H 15.6:
 
 🔥 Từ VnPay:

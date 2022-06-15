@@ -2,9 +2,9 @@
 let obj = {
   data: [
 //Ghim
-	  {"caption":"Tiki Fashion day",
-	"src":"https://salt.tikicdn.com/cache/w1080/ts/banner/14/75/f5/c772c73c9694eb2b98edb9093173737a.png.webp",
-	"link":"https://shorten.asia/497hCSpe",
+	  {"caption":"Tiki Tsubaki",
+	"src":"https://salt.tikicdn.com/cache/w1080/ts/banner/9a/f3/ea/59601bf14c494d75b338286cdf1c9002.jpg.webp",
+	"link":"https://shorten.asia/9fJUmuXk",
 	},
 	   {"caption":"Tiki GUMAC",
 	"src":"https://salt.tikicdn.com/cache/w1080/ts/banner/83/06/6e/b6475e3a02a004dd31738630f54eef5e.png.webp",

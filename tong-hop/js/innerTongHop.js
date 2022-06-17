@@ -15,8 +15,8 @@ requestMind.open("GET", 'https://trumgiamgia.tk/tong-hop/js/dataTongHop.js', tru
 requestMind.send(null);
 requestMind.onreadystatechange =  function() {
 	if(requestMind.readyState == 4){
-		document.getElementById('innerTongHop').innerHTML = replaceBr(requestMind.responseText);
-		$("#innerTongHop").each(function(){
+		document.getElementById('tonghop').innerHTML = replaceBr(requestMind.responseText);
+		$("#tonghop").each(function(){
 		   $(this).html( $(this).html().replace(/((http|https|ftp):\/\/[\w?=&.\/-;#~%-]+(?![\w\s?&.\/;#~%"=-]*>))/g, '<a rel="nofollow" target="_blank" title="$1" alt="$1" href="$1">$1</a> '));
 		});
 	}

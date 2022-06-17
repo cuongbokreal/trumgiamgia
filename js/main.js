@@ -101,10 +101,13 @@ document.getElementById('thbaoTop').innerHTML = `Mã cập nhật lúc <span sty
 
 var ldJson = document.createElement('DIV');
 //ldJson.type = 'application/ld+json';
-    function createMariquee(){
-        var surf = document.getElementById('surf');
-        var innerVouchers = document.getElementById('innerVouchers');
-        setTimeout(function(){ 
+
+function createMariquee(){
+	var surf = document.getElementById('surf');
+	var innerVouchers = document.getElementById('innerVouchers');
+        //setTimeout(getDataReady, 3500);
+}    
+function getDataReady(){ 
             var titleVouchers = document.getElementsByClassName('dealpromo-item-cta');
     let innerSurf = `Hôm nay <span style='color:red'>(${today})</span>: `;
             for(let i=0;i< titleVouchers.length;i=i+2){
@@ -162,10 +165,11 @@ var ldJson = document.createElement('DIV');
 	var dropdownMenuMerchantChild = document.querySelectorAll('#dropdownMenuMerchant > a');
 	var dropdownMenuButton2 = document.getElementById('dropdownMenuButton2');
 	if(dropdownMenuMerchantChild.length == 1){dropdownMenuButton2.innerHTML = `Mã giảm giá ${dropdownMenuMerchant[0].innerText}`}
-		
-        }, 3500);
-    }    
-    createMariquee();
+}
+$("document").ready(
+	createMariquee();
+	getDataReady();
+)
 
 //location.hash coupon main when click next
 const pageItem = document.querySelectorAll('.pagination > .page-item');

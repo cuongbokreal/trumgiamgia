@@ -102,74 +102,69 @@ document.getElementById('thbaoTop').innerHTML = `Mã cập nhật lúc <span sty
 var ldJson = document.createElement('DIV');
 //ldJson.type = 'application/ld+json';
 
-function createMariquee(){
-	var surf = document.getElementById('surf');
-	var innerVouchers = document.getElementById('innerVouchers');
-        //setTimeout(getDataReady, 3500);
-}    
-function getDataReady(){ 
-            var titleVouchers = document.getElementsByClassName('dealpromo-item-cta');
-    let innerSurf = `Hôm nay <span style='color:red'>(${today})</span>: `;
-            for(let i=0;i< titleVouchers.length;i=i+2){
-                innerSurf+=`<a class="vouchers-tag-link" href="?utm_source=vouchers_a_tag_click&utm_medium=${window.location.pathname}&utm_campaign=${titleVouchers[i].innerText}#couponTab" title="Mã tại TrumGiamGia: ${titleVouchers[i].innerText}" alt="Mã tại TrumGiamGia: ${titleVouchers[i].innerText}">${titleVouchers[i].innerText}</a>   |   `;
-		    ldJson.innerHTML += `
-		    ${moTag}script type = 'application/ld+json'${dongTag}
-		    {
-			"@context": "https://schema.org",
-			"@type": "NewsArticle",
-			"mainEntityOfPage": {
-			    "@type": "WebPage",
-			    "@id": "https://${window.location.hostname}/?postId=${i}-${updateTime.getDate()}%2F${updateTime.getMonth()+1}&utm_source=postIndex&utm_medium=${updateTime.getDate()}%2F${updateTime.getMonth()+1}&utm_content=${titleVouchers[i].innerText}"
-			},
-			"headline": "${updateTime.getDate()}/${updateTime.getMonth()+1}: ${titleVouchers[i].innerText}",
-			"description": "Lấy mã ${titleVouchers[i].innerText} ngay tại TrumGiamGia.tk",
-			"image": "https://i.imgur.com/8uIODqf.jpg",
-			"datePublished": "${updateTime.getFullYear()}-${updateTime.getMonth()+1}-${updateTime.getDate()}T${updateTime.getHours()}:11:00+07:00",
-			"dateModified": "${updateTime.getFullYear()}-${updateTime.getMonth()+1}-${updateTime.getDate()+1}T${updateTime.getHours()+2}:11:17Z",
-			"author": {
-			    "@type": "Person",
-			    "name": "Blog TrumGiamGia",
-			    "url": "https://blog.trumgiamgia.tk/"
-			},
-			"publisher": {
-			    "@type": "Organization",
-			    "name": "TrumGiamGia",
-			    "logo": {
-				"@type": "ImageObject",
-				"url": "https://i.imgur.com/8uIODqf.jpg",
-				"width": 1500,
-				"height": 1500
-			    }
-			}
-		    }
-		  ${moTag}/script${dongTag}
-		`;
-            }
-            if(pathNameVoucherSite = '/'){
-                surf.innerHTML = innerSurf;
-                //innerVouchers.innerHTML = innerSurf;
-		    console.log(ldJson);
-		    document.body.append(ldJson);
-            }
-
-		//update ngày + số lượng voucher coupon
-	var text_muted = document.querySelectorAll('.text-muted')[0].innerText;
-	
-	var history_tabs = document.querySelector('#history-tabs > em').innerText;
-	var record_tabs = document.querySelector('#record-tabs > em').innerText;
-	var quantityVoucher = parseInt(replaceBrackets(history_tabs)) + parseInt(replaceBrackets(record_tabs));
-		
-    	document.querySelector('.atEQPOIVFSDFSDG-list-title > h4').innerHTML = `HIỆN CÓ <span style='color:red;margin: 0px;'>${quantityVoucher.toLocaleString()}</span> MÃ <span style='color:red;margin: 0px;'>(${add0To1Length(updateTime.getHours())}:${add0To1Length(updateTime.getMinutes())} ${today})</span>:`;
-		/*get name of merchant inner*/
-	var dropdownMenuMerchant = document.querySelectorAll('#dropdownMenuMerchant');
-	var dropdownMenuMerchantChild = document.querySelectorAll('#dropdownMenuMerchant > a');
-	var dropdownMenuButton2 = document.getElementById('dropdownMenuButton2');
-	if(dropdownMenuMerchantChild.length == 1){dropdownMenuButton2.innerHTML = `Mã giảm giá ${dropdownMenuMerchant[0].innerText}`}
-}
 $("document").ready(
-	createMariquee();
-	getDataReady();
-)
+	function(){
+		var surf = document.getElementById('surf');
+		var innerVouchers = document.getElementById('innerVouchers');
+		//setTimeout(getDataReady, 3500);
+		var titleVouchers = document.getElementsByClassName('dealpromo-item-cta');
+		let innerSurf = `Hôm nay <span style='color:red'>(${today})</span>: `;
+		for(let i=0;i< titleVouchers.length;i=i+2){
+			innerSurf+=`<a class="vouchers-tag-link" href="?utm_source=vouchers_a_tag_click&utm_medium=${window.location.pathname}&utm_campaign=${titleVouchers[i].innerText}#couponTab" title="Mã tại TrumGiamGia: ${titleVouchers[i].innerText}" alt="Mã tại TrumGiamGia: ${titleVouchers[i].innerText}">${titleVouchers[i].innerText}</a>   |   `;
+			    ldJson.innerHTML += `
+			    ${moTag}script type = 'application/ld+json'${dongTag}
+			    {
+				"@context": "https://schema.org",
+				"@type": "NewsArticle",
+				"mainEntityOfPage": {
+				    "@type": "WebPage",
+				    "@id": "https://${window.location.hostname}/?postId=${i}-${updateTime.getDate()}%2F${updateTime.getMonth()+1}&utm_source=postIndex&utm_medium=${updateTime.getDate()}%2F${updateTime.getMonth()+1}&utm_content=${titleVouchers[i].innerText}"
+				},
+				"headline": "${updateTime.getDate()}/${updateTime.getMonth()+1}: ${titleVouchers[i].innerText}",
+				"description": "Lấy mã ${titleVouchers[i].innerText} ngay tại TrumGiamGia.tk",
+				"image": "https://i.imgur.com/8uIODqf.jpg",
+				"datePublished": "${updateTime.getFullYear()}-${updateTime.getMonth()+1}-${updateTime.getDate()}T${updateTime.getHours()}:11:00+07:00",
+				"dateModified": "${updateTime.getFullYear()}-${updateTime.getMonth()+1}-${updateTime.getDate()+1}T${updateTime.getHours()+2}:11:17Z",
+				"author": {
+				    "@type": "Person",
+				    "name": "Blog TrumGiamGia",
+				    "url": "https://blog.trumgiamgia.tk/"
+				},
+				"publisher": {
+				    "@type": "Organization",
+				    "name": "TrumGiamGia",
+				    "logo": {
+					"@type": "ImageObject",
+					"url": "https://i.imgur.com/8uIODqf.jpg",
+					"width": 1500,
+					"height": 1500
+				    }
+				}
+			    }
+			  ${moTag}/script${dongTag}
+			`;
+		    }
+		if(pathNameVoucherSite = '/'){
+			surf.innerHTML = innerSurf;
+			//innerVouchers.innerHTML = innerSurf;
+			console.log(ldJson);
+			document.body.append(ldJson);
+		}
+		//update ngày + số lượng voucher coupon
+		var text_muted = document.querySelectorAll('.text-muted')[0].innerText;
+		var history_tabs = document.querySelector('#history-tabs > em').innerText;
+		var record_tabs = document.querySelector('#record-tabs > em').innerText;
+		var quantityVoucher = parseInt(replaceBrackets(history_tabs)) + parseInt(replaceBrackets(record_tabs));
+		document.querySelector('.atEQPOIVFSDFSDG-list-title > h4').innerHTML = `HIỆN CÓ <span style='color:red;margin: 0px;'>${quantityVoucher.toLocaleString()}</span> MÃ <span style='color:red;margin: 0px;'>(${add0To1Length(updateTime.getHours())}:${add0To1Length(updateTime.getMinutes())} ${today})</span>:`;
+			/*get name of merchant inner*/
+		var dropdownMenuMerchant = document.querySelectorAll('#dropdownMenuMerchant');
+		var dropdownMenuMerchantChild = document.querySelectorAll('#dropdownMenuMerchant > a');
+		var dropdownMenuButton2 = document.getElementById('dropdownMenuButton2');
+		if(dropdownMenuMerchantChild.length == 1){dropdownMenuButton2.innerHTML = `Mã giảm giá ${dropdownMenuMerchant[0].innerText}`}
+	}
+);
+
+
 
 //location.hash coupon main when click next
 const pageItem = document.querySelectorAll('.pagination > .page-item');
@@ -178,14 +173,11 @@ function couponTab() {
 	location.hash = "";
 	location.hash = "couponTab"
 }
-
 //Sửa chữ lazadacps => Lazada
 if(document.querySelector("[data-merchant='5127139956446111602']")){
 	const dropdown_menu_lazada = document.querySelector("[data-merchant='5127139956446111602']");
 	dropdown_menu_lazada.innerText = 'Lazada';
 }
-
-
 function replaceBrackets(c){
 	return c.replaceAll('(','').replaceAll(')','')
 }

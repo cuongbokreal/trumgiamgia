@@ -1,20 +1,20 @@
 function showSuccessToast(title, message) {
-    toast({
-      title: title,
-      message: message,
-      type: "success",
-      duration: 5000
-    });
-  }
-  function showErrorToast(title, message) {
-    toast({
-      title: title,
-      message: message,
-      type: "error",
-      duration: 5000
-    });
-  }
-  // Toast function
+	toast({
+		title: title,
+		message: message,
+		type: "success",
+		duration: 5000
+	});
+}
+function showErrorToast(title, message) {
+	toast({
+		title: title,
+		message: message,
+		type: "error",
+		duration: 5000
+	});
+}
+// Toast function
 function toast({ title = "", message = "", type = "info", duration = 3000 }) {
   const main = document.getElementById("toast");
   if (main) {
@@ -66,7 +66,7 @@ function toast({ title = "", message = "", type = "info", duration = 3000 }) {
       duration: 999000
     });
   	document.getElementsByClassName('toast__close')[0].style.display = 'none';
-  }
+}
   
 var b=document.createElement("script");b.type="text/javascript";
 b.async=!0;b.src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
@@ -75,27 +75,13 @@ b.async=!0;b.src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
 var e=document.getElementsByTagName("script")[0];
 e.parentNode.insertBefore(b,e)}();
 
+document.getElementsByClassName('atEQPOIVFSDFSDG-voucher-main')[0].style.background = '#eff3f4';
 
-//custom tí background cho ngựa ngựa =-))
-/*
-    var listBgColor = ["ffeeee",//hồng nhạt
-        "#eee3ff",//tím hơi nhạt
-        "#b7b6e4",//tím hơi đậm
-        "#ffe3eb",//hồng hơi nhạt
-        "#c5ce67",//xanh cức
-        "#f38b8b",//đỏ tươi
-        "#8bcff3",//xanh facebook
-        ]
-    randomBgColor = listBgColor[Math.floor(Math.random() * listBgColor.length)];
-*/
-    document.getElementsByClassName('atEQPOIVFSDFSDG-voucher-main')[0].style.background = '#eff3f4';
-
-	    //mariquee
-	var moTag = "<";
-	var dongTag= ">";
-    var updateTime = new Date(); //updateTime
-    var today = `${updateTime.getDate()}/${updateTime.getMonth() + 1}`;
-
+//mariquee
+var moTag = "<";
+var dongTag= ">";
+var updateTime = new Date(); //updateTime
+var today = `${updateTime.getDate()}/${updateTime.getMonth() + 1}`;
 var zaloGr = 'https://zalo.me/g/fqehfa279';
 document.getElementById('thbaoTop').innerHTML = `Mã cập nhật lúc <span style="color:red">${updateTime.getHours()}:${updateTime.getMinutes()} ${today}</span>, tham gia group nhắc săn Deal, Voucher hàng ngày tại <a href="${zaloGr}" target="_blank">${zaloGr}</a>`;
 

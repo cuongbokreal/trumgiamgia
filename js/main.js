@@ -157,6 +157,12 @@ var ldJson = document.createElement('DIV');
 	var quantityVoucher = parseInt(replaceBrackets(history_tabs)) + parseInt(replaceBrackets(record_tabs));
 		
     	document.querySelector('.atEQPOIVFSDFSDG-list-title > h4').innerHTML = `HIỆN CÓ <span style='color:red;margin: 0px;'>${quantityVoucher.toLocaleString()}</span> MÃ <span style='color:red;margin: 0px;'>(${add0To1Length(updateTime.getHours())}:${add0To1Length(updateTime.getMinutes())} ${today})</span>:`;
+		/*get name of merchant inner*/
+	var dropdownMenuMerchant = document.querySelectorAll('#dropdownMenuMerchant');
+	var dropdownMenuMerchantChild = document.querySelectorAll('#dropdownMenuMerchant > a');
+	var dropdownMenuButton2 = document.getElementById('dropdownMenuButton2');
+	if(dropdownMenuMerchantChild.length == 1){dropdownMenuButton2.innerHTML = `Mã giảm giá ${dropdownMenuMerchant[0].innerText}`}
+		
         }, 3500);
     }    
     createMariquee();

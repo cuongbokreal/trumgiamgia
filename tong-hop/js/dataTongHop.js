@@ -1,61 +1,55 @@
-⏰SHOPEE, LAZADA TỪ 12H - 16H NGÀY 19.6:
+⏰SHOPEE, LAZADA TỪ 18H - 21H:
 ➖➖➖➖SHOPEE➖➖➖➖
-🔥TIÊU DÙNG: Sức khoẻ sắc đẹp(mỹ phẩm,..), bách hoá online, mẹ bé, giặt giũ, thú cưng
-• 12H: Mã giảm 50% tối đa 100K đơn từ 0Đ(đúng giờ load link, mã sẽ hiện ở dưới mã Freeship giảm 70K)
-=> Lưu mã tại: https://shorten.asia/4Tq63v7K
+🔥SHOPEEFOOD: https://shorten.asia/JGX4j5J6
+• 18H: SIEUTIEC75 giảm 75K đơn từ 200K
 .
-🚛MIỄN PHÍ VẬN CHUYỂN: canh back 12H
-• 12H: Lưu 2 mã Freeship Xtra + 1 mã Freeship 0Đ giảm 40K(mã lọc sp): https://shorten.asia/eCrhp7yx
+🚛MIỄN PHÍ VẬN CHUYỂN: canh back 18H, 21H(thường khung 21h sẽ back sớm trước 21h)
+• 18H, 21H: Lưu 2 mã Freeship Xtra + 1 mã Freeship 0Đ giảm 40K(mã lọc sp): https://shorten.asia/uBR7MR1K
 .
-🔥3CE: https://shorten.asia/H8YMSQM3
-• 12H: COS3CE193 (mã shopee) giảm 349K đơn từ 0Đ cho Son Kem Lì 3CE: https://shorten.asia/7ZrNNaDh
-• 12H02s: 3CEOH3SBD (mã shop) giảm 200K đơn từ 599K. List sản phẩm áp mã: https://shorten.asia/M7bhk5M5
-• 15H: COS3CE194 (mã shopee) giảm 349K đơn từ 0Đ cho Son Kem Lì 3CE: https://shorten.asia/7ZrNNaDh
-.
-🔥Mando: https://shorten.asia/K6mVMq11
-• 12H27s: THOI196K3 (mã shop) giảm 248k còn 1k cho Áo Sơ Mi Caro Nam: https://shorten.asia/39GYSx5t
-• 12H30p35s: THOI196K4 (mã shop) giảm 248k còn 1K cho Áo Phông Polo Trắng Nam: https://shorten.asia/upmR75sk
-.
-🔥Paula's Choice: https://shorten.asia/gJaSpuDS
-• 12H: PAUL196FV (mã shop) giảm 270K đơn từ 1,5tr. List sản phẩm áp mã: https://shorten.asia/5MJZheeK (back)
-.
-🔥MÃ ÁP SẢN PHẨM CÓ MÁC “Hoàn Xu Xtra” hoặc “Freeship Xtra”: canh back 12H
+🔥MÃ ÁP SẢN PHẨM CÓ MÁC “Hoàn Xu Xtra” hoặc “Freeship Xtra”: canh back 18H
 • Mã hoàn 6% tối đa 200K đơn từ 400K(Hoàn Xu Xtra)
 • Mã giảm 5% tối đa 100K đơn từ 500K(Freeship Xtra)
-=> Lưu mã tại: https://shorten.asia/MSNm2baH
+=> Lưu mã tại: https://shorten.asia/rM8t8Wh7
 .
-🔥MÃ TOÀN SÀN - NHẬP TAY: canh back 12H
+🔥3CE: https://shorten.asia/vWjrEhND
+• 18H: COS3CE195 (mã shopee) giảm 349K đơn từ 0Đ 
+• 21H: COS3CE196 (mã shopee) giảm 349K đơn từ 0Đ 
+=> 2 mã trên chỉ áp cho Son Kem Lì 3CE: https://shorten.asia/GmEEe7FF
+• 21H59s: 3CEOH4SBD (mã shop) giảm 200K đơn từ 599K. List sản phẩm áp mã: https://shorten.asia/7gaxR2er
+.
+🔥Paula's Choice: https://shorten.asia/DDcDFxuu
+• 20H: PAUL196FV (mã shop) giảm 270K đơn từ 1,5tr. List sản phẩm áp mã: https://shorten.asia/J8w4WSD3 (back)
+.
+🔥Unilever: https://shorten.asia/A4hStJTM
+• 21H: UNIL1968 (mã shop) giảm 30k đơn từ 149k. List sản phẩm áp mã: https://shorten.asia/ymMPQyVU
+• 21H: UNIL1969 (mã shop) giảm 40% tối đa 50k đơn từ 109k. List sản phẩm áp mã: https://shorten.asia/s8cddr8g
+.
+🔥Mando: https://shorten.asia/E3vkKeBH
+• 21H23s: THOI196K5 (mã shop) giảm 248k còn 1k cho Quần Jean Nam: https://shorten.asia/yUwfYHRA
+• 22H41s: THOI196K6 (mã shop) giảm 198k còn 1k cho Áo Phông Polo Nam: https://shorten.asia/zaSvegKt
+.
+🔥MÃ TOÀN SÀN - NHẬP TAY: canh back 21H
 • 196HOAN10K0PH hoặc 196HOAN10K1PH hoặc 196HOAN10K2PH hoàn 15% tối đa 10K đơn từ 50K
 • 166GIAM40K0PH hoặc 166GIAM40K1PH hoặc 166GIAM40K2PH giảm 5% tối đa 40K đơn từ 500K
 • 166MALL50K0PH hoặc 166MALL50K1PH hoặc 166MALL50K2PH  giảm 6% tối đa 50K đơn từ 250K(Mall)
 .
 🔥MÃ ÁP MỘT SỐ SẢN PHẨM: dùng luôn
-• SKAMNLT06 giảm 20K đơn từ 0Đ. List sản phẩm áp mã: https://shorten.asia/KMXNN3AC
-• LIFESHC21N giảm 200K đơn từ 1m. List sản phẩm áp mã: https://shorten.asia/xBDUZErQ
-• SPFDEAL1006 hoàn 50K đơn từ 200K. List sản phẩm áp mã: https://shorten.asia/CVkA6fyW
-• AFF6FSW giảm 20K đơn từ 99K. List sản phẩm áp mã: https://shorten.asia/HZcYavFG
-• AFF6FMW giảm 20K đơn từ 99K. List sản phẩm áp mã: https://shorten.asia/1Ep6NzHw
+• SKAMNLT06 giảm 20K đơn từ 0Đ. List sản phẩm áp mã: https://shorten.asia/s4hYbH84
+• SPFDEAL1006 hoàn 50K đơn từ 200K. List sản phẩm áp mã: https://shorten.asia/HK5p8fvY
+• AFF6FSW giảm 20K đơn từ 99K. List sản phẩm áp mã: https://shorten.asia/kzVuSakv
+• AFF6FMW giảm 20K đơn từ 99K. List sản phẩm áp mã: https://shorten.asia/ufvER8TW
 • AFF6GMVPKB giảm 8% tối đa 100K đơn từ 600K
 .
-🔥SHOPEEFOOD: https://shorten.asia/6tt36DNW
-• 11H: SIEUTIEC75 giảm 75K đơn từ 200K
-• 15H: QUANMOI30 giảm 30K đơn từ 30K
-.
-🔥NẠP THẺ DỊCH VỤ: https://shorten.asia/HyFAkkYC
-• 12H: SPPMOVIE6HT giảm 50% tối đa 30k vé phim (back)
+🔥Home Club(đăng kí thành viên trước): https://shorten.asia/BP1bFUju 
+• SPP06SHCBAU giảm 20K đơn từ 0Đ
+• LIFESHC21N giảm 200K đơn từ 1m. List sản phẩm áp mã: https://shorten.asia/NeawvUwZ
 .
 🔥MÃ TOÀN SÀN: dùng luôn
-• Mã giảm 30K đơn từ 300K: https://shorten.asia/fmHpKsm3
-• Mã giảm 7% tối đa 50K đơn từ 300K. Lưu mã tại: https://shorten.asia/wAStVJfD
+• Mã giảm 30K đơn từ 300K: https://shorten.asia/eqxUX9xT 
+• Mã giảm 7% tối đa 50K đơn từ 300K. Lưu mã tại: https://shorten.asia/4VmQUb6r
 .
-🔥CHỜ ĐÓN SIÊU SALE 15.6:
-• Lưu sớm mã Freeship 0Đ giảm 15K + mã toàn sàn 70K + ShopeeMall 50K
-=> Lưu sớm mã tại: https://shorten.asia/b4fyH3jZ
-.
-🔥Mở hộp quà:
-Link 1: https://shorten.asia/dDKTfQQj 
-Link 2: https://shorten.asia/Q28THXb6 (lọc tài khoản)
-.
+🔥CHỜ ĐÓN SIÊU SALE 15.6: https://shorten.asia/k2Xu5Y3F
+
 .
 ➖➖➖➖LAZADA➖➖➖➖
 🔥MÃ TOÀN SÀN: canh back - có thể lên sớm hoặc muộn vài phút

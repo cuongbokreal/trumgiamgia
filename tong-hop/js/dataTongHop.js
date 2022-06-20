@@ -65,3 +65,60 @@
 .
 🔥LAZMALL GIẢM 60K ĐƠN TỪ 499K: 
 => Lưu mã tại: https://shorten.asia/GCBWwySr
+
+➖➖➖➖TIKI➖➖➖➖
+📌 Lịch sự kiện: https://shorten.asia/hnsxcKrk
+📌 Beauty Club: https://shorten.asia/X5m1zfsU
+📌 MumClub: https://shorten.asia/ZFmSVrRq
+📌 Tiki mách mẹ: https://shorten.asia/1HDMTKGn
+📌 Mọt sách Tiki: https://shorten.asia/ZKZv5hSc
+📌 Bách hóa Online: https://shorten.asia/a57WbuC5
+📌 Mã giảm giá FMGG: https://shorten.asia/dN8MDq9s
+📌 Săn sale điện tử, miễn phí giao lắp: https://shorten.asia/dVPurkz1
+📌 Tech Area: https://shorten.asia/emVJ8BUc
+📌 Flash sale điện gia dụng: https://shorten.asia/tK5CrX1u
+📌 Top điện máy: https://shorten.asia/U3nnq2dN
+📌 Siêu deal nhà cửa: https://shorten.asia/47yJSeMr
+📌 Ưu đãi Visa: https://shorten.asia/ajFy8WtK
+📌 Ưu đãi VNPay: https://shorten.asia/BAj4MUdK
+📌 Thời trang
+- FLASHSALE: https://shorten.asia/YG5aVSfb
+- DƯỚI 49K: https://shorten.asia/jNz535yS
+- NÀNG QUYẾN RŨ: https://shorten.asia/Btv5BUBy
+- NÀNG KHÁC BIỆT: https://shorten.asia/dAdk7mx1
+- NÀNG THỜI THƯỢNG: https://shorten.asia/4E8gAdwH
+- THỜI TRANG NAM DƯỚI 149K : https://shorten.asia/wNK6YQaT
+- THỜI TRANG NỮ DƯỚI 149K : https://shorten.asia/WtvRADJ8
+- THỜI TRANG MẸ BÉ DƯỚI 149K : https://shorten.asia/5b2jj2Y6
+- TÚI XÁCH BA LÔ DƯỚI 149K : https://shorten.asia/2ZkhVMXS
+- GIÀY DÉP DƯỚI 149K : https://shorten.asia/x4KXZTxJ
+- PHỤ KIỆN THỜI TRANG DƯỚI 149K : https://shorten.asia/UZaFz6fZ
+📌 FMCG:
+- Dưới 199k: https://shorten.asia/UzH8PSCE
+- Dưới 99k: https://shorten.asia/EMFqzUPJ
+📌 Mẹ & bé:
+- Bộ sưu tập Mẹ bé Dưới 199K: https://shorten.asia/fZQpNuS9
+- TikiNow Mom Club: https://shorten.asia/7qY4jPhM
+- Đồ chơi thông minh cho bé: https://shorten.asia/YZURgDQ8
+- Tã bỉm: https://shorten.asia/FM1KMnVH
+- Đồ chơi: https://shorten.asia/Vnf7NRVH
+📌 Công nghệ:
+- Phụ kiện Game thủ: https://shorten.asia/N83tkexu
+- Phụ kiện công nghệ dưới 750k: https://shorten.asia/wyznPTrz
+📌 MIX MATCH 
+- THỜI TRANG NỮ: https://shorten.asia/X9hkUAm5
+- THỜI TRANG NAM: https://shorten.asia/s312a3Wp
+- PHỤ KIỆN THỜI TRANG: https://shorten.asia/2HXunmmu
+- TÚI XÁCH: https://shorten.asia/Cm4cuk3m
+- GIÀY DÉP: https://shorten.asia/7v1Ey34Q
+- THỜI TRANG MẸ BÉ: https://shorten.asia/H6nHkmYh
+
+🔥Top sản phẩm giao nhanh 2H: https://shorten.asia/ck8rwxjw
+
+🔥Deal đồ gia dụng: https://shorten.asia/tK5CrX1u
+🔥Deal công nghệ: https://shorten.asia/u7NH6jHW
+🔥Deal bách hóa: https://shorten.asia/a57WbuC5
+🔥Deal thể thao: https://shorten.asia/9vAwZEaj
+🔥Deal xe máy: https://shorten.asia/HyQNr7Y1
+🔥Deal nhà cửa: https://shorten.asia/47yJSeMr
+🔥Deal hàng quốc tế: https://shorten.asia/T5fSyT32

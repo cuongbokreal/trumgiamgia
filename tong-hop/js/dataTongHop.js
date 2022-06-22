@@ -1,4 +1,4 @@
-⏰SHOPEE + LAZADA + TIKI TỪ 12H - 15H NGÀY 21.6:
+⏰SHOPEE + LAZADA + TIKI TỪ 12H - 15H NGÀY 22.6:
 
 ➖➖➖➖SHOPEE➖➖➖➖
 🚛MIỄN PHÍ VẬN CHUYỂN: canh back 12H

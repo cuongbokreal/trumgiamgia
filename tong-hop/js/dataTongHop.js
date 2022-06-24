@@ -1,4 +1,4 @@
-⏰SHOPEE, LAZADA CUỐI NGÀY 22.6:
+⏰SHOPEE + LAZADA CUỐI NGÀY 25.6:
 ➖➖➖➖SHOPEE➖➖➖➖
 🔥MÃ TOÀN SÀN - NHẬP TAY: 
 • 17H57-18H03: 2206BATNGOTHU4 giảm 30K đơn từ 150K. List sản phẩm áp mã: https://shorten.asia/SNpVyzAk (back)

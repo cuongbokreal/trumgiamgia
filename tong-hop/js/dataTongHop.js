@@ -1,3 +1,68 @@
+⏰SHOPEE + LAZADA 18H  CUỐI NGÀY 24.6 (mã 0H 25.6 kéo xuống dưới nhé):
+➖➖➖➖SHOPEE➖➖➖➖
+🔥SHOPEEFOOD: https://shorten.asia/9aNUEEyD
+• 18H: MOIBAN30K giảm 50% tối đa 30K đơn từ 0Đ
+.
+🚛MIỄN PHÍ VẬN CHUYỂN: 
+• 18H, 21H: Lưu 2 mã Freeship Xtra: https://shorten.asia/PePa1UpV (back)
+• Lưu 1 mã Freeship giảm 20K đơn từ 50K Quốc Tế Hàn: https://shorten.asia/4dRdZExp 
+.
+🔥MÃ ÁP SẢN PHẨM CÓ MÁC “Hoàn Xu Xtra” hoặc “Freeship Xtra”: canh back 18H
+• Mã hoàn 6% tối đa 200K đơn từ 400K(Hoàn Xu Xtra)
+• Mã giảm 5% tối đa 100K đơn từ 500K(Freeship Xtra)
+=> Lưu mã tại: https://shorten.asia/CZqKWPzy
+.
+🔥QUỐC TẾ HÀN QUỐC: https://shorten.asia/4dRdZExp
+• 21H: CBKR21H giảm 50K đơn từ 150K. List sản phẩm áp mã: https://shorten.asia/ezZJnz6U
+.
+🔥MÃ TOÀN SÀN - NHẬP TAY: canh back 21H
+• Mã giảm 30K đơn từ 300K: https://shorten.asia/2dsWMKRY - dùng luôn
+• 246HOAN10K0PH hoặc 246HOAN10K1PH hoặc 246HOAN10K2PH hoàn 15% tối đa 10K đơn từ 50K
+• 166GIAM40K0PH hoặc 166GIAM40K1PH hoặc 166GIAM40K2PH giảm 5% tối đa 40K đơn từ 500K
+• 166MALL50K0PH hoặc 166MALL50K1PH hoặc 166MALL50K2PH  giảm 6% tối đa 50K đơn từ 250K(Mall)
+.
+🔥MÃ ÁP MỘT SỐ SẢN PHẨM: dùng luôn
+• FAMALLFES20 giảm 20K đơn từ 150K. List sản phẩm áp mã:https://shorten.asia/xugXZPXY
+• AFF256BNBG giảm 30K đơn từ 150K. List sản phẩm áp mã: https://shorten.asia/VdcGNmrt
+• I013006 giảm 15K đơn từ 0Đ. List sản phẩm áp mã: https://shorten.asia/WRtCdy85
+• SKAMNLT06 giảm 20K đơn từ 0Đ. List sản phẩm áp mã: https://shorten.asia/5zRTh1K1
+• SPFDEAL1006 hoàn 50K đơn từ 200K. List sản phẩm áp mã: https://shorten.asia/7Zsgh1ev
+• AFF6GMVPKB giảm 8% tối đa 100K đơn từ 600K
+.
+🔥VOUCHER TRƯỚC GIỜ G - ÁP TOÀN SÀN: ngày 24.6 lưu mã + 0H ngày 25.6 dùng mã
+• 22H: Lưu sớm mã giảm 15% tối đa 50K đơn từ 0Đ
+• 22H30: Lưu sớm mã giảm 15% tối đa 100K đơn từ 150K
+• 23H: Lưu sớm mã giảm 15% tối đa 200K đơn từ 500K
+• 23H30: Lưu sớm mã giảm 15% tối đa 300K đơn từ 1 triệu
+=> Lưu cácmã tại(đúng giờ mới hiện mã): https://shorten.asia/QdesGsbt
+.
+🔥MÃ NHâN PHẨM - ÁP TOÀN SÀN SHOPEE: chỉ 1 số ít tài khoản có mã - 0H ngày 25.6 dùng
+• Mã giảm 666K đơn từ 0Đ(21H30, 22H30, 23H30 ngày 24.6 mở lưu sớm mã)
+=> Lưu sớm mã tại: https://shorten.asia/JRN8gVyC
+.
+🔥MỞ HỘP QUÀ:
+• Link 1: https://shorten.asia/QfZsKJQH (lượt mới 12H)
+• Link 2: https://shorten.asia/JRN8gVyC (lọc tài khoản)
+• Link 3: https://shorten.asia/2UhRV9P6 (người mới)
+
+➖➖➖➖LAZADA➖➖➖➖
+🔥MÃ TOÀN SÀN: lưu được là của riêng
+• 20H: Mã giảm 100K đơn từ 200K
+• 20H: Mã giảm 50K đơn từ 100K
+=> Lưu mã tại: https://shorten.asia/d2HUYKu6
+.
+🔥THƯƠNG HIỆU THỜI TRANG:
+• 20H: Lưu loạt mã giảm 30% từ các thương hiệu
+=> Link lưu mã 1 tại: https://shorten.asia/UdJJJfnr (đã hiện sẵn)
+=> Link lưu mã 2 tại: https://shorten.asia/PKyT8Rge (chưa hiện)
+.
+🔥MÃ ĐỜI SỐNG: canh back 20H - có thể lên sớm hoặc muộn hơn(thường hay lên trễ)
+• Mã giảm 350K đơn từ 1triệu + mã giảm 12%
+=> Lưu mã tại: https://shorten.asia/Yryh6TZf
+Mẹo lưu nhanh: bấm qua lại giữa 2 tab "Home Laz Club ngành hàng" và   Home Laz Club 9 thương hiệu" 
+
+
+
 ⏰SHOPEE + LAZADA 0H 25.6:
 
 ➖➖➖➖SHOPEE➖➖➖➖

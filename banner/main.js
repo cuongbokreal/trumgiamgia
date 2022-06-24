@@ -2,9 +2,9 @@
 let obj = {
   data: [
 //Ghim
-	  {"caption":"Tiki dien may",
-	"src":"https://salt.tikicdn.com/cache/w1080/ts/banner/44/51/95/b14164237a2db8779107168127a7a0f0.png.webp",
-	"link":"https://shorten.asia/GnnndW4d",
+	  {"caption":"Tiki bach hoa",
+	"src":"https://salt.tikicdn.com/cache/w1240/ts/brickv2og/c2/94/54/57568f3f54936182872c160bbff61a98.png.webp",
+	"link":"https://shorten.asia/2wpGP4JT",
 	},
 	   {"caption":"Tiki Beauty",
 	"src":"https://salt.tikicdn.com/cache/w1080/ts/banner/00/a3/d8/8cc5a234fe518890573f6267ab3a7245.png.webp",

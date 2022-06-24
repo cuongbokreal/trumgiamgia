@@ -7,7 +7,7 @@ let obj = {
 	"link":"https://shorten.asia/MtfgfVwc",
 	},
 	  {"caption":"Tiki bach hoa",
-	"src":"https://salt.tikicdn.com/cache/w1240/ts/brickv2og/c2/94/54/57568f3f54936182872c160bbff61a98.png.webp",
+	"src":"https://salt.tikicdn.com/cache/w1080/ts/banner/58/eb/8b/6459e538ff57797b814175575fd8726d.png.webp",
 	"link":"https://shorten.asia/2wpGP4JT",
 	},
 	  {"caption":"Tiki Apple",

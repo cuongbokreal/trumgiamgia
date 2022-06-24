@@ -169,19 +169,35 @@
 • Săn voucher 50K, 100K các khung giờ. Lưu sớm mã 0H tại banner: https://shorten.asia/vY62gzZE
 
 ➖➖➖➖LAZADA➖➖➖➖
-🔥MÃ ĐỜI SỐNG: canh back - có thể lên sớm hoặc muộn hơn
-• 20H: Mã giảm 350K đơn từ 1triệu + mã giảm 12%(có thể back)
-=> Lưu mã tại: https://shorten.asia/kkG5wZsH
-Mẹo: Bấm qua lại 2 mục "Home Laz Club 9 thương hiệu" và "Home Laz Club ngành hàng"
+🔥Sale Lương Về: https://shorten.asia/7JYY5jhV
+🔥MÃ TOÀN SÀN: back vào 9H, 12H, 16H, 20H
+• 0H: Mã toàn sàn giảm 30K/500K, 500K/0Đ(dự đoán, 0h load mới hiện mã)
+=> Lưu mã tại: https://shorten.asia/t394R3pr
+.
+🔥9H, 12H: MÃ NGâN HÀNG:
+=> Lưu mã tại: https://shorten.asia/8ZBtQccc
+.
+🔥MOMO: canh back 9H hàng ngày - có thể lên sớm hoặc muộn vài phút
+=> Lưu mã tại: https://shorten.asia/E3qETGDw
+.
+🔥ZALOPAY: canh back 9H, 12H hàng ngày - có thể lên sớm hoặc muộn vài phút
+=> Lưu mã tại:  https://shorten.asia/mQsRQ3y9
+.
+🔥FREESHIP:
+• Mã Freeship 15K/49K, 25K/99K, 50K/300K
+=> Lưu mã tại: https://shorten.asia/t394R3pr
+.
+🔥RẺ VÔ CỰC - SĂN DEAL DƯỚI 99K: https://shorten.asia/Uw2vwFMR
+.
+🔥FLASH SALE: https://shorten.asia/EPE7MH5P
+• 0H, 12H: Săn deal Flash sale(hiện giá trước 5-15p)
+.
+🔥0H: LAZMALL GIẢM 60K ĐƠN TỪ 499K: mã mới hàng ngày
+=> Lưu mã tại: https://shorten.asia/jaCf4JRq
 .
 🔥THƯƠNG HIỆU THỜI TRANG:
 • 20H: Lưu loạt mã giảm 30% từ các thương hiệu
-=> Lưu mã tại: https://shorten.asia/MDBwAujB
+=> Lưu mã tại: https://shorten.asia/tC7Cezu7
+🔥0H: Lên mã đổi xu: https://shorten.asia/tpYbZZQE
 .
-🔥GUMAC SALE: https://shorten.asia/VBj4CX78
-• 21H: Lưu mã giảm 1tr đơn từ 1,5tr
-• 3000 quà tặng 0Đ, đặt cọc trước nhận quà tặng độc quyền, giảm giá đến 70% toàn gian hàng
-.
-🔥SHISEIDO SALE: https://shorten.asia/12fdnJD3
-• Giảm giá toàn gian hàng 15%, Mua 1 tặng 1, đặt cọc trước
-• Mã giảm 100K, 250K, 380K. Lưu mã tại: https://shorten.asia/MQtEJkw4 (back 12H, 16H, 20H)
+🔥0H: Lên mã đổi sao: https://shorten.asia/bcDEvSuC

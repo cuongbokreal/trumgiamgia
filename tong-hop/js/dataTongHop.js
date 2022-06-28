@@ -1,90 +1,57 @@
-⏰SHOPEE + LAZADA cuối ngày 27.6:
+⏰SHOPEE + LAZADA + TIKI 12H 28.6:
 
 ➖➖➖➖SHOPEE➖➖➖➖
+🔥TIÊU DÙNG: https://shorten.asia/ZGPbUHjq
+• 12H: NHATVIP2 (mã shop) giảm 50K đơn từ 0Đ. List sản phẩm áp mã: https://shorten.asia/B5wV9SAK
+• 12H1p: SPAQ28062 (mã shop) giảm 50K đơn từ 0Đ. List sản phẩm áp mã: https://shorten.asia/HWXKYDMh
+• 12H: NQ002 (mã shop) giảm 50K đơn từ 0Đ. List sản phẩm áp mã: https://shorten.asia/XtM1Yqh6
+• 12H: DRDOCOCI (mã shop) giảm 50K đơn từ 0Đ. List sản phẩm áp mã: https://shorten.asia/BvTcMfN6
+• 12H: LAODONGLA (mã shop) giảm 50K đơn từ 0Đ. List sản phẩm áp mã: https://shorten.asia/2sP6Mue7
+• 12H: HELLA501 (mã shop) giảm 50K đơn từ 0Đ. List sản phẩm áp mã: https://shorten.asia/pQWYuM19
+• 12H: JENNYVIP (mã shop) giảm 50K đơn từ 0Đ. List sản phẩm áp mã: https://shorten.asia/pQWYuM19
+• 12H: THAO50K06 (mã shop) giảm 50K đơn từ 0Đ. List sản phẩm áp mã: https://shorten.asia/8Bv2u8ZH
+• 12H: LONGVO50K (mã shop) giảm 50K đơn từ 0Đ. List sản phẩm áp mã: https://shorten.asia/FuNGZMuU
+.
+🚛MIỄN PHÍ VẬN CHUYỂN: 
+• 12H: Lưu 1 mã Freeship 0Đ giảm 10K + 1 mã Freeship Xtra + 1 mã Freeship 0Đ giảm 40K(lọc sản phẩm) tại: https://shorten.asia/E1EMhzFH (back)
+.
+🔥MÃ TOÀN SÀN - NHẬP TAY: canh back 12H
+• 11H57-12H03: 26306HUNT77K0H hoàn 50% tối đa 77K đơn từ 77K. List sản phẩm áp mã: https://shorten.asia/zyRqcFKC 
+.
+🔥BÁCH HÓA:
+• 12H: GROHUNT100 Giảm 100K đơn từ 0Đ cho Bách hoá online. List sản phẩm áp mã: https://shorten.asia/KnNb6AQ6 (có thể back)
+.
+🔥MÃ ÁP SẢN PHẨM CÓ MÁC “Hoàn Xu Xtra” hoặc “Freeship Xtra”: canh back 12H
+• 12H: Mã hoàn 6% tối đa 200K đơn từ 400K(Hoàn Xu Xtra)
+• 12H: Mã giảm 5% tối đa 100K đơn từ 500K(Freeship Xtra)
+=> Lưu mã tại: https://shorten.asia/As8rtdcf
+.
+🔥SỨC KHỎE SẮC ĐẸP: https://shorten.asia/ayYMGXep
+• 12H: FEGOHBTS (mã shop) giảm 50% tối đa 50K đơn từ 0Đ. List sản phẩm áp mã: https://shorten.asia/a7BDTasA
+• Trả lời câu hỏi có cơ hội nhận mã 25K lượt 0H: https://shorten.asia/ayYMGXep đáp án: B (12H lượt mới)
+.
+🔥5s: https://shorten.asia/GjvHvDca
+• 12H: 5SOFSP282 (mã shop) giảm 300K đơn từ 0Đ. List sản phẩm áp mã: https://shorten.asia/ntH7X8RB
+.
+🔥Mando: https://shorten.asia/HUqNFVja
+• 12H: THOI28062 (mã shop) giảm 199K đơn từ 0Đ. List sản phẩm áp mã: https://shorten.asia/Z6S8jDjS
+.
+🔥MỞ HỘP QUÀ:
+• Link 1: https://shorten.asia/u73p2wVH (lượt mới 12H)
 
-🔥SHOPEEFOOD: https://shorten.asia/ntsn2uQP
-• 18H: MOIBAN30K giảm 50% tối đa 30K đơn từ 0Đ
-.
-🔥MÃ ÁP SẢN PHẨM CÓ MÁC “Hoàn Xu Xtra” hoặc “Freeship Xtra”: canh back 18H
-• 18H: Mã hoàn 6% tối đa 200K đơn từ 400K(Hoàn Xu Xtra)
-• 18H: Mã giảm 5% tối đa 100K đơn từ 500K(Freeship Xtra)
-=> Lưu mã tại:  https://shorten.asia/RawqY5ZW
-.
-🚛MIỄN PHÍ VẬN CHUYỂN:
-• Lưu 1 mã Freeship 0Đ giảm 40K(lọc sản phẩm)
-• 18H: Lưu 1 mã Freeship Xtra(back)
-• 21H: Lưu 1 mã Freeship 0Đ giảm 10K(back, thường back sớm trước 21H)
-=> Lưu mã tại: https://shorten.asia/6DQdP7ZZ
-.
-🔥P&G: https://shorten.asia/CG5vKHwr
-• 18H: PG27618H giảm 100K đơn từ 500K
-• 21H: PG27621H giảm 100K đơn từ 500K
-=> Áp chung list sản phẩm tại: https://shorten.asia/jj7VD13F
-.
-🔥Avino x TheGood: https://shorten.asia/M8mGk4cJ
-• 21H: THEG27063 (mã shop) giảm 100K đơn từ 199K. List sản phẩm áp mã: https://shorten.asia/B2gDXFKY
-• 21H: SPBT27063 (mã shop) giảm 100K đơn từ 199K. List sản phẩm áp mã: https://shorten.asia/MWhQzJyw
-.
-🔥DR.SAFFRON OFFICIAL: https://shorten.asia/vKN2AzZv
-• 19H06s: DRSA5027T (mã shop) giảm 50K đơn từ 150K
-• 19H54s: DRSA1927T (mã shop) giảm 49% tối đa 500K đơn từ 0Đ
-• 19H13s: DRSA3927T (mã shop) giảm 39% tối đa 300K đơn từ 0Đ
-• 19H31s: DRSA2917T (mã shop) giảm 29% tối đa 200K đơn từ 0Đ
-• 19H14s: DRSA2719P (mã shop) giảm 19% tối đa 200K đơn từ 0Đ
-• 21H01s: DRSA5027D (mã shop) giảm 50K đơn từ 150K
-• 21H01s: DRSA2749D (mã shop) giảm 49% tối đa 500K đơn từ 0Đ
-• 21H35s: DRSA2739D (mã shop) giảm 39% tối đa 300K đơn từ 0Đ
-• 21H46s: DRSA2729D (mã shop) giảm 29% tối đa 200K đơn từ 0Đ
-• 21H09s: DRSA2719D (mã shop) giảm 19% tối đa 200K đơn từ 0Đ
-=> Áp chung list sản phẩm tại: https://shorten.asia/GBnMCkXx
-.
-🔥MÃ TOÀN SÀN - NHẬP TAY: canh back 21H
-• 276HOAN10K0PH hoặc 276HOAN10K1PH hoặc 276HOAN10K2PH hoàn 15% tối đa 10K đơn từ 50K
-• 26306GIAM40K0PH hoặc 26306GIAM40K1PH hoặc 26306GIAM40K2PH giảm 5% tối đa 40K đơn từ 500K
-• 26306MALL50K0PH hoặc 26306MALL50K1PH hoặc 26306MALL50K2PH giảm 6% tối đa 50K đơn từ 250K(Mall)
-• STAIPRJUNENWI6 giảm 30K đơn từ 300K
-.
-🔥MÃ ÁP MỘT SỐ SẢN PHẨM: dùng luôn
-• AFF256BNBG giảm 30K đơn từ 150K. List sản phẩm áp mã: https://shorten.asia/5BK31MvM
-• SKAMNLT06 giảm 20K đơn từ 0Đ. List sản phẩm áp mã: https://shorten.asia/YZ8UQJex 
-• I013006 giảm 15K đơn từ 0Đ. List sản phẩm áp mã: https://shorten.asia/4fYeyFtB
-• SPFDEAL1006 hoàn 50K đơn từ 200K. List sản phẩm áp mã: https://shorten.asia/vf37Ck4j
-• AFF6SMA giảm 25K đơn từ 99K. List sản phẩm áp mã: https://shorten.asia/WSRbdxXF
-.
-🔥SHOPEEPAY: https://shorten.asia/YdXU9gGn
-• SPPPREJUL27 giảm 10K đơn từ 20K
-.
 🔥CHỜ ĐÓN SIÊU SALE 7.7:
 => Lưu sớm các mã tại: https://shorten.asia/ShfbCx5w
 
 ➖➖➖➖LAZADA➖➖➖➖
-🔥Sale Lương Về: https://shorten.asia/7JYY5jhV
-🔥MÃ TOÀN SÀN: back vào 9H, 12H, 16H, 20H
-• 0H: Mã toàn sàn giảm 30K/500K, 500K/0Đ(dự đoán, 0h load mới hiện mã)
-=> Lưu mã tại: https://shorten.asia/t394R3pr
+🔥MÃ TOÀN SÀN: có thể lên sớm hoặc muộn vài phút
+• 12H: Mã toàn sàn giảm 10K, 25K, 60K/700K, 130K/1tr5, 500K/0Đ(back)
+• 12H: Mã Freeship 20K/0Đ(back)
+=> Lưu mã tại: https://shorten.asia/Yf4gxeSw
 .
-🔥9H, 12H: MÃ NGâN HÀNG:
-=> Lưu mã tại: https://shorten.asia/8ZBtQccc
-.
-🔥MOMO: canh back 9H hàng ngày - có thể lên sớm hoặc muộn vài phút
-=> Lưu mã tại: https://shorten.asia/E3qETGDw
-.
-🔥ZALOPAY: canh back 9H, 12H hàng ngày - có thể lên sớm hoặc muộn vài phút
-=> Lưu mã tại:  https://shorten.asia/mQsRQ3y9
-.
-🔥FREESHIP:
-• Mã Freeship 15K/49K, 25K/99K, 50K/300K
-=> Lưu mã tại: https://shorten.asia/t394R3pr
-.
-🔥RẺ VÔ CỰC - SĂN DEAL DƯỚI 99K: https://shorten.asia/Uw2vwFMR
-.
-🔥FLASH SALE: https://shorten.asia/EPE7MH5P
-• 9H, 12H: Săn deal Flash sale(hiện giá trước 5-15p)
-.
-🔥9H: LAZMALL GIẢM 60K ĐƠN TỪ 499K: mã mới hàng ngày
-=> Lưu mã tại: https://shorten.asia/jaCf4JRq
+🔥12H: MÃ NGâN HÀNG: canh back - có thể lên sớm hoặc muộn vài phút
+=> Lưu mã tại: https://shorten.asia/hZWRZq5s
 
-TIKI 25.6:
+➖➖➖➖TIKI➖➖➖➖
 🔥 Từ VnPay:
 - VNPAYNEW Giảm 20% tối đa 45k cho đơn từ 199K: https://shorten.asia/BAj4MUdK
 - VNPAY10K Giảm 10K cho đơn từ 99K: https://shorten.asia/BAj4MUdK

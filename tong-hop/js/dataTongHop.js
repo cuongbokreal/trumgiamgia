@@ -1,46 +1,48 @@
-⏰SHOPEE + LAZADA + TIKI 12H 28.6:
+⏰SHOPEE + LAZADA + TIKI cuối ngày 29.6:
 
 ➖➖➖➖SHOPEE➖➖➖➖
-🔥TIÊU DÙNG: https://shorten.asia/ZGPbUHjq
-• 12H: NHATVIP2 (mã shop) giảm 50K đơn từ 0Đ. List sản phẩm áp mã: https://shorten.asia/B5wV9SAK
-• 12H1p: SPAQ28062 (mã shop) giảm 50K đơn từ 0Đ. List sản phẩm áp mã: https://shorten.asia/HWXKYDMh
-• 12H: NQ002 (mã shop) giảm 50K đơn từ 0Đ. List sản phẩm áp mã: https://shorten.asia/XtM1Yqh6
-• 12H: DRDOCOCI (mã shop) giảm 50K đơn từ 0Đ. List sản phẩm áp mã: https://shorten.asia/BvTcMfN6
-• 12H: LAODONGLA (mã shop) giảm 50K đơn từ 0Đ. List sản phẩm áp mã: https://shorten.asia/2sP6Mue7
-• 12H: HELLA501 (mã shop) giảm 50K đơn từ 0Đ. List sản phẩm áp mã: https://shorten.asia/pQWYuM19
-• 12H: JENNYVIP (mã shop) giảm 50K đơn từ 0Đ. List sản phẩm áp mã: https://shorten.asia/pQWYuM19
-• 12H: THAO50K06 (mã shop) giảm 50K đơn từ 0Đ. List sản phẩm áp mã: https://shorten.asia/8Bv2u8ZH
-• 12H: LONGVO50K (mã shop) giảm 50K đơn từ 0Đ. List sản phẩm áp mã: https://shorten.asia/FuNGZMuU
+🔥MÃ ÁP SẢN PHẨM CÓ MÁC “Hoàn Xu Xtra” hoặc “Freeship Xtra”: canh back 18H
+• 18H: Mã hoàn 6% tối đa 200K đơn từ 400K(Hoàn Xu Xtra)
+• 18H: Mã giảm 5% tối đa 100K đơn từ 500K(Freeship Xtra)
+=> Lưu mã tại: https://shope.ee/8p8CsbHLJA
+.
+🔥SHOPEEFOOD: https://shope.ee/3V6gWpAZs1
+• 18H: Đặt đồ ăn Flash Sale 50%
+.
+🔥Coolmate: https://shope.ee/8eomgKUMuB
+• 18H14s: COOLM300 (mã shop) giảm 300K đơn từ 399K. List sản phẩm áp mã: https://shope.ee/2Kuj8hWQ6r
+• 20H: COOLYO6 (mã shop) giảm 123K còn 6K cho Mũ lưỡi trai baseball in YOLO: https://shope.ee/5pUbJ8ntU9
+.
+🔥CJ InnerB: https://shope.ee/5AEuVvld0j
+• 20H34s: CJINJ35D (mã shop) giảm 35K đơn từ 799K
+.
+🔥ĐIỆN TỬ XU HƯỚNG: https://shope.ee/AUGQrk0WRu
+• SHOPY5HUT (mã shop) giảm 50K đơn từ 0Đ cho sản phẩm của  Máy in đơn hàng: https://shope.ee/2AbIwR5AZM
+• 20H: PHUKK50K (mã shop) giảm 50K đơn từ 0Đ cho sản phẩm của BINTECH OFFICIAL STORE: https://shope.ee/8KBwHmHEd0
+• 21H: SIMIGO50K (mã shop) giảm 50K đơn từ 0Đ cho sản phẩm của SimiGO: https://shope.ee/4fIdv2zzXs
 .
 🚛MIỄN PHÍ VẬN CHUYỂN: 
-• 12H: Lưu 1 mã Freeship 0Đ giảm 10K + 1 mã Freeship Xtra + 1 mã Freeship 0Đ giảm 40K(lọc sản phẩm) tại: https://shorten.asia/E1EMhzFH (back)
+• 21H: Lưu 1 mã Freeship 0Đ giảm 10K + 1 mã Freeship 0Đ giảm 40K(lọc sản phẩm) tại: https://shope.ee/4fIdv2zzXs
+• Lưu 1 mã Freeship 0Đ giảm 15K tại: https://shope.ee/3pjWvXBUUi
 .
-🔥MÃ TOÀN SÀN - NHẬP TAY: canh back 12H
-• 11H57-12H03: 26306HUNT77K0H hoàn 50% tối đa 77K đơn từ 77K. List sản phẩm áp mã: https://shorten.asia/zyRqcFKC 
+🔥MÃ TOÀN SÀN - NHẬP TAY: canh bac 21H
+• 296HOAN10K0PH hoặc 296HOAN10K1PH hoặc 296HOAN10K2PH hoàn 15% tối đa 10K đơn từ 50K
+• 26306GIAM40K0PH hoặc 26306GIAM40K1PH hoặc 26306GIAM40K2PH giảm 5% tối đa 40K đơn từ 500K
+• 26306MALL50K0PH hoặc 26306MALL50K1PH hoặc 26306MALL50K2PH giảm 6% tối đa 50K đơn từ 250K(Mall)
 .
-🔥BÁCH HÓA:
-• 12H: GROHUNT100 Giảm 100K đơn từ 0Đ cho Bách hoá online. List sản phẩm áp mã: https://shorten.asia/KnNb6AQ6 (có thể back)
+🔥MÃ ÁP MỘT SỐ SẢN PHẨM: dùng luôn
+• AFF256BNBG giảm 30K đơn từ 150K. List sản phẩm áp mã: https://shope.ee/5pUbJDlfTV
+• I013006 giảm 15K đơn từ 0Đ. List sản phẩm áp mã: https://shope.ee/3fQ6jFOzOi
+• SKAMNLT06 giảm 20K đơn từ 0Đ. List sản phẩm áp mã: https://shope.ee/9K4TTfYDNR
+• SPFDEAL1006 hoàn 50K đơn từ 200K. List sản phẩm áp mã: https://shope.ee/4AMNKBVPdo
+• AFF6SMA giảm 25K đơn từ 99K. List sản phẩm áp mã: https://shope.ee/6f3iImuomO
+• AFF6LSW giảm 25K đơn từ 99K. List sản phẩm áp mã: https://shope.ee/4zvUJjjR2H
+• AFF6TZW giảm 25K đơn từ 99K. List sản phẩm áp mã: https://shope.ee/4pc47RAGHe
+• Theo dõi shop nhận mã 50K/51K: https://shope.ee/9ehJsKMagr
 .
-🔥MÃ ÁP SẢN PHẨM CÓ MÁC “Hoàn Xu Xtra” hoặc “Freeship Xtra”: canh back 12H
-• 12H: Mã hoàn 6% tối đa 200K đơn từ 400K(Hoàn Xu Xtra)
-• 12H: Mã giảm 5% tối đa 100K đơn từ 500K(Freeship Xtra)
-=> Lưu mã tại: https://shorten.asia/As8rtdcf
-.
-🔥SỨC KHỎE SẮC ĐẸP: https://shorten.asia/ayYMGXep
-• 12H: FEGOHBTS (mã shop) giảm 50% tối đa 50K đơn từ 0Đ. List sản phẩm áp mã: https://shorten.asia/a7BDTasA
-• Trả lời câu hỏi có cơ hội nhận mã 25K lượt 0H: https://shorten.asia/ayYMGXep đáp án: B (12H lượt mới)
-.
-🔥5s: https://shorten.asia/GjvHvDca
-• 12H: 5SOFSP282 (mã shop) giảm 300K đơn từ 0Đ. List sản phẩm áp mã: https://shorten.asia/ntH7X8RB
-.
-🔥Mando: https://shorten.asia/HUqNFVja
-• 12H: THOI28062 (mã shop) giảm 199K đơn từ 0Đ. List sản phẩm áp mã: https://shorten.asia/Z6S8jDjS
-.
-🔥MỞ HỘP QUÀ:
-• Link 1: https://shorten.asia/u73p2wVH (lượt mới 12H)
-
 🔥CHỜ ĐÓN SIÊU SALE 7.7:
-=> Lưu sớm các mã tại: https://shorten.asia/ShfbCx5w
+• Mã Freeship 0Đ + mã toàn sàn, ShopeeMall + 3 mã ngành hàng 25K/150K + điện tử giảm 1triệu,...
+=> Lưu sớm các mã tại: https://shope.ee/VT4xUQd4z
 
 ➖➖➖➖LAZADA➖➖➖➖
 🔥MÃ TOÀN SÀN: có thể lên sớm hoặc muộn vài phút

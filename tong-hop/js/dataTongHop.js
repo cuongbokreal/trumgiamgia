@@ -1,54 +1,50 @@
-⏰SHOPEE + LAZADA + TIKI 12H 1.7:
+⏰SHOPEE + LAZADA + TIKI 12H 2.7:
 
 ➖➖➖➖SHOPEE➖➖➖➖
 🔥MÃ TOÀN SÀN - LƯU BANNER: đúng giờ hiện mã - mã dễ
-• 12H: Mã giảm 50% tối đa 30K đơn từ 0Đ
-=> Lưu mã 30K tại: https://shorten.asia/wjcTQqAQ (12H load link chọn mục “GIỜ VÀNG SĂN SALE” mới hiện mã)
+• 12H: Mã giảm 50% tối đa 30K đơn từ 50K
+=> Lưu mã 30K tại: https://shope.ee/3fQB6RPlgm (12H load link chọn mục “GIỜ VÀNG SĂN SALE” mới hiện mã)
 .
-🚛MIỄN PHÍ VẬN CHUYỂN: 
-• 12H: Lưu 1 mã Freeship đơn 25K giảm 30K(lọc sp) + 1 mã Freeship 0Đ giảm 10K tại: https://shorten.asia/AfbU8pKs (back)
+🚛MIỄN PHÍ VẬN CHUYỂN:
+• 12H: Lưu 1 mã Freeship Xtra tại: https://shope.ee/6A7W52yNxy (back)
+• 12H: Lưu 1 mã Freeship đơn 25K giảm 30K lọc sp + 1 mã Freeship 0Đ giảm 10K tại: https://shope.ee/2VEDiJlP8q (back)
 .
-🔥MÃ TOÀN SÀN - NHẬP TAY: canh back 12H
-• 11H57-12H03: 167HUNT77KPH hoàn 50% tối đa 77K đơn từ 77K. List sản phẩm áp mã: https://shorten.asia/tysBpZgV (thường ngày đầu ít khi back)
-• 17HOAN10K0PH hoặc 17HOAN10K1PH hoặc 17HOAN10K2PH hoàn 15% tối đa 10K đơn từ 50K
-• 167GIAM40K0PH hoặc 167GIAM40K1PH hoặc 167GIAM40K2PH giảm 5% tối đa 40K đơn từ 500K
-• 167MALL50K0PH hoặc 167MALL50K1PH hoặc 167MALL50K2PH giảm 6% tối đa 50K đơn từ 250K(Mall)
-• 107SSGIAM40K giảm 5% tối đa 40K đơn từ 500K
-• 107SSHOAN10K0 hoàn 15% tối đa 10K đơn từ 50K 
+🔥MÃ TOÀN SÀN - NHẬP TAY: 
+• 11H57-12H03: 167HUNT77KPH hoàn 50% tối đa 77K đơn từ 77K. List sản phẩm áp mã: https://shope.ee/5zo5slKcAi (back)
 .
 🔥MÃ ÁP SẢN PHẨM CÓ MÁC “Hoàn Xu Xtra”: canh back 12H
+• 12H: Mã hoàn 10% tối đa 200K đơn từ 400K
 • 12H: Mã hoàn 6% tối đa 200K đơn từ 400K
-=> Lưu mã tại: https://shorten.asia/qb81uDKD
+=> Lưu mã tại: https://shope.ee/WsjkGirw
 .
-🔥Colosmulti: https://shorten.asia/HTUsHfTN
-• 12H35s: COLOSB777 (mã shop) giảm 777K đơn từ 0Đ. List sản phẩm áp mã: https://shorten.asia/ftJkY25M
+🔥Lorealparis & Maybelline: https://shope.ee/7ewJrqDrkJ
+• 12H: KHOAHOC12H (mã shopee) giảm 100K đơn từ 350K. List sản phẩm áp mã: https://shope.ee/3V6kuBuC9s
 .
-🔥Sunhouse: https://shorten.asia/u5V3gSa9
-• 12H13s: SUNH1712C (mã shop) giảm 300K đơn từ 1.5 triệu
-• 12H48s: SUNH17B12 (mã shop) giảm 70K đơn từ 500K
-=> Áp chung list sản phẩm tại: https://shorten.asia/ZqAdnmF9
+🔥Vingo: https://shope.ee/9ehOFX1JKq
+• 12H: VINGO12H2 (mã shop) giảm 200K đơn từ 500K. List sản phẩm áp mã: https://shope.ee/4KfrtjuoPw
+• 12H: Deal tự giảm còn 7K – Quần Lót Su Lụa Nữ Vingo: https://shope.ee/89saSnFYQM
+• 12H: Deal tự giảm còn 27K – Combo 3 quần lót nữ VINGO: https://shope.ee/4fIiIMxg0J
+• 12H: Deal tự giảm còn 77K – Đồ bộ 2 dây nữ mặc nhà: https://shope.ee/7UctfaHxmT
 .
-🔥DHC: https://shorten.asia/A52jFnf6
-• 17H: DHCO17H17 (mã shop) giảm 177K đơn từ 1tr7
+🔥VÉ XEM PHIM: https://shope.ee/4fIiIO68mm
+• 12H: SPPMOVIE7HTB giảm 50% tối đa 85K đơn từ 0Đ(back)
+• 12H: SPPMOVIE7HTA giảm 10% tối đa 12K đơn từ 70K(back)
 .
-🔥SHOPEEFOOD: https://shorten.asia/EZfzY6vQ
-• 10H30-11H30: Mã giảm 30K/70K, 40K/80K, 45K/90K, 50K/100K - chờ cập nhật nhanh tên mã trên nhóm zalo, tele hoặc canh tại live: https://shorten.asia/MTF6rhBZ
-• 11H: MOIBAN30K giảm 50% tối đa 30K đơn từ 0Đ
-• 11H, 14H, 16H, 18H: SIEUDEAL77 giảm 77K đơn từ 250K
-• 11H, 13H, 17H, 19H: SIEUDEAL20 giảm 50% tối đa 20K đơn từ 0Đ
-• 15H: QUANMOI30 Giảm 30K đơn từ 30K
+🔥MÃ ÁP MỘT SỐ SẢN PHẨM: dùng luôn
+• SR010820K giảm 20K đơn từ 0Đ. List sản phẩm áp mã: https://shope.ee/9UNy3HIXSK
+• SR010815K giảm 15K đơn từ 0Đ. List sản phẩm áp mã: https://shope.ee/6KQwHSuvJb
+• AFFPRE7PKDR giảm 30K đơn từ 99K. List sản phẩm áp mã: https://shope.ee/4031VBYsZl
+• AFFPRE7PKCB hoàn 25K đơn từ 50K. List sản phẩm áp mã: https://shope.ee/6UkMTmtkPJ
+• Tặng sẵn mã hoàn 15K đơn từ 0Đ cho 1 số tài khoản: https://shope.ee/3ATuVfbNAn
+• Lưu, dùng luôn mã giảm 20K/0Đ cho thành viên Home Club mới đăng kí trong vòng 7 ngày: https://shope.ee/8zRhSOjxoX
 .
-🔥SHOPEEPAY: https://shorten.asia/D5c8TtPN
-• Mã giảm 10K/20K, 10K/50K, 5%, 10%
-=> Lưu, dùng luôn mã tại: https://shorten.asia/D5c8TtPN
+🔥MỞ HỘP QUÀ:
+• Link 1: https://shope.ee/2KunW9rLAP lượt mới 12H
+• Link 5: https://shope.ee/VT9KnXivw lượt mới 12H
 .
 🔥CHỜ ĐÓN SIÊU SALE 7.7:
 • Mã Freeship 0Đ + mã toàn sàn, ShopeeMall + 3 mã ngành hàng 25K/150K + điện tử giảm 1triệu,...
 => Lưu sớm các mã tại: https://shorten.asia/HhWSgunu
-.
-🔥TIÊU DÙNG NHANH:
-• Mã giảm 50K/0Đ, 10%, 8% cho ngày 3.7
-=> Lưu sớm mã tại: https://shorten.asia/EZfzY6vQ
 .
 
 ➖➖➖➖LAZADA➖➖➖➖

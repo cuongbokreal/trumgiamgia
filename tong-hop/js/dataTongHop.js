@@ -48,14 +48,12 @@
 .
 
 ➖➖➖➖LAZADA➖➖➖➖
-🔥12H: MÃ NGâN HÀNG: 
-=> Lưu mã tại: https://shorten.asia/ry1PGrUH
+🎁 Ưu đãi đối tác thanh toán: https://shorten.asia/HXW284uK
+👉 12H, 18H, 20H Back Lưu các mã thẻ ngân hàng, đối tác thanh toán
 .
-🔥MOMO: 12H có thể lên mã mới tháng 7
-=> Lưu mã tại: https://shorten.asia/TPRhCFPa
+🎁 Lưu mã Momo : https://shorten.asia/d1t8eAmD
 .
-🔥LAZMALL 60K/499K: Vào link bấm vào chữ "Lương Về" ở góc phải màn hình
-=> Lưu mã tại: https://shorten.asia/chqPrJNw
+🎁 Lưu mã Zalopay : https://shorten.asia/CKp9Uvyf
 
 ➖➖➖➖TIKI➖➖➖➖
 🔥 Từ VnPay:

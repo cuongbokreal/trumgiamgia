@@ -51,22 +51,17 @@
 🔥GIẢI ĐỐ: https://shorten.asia/VXdPVSt2 đáp án: D C A C D
 
 ➖➖➖➖LAZADA➖➖➖➖
-🔥MÃ TOÀN SÀN: canh back - có thể lên sớm hoặc muộn hơn
-• 9H: Mã giảm 30K/500K, 500K/0Đ(back)
-=> Lưu mã tại: https://shorten.asia/NQGvWNty
-.
 🔥9H: MÃ NGâN HÀNG: 
-=> Lưu mã tại: https://shorten.asia/7vDBpvqy
-.
-🔥VOUCHER TÍCH LŨY GIẢM ĐẾN 400K: dùng được từ ngày 7-9.7
-• Thu thập tích lũy tại: https://shorten.asia/ayQ2xSxR
-• Thu thập thêm tích lũy dưới sản phẩm: https://shorten.asia/g8HRDCwT
+=> Lưu mã tại: https://shorten.asia/SBGEExb9
 .
 🔥9H: MÃ ZALOPAY: canh back - có thể lên sớm hoặc muộn hơn
-=> Lưu mã tại: https://shorten.asia/WcckJfpQ
+=> Lưu mã tại: https://shorten.asia/V596wAzf
 .
 🔥9H: MÃ MOMO: canh back - có thể lên sớm hoặc muộn hơn
-=> Lưu mã tại: https://shorten.asia/3yUdY4Qv
+=> Lưu mã tại: https://shorten.asia/B9RqGV2j
+.
+🔥LAZMALL GIẢM 60K ĐƠN TỪ 499K: 
+=> Lưu mã tại: https://shorten.asia/hY9xDe1x - mã dưới sp
 
 ➖➖➖➖TIKI➖➖➖➖
 🔥 Từ VnPay:

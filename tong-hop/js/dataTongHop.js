@@ -1,40 +1,54 @@
-⏰SHOPEE + LAZADA + TIKI 9H 9.7:
+⏰SHOPEE + LAZADA + TIKI 9H 11.7:
 
 ➖➖➖➖SHOPEE➖➖➖➖
 🚛MIỄN PHÍ VẬN CHUYỂN:
-• 9H: Lưu 1 mã Freeship 0Đ giảm 10K + 1 mã Freeship đơn 25K giảm 30K(lọc sp) tại: https://shorten.asia/eRZrfFEY (back)
-• 9H: Lưu 1 mã Freeship Xtra tại: https://shorten.asia/k7fXsm3f (back)
+• 9H: Lưu 1 mã Freeship 0Đ giảm 10K: https://shorten.asia/5pBv6uzr (back)
+• Lưu 1 mã Freeship đơn 30K giảm 25K: https://shorten.asia/6xFmb1Gq (còn lượt)
 .
 🔥MÃ TOÀN SÀN - NHẬP TAY: canh back 9H
-• 8H57-9H03: 897HUNT77KPH hoàn 50% tối đa 77K đơn từ 77K. List sản phẩm áp mã: https://shorten.asia/hj9P55XA (back)
-• 97HOAN10K0PH hoặc 97HOAN10K1PH hoặc 97HOAN10K2PH hoàn 15% tối đa 10K đơn từ 50K
-• 897GIAM40K0PH hoặc 897GIAM40K1PH hoặc 897GIAM40K2PH giảm 5% tối đa 40K đơn từ 500K(back)
-• 897MALL50K0PH hoặc 897MALL50K2PH hoặc 897MALL50K2PH giảm 6% tối đa 50K đơn từ 250K Mall (back)
+• 8H57-9H03: HUNT157KPH giảm 15% tối đa 157K đơn từ 157K. List sản phẩm áp mã: https://shorten.asia/NbykKuJx (back)
+• 117HOAN10K0PH hoặc 117HOAN10K1PH hoặc 117HOAN10K2PH hoàn 15% tối đa 10K đơn từ 50K
+• 10147GIAM40K0PH hoặc 10147GIAM40K1PH hoặc 10147GIAM40K2PH giảm 5% tối đa 40K đơn từ 500K
+• 10147MALL50K0PH hoặc 10147MALL50K1PH hoặc 10147MALL50K2PH giảm 6% tối đa 50K đơn từ 250K Mall 
 .
-🔥MÃ ÁP SẢN PHẨM CÓ MÁC “Hoàn Xu Xtra”:
-• 8H57-9H03: Mã hoàn 10% tối đa 200K đơn từ 400K(back)
+🔥MÃ ÁP SẢN PHẨM CÓ MÁC “Hoàn Xu Xtra”: back 9H, 12H, 18H
 • Mã hoàn 6% tối đa 200K đơn từ 400K(còn lượt)
-=> Lưu mã tại: https://shorten.asia/Bqkra3nt
+=> Lưu mã tại: https://shorten.asia/wKuV6kdN
 .
-🔥MÃ ÁP MỘT SỐ SẢN PHẨM: dùng luôn
-• 9H: SR013107 giảm 20K đơn từ 0Đ. List sản phẩm áp mã: https://shorten.asia/42xM4JCN (back)
-• 9H: SR010815K giảm 15K đơn từ 0Đ. List sản phẩm áp mã: https://shorten.asia/SYjV6CAS (back)
-• 9H: SR010820K giảm 20K đơn từ 0Đ. List sản phẩm áp mã: https://shorten.asia/2gdZAPAX (back)
-• AFF77SPBG1 giảm 30K đơn từ 150K. List sản phẩm áp mã: https://shorten.asia/pHPb7HV1 
-• AFF7ACDR20K giảm 20K đơn từ 99K. List sản phẩm áp mã: https://shorten.asia/dWGMYaHS
-• AFF77GMV giảm 8% tối đa 100K đơn từ 500K
-• Lưu, dùng luôn mã giảm 20K/0Đ cho thành viên Home Club mới đăng kí trong vòng 7 ngày: https://shorten.asia/2Mk4XJha
+🔥DR.SAFFRON OFFICIAL: https://shorten.asia/Pj9mqdQu
+• 9H: DRSA1149S (mã shop) giảm 49% tối đa 500K đơn từ 0Đ
+• 9H: DRSA1139S (mã shop) giảm 39% tối đa 500K đơn từ 0Đ
+• 9H: DRSA1129S ​​ (mã shop) giảm 29% tối đa 300K đơn từ 0Đ
+• 9H28s: DRSA1119​​S (mã shop) giảm 19% tối đa 300K đơn từ 0Đ
+• 9H: DRSA1150S (mã shop) giảm 50K đơn từ 100K
+=> Áp chung list sản phẩm tại: https://shorten.asia/UcTnBq7w
 .
-🔥SHOPEEFOOD: https://shorten.asia/Bb1Fy1ZQ
-• 11H: SIEUTIEC99 giảm 99K đơn từ 250K
+🔥TUẦN LỄ THỜI TRANG: https://shorten.asia/VXdPVSt2
+• 9H: LVT117 (mã shop) giảm 10% tối đa 30K đơn từ 60K. List sản phẩm áp mã: https://shorten.asia/Ubd6n2uY
 .
-🔥MÃ TOÀN SÀN - LƯU BANNER: mã mới hàng ngày đến hết 9.7
-• 12H: Mã giảm 50% tối đa 30K đơn từ 50K. List sản phẩm áp mã: https://shorten.asia/ugMf1jeg
-=> Lưu mã 30K tại: https://shorten.asia/DymUC22C (12H load link chọn mục giờ 'GIỜ VÀNG SĂN SALE" mới hiện mã)
+🔥Durex: https://shorten.asia/jkN2jAx7
+• 9H: DUREXB7 giảm 100K đơn từ 499K(back)
+@All 
+🔥MÃ ÁP MỘT SỐ SẢN PHẨM: có thể back 1 số mã vào 9H hàng ngày
+• SR010815K giảm 15K đơn từ 0Đ. List sản phẩm áp mã: https://shorten.asia/Q3A1krN3 
+• 9H: SR091515K giảm 15K đơn từ 0Đ. List sản phẩm áp mã: https://shorten.asia/uYhTftCg (back)
+• 9H: SR091520K giảm 20K đơn từ 0Đ. List sản phẩm áp mã: https://shorten.asia/UY7QmaxQ (back)
+• 9H: SR010820K giảm 20K đơn từ 0Đ. List sản phẩm áp mã: https://shorten.asia/h4J8ed2y (back)
+• 9H: SR013107 giảm 20K đơn từ 0Đ. List sản phẩm áp mã: https://shorten.asia/XWde2z3q (back)
+• LIFEHL30K giảm 15% tối đa 30K đơn từ 150K áp đời sống: https://shorten.asia/88CR55ms
+• Lưu, dùng luôn mã giảm 20K/0Đ cho thành viên Home Club mới đăng kí trong vòng 7 ngày: https://shorten.asia/eUrD89BW
 .
-🔥MÃ TIÊU DÙNG - LƯU BANNER: mã back - đã lưu từ mấy ngày trước thì không cần lưu lại
-• 12H: Mã giảm 50% tối đa 100K đơn từ 0Đ. List sản phẩm áp mã: https://shorten.asia/uYAAvGhV
-=> Lưu mã 100K tại: https://shorten.asia/z2BdYX3P (12H load link liên tục)
+🔥SHOPEEFOOD: https://shorten.asia/cvNFMbTU
+• 11H: MOIBAN30K giảm 50% tối đa 30K đơn từ 0Đ
+• 10H30-11H: Săn mã giảm 30K/70K, 40K/80K, 50K//100K tại live hoặc chờ cập nhật nhanh tên mã trên nhóm zalo, tele
+.
+🔥CHỜ ĐÓN SIÊU SALE 15.7:
+=> Lưu sớm 1 số mã tại: https://shorten.asia/7f9YfyYd
+.
+🔥CHIA SẺ LẤY MÃ TOÀN SÀN HOÀN 10% TỐI ĐA 50K/0Đ DÙNG ĐƯỢC LUÔN: https://shorten.asia/qx9z2afk
+🔥MỞ HỘP QUÀ: https://shorten.asia/mfgSFURZ 
+.
+🔥GIẢI ĐỐ: https://shorten.asia/VXdPVSt2 đáp án: D C A C D
 
 ➖➖➖➖LAZADA➖➖➖➖
 🔥MÃ TOÀN SÀN: canh back - có thể lên sớm hoặc muộn hơn

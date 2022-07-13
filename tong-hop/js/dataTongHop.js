@@ -58,17 +58,18 @@
 • Link 4: https://shorten.asia/PxZqXaTJ (lọc tk)
 
 ➖➖➖➖LAZADA➖➖➖➖
-🔥9H: MÃ NGâN HÀNG: 
-=> Lưu mã tại: https://shorten.asia/SBGEExb9
+🔥12H: MÃ NGâN HÀNG: canh back - có thể lên sớm hoặc muộn hơn
+=> Lưu mã tại: https://shorten.asia/S41s6mWC
 .
-🔥9H: MÃ ZALOPAY: canh back - có thể lên sớm hoặc muộn hơn
-=> Lưu mã tại: https://shorten.asia/V596wAzf
+🔥12H, 21H: Lưu mã Huggies giảm 100K/1000K tại: https://shorten.asia/PbzVUXNh
 .
-🔥9H: MÃ MOMO: canh back - có thể lên sớm hoặc muộn hơn
-=> Lưu mã tại: https://shorten.asia/B9RqGV2j
+🔥MÃ GIẢM 30K ĐƠN TỪ 30K KHU VỰC HÀ NỘI:
+=> Lưu mã tại: https://shorten.asia/8e8ASghz
 .
-🔥LAZMALL GIẢM 60K ĐƠN TỪ 499K: 
-=> Lưu mã tại: https://shorten.asia/hY9xDe1x - mã dưới sp
+🔥VOUCHER TÍCH LŨY GIẢM ĐẾN 400K: dùng được từ 15.7
+• Thu thập voucher tích lũy hàng ngày tại: https://shorten.asia/GjaaBsD6
+• Làm nhiệm vụ hàng ngày nhận voucher tích lũy tại: https://shorten.asia/8tECkW7J
+• Thu thập thêm voucher tích lũy dưới sản phẩm: https://shorten.asia/fEeTXhUZ
 
 ➖➖➖➖TIKI➖➖➖➖
 🔥 Từ VnPay:

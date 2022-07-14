@@ -20,7 +20,7 @@ Lưu ý: Voucher áp dụng cho tất cả người dùng
 👉 22H30: Giảm 15% tối đa 100K cho đơn từ 150K 
 👉 23H00: Giảm 15% tối đa 200K cho đơn từ 500K 
 👉 23H30: Giảm 15% tối đa 300K cho đơn từ 1000K 
-Lưu ý: Voucher áp dụng cho tất cả người dùng, lưu ngay: https://shope.ee/30Ao8RnpR2
+Lưu ý: Voucher áp dụng cho tất cả người dùng, lưu ngay: https://shope.ee/5pUzW4wzgn
 
 📢 Thời gian dùng mã: 0H00 - 2H00 ngày 15.07, nhanh tay lưu ngay Voucher: https://shope.ee/30Ao8RnpR2
 

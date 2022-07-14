@@ -1,3 +1,14 @@
+🔥 Post full mã giảm giá 0H:
+- SHOPEE: www.facebook.com/groups/584602429633228/posts/755554789204657
+- LAZADA: www.facebook.com/groups/584602429633228/posts/755566195870183
+- TIKI: www.facebook.com/groups/584602429633228/posts/755556352537834
+
+🔥 Voucher HOT
+- Shopee: https://shope.ee/5pUzV3IeYa
+- Lazada: https://shorten.asia/mtKhYu5F
+- Tiki: https://shorten.asia/Q5nzVpek
+
+
 📢 NGÀY 15 SALE ĐỒNG GIÁ- SHOPEE CÓ GÌ?? 
 
 📅 Voucher toàn sàn lưu trước14.07

@@ -171,18 +171,46 @@ TỔNG HỢP MỘT SỐ MÃ NHỎ TỪ SHOPEE NGÀY 15.7:
 
 
 ➖➖➖➖LAZADA➖➖➖➖
-🔥12H: MÃ NGâN HÀNG: canh back - có thể lên sớm hoặc muộn hơn
-=> Lưu mã tại: https://shorten.asia/S41s6mWC
+Sale Giữa Tháng: https://shorten.asia/w5dK6xb8
+🔥MÃ TOÀN SÀN: còn back vào 9H, 12H, 16H, 20H
+• 0H: Mã giảm 30K/500K, 500K/0Đ(dự đoán)
+• Mã Freeship 15K/49K, 50K/300K(0H có thể lên thêm Freeship 20K/0Đ)
+=> Lưu mã tại: https://shorten.asia/x1BJkBEN
 .
-🔥12H, 21H: Lưu mã Huggies giảm 100K/1000K tại: https://shorten.asia/PbzVUXNh
+🔥MÃ NHẬP TAY 25K/99K,.. CHỜ CẬP NHẬT TRÊN NHÓM ZALO, TELE
+.
+🔥0H: LAZMALL GIẢM 60K ĐƠN TỪ 499K: chọn mục “ĐỘC QUYỀN”
+=> Lưu mã tại: https://shorten.asia/m5YnevDB
+.
+🔥0H: MÃ NGâN HÀNG CITI GIẢM 50K ĐƠN TỪ 150K: chọn mục “E-Payment”
+=> Lưu mã tại: https://shorten.asia/m5YnevDB
+.
+🔥VOUCHER TÍCH LŨY GIẢM ĐẾN 400K: dùng được từ 15-19.7
+• Thu thập voucher tích lũy hàng ngày tại: https://shorten.asia/x1BJkBEN
+• Làm nhiệm vụ hàng ngày nhận voucher tích lũy tại: https://shorten.asia/Vk4pFBZQ
+• Thu thập thêm voucher tích lũy dưới sản phẩm: https://shorten.asia/WDwHkQdC
+.
+.🔥MÃ GIẢM 70K ĐƠN TỪ 700K MỸ PHẨM:
+=> Lưu mã tại: https://shorten.asia/hcQ45yxf
 .
 🔥MÃ GIẢM 30K ĐƠN TỪ 30K KHU VỰC HÀ NỘI:
-=> Lưu mã tại: https://shorten.asia/8e8ASghz
+=> Lưu mã tại: https://shorten.asia/8PcKwYPS
+ .
+🔥9H, 12H: MÃ NGâN HÀNG:
+=> Lưu mã tại: https://shorten.asia/XuPGT3F3
 .
-🔥VOUCHER TÍCH LŨY GIẢM ĐẾN 400K: dùng được từ 15.7
-• Thu thập voucher tích lũy hàng ngày tại: https://shorten.asia/GjaaBsD6
-• Làm nhiệm vụ hàng ngày nhận voucher tích lũy tại: https://shorten.asia/8tECkW7J
-• Thu thập thêm voucher tích lũy dưới sản phẩm: https://shorten.asia/fEeTXhUZ
+🔥9H: MÃ ZALOPAY: canh back - có thể lên sớm hoặc muộn hơn
+=> Lưu mã tại: https://shorten.asia/D4Mm1d2E
+.
+🔥9H: MÃ MOMO: canh back - có thể lên sớm hoặc muộn hơn
+=> Lưu mã tại: https://shorten.asia/K7ScTehS
+.
+🔥FLASH SALE: https://shorten.asia/6d54szCG
+• 0H, 12H: Săn deal Flash sale(hiện giá trước 5-15p)
+.
+🔥0H: Lên mã đổi xu: https://shorten.asia/vFHuFd8S
+.
+🔥0H: Lên mã đổi sao: https://shorten.asia/XZKSXRK2
 
 ➖➖➖➖TIKI➖➖➖➖
 🔥 Từ VnPay:

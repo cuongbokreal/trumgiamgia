@@ -1,4 +1,60 @@
-⏰SHOPEE + LAZADA + TIKI 0H 15.7:
+📢 NGÀY 15 SALE ĐỒNG GIÁ- SHOPEE CÓ GÌ?? 
+
+📅 Voucher toàn sàn lưu trước14.07
+▶ Miễn phí vận chuyển: Giảm 100% tối đa 15K cho đơn từ 0K (áp dụng mọi người dùng): https://shope.ee/7zZU5Tlgm2
+▶ Hoàn xu 8% tối đa 70K cho đơn từ 500K (*)  https://shope.ee/6f46V4PIAq
+▶ Giảm 8% tối đa 50K cho đơn từ 250K (*) (Áp dụng Shopee Mall) https://shope.ee/A9dyfVtpNC
+▶ Giảm 15% tối đa 15K cho đơn từ 99K (*)  https://shope.ee/9p18GySoee
+Lưu ý: (*) Voucher áp dụng đối với một số người dùng nhất định. 
+
+🔑Thời gian dùng mã: từ 0H00 - 9H00 Ngày 15.07, nhanh tay lưu ngay Voucher: https://shope.ee/30Ao8RnpR2
+
+📅 Đặc biệt: Siêu Voucher lấy sớm 14.07, Đừng bỏ lỡ bạn nhé 👇  
+▶ Giảm 100% tối đa 37K cho đơn từ 157K  https://shope.ee/3KneX2iZ1P
+▶ Giảm 100% tối đa 157K cho đơn từ 457K  https://shope.ee/8zS1HSwBma
+Lưu ý: Voucher áp dụng cho tất cả người dùng
+🔑 Thời gian dùng mã: từ 0H00 - 9H00  Ngày 15.07, nhanh tay lưu ngay Voucher: https://shope.ee/30Ao8RnpR2
+
+⏰Siêu Voucher săn trước giờ G - Thời gian săn mã: 22H - 23H59, 14.07
+👉 22H00: Giảm 15% tối đa 50K cho đơn từ 0K  
+👉 22H30: Giảm 15% tối đa 100K cho đơn từ 150K 
+👉 23H00: Giảm 15% tối đa 200K cho đơn từ 500K 
+👉 23H30: Giảm 15% tối đa 300K cho đơn từ 1000K 
+Lưu ý: Voucher áp dụng cho tất cả người dùng, lưu ngay: https://shope.ee/30Ao8RnpR2
+
+📢 Thời gian dùng mã: 0H00 - 2H00 ngày 15.07, nhanh tay lưu ngay Voucher: https://shope.ee/30Ao8RnpR2
+
+🛒“Shopee bảo, có hai điều mà đời người không được bỏ lỡ. Một là chuyến xe cuối cùng đưa ta về nhà, Hai là voucher độc quyền thật xịn KOL” 
+
+📌 7 Khung Giờ Vàng Săn Voucher Hunting - 0H, 9H, 12H, 15H, 18H, 19H,  21H 
+⏰ Từ 0H - 9H - 12H voucher khủng 157k
+Giảm 100% tối đa 157K cho đơn từ 357K
+🔐Nhanh tay lưu ngay voucher: https://shope.ee/30Ao8RnpR2
+
+⏰ Từ 15H - 18H - 19H - 21H tung voucher hot 57K 
+Giảm 100% tối đa 57K cho đơn từ 257K 
+🔐Nhanh tay lưu ngay voucher: https://shope.ee/30Ao8RnpR2
+
+🔥 Voucher ĐỘC QUYỀN siêu hot trải đều các khung giờ:
+Giảm tối đa 30K cho đơn từ 150K (áp dụng cho người dùng nhất định) - 0H - 0H30 - 9H - 10H - 11H - 12H - 13H - 14H - 15H - 16H - 17H - 18H - 19H - 20H - 21H 
+Giảm tối đa 10K cho đơn từ 35K (áp dụng cho tất cả người dùng) - 0H - 9H - 12H - 15H - 18H - 21H
+Hoàn xu tối đa 20K cho đơn từ 50K (áp dụng cho tất cả người dùng) - 0H, 0H30.
+Hoàn xu tối đa 20K cho đơn từ 50K (áp dụng cho người dùng nhất định) - 9H - 12H - 15H - 18H - 21H
+👉 Nhanh tay lưu ngay voucher:  https://shope.ee/30Ao8RnpR2
+
+💥 Voucher Toàn Sàn 
+▶ Hoàn xu 15% tối đa 1000K cho đơn từ 2000K (*) - mở khung 0H
+▶ Giảm giá 15% tối đa 157K cho đơn từ 157K (*) - 0H, 9H, 12H, 15H, 18H, 21H 
+▶ Giảm giá 7% tối đa 70K cho đơn từ 500K (*)  - 0H, 9H, 12H, 15H, 18H, 21H 
+▶ Hoàn xu 100% tối đa 30K cho đơn từ 0K (*) - mở khung 16H
+👉 Nhanh tay lưu ngay voucher:  https://shope.ee/30Ao8RnpR2
+
+🛒 Voucher Shopee Mall
+▶ Giảm giá 6% tối đa 50K cho đơn từ 250K (*) - 0H, 9H, 12H, 15H, 18H, 21H 
+👉 Nhanh tay lưu ngay voucher:  https://shope.ee/30Ao8RnpR2
+                                          
+                                          
+⏰Mã săn & Deal SHOPEE + LAZADA + TIKI 0H 15.7:
 
 ➖➖➖➖SHOPEE➖➖➖➖
 ➖➖ MIỄN PHÍ VẬN CHUYỂN➖➖

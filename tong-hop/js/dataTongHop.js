@@ -90,30 +90,29 @@
 
 ➖➖➖➖LAZADA➖➖➖➖
 🔥MÃ TOÀN SÀN: 
-• 9H, 12H, 16H, 20H: Mã giảm 30K/500K, 500K/0Đ(back)
-=> Lưu mã tại: https://shorten.asia/Y1kyV6gm
+• 12H, 16H, 20H: Mã giảm 30K/500K, 500K/0Đ(back)
+=> Lưu mã tại: https://shorten.asia/yQcbC8un
 .
-🔥9H, 12H: MÃ NGâN HÀNG:
-=> Lưu mã tại: https://shorten.asia/ewNU3nZ1
+🔥12H: MÃ NGâN HÀNG: canh back - có thể lên sớm hoặc muộn hơn vài phút
+=> Lưu mã tại: https://shorten.asia/subYG9mm
 .
-🔥9H: MÃ ZALOPAY: canh back - có thể lên sớm hoặc muộn hơn
-=> Lưu mã tại: https://shorten.asia/gHwnZ3gk
+🔥MÃ ZALOPAY: https://shorten.asia/z9ZpkKCa
 .
-🔥9H: MÃ MOMO: canh back - có thể lên sớm hoặc muộn hơn
-=> Lưu mã tại: https://shorten.asia/safFYu37
+🔥9H: MÃ MOMO: https://shorten.asia/HM8VzzCQ
 .
 🔥MÃ NHẬP TAY 25K/99K,.. CHỜ CẬP NHẬT TRÊN NHÓM ZALO, TELE
 .
 🔥VOUCHER TÍCH LŨY GIẢM ĐẾN 400K: dùng được từ 15-19.7
-• Thu thập voucher tích lũy hàng ngày tại: https://shorten.asia/Y1kyV6gm
-• Làm nhiệm vụ hàng ngày nhận voucher tích lũy tại: https://shorten.asia/kYgVHjvQ
-• Thu thập thêm voucher tích lũy dưới sản phẩm: https://shorten.asia/4CfQYpU9
+• Thu thập voucher tích lũy hàng ngày tại: https://shorten.asia/yQcbC8un
+• Làm nhiệm vụ hàng ngày nhận voucher tích lũy tại: https://shorten.asia/SA5JWd8n
+• Thu thập thêm voucher tích lũy dưới sản phẩm: https://shorten.asia/bQUr9bc9
 .
 .🔥MÃ GIẢM 70K ĐƠN TỪ 700K MỸ PHẨM:
-=> Lưu mã tại: https://shorten.asia/pSFhsGcu
+=> Lưu mã tại: https://shorten.asia/rPsmjPNC
 .
 🔥MÃ GIẢM 30K ĐƠN TỪ 30K KHU VỰC HÀ NỘI:
-=> Lưu mã tại: https://shorten.asia/ujUdydyN
+=> Lưu mã tại: https://shorten.asia/Pr4dSbBN
+
 
 ➖➖➖➖TIKI➖➖➖➖
 🔥 Từ VnPay:

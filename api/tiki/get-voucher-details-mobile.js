@@ -21,8 +21,6 @@ Object.keys(listCoupon).forEach(async function(key){
     }
     if(coupon_href.length === 0){coupon_href = window.location.href}
 
-    
-    /*
     var coupon_details_button = coupon_right.childNodes[0];
     coupon_details_button.click();
     await delay(timeDelay);
@@ -32,7 +30,8 @@ Object.keys(listCoupon).forEach(async function(key){
     var coupon_code = couponModal.childNodes[2].childNodes[1].innerText;
     var coupon_expired = couponModal.childNodes[3].childNodes[1].innerText;
     var coupon_des =  couponModal.childNodes[4].childNodes[1].innerText;
-    */
-    vc_url = '';
+
+    vc_url = `https://trumgiamgia.tk/voucher-details/?vc_title=${encodeURIComponent(coupon_title)}&vc_des=${encodeURIComponent(coupon_des)}&vc_brand=TIKI&vc_code=${window.btoa(coupon_code)}&vc_brand_image=${counpon_image}&vc_href=${window.btoa(coupon_href)}`;
+    
 })
 

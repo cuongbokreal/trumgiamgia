@@ -27,15 +27,20 @@ Object.keys(listCoupon).forEach((cc, key)=>{
 })
 console.log(dataCoupon)
 
-Object.keys(couponModal).forEach((cc1, key1)=>{
-		var thisCoupon = couponModal.childNodes[key1].childNodes[0];
+setTimeout(()=>{
+	Object.keys(couponModal.childNodes).forEach((cc, key)=>{
+		var thisCoupon = couponModal.childNodes[key].childNodes[0];
         var coupon_title = thisCoupon.childNodes[1].innerText;
         var coupon_code = thisCoupon.childNodes[2].childNodes[1].innerText;
         var coupon_expired = thisCoupon.childNodes[3].childNodes[1].innerText;
         var coupon_des =  thisCoupon.childNodes[4].childNodes[1].innerText;
         
-        console.log(coupon_code)
-})
+        dataCoupon[key+1].title = coupon_title;
+        dataCoupon[key+1].code = coupon_code;
+        dataCoupon[key+1].expired = coupon_expired;
+        dataCoupon[key+1].des = coupon_des;
+	})
+    console.log(dataCoupon)
+}, 5000)
 
-var couponModal = document.getElementById('coupon-modal-container');
-console.log(couponModal.innerHTML)
+

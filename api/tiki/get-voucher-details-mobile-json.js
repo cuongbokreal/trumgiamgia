@@ -3,7 +3,9 @@ var listCoupon = document.querySelector('#mobile-container > div > div:nth-child
 var couponModal = document.getElementById('coupon-modal-container');
 
 var dataCoupon = [0];
-for(let i=0; i<3;i++){dataCoupon.push({})}
+var vc_url = [0];
+for(let i=0; i<3;i++){dataCoupon.push({}); vc_url.push('')}
+console.log(vc_url)
 
 Object.keys(listCoupon).forEach((cc, key)=>{
 	var coupon = listCoupon[key].childNodes[0].childNodes[0].childNodes[1];
@@ -25,7 +27,8 @@ Object.keys(listCoupon).forEach((cc, key)=>{
     dataCoupon[key+1].href = coupon_href;
     coupon_details_button.click();
 })
-console.log(dataCoupon)
+
+var couponModal = document.getElementById('coupon-modal-container');
 
 setTimeout(()=>{
 	Object.keys(couponModal.childNodes).forEach((cc, key)=>{
@@ -41,6 +44,12 @@ setTimeout(()=>{
         dataCoupon[key+1].des = coupon_des;
 	})
     console.log(dataCoupon)
+    Object.keys(dataCoupon).forEach((cc, key)=>{
+		vc_url[key+1] = `https://trumgiamgia.tk/voucher-details/?vc_title=${encodeURIComponent(dataCoupon[key+1].title)}&vc_des=${encodeURIComponent(dataCoupon[key+1].des)}&vc_brand=TIKI&vc_code=${window.btoa(dataCoupon[key+1].code)}&vc_brand_image=${dataCoupon[key+1].image}&vc_href=${window.btoa(dataCoupon[key+1].href)}`;
+	})
+    console.log(vc_url)
 }, 5000)
+
+
 
 

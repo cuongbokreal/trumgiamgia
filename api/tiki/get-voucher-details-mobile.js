@@ -8,10 +8,10 @@ var vc_url = '';
 
 Object.keys(listCoupon).forEach(async function(key){
 	var coupon = listCoupon[key].childNodes[0].childNodes[0].childNodes[1];
-    
     var coupon_left = coupon.childNodes[1];
     var coupon_right = coupon.childNodes[2];
     
+    var coupon_href = '';
     var counpon_image = coupon_left.childNodes[0].childNodes[0].childNodes[0];
     if(counpon_image.tagName === 'IMG'){
     	counpon_image = counpon_image.src; //img
@@ -19,7 +19,8 @@ Object.keys(listCoupon).forEach(async function(key){
     	var coupon_href = counpon_image.parentNode.href;
     	counpon_image = counpon_image.childNodes[0].src; //a
     }
-    console.log(coupon_href)
+    if(coupon_href.length === 0){coupon_href = window.location.href}
+
     
     /*
     var coupon_details_button = coupon_right.childNodes[0];

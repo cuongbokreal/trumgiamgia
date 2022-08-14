@@ -1,7 +1,6 @@
 var selectListCoupon = '#mobile-container > div > div:nth-child(33) > div > div';
 var listCoupon = document.querySelector(selectListCoupon).childNodes;
 var couponModal = document.getElementById('coupon-modal-container');
-couponModal.innerHTML = '';
 
 var dataCoupon = [0];
 var vc_url = [0];
@@ -51,6 +50,8 @@ setTimeout(()=>{
 		vc_url[key] = `https://trumgiamgia.tk/voucher-details/?vc_title=${encodeURIComponent(dataCoupon[key].title)}&vc_des=${encodeURIComponent('Hạn sử dụng: '+ dataCoupon[key].expired + '.\n' +dataCoupon[key].des)}&vc_brand=TIKI&vc_code=${window.btoa(dataCoupon[key].code)}&vc_brand_image=${dataCoupon[key].image}&vc_href=${window.btoa(dataCoupon[key].href)}`;
 	})
     console.log(vc_url)
+	couponModal.innerHTML = '';
+    couponModal.setAttribute('style','display: none; position: fixed; inset: 0px; z-index: 999;');
 }, 5000)
 
 

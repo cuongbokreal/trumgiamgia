@@ -6,7 +6,7 @@ var listCoupon = document.querySelector('#mobile-container > div > div:nth-child
 var couponModal = document.getElementById('coupon-modal-container');
 var vc_url = '';
 
-Object.keys(listCoupon).forEach(async function(key){
+Object.keys(listCoupon).forEach(async function(cc, key){
 	var coupon = listCoupon[key].childNodes[0].childNodes[0].childNodes[1];
     var coupon_left = coupon.childNodes[1];
     var coupon_right = coupon.childNodes[2];
@@ -23,7 +23,7 @@ Object.keys(listCoupon).forEach(async function(key){
 
     var coupon_details_button = coupon_right.childNodes[0];
     coupon_details_button.click();
-    await delay(2000);
+    await delay(timeDelay);
     
     couponModal = couponModal.childNodes[0].childNodes[0];
     var coupon_title = couponModal.childNodes[1].innerText;
@@ -36,6 +36,6 @@ Object.keys(listCoupon).forEach(async function(key){
     
     coupon_close.click();
     console.log(vc_url);
-    await delay(timeDelay);
+    await delay(2000);
 })
 

@@ -47,7 +47,7 @@ setTimeout(()=>{
     vc_url.shift();
     dataCoupon.shift();
     Object.keys(dataCoupon).forEach((cc, key)=>{
-		vc_url[key] = `https://trumgiamgia.tk/voucher-details/?vc_title=${encodeURIComponent(dataCoupon[key].title)}&vc_des=${encodeURIComponent(dataCoupon[key].des)}&vc_brand=TIKI&vc_code=${window.btoa(dataCoupon[key].code)}&vc_brand_image=${dataCoupon[key].image}&vc_href=${window.btoa(dataCoupon[key].href)}`;
+		vc_url[key] = `https://trumgiamgia.tk/voucher-details/?vc_title=${encodeURIComponent(dataCoupon[key].title)}&vc_des=${encodeURIComponent('Hạn sử dụng: '+ dataCoupon[key].expired + '.\n' +dataCoupon[key].des)}&vc_brand=TIKI&vc_code=${window.btoa(dataCoupon[key].code)}&vc_brand_image=${dataCoupon[key].image}&vc_href=${window.btoa(dataCoupon[key].href)}`;
 	})
     console.log(vc_url)
 }, 5000)

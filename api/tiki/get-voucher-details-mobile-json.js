@@ -3,7 +3,7 @@ var listCoupon = document.querySelector('#mobile-container > div > div:nth-child
 var couponModal = document.getElementById('coupon-modal-container');
 
 var dataCoupon = [0];
-for(let i=0; i<document.querySelector('#mobile-container > div > div:nth-child(23) > div > div').length;i++){dataCoupon.push({})}
+for(let i=0; i<3;i++){dataCoupon.push({})}
 
 Object.keys(listCoupon).forEach((cc, key)=>{
 	var coupon = listCoupon[key].childNodes[0].childNodes[0].childNodes[1];

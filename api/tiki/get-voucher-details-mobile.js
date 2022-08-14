@@ -16,6 +16,7 @@ Object.keys(listCoupon).forEach(key => {
     	counpon_image = counpon_image.childNodes[0].src; //a
     }
     
+    var coupon_title = couponModal.childNodes[1].innerText;
     var coupon_code = couponModal.childNodes[2].childNodes[1].innerText;
     var coupon_expired = couponModal.childNodes[3].childNodes[1].innerText;
     var coupon_des =  couponModal.childNodes[4].childNodes[1].innerText;

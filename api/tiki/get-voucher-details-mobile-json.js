@@ -1,11 +1,10 @@
-var listCoupon = document.querySelector('#mobile-container > div > div:nth-child(23) > div > div').childNodes;
-//var listCoupon = document.querySelector('#mobile-container > div > div:nth-child(29) > div > div').childNodes;
+var selectListCoupon = '#mobile-container > div > div:nth-child(31) > div > div';
+var listCoupon = document.querySelector(selectListCoupon).childNodes;
 var couponModal = document.getElementById('coupon-modal-container');
 
 var dataCoupon = [0];
 var vc_url = [0];
-for(let i=0; i<3;i++){dataCoupon.push({}); vc_url.push('')}
-console.log(vc_url)
+for(let i=0; i<listCoupon.length;i++){dataCoupon.push({}); vc_url.push('')}
 
 Object.keys(listCoupon).forEach((cc, key)=>{
 	var coupon = listCoupon[key].childNodes[0].childNodes[0].childNodes[1];
@@ -23,6 +22,7 @@ Object.keys(listCoupon).forEach((cc, key)=>{
     	counpon_image = counpon_image.childNodes[0].src; //a
     }
     if(coupon_href.length === 0){coupon_href = window.location.href}
+    console.log(counpon_image)
     dataCoupon[key+1].image = counpon_image;
     dataCoupon[key+1].href = coupon_href;
     coupon_details_button.click();

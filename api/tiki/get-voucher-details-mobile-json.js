@@ -1,6 +1,7 @@
-var selectListCoupon = '#mobile-container > div > div:nth-child(31) > div > div';
+var selectListCoupon = '#mobile-container > div > div:nth-child(33) > div > div';
 var listCoupon = document.querySelector(selectListCoupon).childNodes;
 var couponModal = document.getElementById('coupon-modal-container');
+couponModal.innerHTML = '';
 
 var dataCoupon = [0];
 var vc_url = [0];

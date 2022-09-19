@@ -13,23 +13,31 @@ Với
 <textarea id="replaceWith" placeholder="Thay với" onblur="create()" onchange="create()" class="input"></textarea>
 <button class="button" onclick="create()" id="buttonCreate">Tạo mã</button>
 
+<link href="https://cuongbokreal.github.io/api/widget/toast-message/main.css" rel="stylesheet"/>
+<div id='toast'></div>
+<script src="https://cuongbokreal.github.io/api/widget/toast-message/main.js"></script>
+
 <style>
   #main{display: flex;}
   .valueText{width:40%; text-align:left; margin: 10px; padding: 5px; font-size: 20px;}
   .input{margin:15px;max-width:25%;max-height:250px}
 </style>
 <script>
+  const time_thbao = 3000;
+  
 function create(){
   var getText = document.getElementById('input').value;
   var replaceIn = document.getElementById('replaceIn').value;
   var replaceWith = document.getElementById('replaceWith').value;
   getText = getText.replaceAll(replaceIn,replaceWith).replaceAll('shorten.asia', 'trackfin.asia');
   
-  document.getElementById('output').value = getText;
-  document.getElementById('output').focus();
-  document.getElementById('output').select();
+  var output = document.getElementById('output');
+  output.value = getText;
+  output.focus();
+  output.select();
   document.execCommand("Copy");
-  console.log(`Copied: ${document.getElementById('output').value}`);
+  console.log(`Copied: ${output.value}`);
+  toast({title: 'Thành công', message: `Đã copy <b>${output.value}</b>`, type: "success", duration: time_thbao});
 }
 var onGetText = document.getElementById('input');
 var onReplaceIn = document.getElementById('replaceIn');

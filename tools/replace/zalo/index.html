@@ -1,54 +1,63 @@
+<!DOCTYPE html>
+<html dir='ltr' lang='vi'>
+  <head>
+    <meta charset='UTF-8'/>
+    <meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=1' name='viewport'/>
+    <title>Công cụ thay thế văn bản</title>
+  </head>
+  <body>
+    <p class="note">Công cụ thay thế văn bản</p>
+    <div id="main">
+    <label>Nhập Text</label>
+    <textarea class="valueText" style="width:100%; height:350px;" id="input" onblur="create()"></textarea>
+    <label>Kết quả </label>
+    <textarea class="valueText" style="width:100%; height:350px;" id="output" onclick="this.select()"></textarea>
+    </div>
 
-<title>Công cụ thay thế văn bản</title>
-<p class="note">Công cụ thay thế văn bản</p>
-<div id="main">
-<label>Nhập Text</label>
-<textarea class="valueText" style="width:100%; height:350px;" id="input" onblur="create()"></textarea>
-<label>Kết quả </label>
-<textarea class="valueText" style="width:100%; height:350px;" id="output" onclick="this.select()"></textarea>
-</div>
+    <textarea id="replaceIn" placeholder="Từ muốn thay" onblur="create()" onchange="create()" class="input"></textarea>
+    Với
+    <textarea id="replaceWith" placeholder="Thay với" onblur="create()" onchange="create()" class="input"></textarea>
+    <button class="button" onclick="create()" id="buttonCreate">Tạo mã</button>
 
-<textarea id="replaceIn" placeholder="Từ muốn thay" onblur="create()" onchange="create()" class="input"></textarea>
-Với
-<textarea id="replaceWith" placeholder="Thay với" onblur="create()" onchange="create()" class="input"></textarea>
-<button class="button" onclick="create()" id="buttonCreate">Tạo mã</button>
+    <link href="https://cuongbokreal.github.io/api/widget/toast-message/main.css" rel="stylesheet"/>
+    <div id='toast'></div>
+    <script src="https://cuongbokreal.github.io/api/widget/toast-message/main.js"></script>
 
-<link href="https://cuongbokreal.github.io/api/widget/toast-message/main.css" rel="stylesheet"/>
-<div id='toast'></div>
-<script src="https://cuongbokreal.github.io/api/widget/toast-message/main.js"></script>
+    <style>
+      #main{display: flex;}
+      .valueText{width:40%; text-align:left; margin: 10px; padding: 5px; font-size: 20px;}
+      .input{margin:15px;max-width:25%;max-height:250px}
+    </style>
+    <script>
+      const time_thbao = 3000;
 
-<style>
-  #main{display: flex;}
-  .valueText{width:40%; text-align:left; margin: 10px; padding: 5px; font-size: 20px;}
-  .input{margin:15px;max-width:25%;max-height:250px}
-</style>
-<script>
-  const time_thbao = 3000;
-  
-function create(){
-  var getText = document.getElementById('input').value;
-  var replaceIn = document.getElementById('replaceIn').value;
-  var replaceWith = document.getElementById('replaceWith').value;
-  getText = getText.replaceAll(replaceIn,replaceWith).replaceAll('shorten.asia', 'trackfin.asia');
-  
-  var output = document.getElementById('output');
-  output.value = getText;
-  output.focus();
-  output.select();
-  document.execCommand("Copy");
-  console.log(`Copied: ${output.value}`);
-  toast({title: 'Thành công', message: `Đã copy <b>${output.value}</b>`, type: "success", duration: time_thbao});
-}
-var onGetText = document.getElementById('input');
-var onReplaceIn = document.getElementById('replaceIn');
-var onReplaceWith = document.getElementById('replaceWith');
+    function create(){
+      var getText = document.getElementById('input').value;
+      var replaceIn = document.getElementById('replaceIn').value;
+      var replaceWith = document.getElementById('replaceWith').value;
+      getText = getText.replaceAll(replaceIn,replaceWith).replaceAll('shorten.asia', 'trackfin.asia');
 
-document.getElementById('buttonCreate').addEventListener("click", create());
-onReplaceIn.addEventListener("change", create());
-onReplaceWith.addEventListener("change", create());
-onReplaceIn.addEventListener("blur", create());
-onReplaceWith.addEventListener("blur", create());
-onGetText.addEventListener("blur", create());
-</script>
+      var output = document.getElementById('output');
+      output.value = getText;
+      output.focus();
+      output.select();
+      document.execCommand("Copy");
+      console.log(`Copied: ${output.value}`);
+      toast({title: 'Thành công', message: `Đã copy <b>${output.value}</b>`, type: "success", duration: time_thbao});
+    }
+    var onGetText = document.getElementById('input');
+    var onReplaceIn = document.getElementById('replaceIn');
+    var onReplaceWith = document.getElementById('replaceWith');
 
-<!--a href="https://cuongbokreal.github.io/api/google-trends/get-chip.js" target="_blank">api</a-->
+    document.getElementById('buttonCreate').addEventListener("click", create());
+    onReplaceIn.addEventListener("change", create());
+    onReplaceWith.addEventListener("change", create());
+    onReplaceIn.addEventListener("blur", create());
+    onReplaceWith.addEventListener("blur", create());
+    onGetText.addEventListener("blur", create());
+    </script>
+
+    <!--a href="https://cuongbokreal.github.io/api/google-trends/get-chip.js" target="_blank">api</a-->
+    
+    </body>
+  </html>
